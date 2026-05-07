@@ -1,0 +1,1021 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tour appversion="7.1.8" hassounds="1" apprev="20986" start="node34">
+  <panorama id="node34" hideabout="1">
+    <input levelbiashidpi="1.000" width="3000" levelingroll="0" levelbias="0.400" leveltileurl="tiles/node34/cf_%c/l_%l/c_%x/tile_%y.jpg" height="3000" levelingpitch="0" overlap="1" leveltilesize="510">
+      <level preload="0" predecode="0" width="3000" height="3000"/>
+      <level preload="0" predecode="0" width="1500" height="1500"/>
+      <level preload="0" predecode="0" width="750" height="750"/>
+      <level preload="1" predecode="1" width="375" height="375"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="-137.287" fovmode="2">
+      <start fov="140.41" projection="4" tilt="-29.66" pan="0.08"/>
+      <flyin fov="170" projection="9" tilt="-90" pan="0"/>
+      <min fov="100" tilt="-90" pan="0"/>
+      <max fovstereographic="330" fov="120" fovfisheye="360" tilt="90" pan="360" scaletofit="1"/>
+    </view>
+    <userdata copyright="" description="" altitude="1037.22" source="" info="" datetime="16-04-2026 12:57 PM" latitude="13.057156" nodeid="node34" title="Aerial View" tags="AerialView|Drone" longitude="77.582896" heading="-137.287" comment="" author="" customnodeid=""/>
+    <hotspots smoothmovement="0" width="180" wordwrap="1" height="20">
+      <label textalpha="1" borderalpha="1" enabled="1" width="180" backgroundcolor="0xffffff" borderradius="1" height="20" bordercolor="0x000000" textcolor="0x000000" background="1" backgroundalpha="1" border="1" wordwrap="1"/>
+      <polystyle mode="0" borderalpha="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.25098" handcursor="1"/>
+      <hotspot id="Point01" description="" skinid="ht_node_pulse_aerial" target="" tilt="-18.01" pan="-36.43" url="{node33}" title="Aerial View" distance="48.6829"/>
+      <hotspot id="Point02" description="" skinid="ht_node_pulse_aerial" target="" tilt="-29.4" pan="-319.34" url="{node35}" title="Aerial View" distance="34.5168"/>
+      <hotspot id="Point03" description="8 min" skinid="ht_node_popup_image" title="Hebbal Lake" target="_blank" tilt="-0.91" pan="-350.64" url=""/>
+      <hotspot id="Point05" description="11 min" skinid="ht_node_popup_image" title="Phoenix Mall Of Asia" target="_blank" tilt="2.5" pan="-250.89" url=""/>
+      <hotspot id="Point06" description="5 min" skinid="ht_node_popup_image" title="HYD - BLR Hwy" target="_blank" tilt="2.42" pan="-277.65" url=""/>
+      <hotspot id="Point07" description="35 min" skinid="ht_node_popup_image" title="Kempegowda International Airport" target="_blank" tilt="4.33" pan="-231.02" url=""/>
+      <hotspot id="Point08" description="30 min" skinid="ht_node_popup_image" title="ISKCON Bangalore" target="_blank" tilt="2.13" pan="-27.77" url=""/>
+      <hotspot id="Point09" description="5 min" skinid="ht_node_popup_image" title="Manipal Hospital Hebbal" target="_blank" tilt="0.97" pan="-304.7" url=""/>
+      <hotspot id="Point04" description="" skinid="ht_node_pulse" target="177.3/-5.7/100.0" tilt="-41.89" pan="-348.01" url="{node25}" title="Entrance" distance="74.1155"/>
+    </hotspots>
+    <media>
+      <sound keep="1" id="joyinsound-corporate-motivational-background-music-403417" level="0.500" mode="7" loop="-1" url="media/skin_snd_joyinsound-corporate-motivational-background-music-403417.mp3"/>
+    </media>
+    <transition type="crossdissolve" zoomafterinfov="140" zoomfov="40" enabled="1" delay="none" blendtime="1" zoomspeed="2" zoomafteroutfov="40" zoomin="0" zoomout="0" softedge="0" zoomoutpause="1" blendcolor="0x000000"/>
+    <autorotate returntohorizon="0.000" horizonfromdefview="0" noderandom="1" enabled="1" delay="5.00" nodedelay="15.00" startloaded="0" speed="0.070" nodefilter="" useanimation="0"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" clipsrandom="0" useinautorotation="0"/>
+    <control lockedkeyboardzoom="0" lockedmouse="0" zoomcentercursor="1" contextvr="1" contextprojections="0" invertwheel="1" dblclickfullscreen="1" rubberband="0" contextfullscreen="1" lockedwheel="0" sensitivity="8" speedwheel="1" invertcontrol="1" hideabout="1" simulatemass="1" lockedkeyboard="0"/>
+  </panorama>
+  <panorama id="node35" hideabout="1">
+    <input levelbiashidpi="1.000" width="3000" levelingroll="0" levelbias="0.400" leveltileurl="tiles/node35/cf_%c/l_%l/c_%x/tile_%y.jpg" height="3000" levelingpitch="0" overlap="1" leveltilesize="510">
+      <level preload="0" predecode="0" width="3000" height="3000"/>
+      <level preload="0" predecode="0" width="1500" height="1500"/>
+      <level preload="0" predecode="0" width="750" height="750"/>
+      <level preload="1" predecode="1" width="375" height="375"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="2">
+      <start fov="120" projection="4" tilt="-26.7534" pan="1.58312"/>
+      <flyin fov="170" projection="9" tilt="-90" pan="0"/>
+      <min fov="80" tilt="-90" pan="0"/>
+      <max fovstereographic="330" fov="120" fovfisheye="360" tilt="90" pan="360" scaletofit="1"/>
+    </view>
+    <userdata copyright="" description="" altitude="1017.12" source="" info="" datetime="16-04-2026 12:58 PM" latitude="13.056926" nodeid="node35" title="Aerial View" tags="AerialView|playground" longitude="77.583110" heading="0" comment="" author="" customnodeid=""/>
+    <hotspots smoothmovement="0" width="180" wordwrap="1" height="20">
+      <label textalpha="1" borderalpha="1" enabled="1" width="180" backgroundcolor="0xffffff" borderradius="1" height="20" bordercolor="0x000000" textcolor="0x000000" background="1" backgroundalpha="1" border="1" wordwrap="1"/>
+      <polystyle mode="0" borderalpha="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.25098" handcursor="1"/>
+      <hotspot id="Point01" description="" skinid="ht_node_pulse_aerial" target="3.4/-27.3/100.0" tilt="0.49" pan="-60.6" url="{node34}" title="Aerial View" distance="34.5168"/>
+      <hotspot id="Point02" description="" skinid="ht_node_pulse" target="" tilt="-48.32" pan="-359.46" url="{node25}" title="Entrance" distance="42.1363"/>
+    </hotspots>
+    <media>
+      <sound keep="1" id="joyinsound-corporate-motivational-background-music-403417" level="0.500" mode="7" loop="-1" url="media/skin_snd_joyinsound-corporate-motivational-background-music-403417.mp3"/>
+    </media>
+    <transition type="crossdissolve" zoomafterinfov="140" zoomfov="40" enabled="1" delay="none" blendtime="1" zoomspeed="2" zoomafteroutfov="40" zoomin="0" zoomout="0" softedge="0" zoomoutpause="1" blendcolor="0x000000"/>
+    <autorotate returntohorizon="0.000" horizonfromdefview="0" noderandom="1" enabled="1" delay="5.00" nodedelay="15.00" startloaded="0" speed="0.070" nodefilter="" useanimation="0"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" clipsrandom="0" useinautorotation="0"/>
+    <control lockedkeyboardzoom="0" lockedmouse="0" zoomcentercursor="1" contextvr="1" contextprojections="0" invertwheel="1" dblclickfullscreen="1" rubberband="0" contextfullscreen="1" lockedwheel="0" sensitivity="8" speedwheel="1" invertcontrol="1" hideabout="1" simulatemass="1" lockedkeyboard="0"/>
+  </panorama>
+  <panorama id="node33" hideabout="1">
+    <input levelbiashidpi="1.000" width="3000" levelingroll="0" levelbias="0.400" leveltileurl="tiles/node33/cf_%c/l_%l/c_%x/tile_%y.jpg" height="3000" levelingpitch="0" overlap="1" leveltilesize="510">
+      <level preload="0" predecode="0" width="3000" height="3000"/>
+      <level preload="0" predecode="0" width="1500" height="1500"/>
+      <level preload="0" predecode="0" width="750" height="750"/>
+      <level preload="1" predecode="1" width="375" height="375"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="2">
+      <start fov="120" projection="4" tilt="-18.7587" pan="1.01473"/>
+      <flyin fov="170" projection="9" tilt="-90" pan="0"/>
+      <min fov="80" tilt="-90" pan="0"/>
+      <max fovstereographic="330" fov="120" fovfisheye="360" tilt="90" pan="360" scaletofit="1"/>
+    </view>
+    <userdata copyright="" description="" altitude="1032.72" source="" info="" datetime="16-04-2026 01:04 PM" latitude="13.056830" nodeid="node33" title="Aerial View" tags="AerialView|Drone" longitude="77.582596" heading="0" comment="" author="" customnodeid=""/>
+    <hotspots smoothmovement="0" width="180" wordwrap="1" height="20">
+      <label textalpha="1" borderalpha="1" enabled="1" width="180" backgroundcolor="0xffffff" borderradius="1" height="20" bordercolor="0x000000" textcolor="0x000000" background="1" backgroundalpha="1" border="1" wordwrap="1"/>
+      <polystyle mode="0" borderalpha="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.25098" handcursor="1"/>
+      <hotspot id="Point01" description="" skinid="ht_node_pulse_aerial" target="3.4/-27.3/100.0" tilt="-15.63" pan="-307.49" url="{node34}" title="Aerial View" distance="48.6829"/>
+    </hotspots>
+    <media>
+      <sound keep="1" id="joyinsound-corporate-motivational-background-music-403417" level="0.500" mode="7" loop="-1" url="media/skin_snd_joyinsound-corporate-motivational-background-music-403417.mp3"/>
+    </media>
+    <transition type="crossdissolve" zoomafterinfov="140" zoomfov="40" enabled="1" delay="none" blendtime="1" zoomspeed="2" zoomafteroutfov="40" zoomin="0" zoomout="0" softedge="0" zoomoutpause="1" blendcolor="0x000000"/>
+    <autorotate returntohorizon="0.000" horizonfromdefview="0" noderandom="1" enabled="1" delay="5.00" nodedelay="15.00" startloaded="0" speed="0.070" nodefilter="" useanimation="0"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" clipsrandom="0" useinautorotation="0"/>
+    <control lockedkeyboardzoom="0" lockedmouse="0" zoomcentercursor="1" contextvr="1" contextprojections="0" invertwheel="1" dblclickfullscreen="1" rubberband="0" contextfullscreen="1" lockedwheel="0" sensitivity="8" speedwheel="1" invertcontrol="1" hideabout="1" simulatemass="1" lockedkeyboard="0"/>
+  </panorama>
+  <panorama id="node25" hideabout="1">
+    <input levelbiashidpi="1.000" width="2976" levelingroll="0" levelbias="0.400" leveltileurl="tiles/node25/cf_%c/l_%l/c_%x/tile_%y.jpg" height="2976" levelingpitch="0" overlap="1" leveltilesize="510">
+      <level preload="0" predecode="0" width="2976" height="2976"/>
+      <level preload="0" predecode="0" width="1488" height="1488"/>
+      <level preload="0" predecode="0" width="744" height="744"/>
+      <level preload="1" predecode="1" width="372" height="372"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="2">
+      <start fov="120" projection="4" tilt="-14.32" pan="171.55"/>
+      <flyin fov="170" projection="9" tilt="-90" pan="0"/>
+      <min fov="80" tilt="-90" pan="0"/>
+      <max fovstereographic="330" fov="120" fovfisheye="360" tilt="90" pan="360" scaletofit="1"/>
+    </view>
+    <userdata copyright="" description="" altitude="910.30" source="" info="" datetime="16-04-2026 12:39 PM" latitude="13.056556" nodeid="node25" title="Entrance" tags="entrance" longitude="77.583194" heading="0" comment="" author="" customnodeid=""/>
+    <hotspots smoothmovement="0" width="180" wordwrap="1" height="20">
+      <label textalpha="1" borderalpha="1" enabled="1" width="180" backgroundcolor="0xffffff" borderradius="1" height="20" bordercolor="0x000000" textcolor="0x000000" background="1" backgroundalpha="1" border="1" wordwrap="1"/>
+      <polystyle mode="0" borderalpha="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.25098" handcursor="1"/>
+      <hotspot id="Point01" description="" skinid="ht_node_pulse_aerial" target="" tilt="11.91" pan="-276.73" url="{node35}" title="Aerial View" distance="42.1363"/>
+      <hotspot id="Point02" description="" skinid="ht_node_3d_arrow" title="Kids Play Area" target="-0.9/-4.6/100.0" tilt="-17.43" pan="-182.73" url="{node1}"/>
+    </hotspots>
+    <media>
+      <sound keep="1" id="joyinsound-corporate-motivational-background-music-403417" level="0.500" mode="7" loop="-1" url="media/skin_snd_joyinsound-corporate-motivational-background-music-403417.mp3"/>
+    </media>
+    <transition type="crossdissolve" zoomafterinfov="140" zoomfov="40" enabled="1" delay="none" blendtime="1" zoomspeed="2" zoomafteroutfov="40" zoomin="0" zoomout="0" softedge="0" zoomoutpause="1" blendcolor="0x000000"/>
+    <autorotate returntohorizon="0.000" horizonfromdefview="0" noderandom="1" enabled="1" delay="5.00" nodedelay="15.00" startloaded="0" speed="0.070" nodefilter="" useanimation="0"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" clipsrandom="0" useinautorotation="0"/>
+    <control lockedkeyboardzoom="0" lockedmouse="0" zoomcentercursor="1" contextvr="1" contextprojections="0" invertwheel="1" dblclickfullscreen="1" rubberband="0" contextfullscreen="1" lockedwheel="0" sensitivity="8" speedwheel="1" invertcontrol="1" hideabout="1" simulatemass="1" lockedkeyboard="0"/>
+  </panorama>
+  <panorama id="node1" hideabout="1">
+    <input levelbiashidpi="1.000" width="2976" levelingroll="0" levelbias="0.400" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" height="2976" levelingpitch="0" overlap="1" leveltilesize="510">
+      <level preload="0" predecode="0" width="2976" height="2976"/>
+      <level preload="0" predecode="0" width="1488" height="1488"/>
+      <level preload="0" predecode="0" width="744" height="744"/>
+      <level preload="1" predecode="1" width="372" height="372"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="2">
+      <start fov="120" projection="4" tilt="0" pan="0"/>
+      <flyin fov="170" projection="9" tilt="-90" pan="0"/>
+      <min fov="80" tilt="-90" pan="0"/>
+      <max fovstereographic="330" fov="120" fovfisheye="360" tilt="90" pan="360" scaletofit="1"/>
+    </view>
+    <userdata copyright="" description="" altitude="910.50" source="" info="" datetime="16-04-2026 11:49 AM" latitude="13.056556" nodeid="node1" title="Kids Play Area" tags="ReceptionArea|StudioExport" longitude="77.583194" heading="0" comment="" author="" customnodeid=""/>
+    <hotspots smoothmovement="0" width="180" wordwrap="1" height="20">
+      <label textalpha="1" borderalpha="1" enabled="1" width="180" backgroundcolor="0xffffff" borderradius="1" height="20" bordercolor="0x000000" textcolor="0x000000" background="1" backgroundalpha="1" border="1" wordwrap="1"/>
+      <polystyle mode="0" borderalpha="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.25098" handcursor="1"/>
+      <hotspot id="Point01" description="" skinid="ht_node_3d_arrow" title="Entrance" target="82.6/-11.5/100.0" tilt="-5.69" pan="-174.83" url="{node25}"/>
+      <hotspot id="Point02" description="" skinid="ht_node_pulse" target="-1.8/0.8/100.0" tilt="-3.34" pan="-95.39" url="{node2}" title="Waiting Area" distance="20.2114"/>
+      <hotspot id="Point03" description="" skinid="ht_node_3d_arrow" target="-4.2/0.5/100.0" tilt="-2.57" pan="-359.5" url="{node3}" title="Kids Play Area" distance="12.0235"/>
+    </hotspots>
+    <media>
+      <sound keep="1" id="joyinsound-corporate-motivational-background-music-403417" level="0.500" mode="7" loop="-1" url="media/skin_snd_joyinsound-corporate-motivational-background-music-403417.mp3"/>
+    </media>
+    <transition type="crossdissolve" zoomafterinfov="140" zoomfov="40" enabled="1" delay="none" blendtime="1" zoomspeed="2" zoomafteroutfov="40" zoomin="0" zoomout="0" softedge="0" zoomoutpause="1" blendcolor="0x000000"/>
+    <autorotate returntohorizon="0.000" horizonfromdefview="0" noderandom="1" enabled="1" delay="5.00" nodedelay="15.00" startloaded="0" speed="0.070" nodefilter="" useanimation="0"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" clipsrandom="0" useinautorotation="0"/>
+    <control lockedkeyboardzoom="0" lockedmouse="0" zoomcentercursor="1" contextvr="1" contextprojections="0" invertwheel="1" dblclickfullscreen="1" rubberband="0" contextfullscreen="1" lockedwheel="0" sensitivity="8" speedwheel="1" invertcontrol="1" hideabout="1" simulatemass="1" lockedkeyboard="0"/>
+  </panorama>
+  <panorama id="node2" hideabout="1">
+    <input levelbiashidpi="1.000" width="2976" levelingroll="0" levelbias="0.400" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" height="2976" levelingpitch="0" overlap="1" leveltilesize="510">
+      <level preload="0" predecode="0" width="2976" height="2976"/>
+      <level preload="0" predecode="0" width="1488" height="1488"/>
+      <level preload="0" predecode="0" width="744" height="744"/>
+      <level preload="1" predecode="1" width="372" height="372"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="2">
+      <start fov="120" projection="4" tilt="0" pan="0"/>
+      <flyin fov="170" projection="9" tilt="-90" pan="0"/>
+      <min fov="80" tilt="-90" pan="0"/>
+      <max fovstereographic="330" fov="120" fovfisheye="360" tilt="90" pan="360" scaletofit="1"/>
+    </view>
+    <userdata copyright="" description="" altitude="910.50" source="" info="" datetime="16-04-2026 11:52 AM" latitude="13.056639" nodeid="node2" title="Waiting Area" tags="ReceptionArea|StudioExport" longitude="77.583028" heading="0" comment="" author="" customnodeid=""/>
+    <hotspots smoothmovement="0" width="180" wordwrap="1" height="20">
+      <label textalpha="1" borderalpha="1" enabled="1" width="180" backgroundcolor="0xffffff" borderradius="1" height="20" bordercolor="0x000000" textcolor="0x000000" background="1" backgroundalpha="1" border="1" wordwrap="1"/>
+      <polystyle mode="0" borderalpha="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.25098" handcursor="1"/>
+      <hotspot id="Point01" description="" skinid="ht_node_3d_arrow" target="91.3/-1.8/100.0" tilt="-4.62" pan="-194.77" url="{node1}" title="Kids Play Area" distance="20.2114"/>
+    </hotspots>
+    <media>
+      <sound keep="1" id="joyinsound-corporate-motivational-background-music-403417" level="0.500" mode="7" loop="-1" url="media/skin_snd_joyinsound-corporate-motivational-background-music-403417.mp3"/>
+    </media>
+    <transition type="crossdissolve" zoomafterinfov="140" zoomfov="40" enabled="1" delay="none" blendtime="1" zoomspeed="2" zoomafteroutfov="40" zoomin="0" zoomout="0" softedge="0" zoomoutpause="1" blendcolor="0x000000"/>
+    <autorotate returntohorizon="0.000" horizonfromdefview="0" noderandom="1" enabled="1" delay="5.00" nodedelay="15.00" startloaded="0" speed="0.070" nodefilter="" useanimation="0"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" clipsrandom="0" useinautorotation="0"/>
+    <control lockedkeyboardzoom="0" lockedmouse="0" zoomcentercursor="1" contextvr="1" contextprojections="0" invertwheel="1" dblclickfullscreen="1" rubberband="0" contextfullscreen="1" lockedwheel="0" sensitivity="8" speedwheel="1" invertcontrol="1" hideabout="1" simulatemass="1" lockedkeyboard="0"/>
+  </panorama>
+  <panorama id="node3" hideabout="1">
+    <input levelbiashidpi="1.000" width="2976" levelingroll="0" levelbias="0.400" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" height="2976" levelingpitch="0" overlap="1" leveltilesize="510">
+      <level preload="0" predecode="0" width="2976" height="2976"/>
+      <level preload="0" predecode="0" width="1488" height="1488"/>
+      <level preload="0" predecode="0" width="744" height="744"/>
+      <level preload="1" predecode="1" width="372" height="372"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="2">
+      <start fov="120" projection="4" tilt="0" pan="0"/>
+      <flyin fov="170" projection="9" tilt="-90" pan="0"/>
+      <min fov="80" tilt="-90" pan="0"/>
+      <max fovstereographic="330" fov="120" fovfisheye="360" tilt="90" pan="360" scaletofit="1"/>
+    </view>
+    <userdata copyright="" description="" altitude="909.90" source="" info="" datetime="16-04-2026 11:53 AM" latitude="13.056556" nodeid="node3" title="Kids Play Area" tags="ReceptionArea|StudioExport" longitude="77.583083" heading="0" comment="" author="" customnodeid=""/>
+    <hotspots smoothmovement="0" width="180" wordwrap="1" height="20">
+      <label textalpha="1" borderalpha="1" enabled="1" width="180" backgroundcolor="0xffffff" borderradius="1" height="20" bordercolor="0x000000" textcolor="0x000000" background="1" backgroundalpha="1" border="1" wordwrap="1"/>
+      <polystyle mode="0" borderalpha="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.25098" handcursor="1"/>
+      <hotspot id="Point01" description="" skinid="ht_node_3d_arrow" target="-175.3/-7.2/100.0" tilt="-4.67" pan="-189.79" url="{node1}" title="Kids Play Area" distance="12.0235"/>
+      <hotspot id="Point02" description="" skinid="ht_node_pulse" target="-31.8/-21.1/100.0" tilt="-4.94" pan="-141.19" url="{node8}" title="Admission office" distance="6.06593"/>
+      <hotspot id="Point03" description="" skinid="ht_node_3d_arrow" target="-95.8/-2.6/100.0" tilt="-1.4" pan="-2.78" url="{node4}" title="Waiting Area" distance="18.9927"/>
+      <hotspot id="Point04" description="" skinid="ht_node_pulse" target="-2.2/-0.9/100.0" tilt="-0.41" pan="-328.4" url="{node9}" title="Administrative Office" distance="18.9927"/>
+    </hotspots>
+    <media>
+      <sound keep="1" id="joyinsound-corporate-motivational-background-music-403417" level="0.500" mode="7" loop="-1" url="media/skin_snd_joyinsound-corporate-motivational-background-music-403417.mp3"/>
+    </media>
+    <transition type="crossdissolve" zoomafterinfov="140" zoomfov="40" enabled="1" delay="none" blendtime="1" zoomspeed="2" zoomafteroutfov="40" zoomin="0" zoomout="0" softedge="0" zoomoutpause="1" blendcolor="0x000000"/>
+    <autorotate returntohorizon="0.000" horizonfromdefview="0" noderandom="1" enabled="1" delay="5.00" nodedelay="15.00" startloaded="0" speed="0.070" nodefilter="" useanimation="0"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" clipsrandom="0" useinautorotation="0"/>
+    <control lockedkeyboardzoom="0" lockedmouse="0" zoomcentercursor="1" contextvr="1" contextprojections="0" invertwheel="1" dblclickfullscreen="1" rubberband="0" contextfullscreen="1" lockedwheel="0" sensitivity="8" speedwheel="1" invertcontrol="1" hideabout="1" simulatemass="1" lockedkeyboard="0"/>
+  </panorama>
+  <panorama id="node8" hideabout="1">
+    <input levelbiashidpi="1.000" width="2976" levelingroll="0" levelbias="0.400" leveltileurl="tiles/node8/cf_%c/l_%l/c_%x/tile_%y.jpg" height="2976" levelingpitch="0" overlap="1" leveltilesize="510">
+      <level preload="0" predecode="0" width="2976" height="2976"/>
+      <level preload="0" predecode="0" width="1488" height="1488"/>
+      <level preload="0" predecode="0" width="744" height="744"/>
+      <level preload="1" predecode="1" width="372" height="372"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="2">
+      <start fov="120" projection="4" tilt="0" pan="0"/>
+      <flyin fov="170" projection="9" tilt="-90" pan="0"/>
+      <min fov="80" tilt="-90" pan="0"/>
+      <max fovstereographic="330" fov="120" fovfisheye="360" tilt="90" pan="360" scaletofit="1"/>
+    </view>
+    <userdata copyright="" description="" altitude="914.30" source="" info="" datetime="16-04-2026 12:05 PM" latitude="13.056556" nodeid="node8" title="Admission office" tags="admission|StudioExport" longitude="77.583139" heading="0" comment="" author="" customnodeid=""/>
+    <hotspots smoothmovement="0" width="180" wordwrap="1" height="20">
+      <label textalpha="1" borderalpha="1" enabled="1" width="180" backgroundcolor="0xffffff" borderradius="1" height="20" bordercolor="0x000000" textcolor="0x000000" background="1" backgroundalpha="1" border="1" wordwrap="1"/>
+      <polystyle mode="0" borderalpha="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.25098" handcursor="1"/>
+      <hotspot id="Point01" description="" skinid="ht_node_3d_arrow" target="0.0/0.0/100.0" tilt="-8.65" pan="-228.16" url="{node3}" title="Kids Play Area" distance="6.06593"/>
+    </hotspots>
+    <media>
+      <sound keep="1" id="joyinsound-corporate-motivational-background-music-403417" level="0.500" mode="7" loop="-1" url="media/skin_snd_joyinsound-corporate-motivational-background-music-403417.mp3"/>
+    </media>
+    <transition type="crossdissolve" zoomafterinfov="140" zoomfov="40" enabled="1" delay="none" blendtime="1" zoomspeed="2" zoomafteroutfov="40" zoomin="0" zoomout="0" softedge="0" zoomoutpause="1" blendcolor="0x000000"/>
+    <autorotate returntohorizon="0.000" horizonfromdefview="0" noderandom="1" enabled="1" delay="5.00" nodedelay="15.00" startloaded="0" speed="0.070" nodefilter="" useanimation="0"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" clipsrandom="0" useinautorotation="0"/>
+    <control lockedkeyboardzoom="0" lockedmouse="0" zoomcentercursor="1" contextvr="1" contextprojections="0" invertwheel="1" dblclickfullscreen="1" rubberband="0" contextfullscreen="1" lockedwheel="0" sensitivity="8" speedwheel="1" invertcontrol="1" hideabout="1" simulatemass="1" lockedkeyboard="0"/>
+  </panorama>
+  <panorama id="node4" hideabout="1">
+    <input levelbiashidpi="1.000" width="2976" levelingroll="0" levelbias="0.400" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg" height="2976" levelingpitch="0" overlap="1" leveltilesize="510">
+      <level preload="0" predecode="0" width="2976" height="2976"/>
+      <level preload="0" predecode="0" width="1488" height="1488"/>
+      <level preload="0" predecode="0" width="744" height="744"/>
+      <level preload="1" predecode="1" width="372" height="372"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="2">
+      <start fov="120" projection="4" tilt="0" pan="0"/>
+      <flyin fov="170" projection="9" tilt="-90" pan="0"/>
+      <min fov="80" tilt="-90" pan="0"/>
+      <max fovstereographic="330" fov="120" fovfisheye="360" tilt="90" pan="360" scaletofit="1"/>
+    </view>
+    <userdata copyright="" description="" altitude="909.70" source="" info="" datetime="16-04-2026 11:56 AM" latitude="13.056611" nodeid="node4" title="Waiting Area" tags="ReceptionArea|StudioExport" longitude="77.582917" heading="0" comment="" author="" customnodeid=""/>
+    <hotspots smoothmovement="0" width="180" wordwrap="1" height="20">
+      <label textalpha="1" borderalpha="1" enabled="1" width="180" backgroundcolor="0xffffff" borderradius="1" height="20" bordercolor="0x000000" textcolor="0x000000" background="1" backgroundalpha="1" border="1" wordwrap="1"/>
+      <polystyle mode="0" borderalpha="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.25098" handcursor="1"/>
+      <hotspot id="Point01" description="" skinid="ht_node_3d_arrow" target="169.4/-3.8/100.0" tilt="-3.48" pan="-271.88" url="{node3}" title="Kids Play Area" distance="18.9927"/>
+      <hotspot id="Point02" description="" skinid="ht_node_3d_arrow" target="3.5/-0.5/100.0" tilt="-2.65" pan="-96.4" url="{node5}" title="Pooja Area" distance="3.11346"/>
+    </hotspots>
+    <media>
+      <sound keep="1" id="joyinsound-corporate-motivational-background-music-403417" level="0.500" mode="7" loop="-1" url="media/skin_snd_joyinsound-corporate-motivational-background-music-403417.mp3"/>
+    </media>
+    <transition type="crossdissolve" zoomafterinfov="140" zoomfov="40" enabled="1" delay="none" blendtime="1" zoomspeed="2" zoomafteroutfov="40" zoomin="0" zoomout="0" softedge="0" zoomoutpause="1" blendcolor="0x000000"/>
+    <autorotate returntohorizon="0.000" horizonfromdefview="0" noderandom="1" enabled="1" delay="5.00" nodedelay="15.00" startloaded="0" speed="0.070" nodefilter="" useanimation="0"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" clipsrandom="0" useinautorotation="0"/>
+    <control lockedkeyboardzoom="0" lockedmouse="0" zoomcentercursor="1" contextvr="1" contextprojections="0" invertwheel="1" dblclickfullscreen="1" rubberband="0" contextfullscreen="1" lockedwheel="0" sensitivity="8" speedwheel="1" invertcontrol="1" hideabout="1" simulatemass="1" lockedkeyboard="0"/>
+  </panorama>
+  <panorama id="node5" hideabout="1">
+    <input levelbiashidpi="1.000" width="2976" levelingroll="0" levelbias="0.400" leveltileurl="tiles/node5/cf_%c/l_%l/c_%x/tile_%y.jpg" height="2976" levelingpitch="0" overlap="1" leveltilesize="510">
+      <level preload="0" predecode="0" width="2976" height="2976"/>
+      <level preload="0" predecode="0" width="1488" height="1488"/>
+      <level preload="0" predecode="0" width="744" height="744"/>
+      <level preload="1" predecode="1" width="372" height="372"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="2">
+      <start fov="120" projection="4" tilt="0" pan="0"/>
+      <flyin fov="170" projection="9" tilt="-90" pan="0"/>
+      <min fov="80" tilt="-90" pan="0"/>
+      <max fovstereographic="330" fov="120" fovfisheye="360" tilt="90" pan="360" scaletofit="1"/>
+    </view>
+    <userdata copyright="" description="" altitude="909.70" source="" info="" datetime="16-04-2026 12:00 PM" latitude="13.056583" nodeid="node5" title="Pooja Area" tags="ReceptionArea|StudioExport" longitude="77.582917" heading="0" comment="" author="" customnodeid=""/>
+    <hotspots smoothmovement="0" width="180" wordwrap="1" height="20">
+      <label textalpha="1" borderalpha="1" enabled="1" width="180" backgroundcolor="0xffffff" borderradius="1" height="20" bordercolor="0x000000" textcolor="0x000000" background="1" backgroundalpha="1" border="1" wordwrap="1"/>
+      <polystyle mode="0" borderalpha="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.25098" handcursor="1"/>
+      <hotspot id="Point01" description="" skinid="ht_node_3d_arrow" target="88.4/-3.1/100.0" tilt="-3.47" pan="-184.61" url="{node4}" title="Waiting Area" distance="3.11346"/>
+      <hotspot id="Point02" description="" skinid="ht_node_3d_arrow" title="Assembly Area" target="0.0/0.0/100.0" tilt="-3.67" pan="-38.18" url="{node6}"/>
+      <hotspot id="Point03" description="" skinid="ht_node_pulse" target="" tilt="-1.47" pan="-111.64" url="{node12}" title="Class Rooms" distance="4.34655"/>
+    </hotspots>
+    <media>
+      <sound keep="1" id="joyinsound-corporate-motivational-background-music-403417" level="0.500" mode="7" loop="-1" url="media/skin_snd_joyinsound-corporate-motivational-background-music-403417.mp3"/>
+    </media>
+    <transition type="crossdissolve" zoomafterinfov="140" zoomfov="40" enabled="1" delay="none" blendtime="1" zoomspeed="2" zoomafteroutfov="40" zoomin="0" zoomout="0" softedge="0" zoomoutpause="1" blendcolor="0x000000"/>
+    <autorotate returntohorizon="0.000" horizonfromdefview="0" noderandom="1" enabled="1" delay="5.00" nodedelay="15.00" startloaded="0" speed="0.070" nodefilter="" useanimation="0"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" clipsrandom="0" useinautorotation="0"/>
+    <control lockedkeyboardzoom="0" lockedmouse="0" zoomcentercursor="1" contextvr="1" contextprojections="0" invertwheel="1" dblclickfullscreen="1" rubberband="0" contextfullscreen="1" lockedwheel="0" sensitivity="8" speedwheel="1" invertcontrol="1" hideabout="1" simulatemass="1" lockedkeyboard="0"/>
+  </panorama>
+  <panorama id="node6" hideabout="1">
+    <input levelbiashidpi="1.000" width="2976" levelingroll="0" levelbias="0.400" leveltileurl="tiles/node6/cf_%c/l_%l/c_%x/tile_%y.jpg" height="2976" levelingpitch="0" overlap="1" leveltilesize="510">
+      <level preload="0" predecode="0" width="2976" height="2976"/>
+      <level preload="0" predecode="0" width="1488" height="1488"/>
+      <level preload="0" predecode="0" width="744" height="744"/>
+      <level preload="1" predecode="1" width="372" height="372"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="2">
+      <start fov="120" projection="4" tilt="0" pan="0"/>
+      <flyin fov="170" projection="9" tilt="-90" pan="0"/>
+      <min fov="80" tilt="-90" pan="0"/>
+      <max fovstereographic="330" fov="120" fovfisheye="360" tilt="90" pan="360" scaletofit="1"/>
+    </view>
+    <userdata copyright="" description="" altitude="909.70" source="" info="" datetime="16-04-2026 12:03 PM" latitude="13.056583" nodeid="node6" title="Assembly Area" tags="assembly" longitude="77.582917" heading="0" comment="" author="" customnodeid=""/>
+    <hotspots smoothmovement="0" width="180" wordwrap="1" height="20">
+      <label textalpha="1" borderalpha="1" enabled="1" width="180" backgroundcolor="0xffffff" borderradius="1" height="20" bordercolor="0x000000" textcolor="0x000000" background="1" backgroundalpha="1" border="1" wordwrap="1"/>
+      <polystyle mode="0" borderalpha="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.25098" handcursor="1"/>
+      <hotspot id="Point01" description="" skinid="ht_node_3d_arrow" title="Pooja Area" target="-135.1/-9.2/100.0" tilt="-2.57" pan="-171.68" url="{node5}"/>
+      <hotspot id="Point02" description="" skinid="ht_node_3d_arrow" target="-5.4/-4.0/100.0" tilt="1.52" pan="-357.85" url="{node7}" title="Stage View" distance="23.5147"/>
+    </hotspots>
+    <media>
+      <sound keep="1" id="joyinsound-corporate-motivational-background-music-403417" level="0.500" mode="7" loop="-1" url="media/skin_snd_joyinsound-corporate-motivational-background-music-403417.mp3"/>
+    </media>
+    <transition type="crossdissolve" zoomafterinfov="140" zoomfov="40" enabled="1" delay="none" blendtime="1" zoomspeed="2" zoomafteroutfov="40" zoomin="0" zoomout="0" softedge="0" zoomoutpause="1" blendcolor="0x000000"/>
+    <autorotate returntohorizon="0.000" horizonfromdefview="0" noderandom="1" enabled="1" delay="5.00" nodedelay="15.00" startloaded="0" speed="0.070" nodefilter="" useanimation="0"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" clipsrandom="0" useinautorotation="0"/>
+    <control lockedkeyboardzoom="0" lockedmouse="0" zoomcentercursor="1" contextvr="1" contextprojections="0" invertwheel="1" dblclickfullscreen="1" rubberband="0" contextfullscreen="1" lockedwheel="0" sensitivity="8" speedwheel="1" invertcontrol="1" hideabout="1" simulatemass="1" lockedkeyboard="0"/>
+  </panorama>
+  <panorama id="node7" hideabout="1">
+    <input levelbiashidpi="1.000" width="2976" levelingroll="0" levelbias="0.400" leveltileurl="tiles/node7/cf_%c/l_%l/c_%x/tile_%y.jpg" height="2976" levelingpitch="0" overlap="1" leveltilesize="510">
+      <level preload="0" predecode="0" width="2976" height="2976"/>
+      <level preload="0" predecode="0" width="1488" height="1488"/>
+      <level preload="0" predecode="0" width="744" height="744"/>
+      <level preload="1" predecode="1" width="372" height="372"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="2">
+      <start fov="120" projection="4" tilt="0.875724" pan="178.106"/>
+      <flyin fov="170" projection="9" tilt="-90" pan="0"/>
+      <min fov="80" tilt="-90" pan="0"/>
+      <max fovstereographic="330" fov="120" fovfisheye="360" tilt="90" pan="360" scaletofit="1"/>
+    </view>
+    <userdata copyright="" description="" altitude="911.80" source="" info="" datetime="16-04-2026 12:04 PM" latitude="13.056778" nodeid="node7" title="Stage View" tags="assembly" longitude="77.582833" heading="0" comment="" author="" customnodeid=""/>
+    <hotspots smoothmovement="0" width="180" wordwrap="1" height="20">
+      <label textalpha="1" borderalpha="1" enabled="1" width="180" backgroundcolor="0xffffff" borderradius="1" height="20" bordercolor="0x000000" textcolor="0x000000" background="1" backgroundalpha="1" border="1" wordwrap="1"/>
+      <polystyle mode="0" borderalpha="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.25098" handcursor="1"/>
+      <hotspot id="Point01" description="" skinid="ht_node_3d_arrow" target="-174.8/-4.9/100.0" tilt="-5.21" pan="-181.11" url="{node6}" title="Assembly Area" distance="23.5147"/>
+    </hotspots>
+    <media>
+      <sound keep="1" id="joyinsound-corporate-motivational-background-music-403417" level="0.500" mode="7" loop="-1" url="media/skin_snd_joyinsound-corporate-motivational-background-music-403417.mp3"/>
+    </media>
+    <transition type="crossdissolve" zoomafterinfov="140" zoomfov="40" enabled="1" delay="none" blendtime="1" zoomspeed="2" zoomafteroutfov="40" zoomin="0" zoomout="0" softedge="0" zoomoutpause="1" blendcolor="0x000000"/>
+    <autorotate returntohorizon="0.000" horizonfromdefview="0" noderandom="1" enabled="1" delay="5.00" nodedelay="15.00" startloaded="0" speed="0.070" nodefilter="" useanimation="0"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" clipsrandom="0" useinautorotation="0"/>
+    <control lockedkeyboardzoom="0" lockedmouse="0" zoomcentercursor="1" contextvr="1" contextprojections="0" invertwheel="1" dblclickfullscreen="1" rubberband="0" contextfullscreen="1" lockedwheel="0" sensitivity="8" speedwheel="1" invertcontrol="1" hideabout="1" simulatemass="1" lockedkeyboard="0"/>
+  </panorama>
+  <panorama id="node9" hideabout="1">
+    <input levelbiashidpi="1.000" width="2976" levelingroll="0" levelbias="0.400" leveltileurl="tiles/node9/cf_%c/l_%l/c_%x/tile_%y.jpg" height="2976" levelingpitch="0" overlap="1" leveltilesize="510">
+      <level preload="0" predecode="0" width="2976" height="2976"/>
+      <level preload="0" predecode="0" width="1488" height="1488"/>
+      <level preload="0" predecode="0" width="744" height="744"/>
+      <level preload="1" predecode="1" width="372" height="372"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="2">
+      <start fov="120" projection="4" tilt="0" pan="0"/>
+      <flyin fov="170" projection="9" tilt="-90" pan="0"/>
+      <min fov="80" tilt="-90" pan="0"/>
+      <max fovstereographic="330" fov="120" fovfisheye="360" tilt="90" pan="360" scaletofit="1"/>
+    </view>
+    <userdata copyright="" description="" altitude="909.70" source="" info="" datetime="16-04-2026 12:07 PM" latitude="13.056611" nodeid="node9" title="Administrative Office" tags="admission|StudioExport" longitude="77.582917" heading="0" comment="" author="" customnodeid=""/>
+    <hotspots smoothmovement="0" width="180" wordwrap="1" height="20">
+      <label textalpha="1" borderalpha="1" enabled="1" width="180" backgroundcolor="0xffffff" borderradius="1" height="20" bordercolor="0x000000" textcolor="0x000000" background="1" backgroundalpha="1" border="1" wordwrap="1"/>
+      <polystyle mode="0" borderalpha="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.25098" handcursor="1"/>
+      <hotspot id="Point01" description="" skinid="ht_node_3d_arrow" target="-143.6/-11.1/100.0" tilt="-3.76" pan="-132.28" url="{node3}" title="Kids Play Area" distance="18.9927"/>
+    </hotspots>
+    <media>
+      <sound keep="1" id="joyinsound-corporate-motivational-background-music-403417" level="0.500" mode="7" loop="-1" url="media/skin_snd_joyinsound-corporate-motivational-background-music-403417.mp3"/>
+    </media>
+    <transition type="crossdissolve" zoomafterinfov="140" zoomfov="40" enabled="1" delay="none" blendtime="1" zoomspeed="2" zoomafteroutfov="40" zoomin="0" zoomout="0" softedge="0" zoomoutpause="1" blendcolor="0x000000"/>
+    <autorotate returntohorizon="0.000" horizonfromdefview="0" noderandom="1" enabled="1" delay="5.00" nodedelay="15.00" startloaded="0" speed="0.070" nodefilter="" useanimation="0"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" clipsrandom="0" useinautorotation="0"/>
+    <control lockedkeyboardzoom="0" lockedmouse="0" zoomcentercursor="1" contextvr="1" contextprojections="0" invertwheel="1" dblclickfullscreen="1" rubberband="0" contextfullscreen="1" lockedwheel="0" sensitivity="8" speedwheel="1" invertcontrol="1" hideabout="1" simulatemass="1" lockedkeyboard="0"/>
+  </panorama>
+  <panorama id="node10" hideabout="1">
+    <input levelbiashidpi="1.000" width="2976" levelingroll="0" levelbias="0.400" leveltileurl="tiles/node10/cf_%c/l_%l/c_%x/tile_%y.jpg" height="2976" levelingpitch="0" overlap="1" leveltilesize="510">
+      <level preload="0" predecode="0" width="2976" height="2976"/>
+      <level preload="0" predecode="0" width="1488" height="1488"/>
+      <level preload="0" predecode="0" width="744" height="744"/>
+      <level preload="1" predecode="1" width="372" height="372"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="2">
+      <start fov="120" projection="4" tilt="0" pan="0"/>
+      <flyin fov="170" projection="9" tilt="-90" pan="0"/>
+      <min fov="80" tilt="-90" pan="0"/>
+      <max fovstereographic="330" fov="120" fovfisheye="360" tilt="90" pan="360" scaletofit="1"/>
+    </view>
+    <userdata copyright="" description="" altitude="914.10" source="" info="" datetime="16-04-2026 12:10 PM" latitude="13.056583" nodeid="node10" title="Class Room" tags="classrooms" longitude="77.582917" heading="0" comment="" author="" customnodeid=""/>
+    <hotspots smoothmovement="0" width="180" wordwrap="1" height="20">
+      <label textalpha="1" borderalpha="1" enabled="1" width="180" backgroundcolor="0xffffff" borderradius="1" height="20" bordercolor="0x000000" textcolor="0x000000" background="1" backgroundalpha="1" border="1" wordwrap="1"/>
+      <polystyle mode="0" borderalpha="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.25098" handcursor="1"/>
+      <hotspot id="Point02" description="" skinid="ht_node_3d_arrow" target="-92.7/-0.7/100.0" tilt="-3.62" pan="-354.47" url="{node11}" title="Class Room - UKG" distance="8.61787"/>
+      <hotspot id="Point01" description="" skinid="ht_node_pulse" target="-51.8/-5.1/100.0" tilt="-4.25" pan="-273.7" url="{node12}" title="Class Rooms" distance="4.34655"/>
+    </hotspots>
+    <media>
+      <sound keep="1" id="joyinsound-corporate-motivational-background-music-403417" level="0.500" mode="7" loop="-1" url="media/skin_snd_joyinsound-corporate-motivational-background-music-403417.mp3"/>
+    </media>
+    <transition type="crossdissolve" zoomafterinfov="140" zoomfov="40" enabled="1" delay="none" blendtime="1" zoomspeed="2" zoomafteroutfov="40" zoomin="0" zoomout="0" softedge="0" zoomoutpause="1" blendcolor="0x000000"/>
+    <autorotate returntohorizon="0.000" horizonfromdefview="0" noderandom="1" enabled="1" delay="5.00" nodedelay="15.00" startloaded="0" speed="0.070" nodefilter="" useanimation="0"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" clipsrandom="0" useinautorotation="0"/>
+    <control lockedkeyboardzoom="0" lockedmouse="0" zoomcentercursor="1" contextvr="1" contextprojections="0" invertwheel="1" dblclickfullscreen="1" rubberband="0" contextfullscreen="1" lockedwheel="0" sensitivity="8" speedwheel="1" invertcontrol="1" hideabout="1" simulatemass="1" lockedkeyboard="0"/>
+  </panorama>
+  <panorama id="node11" hideabout="1">
+    <input levelbiashidpi="1.000" width="2976" levelingroll="0" levelbias="0.400" leveltileurl="tiles/node11/cf_%c/l_%l/c_%x/tile_%y.jpg" height="2976" levelingpitch="0" overlap="1" leveltilesize="510">
+      <level preload="0" predecode="0" width="2976" height="2976"/>
+      <level preload="0" predecode="0" width="1488" height="1488"/>
+      <level preload="0" predecode="0" width="744" height="744"/>
+      <level preload="1" predecode="1" width="372" height="372"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="2">
+      <start fov="120" projection="4" tilt="0" pan="0"/>
+      <flyin fov="170" projection="9" tilt="-90" pan="0"/>
+      <min fov="80" tilt="-90" pan="0"/>
+      <max fovstereographic="330" fov="120" fovfisheye="360" tilt="90" pan="360" scaletofit="1"/>
+    </view>
+    <userdata copyright="" description="" altitude="912.20" source="" info="" datetime="16-04-2026 12:13 PM" latitude="13.056639" nodeid="node11" title="Class Room - UKG" tags="classrooms" longitude="77.582972" heading="0" comment="" author="" customnodeid=""/>
+    <hotspots smoothmovement="0" width="180" wordwrap="1" height="20">
+      <label textalpha="1" borderalpha="1" enabled="1" width="180" backgroundcolor="0xffffff" borderradius="1" height="20" bordercolor="0x000000" textcolor="0x000000" background="1" backgroundalpha="1" border="1" wordwrap="1"/>
+      <polystyle mode="0" borderalpha="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.25098" handcursor="1"/>
+      <hotspot id="Point01" description="" skinid="ht_node_3d_arrow" target="86.3/-3.5/100.0" tilt="-5.85" pan="-238.66" url="{node10}" title="Class Room" distance="8.61787"/>
+    </hotspots>
+    <media>
+      <sound keep="1" id="joyinsound-corporate-motivational-background-music-403417" level="0.500" mode="7" loop="-1" url="media/skin_snd_joyinsound-corporate-motivational-background-music-403417.mp3"/>
+    </media>
+    <transition type="crossdissolve" zoomafterinfov="140" zoomfov="40" enabled="1" delay="none" blendtime="1" zoomspeed="2" zoomafteroutfov="40" zoomin="0" zoomout="0" softedge="0" zoomoutpause="1" blendcolor="0x000000"/>
+    <autorotate returntohorizon="0.000" horizonfromdefview="0" noderandom="1" enabled="1" delay="5.00" nodedelay="15.00" startloaded="0" speed="0.070" nodefilter="" useanimation="0"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" clipsrandom="0" useinautorotation="0"/>
+    <control lockedkeyboardzoom="0" lockedmouse="0" zoomcentercursor="1" contextvr="1" contextprojections="0" invertwheel="1" dblclickfullscreen="1" rubberband="0" contextfullscreen="1" lockedwheel="0" sensitivity="8" speedwheel="1" invertcontrol="1" hideabout="1" simulatemass="1" lockedkeyboard="0"/>
+  </panorama>
+  <panorama id="node12" hideabout="1">
+    <input levelbiashidpi="1.000" width="2976" levelingroll="0" levelbias="0.400" leveltileurl="tiles/node12/cf_%c/l_%l/c_%x/tile_%y.jpg" height="2976" levelingpitch="0" overlap="1" leveltilesize="510">
+      <level preload="0" predecode="0" width="2976" height="2976"/>
+      <level preload="0" predecode="0" width="1488" height="1488"/>
+      <level preload="0" predecode="0" width="744" height="744"/>
+      <level preload="1" predecode="1" width="372" height="372"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="2">
+      <start fov="120" projection="4" tilt="-6.48103" pan="40.5147"/>
+      <flyin fov="170" projection="9" tilt="-90" pan="0"/>
+      <min fov="80" tilt="-90" pan="0"/>
+      <max fovstereographic="330" fov="120" fovfisheye="360" tilt="90" pan="360" scaletofit="1"/>
+    </view>
+    <userdata copyright="" description="" altitude="910.10" source="" info="" datetime="16-04-2026 12:14 PM" latitude="13.056611" nodeid="node12" title="Class Rooms" tags="classrooms" longitude="77.582889" heading="0" comment="" author="" customnodeid=""/>
+    <hotspots smoothmovement="0" width="180" wordwrap="1" height="20">
+      <label textalpha="1" borderalpha="1" enabled="1" width="180" backgroundcolor="0xffffff" borderradius="1" height="20" bordercolor="0x000000" textcolor="0x000000" background="1" backgroundalpha="1" border="1" wordwrap="1"/>
+      <polystyle mode="0" borderalpha="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.25098" handcursor="1"/>
+      <hotspot id="Point01" description="" skinid="ht_node_3d_arrow" target="-91.9/-4.5/100.0" tilt="-4.27" pan="-321.86" url="{node10}" title="Class Room" distance="4.34655"/>
+      <hotspot id="Point02" description="" skinid="ht_node_3d_arrow" target="170.0/0.3/100.0" tilt="-17.12" pan="-142.62" url="{node5}" title="Pooja Area" distance="4.34655"/>
+      <hotspot id="Point03" description="" skinid="ht_node_3d_arrow" target="121.8/-6.3/100.0" tilt="-0.41" pan="-52.04" url="{node13}" title="Corridor" distance="15.3751"/>
+    </hotspots>
+    <media>
+      <sound keep="1" id="joyinsound-corporate-motivational-background-music-403417" level="0.500" mode="7" loop="-1" url="media/skin_snd_joyinsound-corporate-motivational-background-music-403417.mp3"/>
+    </media>
+    <transition type="crossdissolve" zoomafterinfov="140" zoomfov="40" enabled="1" delay="none" blendtime="1" zoomspeed="2" zoomafteroutfov="40" zoomin="0" zoomout="0" softedge="0" zoomoutpause="1" blendcolor="0x000000"/>
+    <autorotate returntohorizon="0.000" horizonfromdefview="0" noderandom="1" enabled="1" delay="5.00" nodedelay="15.00" startloaded="0" speed="0.070" nodefilter="" useanimation="0"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" clipsrandom="0" useinautorotation="0"/>
+    <control lockedkeyboardzoom="0" lockedmouse="0" zoomcentercursor="1" contextvr="1" contextprojections="0" invertwheel="1" dblclickfullscreen="1" rubberband="0" contextfullscreen="1" lockedwheel="0" sensitivity="8" speedwheel="1" invertcontrol="1" hideabout="1" simulatemass="1" lockedkeyboard="0"/>
+  </panorama>
+  <panorama id="node13" hideabout="1">
+    <input levelbiashidpi="1.000" width="2976" levelingroll="0" levelbias="0.400" leveltileurl="tiles/node13/cf_%c/l_%l/c_%x/tile_%y.jpg" height="2976" levelingpitch="0" overlap="1" leveltilesize="510">
+      <level preload="0" predecode="0" width="2976" height="2976"/>
+      <level preload="0" predecode="0" width="1488" height="1488"/>
+      <level preload="0" predecode="0" width="744" height="744"/>
+      <level preload="1" predecode="1" width="372" height="372"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="2">
+      <start fov="120" projection="4" tilt="0" pan="0"/>
+      <flyin fov="170" projection="9" tilt="-90" pan="0"/>
+      <min fov="80" tilt="-90" pan="0"/>
+      <max fovstereographic="330" fov="120" fovfisheye="360" tilt="90" pan="360" scaletofit="1"/>
+    </view>
+    <userdata copyright="" description="" altitude="910.30" source="" info="" datetime="16-04-2026 12:16 PM" latitude="13.056583" nodeid="node13" title="Corridor" tags="classrooms" longitude="77.583028" heading="0" comment="" author="" customnodeid=""/>
+    <hotspots smoothmovement="0" width="180" wordwrap="1" height="20">
+      <label textalpha="1" borderalpha="1" enabled="1" width="180" backgroundcolor="0xffffff" borderradius="1" height="20" bordercolor="0x000000" textcolor="0x000000" background="1" backgroundalpha="1" border="1" wordwrap="1"/>
+      <polystyle mode="0" borderalpha="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.25098" handcursor="1"/>
+      <hotspot id="Point01" description="" skinid="ht_node_3d_arrow" target="-145.3/-10.5/100.0" tilt="-0.65" pan="-324.17" url="{node12}" title="Class Rooms" distance="15.3751"/>
+      <hotspot id="Point02" description="" skinid="ht_node_3d_arrow" target="91.2/-7.9/100.0" tilt="-3.73" pan="-245.75" url="{node14}" title="Class Room - LKG" distance="3.00226"/>
+    </hotspots>
+    <media>
+      <sound keep="1" id="joyinsound-corporate-motivational-background-music-403417" level="0.500" mode="7" loop="-1" url="media/skin_snd_joyinsound-corporate-motivational-background-music-403417.mp3"/>
+    </media>
+    <transition type="crossdissolve" zoomafterinfov="140" zoomfov="40" enabled="1" delay="none" blendtime="1" zoomspeed="2" zoomafteroutfov="40" zoomin="0" zoomout="0" softedge="0" zoomoutpause="1" blendcolor="0x000000"/>
+    <autorotate returntohorizon="0.000" horizonfromdefview="0" noderandom="1" enabled="1" delay="5.00" nodedelay="15.00" startloaded="0" speed="0.070" nodefilter="" useanimation="0"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" clipsrandom="0" useinautorotation="0"/>
+    <control lockedkeyboardzoom="0" lockedmouse="0" zoomcentercursor="1" contextvr="1" contextprojections="0" invertwheel="1" dblclickfullscreen="1" rubberband="0" contextfullscreen="1" lockedwheel="0" sensitivity="8" speedwheel="1" invertcontrol="1" hideabout="1" simulatemass="1" lockedkeyboard="0"/>
+  </panorama>
+  <panorama id="node14" hideabout="1">
+    <input levelbiashidpi="1.000" width="2976" levelingroll="0" levelbias="0.400" leveltileurl="tiles/node14/cf_%c/l_%l/c_%x/tile_%y.jpg" height="2976" levelingpitch="0" overlap="1" leveltilesize="510">
+      <level preload="0" predecode="0" width="2976" height="2976"/>
+      <level preload="0" predecode="0" width="1488" height="1488"/>
+      <level preload="0" predecode="0" width="744" height="744"/>
+      <level preload="1" predecode="1" width="372" height="372"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="2">
+      <start fov="120" projection="4" tilt="0" pan="0"/>
+      <flyin fov="170" projection="9" tilt="-90" pan="0"/>
+      <min fov="80" tilt="-90" pan="0"/>
+      <max fovstereographic="330" fov="120" fovfisheye="360" tilt="90" pan="360" scaletofit="1"/>
+    </view>
+    <userdata copyright="" description="" altitude="910.30" source="" info="" datetime="16-04-2026 12:17 PM" latitude="13.056556" nodeid="node14" title="Class Room - LKG" tags="classrooms" longitude="77.583028" heading="0" comment="" author="" customnodeid=""/>
+    <hotspots smoothmovement="0" width="180" wordwrap="1" height="20">
+      <label textalpha="1" borderalpha="1" enabled="1" width="180" backgroundcolor="0xffffff" borderradius="1" height="20" bordercolor="0x000000" textcolor="0x000000" background="1" backgroundalpha="1" border="1" wordwrap="1"/>
+      <polystyle mode="0" borderalpha="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.25098" handcursor="1"/>
+      <hotspot id="Point01" description="" skinid="ht_node_3d_arrow" target="-56.5/-1.4/100.0" tilt="-4.53" pan="-123.17" url="{node13}" title="Corridor" distance="3.00226"/>
+    </hotspots>
+    <media>
+      <sound keep="1" id="joyinsound-corporate-motivational-background-music-403417" level="0.500" mode="7" loop="-1" url="media/skin_snd_joyinsound-corporate-motivational-background-music-403417.mp3"/>
+    </media>
+    <transition type="crossdissolve" zoomafterinfov="140" zoomfov="40" enabled="1" delay="none" blendtime="1" zoomspeed="2" zoomafteroutfov="40" zoomin="0" zoomout="0" softedge="0" zoomoutpause="1" blendcolor="0x000000"/>
+    <autorotate returntohorizon="0.000" horizonfromdefview="0" noderandom="1" enabled="1" delay="5.00" nodedelay="15.00" startloaded="0" speed="0.070" nodefilter="" useanimation="0"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" clipsrandom="0" useinautorotation="0"/>
+    <control lockedkeyboardzoom="0" lockedmouse="0" zoomcentercursor="1" contextvr="1" contextprojections="0" invertwheel="1" dblclickfullscreen="1" rubberband="0" contextfullscreen="1" lockedwheel="0" sensitivity="8" speedwheel="1" invertcontrol="1" hideabout="1" simulatemass="1" lockedkeyboard="0"/>
+  </panorama>
+  <panorama id="node15" hideabout="1">
+    <input levelbiashidpi="1.000" width="2976" levelingroll="0" levelbias="0.400" leveltileurl="tiles/node15/cf_%c/l_%l/c_%x/tile_%y.jpg" height="2976" levelingpitch="0" overlap="1" leveltilesize="510">
+      <level preload="0" predecode="0" width="2976" height="2976"/>
+      <level preload="0" predecode="0" width="1488" height="1488"/>
+      <level preload="0" predecode="0" width="744" height="744"/>
+      <level preload="1" predecode="1" width="372" height="372"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="2">
+      <start fov="120" projection="4" tilt="0" pan="0"/>
+      <flyin fov="170" projection="9" tilt="-90" pan="0"/>
+      <min fov="80" tilt="-90" pan="0"/>
+      <max fovstereographic="330" fov="120" fovfisheye="360" tilt="90" pan="360" scaletofit="1"/>
+    </view>
+    <userdata copyright="" description="" altitude="910.40" source="" info="" datetime="16-04-2026 12:20 PM" latitude="13.056611" nodeid="node15" title="Corridor" tags="classrooms" longitude="77.583111" heading="0" comment="" author="" customnodeid=""/>
+    <hotspots smoothmovement="0" width="180" wordwrap="1" height="20">
+      <label textalpha="1" borderalpha="1" enabled="1" width="180" backgroundcolor="0xffffff" borderradius="1" height="20" bordercolor="0x000000" textcolor="0x000000" background="1" backgroundalpha="1" border="1" wordwrap="1"/>
+      <polystyle mode="0" borderalpha="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.25098" handcursor="1"/>
+      <hotspot id="Point01" description="" skinid="ht_node_3d_arrow" target="96.6/-8.0/100.0" tilt="-5.35" pan="-12.15" url="{node16}" title="Class Room" distance="4.34655"/>
+      <hotspot id="Point02" description="" skinid="ht_node_3d_arrow" target="130.2/-7.8/100.0" tilt="-3.23" pan="-85.2" url="{node17}" title="Corridor" distance="12.0235"/>
+    </hotspots>
+    <media>
+      <sound keep="1" id="joyinsound-corporate-motivational-background-music-403417" level="0.500" mode="7" loop="-1" url="media/skin_snd_joyinsound-corporate-motivational-background-music-403417.mp3"/>
+    </media>
+    <transition type="crossdissolve" zoomafterinfov="140" zoomfov="40" enabled="1" delay="none" blendtime="1" zoomspeed="2" zoomafteroutfov="40" zoomin="0" zoomout="0" softedge="0" zoomoutpause="1" blendcolor="0x000000"/>
+    <autorotate returntohorizon="0.000" horizonfromdefview="0" noderandom="1" enabled="1" delay="5.00" nodedelay="15.00" startloaded="0" speed="0.070" nodefilter="" useanimation="0"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" clipsrandom="0" useinautorotation="0"/>
+    <control lockedkeyboardzoom="0" lockedmouse="0" zoomcentercursor="1" contextvr="1" contextprojections="0" invertwheel="1" dblclickfullscreen="1" rubberband="0" contextfullscreen="1" lockedwheel="0" sensitivity="8" speedwheel="1" invertcontrol="1" hideabout="1" simulatemass="1" lockedkeyboard="0"/>
+  </panorama>
+  <panorama id="node16" hideabout="1">
+    <input levelbiashidpi="1.000" width="2976" levelingroll="0" levelbias="0.400" leveltileurl="tiles/node16/cf_%c/l_%l/c_%x/tile_%y.jpg" height="2976" levelingpitch="0" overlap="1" leveltilesize="510">
+      <level preload="0" predecode="0" width="2976" height="2976"/>
+      <level preload="0" predecode="0" width="1488" height="1488"/>
+      <level preload="0" predecode="0" width="744" height="744"/>
+      <level preload="1" predecode="1" width="372" height="372"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="2">
+      <start fov="120" projection="4" tilt="0" pan="0"/>
+      <flyin fov="170" projection="9" tilt="-90" pan="0"/>
+      <min fov="80" tilt="-90" pan="0"/>
+      <max fovstereographic="330" fov="120" fovfisheye="360" tilt="90" pan="360" scaletofit="1"/>
+    </view>
+    <userdata copyright="" description="" altitude="910.20" source="" info="" datetime="16-04-2026 12:21 PM" latitude="13.056639" nodeid="node16" title="Class Room" tags="classrooms" longitude="77.583083" heading="0" comment="" author="" customnodeid=""/>
+    <hotspots smoothmovement="0" width="180" wordwrap="1" height="20">
+      <label textalpha="1" borderalpha="1" enabled="1" width="180" backgroundcolor="0xffffff" borderradius="1" height="20" bordercolor="0x000000" textcolor="0x000000" background="1" backgroundalpha="1" border="1" wordwrap="1"/>
+      <polystyle mode="0" borderalpha="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.25098" handcursor="1"/>
+      <hotspot id="Point01" description="" skinid="ht_node_3d_arrow" target="-85.4/-1.2/100.0" tilt="-6.19" pan="-119.84" url="{node15}" title="Corridor" distance="4.34655"/>
+    </hotspots>
+    <media>
+      <sound keep="1" id="joyinsound-corporate-motivational-background-music-403417" level="0.500" mode="7" loop="-1" url="media/skin_snd_joyinsound-corporate-motivational-background-music-403417.mp3"/>
+    </media>
+    <transition type="crossdissolve" zoomafterinfov="140" zoomfov="40" enabled="1" delay="none" blendtime="1" zoomspeed="2" zoomafteroutfov="40" zoomin="0" zoomout="0" softedge="0" zoomoutpause="1" blendcolor="0x000000"/>
+    <autorotate returntohorizon="0.000" horizonfromdefview="0" noderandom="1" enabled="1" delay="5.00" nodedelay="15.00" startloaded="0" speed="0.070" nodefilter="" useanimation="0"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" clipsrandom="0" useinautorotation="0"/>
+    <control lockedkeyboardzoom="0" lockedmouse="0" zoomcentercursor="1" contextvr="1" contextprojections="0" invertwheel="1" dblclickfullscreen="1" rubberband="0" contextfullscreen="1" lockedwheel="0" sensitivity="8" speedwheel="1" invertcontrol="1" hideabout="1" simulatemass="1" lockedkeyboard="0"/>
+  </panorama>
+  <panorama id="node17" hideabout="1">
+    <input levelbiashidpi="1.000" width="2976" levelingroll="0" levelbias="0.400" leveltileurl="tiles/node17/cf_%c/l_%l/c_%x/tile_%y.jpg" height="2976" levelingpitch="0" overlap="1" leveltilesize="510">
+      <level preload="0" predecode="0" width="2976" height="2976"/>
+      <level preload="0" predecode="0" width="1488" height="1488"/>
+      <level preload="0" predecode="0" width="744" height="744"/>
+      <level preload="1" predecode="1" width="372" height="372"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="2">
+      <start fov="120" projection="4" tilt="0" pan="0"/>
+      <flyin fov="170" projection="9" tilt="-90" pan="0"/>
+      <min fov="80" tilt="-90" pan="0"/>
+      <max fovstereographic="330" fov="120" fovfisheye="360" tilt="90" pan="360" scaletofit="1"/>
+    </view>
+    <userdata copyright="" description="" altitude="910.50" source="" info="" datetime="16-04-2026 12:23 PM" latitude="13.056611" nodeid="node17" title="Corridor" tags="classrooms" longitude="77.583000" heading="0" comment="" author="" customnodeid=""/>
+    <hotspots smoothmovement="0" width="180" wordwrap="1" height="20">
+      <label textalpha="1" borderalpha="1" enabled="1" width="180" backgroundcolor="0xffffff" borderradius="1" height="20" bordercolor="0x000000" textcolor="0x000000" background="1" backgroundalpha="1" border="1" wordwrap="1"/>
+      <polystyle mode="0" borderalpha="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.25098" handcursor="1"/>
+      <hotspot id="Point01" description="" skinid="ht_node_3d_arrow" target="89.2/-4.5/100.0" tilt="-6.4" pan="-238.16" url="{node18}" title="Class Room" distance="4.34655"/>
+      <hotspot id="Point02" description="" skinid="ht_node_3d_arrow" target="98.0/-9.2/100.0" tilt="-6.19" pan="-50.6" url="{node15}" title="Corridor" distance="12.0235"/>
+    </hotspots>
+    <media>
+      <sound keep="1" id="joyinsound-corporate-motivational-background-music-403417" level="0.500" mode="7" loop="-1" url="media/skin_snd_joyinsound-corporate-motivational-background-music-403417.mp3"/>
+    </media>
+    <transition type="crossdissolve" zoomafterinfov="140" zoomfov="40" enabled="1" delay="none" blendtime="1" zoomspeed="2" zoomafteroutfov="40" zoomin="0" zoomout="0" softedge="0" zoomoutpause="1" blendcolor="0x000000"/>
+    <autorotate returntohorizon="0.000" horizonfromdefview="0" noderandom="1" enabled="1" delay="5.00" nodedelay="15.00" startloaded="0" speed="0.070" nodefilter="" useanimation="0"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" clipsrandom="0" useinautorotation="0"/>
+    <control lockedkeyboardzoom="0" lockedmouse="0" zoomcentercursor="1" contextvr="1" contextprojections="0" invertwheel="1" dblclickfullscreen="1" rubberband="0" contextfullscreen="1" lockedwheel="0" sensitivity="8" speedwheel="1" invertcontrol="1" hideabout="1" simulatemass="1" lockedkeyboard="0"/>
+  </panorama>
+  <panorama id="node18" hideabout="1">
+    <input levelbiashidpi="1.000" width="2976" levelingroll="0" levelbias="0.400" leveltileurl="tiles/node18/cf_%c/l_%l/c_%x/tile_%y.jpg" height="2976" levelingpitch="0" overlap="1" leveltilesize="510">
+      <level preload="0" predecode="0" width="2976" height="2976"/>
+      <level preload="0" predecode="0" width="1488" height="1488"/>
+      <level preload="0" predecode="0" width="744" height="744"/>
+      <level preload="1" predecode="1" width="372" height="372"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="2">
+      <start fov="120" projection="4" tilt="0" pan="0"/>
+      <flyin fov="170" projection="9" tilt="-90" pan="0"/>
+      <min fov="80" tilt="-90" pan="0"/>
+      <max fovstereographic="330" fov="120" fovfisheye="360" tilt="90" pan="360" scaletofit="1"/>
+    </view>
+    <userdata copyright="" description="" altitude="910.50" source="" info="" datetime="16-04-2026 12:24 PM" latitude="13.056583" nodeid="node18" title="Class Room" tags="classrooms" longitude="77.583028" heading="0" comment="" author="" customnodeid=""/>
+    <hotspots smoothmovement="0" width="180" wordwrap="1" height="20">
+      <label textalpha="1" borderalpha="1" enabled="1" width="180" backgroundcolor="0xffffff" borderradius="1" height="20" bordercolor="0x000000" textcolor="0x000000" background="1" backgroundalpha="1" border="1" wordwrap="1"/>
+      <polystyle mode="0" borderalpha="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.25098" handcursor="1"/>
+      <hotspot id="Point01" description="" skinid="ht_node_3d_arrow" target="-50.0/-2.0/100.0" tilt="-7.79" pan="-117.05" url="{node17}" title="Corridor" distance="4.34655"/>
+    </hotspots>
+    <media>
+      <sound keep="1" id="joyinsound-corporate-motivational-background-music-403417" level="0.500" mode="7" loop="-1" url="media/skin_snd_joyinsound-corporate-motivational-background-music-403417.mp3"/>
+    </media>
+    <transition type="crossdissolve" zoomafterinfov="140" zoomfov="40" enabled="1" delay="none" blendtime="1" zoomspeed="2" zoomafteroutfov="40" zoomin="0" zoomout="0" softedge="0" zoomoutpause="1" blendcolor="0x000000"/>
+    <autorotate returntohorizon="0.000" horizonfromdefview="0" noderandom="1" enabled="1" delay="5.00" nodedelay="15.00" startloaded="0" speed="0.070" nodefilter="" useanimation="0"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" clipsrandom="0" useinautorotation="0"/>
+    <control lockedkeyboardzoom="0" lockedmouse="0" zoomcentercursor="1" contextvr="1" contextprojections="0" invertwheel="1" dblclickfullscreen="1" rubberband="0" contextfullscreen="1" lockedwheel="0" sensitivity="8" speedwheel="1" invertcontrol="1" hideabout="1" simulatemass="1" lockedkeyboard="0"/>
+  </panorama>
+  <panorama id="node19" hideabout="1">
+    <input levelbiashidpi="1.000" width="2976" levelingroll="0" levelbias="0.400" leveltileurl="tiles/node19/cf_%c/l_%l/c_%x/tile_%y.jpg" height="2976" levelingpitch="0" overlap="1" leveltilesize="510">
+      <level preload="0" predecode="0" width="2976" height="2976"/>
+      <level preload="0" predecode="0" width="1488" height="1488"/>
+      <level preload="0" predecode="0" width="744" height="744"/>
+      <level preload="1" predecode="1" width="372" height="372"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="2">
+      <start fov="120" projection="4" tilt="0" pan="0"/>
+      <flyin fov="170" projection="9" tilt="-90" pan="0"/>
+      <min fov="80" tilt="-90" pan="0"/>
+      <max fovstereographic="330" fov="120" fovfisheye="360" tilt="90" pan="360" scaletofit="1"/>
+    </view>
+    <userdata copyright="" description="" altitude="913.20" source="" info="" datetime="16-04-2026 12:29 PM" latitude="13.056611" nodeid="node19" title="Science Lab" tags="laboratory" longitude="77.583056" heading="0" comment="" author="" customnodeid=""/>
+    <hotspots smoothmovement="0" width="180" wordwrap="1" height="20">
+      <label textalpha="1" borderalpha="1" enabled="1" width="180" backgroundcolor="0xffffff" borderradius="1" height="20" bordercolor="0x000000" textcolor="0x000000" background="1" backgroundalpha="1" border="1" wordwrap="1"/>
+      <polystyle mode="0" borderalpha="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.25098" handcursor="1"/>
+      <hotspot id="Point01" description="" skinid="ht_node_3d_arrow" target="-179.5/-4.8/100.0" tilt="-4.9" pan="-344.65" url="{node20}" title="Science Lab" distance="24.9176"/>
+      <hotspot id="Point02" description="" skinid="ht_node_3d_arrow" target="-12.3/0.4/100.0" tilt="-8.52" pan="-67.09" url="{node23}" title="Maths Club" distance="15.3751"/>
+    </hotspots>
+    <media>
+      <sound keep="1" id="joyinsound-corporate-motivational-background-music-403417" level="0.500" mode="7" loop="-1" url="media/skin_snd_joyinsound-corporate-motivational-background-music-403417.mp3"/>
+    </media>
+    <transition type="crossdissolve" zoomafterinfov="140" zoomfov="40" enabled="1" delay="none" blendtime="1" zoomspeed="2" zoomafteroutfov="40" zoomin="0" zoomout="0" softedge="0" zoomoutpause="1" blendcolor="0x000000"/>
+    <autorotate returntohorizon="0.000" horizonfromdefview="0" noderandom="1" enabled="1" delay="5.00" nodedelay="15.00" startloaded="0" speed="0.070" nodefilter="" useanimation="0"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" clipsrandom="0" useinautorotation="0"/>
+    <control lockedkeyboardzoom="0" lockedmouse="0" zoomcentercursor="1" contextvr="1" contextprojections="0" invertwheel="1" dblclickfullscreen="1" rubberband="0" contextfullscreen="1" lockedwheel="0" sensitivity="8" speedwheel="1" invertcontrol="1" hideabout="1" simulatemass="1" lockedkeyboard="0"/>
+  </panorama>
+  <panorama id="node20" hideabout="1">
+    <input levelbiashidpi="1.000" width="2976" levelingroll="0" levelbias="0.400" leveltileurl="tiles/node20/cf_%c/l_%l/c_%x/tile_%y.jpg" height="2976" levelingpitch="0" overlap="1" leveltilesize="510">
+      <level preload="0" predecode="0" width="2976" height="2976"/>
+      <level preload="0" predecode="0" width="1488" height="1488"/>
+      <level preload="0" predecode="0" width="744" height="744"/>
+      <level preload="1" predecode="1" width="372" height="372"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="2">
+      <start fov="120" projection="4" tilt="0" pan="0"/>
+      <flyin fov="170" projection="9" tilt="-90" pan="0"/>
+      <min fov="80" tilt="-90" pan="0"/>
+      <max fovstereographic="330" fov="120" fovfisheye="360" tilt="90" pan="360" scaletofit="1"/>
+    </view>
+    <userdata copyright="" description="" altitude="910.20" source="" info="" datetime="16-04-2026 12:30 PM" latitude="13.056556" nodeid="node20" title="Science Lab" tags="laboratory" longitude="77.582833" heading="0" comment="" author="" customnodeid=""/>
+    <hotspots smoothmovement="0" width="180" wordwrap="1" height="20">
+      <label textalpha="1" borderalpha="1" enabled="1" width="180" backgroundcolor="0xffffff" borderradius="1" height="20" bordercolor="0x000000" textcolor="0x000000" background="1" backgroundalpha="1" border="1" wordwrap="1"/>
+      <polystyle mode="0" borderalpha="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.25098" handcursor="1"/>
+      <hotspot id="Point01" description="" skinid="ht_node_3d_arrow" target="174.9/-7.6/100.0" tilt="-3.86" pan="-319.2" url="{node19}" title="Science Lab" distance="24.9176"/>
+    </hotspots>
+    <media>
+      <sound keep="1" id="joyinsound-corporate-motivational-background-music-403417" level="0.500" mode="7" loop="-1" url="media/skin_snd_joyinsound-corporate-motivational-background-music-403417.mp3"/>
+    </media>
+    <transition type="crossdissolve" zoomafterinfov="140" zoomfov="40" enabled="1" delay="none" blendtime="1" zoomspeed="2" zoomafteroutfov="40" zoomin="0" zoomout="0" softedge="0" zoomoutpause="1" blendcolor="0x000000"/>
+    <autorotate returntohorizon="0.000" horizonfromdefview="0" noderandom="1" enabled="1" delay="5.00" nodedelay="15.00" startloaded="0" speed="0.070" nodefilter="" useanimation="0"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" clipsrandom="0" useinautorotation="0"/>
+    <control lockedkeyboardzoom="0" lockedmouse="0" zoomcentercursor="1" contextvr="1" contextprojections="0" invertwheel="1" dblclickfullscreen="1" rubberband="0" contextfullscreen="1" lockedwheel="0" sensitivity="8" speedwheel="1" invertcontrol="1" hideabout="1" simulatemass="1" lockedkeyboard="0"/>
+  </panorama>
+  <panorama id="node21" hideabout="1">
+    <input levelbiashidpi="1.000" width="2976" levelingroll="0" levelbias="0.400" leveltileurl="tiles/node21/cf_%c/l_%l/c_%x/tile_%y.jpg" height="2976" levelingpitch="0" overlap="1" leveltilesize="510">
+      <level preload="0" predecode="0" width="2976" height="2976"/>
+      <level preload="0" predecode="0" width="1488" height="1488"/>
+      <level preload="0" predecode="0" width="744" height="744"/>
+      <level preload="1" predecode="1" width="372" height="372"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="2">
+      <start fov="120" projection="4" tilt="0" pan="0"/>
+      <flyin fov="170" projection="9" tilt="-90" pan="0"/>
+      <min fov="80" tilt="-90" pan="0"/>
+      <max fovstereographic="330" fov="120" fovfisheye="360" tilt="90" pan="360" scaletofit="1"/>
+    </view>
+    <userdata copyright="" description="" altitude="910.40" source="" info="" datetime="16-04-2026 12:33 PM" latitude="13.056611" nodeid="node21" title="Computer Lab" tags="laboratory" longitude="77.583056" heading="0" comment="" author="" customnodeid=""/>
+    <hotspots smoothmovement="0" width="180" wordwrap="1" height="20">
+      <label textalpha="1" borderalpha="1" enabled="1" width="180" backgroundcolor="0xffffff" borderradius="1" height="20" bordercolor="0x000000" textcolor="0x000000" background="1" backgroundalpha="1" border="1" wordwrap="1"/>
+      <polystyle mode="0" borderalpha="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.25098" handcursor="1"/>
+      <hotspot id="Point01" description="" skinid="ht_node_3d_arrow" target="178.7/-2.7/100.0" tilt="-1.39" pan="-359.08" url="{node22}" title="Computer Lab" distance="20.2114"/>
+      <hotspot id="Point02" description="" skinid="ht_node_pulse" target="0.0/0.0/100.0" tilt="-2.43" pan="-47.17" url="{node23}" title="Maths Club" distance="15.3751"/>
+      <hotspot id="Point03" description="" skinid="ht_node_pulse" target="-5.2/-0.2/100.0" tilt="-8.69" pan="-144.8" url="{node31}" title="Library" distance="3.11346"/>
+    </hotspots>
+    <media>
+      <sound keep="1" id="joyinsound-corporate-motivational-background-music-403417" level="0.500" mode="7" loop="-1" url="media/skin_snd_joyinsound-corporate-motivational-background-music-403417.mp3"/>
+    </media>
+    <transition type="crossdissolve" zoomafterinfov="140" zoomfov="40" enabled="1" delay="none" blendtime="1" zoomspeed="2" zoomafteroutfov="40" zoomin="0" zoomout="0" softedge="0" zoomoutpause="1" blendcolor="0x000000"/>
+    <autorotate returntohorizon="0.000" horizonfromdefview="0" noderandom="1" enabled="1" delay="5.00" nodedelay="15.00" startloaded="0" speed="0.070" nodefilter="" useanimation="0"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" clipsrandom="0" useinautorotation="0"/>
+    <control lockedkeyboardzoom="0" lockedmouse="0" zoomcentercursor="1" contextvr="1" contextprojections="0" invertwheel="1" dblclickfullscreen="1" rubberband="0" contextfullscreen="1" lockedwheel="0" sensitivity="8" speedwheel="1" invertcontrol="1" hideabout="1" simulatemass="1" lockedkeyboard="0"/>
+  </panorama>
+  <panorama id="node22" hideabout="1">
+    <input levelbiashidpi="1.000" width="2976" levelingroll="0" levelbias="0.400" leveltileurl="tiles/node22/cf_%c/l_%l/c_%x/tile_%y.jpg" height="2976" levelingpitch="0" overlap="1" leveltilesize="510">
+      <level preload="0" predecode="0" width="2976" height="2976"/>
+      <level preload="0" predecode="0" width="1488" height="1488"/>
+      <level preload="0" predecode="0" width="744" height="744"/>
+      <level preload="1" predecode="1" width="372" height="372"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="2">
+      <start fov="120" projection="4" tilt="0" pan="0"/>
+      <flyin fov="170" projection="9" tilt="-90" pan="0"/>
+      <min fov="80" tilt="-90" pan="0"/>
+      <max fovstereographic="330" fov="120" fovfisheye="360" tilt="90" pan="360" scaletofit="1"/>
+    </view>
+    <userdata copyright="" description="" altitude="910.40" source="" info="" datetime="16-04-2026 12:34 PM" latitude="13.056528" nodeid="node22" title="Computer Lab" tags="laboratory" longitude="77.583222" heading="0" comment="" author="" customnodeid=""/>
+    <hotspots smoothmovement="0" width="180" wordwrap="1" height="20">
+      <label textalpha="1" borderalpha="1" enabled="1" width="180" backgroundcolor="0xffffff" borderradius="1" height="20" bordercolor="0x000000" textcolor="0x000000" background="1" backgroundalpha="1" border="1" wordwrap="1"/>
+      <polystyle mode="0" borderalpha="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.25098" handcursor="1"/>
+      <hotspot id="Point01" description="" skinid="ht_node_3d_arrow" target="-179.4/-3.4/100.0" tilt="-2.6" pan="-351.78" url="{node21}" title="Computer Lab" distance="20.2114"/>
+    </hotspots>
+    <media>
+      <sound keep="1" id="joyinsound-corporate-motivational-background-music-403417" level="0.500" mode="7" loop="-1" url="media/skin_snd_joyinsound-corporate-motivational-background-music-403417.mp3"/>
+    </media>
+    <transition type="crossdissolve" zoomafterinfov="140" zoomfov="40" enabled="1" delay="none" blendtime="1" zoomspeed="2" zoomafteroutfov="40" zoomin="0" zoomout="0" softedge="0" zoomoutpause="1" blendcolor="0x000000"/>
+    <autorotate returntohorizon="0.000" horizonfromdefview="0" noderandom="1" enabled="1" delay="5.00" nodedelay="15.00" startloaded="0" speed="0.070" nodefilter="" useanimation="0"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" clipsrandom="0" useinautorotation="0"/>
+    <control lockedkeyboardzoom="0" lockedmouse="0" zoomcentercursor="1" contextvr="1" contextprojections="0" invertwheel="1" dblclickfullscreen="1" rubberband="0" contextfullscreen="1" lockedwheel="0" sensitivity="8" speedwheel="1" invertcontrol="1" hideabout="1" simulatemass="1" lockedkeyboard="0"/>
+  </panorama>
+  <panorama id="node23" hideabout="1">
+    <input levelbiashidpi="1.000" width="2976" levelingroll="0" levelbias="0.400" leveltileurl="tiles/node23/cf_%c/l_%l/c_%x/tile_%y.jpg" height="2976" levelingpitch="0" overlap="1" leveltilesize="510">
+      <level preload="0" predecode="0" width="2976" height="2976"/>
+      <level preload="0" predecode="0" width="1488" height="1488"/>
+      <level preload="0" predecode="0" width="744" height="744"/>
+      <level preload="1" predecode="1" width="372" height="372"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="2">
+      <start fov="120" projection="4" tilt="0" pan="0"/>
+      <flyin fov="170" projection="9" tilt="-90" pan="0"/>
+      <min fov="80" tilt="-90" pan="0"/>
+      <max fovstereographic="330" fov="120" fovfisheye="360" tilt="90" pan="360" scaletofit="1"/>
+    </view>
+    <userdata copyright="" description="" altitude="910.50" source="" info="" datetime="16-04-2026 12:35 PM" latitude="13.056583" nodeid="node23" title="Maths Club" tags="laboratory" longitude="77.582917" heading="0" comment="" author="" customnodeid=""/>
+    <hotspots smoothmovement="0" width="180" wordwrap="1" height="20">
+      <label textalpha="1" borderalpha="1" enabled="1" width="180" backgroundcolor="0xffffff" borderradius="1" height="20" bordercolor="0x000000" textcolor="0x000000" background="1" backgroundalpha="1" border="1" wordwrap="1"/>
+      <polystyle mode="0" borderalpha="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.25098" handcursor="1"/>
+      <hotspot id="Point01" description="" skinid="ht_node_3d_arrow" target="0.0/0.0/100.0" tilt="-6.94" pan="-89.69" url="{node19}" title="Science Lab" distance="15.3751"/>
+      <hotspot id="Point02" description="" skinid="ht_node_3d_arrow" target="-93.3/-2.9/100.0" tilt="-4.85" pan="-349.7" url="{node24}" title="Maths Club" distance="8.99058"/>
+      <hotspot id="Point03" description="" skinid="ht_node_3d_arrow" target="0.0/0.0/100.0" tilt="-3.27" pan="-270.75" url="{node21}" title="Computer Lab" distance="15.3751"/>
+    </hotspots>
+    <media>
+      <sound keep="1" id="joyinsound-corporate-motivational-background-music-403417" level="0.500" mode="7" loop="-1" url="media/skin_snd_joyinsound-corporate-motivational-background-music-403417.mp3"/>
+    </media>
+    <transition type="crossdissolve" zoomafterinfov="140" zoomfov="40" enabled="1" delay="none" blendtime="1" zoomspeed="2" zoomafteroutfov="40" zoomin="0" zoomout="0" softedge="0" zoomoutpause="1" blendcolor="0x000000"/>
+    <autorotate returntohorizon="0.000" horizonfromdefview="0" noderandom="1" enabled="1" delay="5.00" nodedelay="15.00" startloaded="0" speed="0.070" nodefilter="" useanimation="0"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" clipsrandom="0" useinautorotation="0"/>
+    <control lockedkeyboardzoom="0" lockedmouse="0" zoomcentercursor="1" contextvr="1" contextprojections="0" invertwheel="1" dblclickfullscreen="1" rubberband="0" contextfullscreen="1" lockedwheel="0" sensitivity="8" speedwheel="1" invertcontrol="1" hideabout="1" simulatemass="1" lockedkeyboard="0"/>
+  </panorama>
+  <panorama id="node24" hideabout="1">
+    <input levelbiashidpi="1.000" width="2976" levelingroll="0" levelbias="0.400" leveltileurl="tiles/node24/cf_%c/l_%l/c_%x/tile_%y.jpg" height="2976" levelingpitch="0" overlap="1" leveltilesize="510">
+      <level preload="0" predecode="0" width="2976" height="2976"/>
+      <level preload="0" predecode="0" width="1488" height="1488"/>
+      <level preload="0" predecode="0" width="744" height="744"/>
+      <level preload="1" predecode="1" width="372" height="372"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="2">
+      <start fov="120" projection="4" tilt="0" pan="0"/>
+      <flyin fov="170" projection="9" tilt="-90" pan="0"/>
+      <min fov="80" tilt="-90" pan="0"/>
+      <max fovstereographic="330" fov="120" fovfisheye="360" tilt="90" pan="360" scaletofit="1"/>
+    </view>
+    <userdata copyright="" description="" altitude="910.60" source="" info="" datetime="16-04-2026 12:36 PM" latitude="13.056583" nodeid="node24" title="Maths Club" tags="laboratory" longitude="77.583000" heading="0" comment="" author="" customnodeid=""/>
+    <hotspots smoothmovement="0" width="180" wordwrap="1" height="20">
+      <label textalpha="1" borderalpha="1" enabled="1" width="180" backgroundcolor="0xffffff" borderradius="1" height="20" bordercolor="0x000000" textcolor="0x000000" background="1" backgroundalpha="1" border="1" wordwrap="1"/>
+      <polystyle mode="0" borderalpha="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.25098" handcursor="1"/>
+      <hotspot id="Point01" description="" skinid="ht_node_3d_arrow" target="-90.0/-5.8/100.0" tilt="-5.82" pan="-234.96" url="{node23}" title="Maths Club" distance="8.99058"/>
+    </hotspots>
+    <media>
+      <sound keep="1" id="joyinsound-corporate-motivational-background-music-403417" level="0.500" mode="7" loop="-1" url="media/skin_snd_joyinsound-corporate-motivational-background-music-403417.mp3"/>
+    </media>
+    <transition type="crossdissolve" zoomafterinfov="140" zoomfov="40" enabled="1" delay="none" blendtime="1" zoomspeed="2" zoomafteroutfov="40" zoomin="0" zoomout="0" softedge="0" zoomoutpause="1" blendcolor="0x000000"/>
+    <autorotate returntohorizon="0.000" horizonfromdefview="0" noderandom="1" enabled="1" delay="5.00" nodedelay="15.00" startloaded="0" speed="0.070" nodefilter="" useanimation="0"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" clipsrandom="0" useinautorotation="0"/>
+    <control lockedkeyboardzoom="0" lockedmouse="0" zoomcentercursor="1" contextvr="1" contextprojections="0" invertwheel="1" dblclickfullscreen="1" rubberband="0" contextfullscreen="1" lockedwheel="0" sensitivity="8" speedwheel="1" invertcontrol="1" hideabout="1" simulatemass="1" lockedkeyboard="0"/>
+  </panorama>
+  <panorama id="node26" hideabout="1">
+    <input levelbiashidpi="1.000" width="2976" levelingroll="0" levelbias="0.400" leveltileurl="tiles/node26/cf_%c/l_%l/c_%x/tile_%y.jpg" height="2976" levelingpitch="0" overlap="1" leveltilesize="510">
+      <level preload="0" predecode="0" width="2976" height="2976"/>
+      <level preload="0" predecode="0" width="1488" height="1488"/>
+      <level preload="0" predecode="0" width="744" height="744"/>
+      <level preload="1" predecode="1" width="372" height="372"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="2">
+      <start fov="120" projection="4" tilt="0" pan="0"/>
+      <flyin fov="170" projection="9" tilt="-90" pan="0"/>
+      <min fov="80" tilt="-90" pan="0"/>
+      <max fovstereographic="330" fov="120" fovfisheye="360" tilt="90" pan="360" scaletofit="1"/>
+    </view>
+    <userdata copyright="" description="" altitude="910.70" source="" info="" datetime="16-04-2026 01:32 PM" latitude="13.056694" nodeid="node26" title="Auditorium" tags="auditorium" longitude="77.582944" heading="0" comment="" author="" customnodeid=""/>
+    <hotspots smoothmovement="0" width="180" wordwrap="1" height="20">
+      <label textalpha="1" borderalpha="1" enabled="1" width="180" backgroundcolor="0xffffff" borderradius="1" height="20" bordercolor="0x000000" textcolor="0x000000" background="1" backgroundalpha="1" border="1" wordwrap="1"/>
+      <polystyle mode="0" borderalpha="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.25098" handcursor="1"/>
+      <hotspot id="Point01" description="" skinid="ht_node_3d_arrow" target="82.5/1.3/100.0" tilt="-5.49" pan="-357.96" url="{node27}" title="Auditorium" distance="6.06593"/>
+      <hotspot id="Point02" description="" skinid="ht_node" target="-95.3/-7.5/100.0" tilt="-2" pan="-93.7" url="{node29}" title="Auditorium" distance="6.11572"/>
+    </hotspots>
+    <media>
+      <sound keep="1" id="joyinsound-corporate-motivational-background-music-403417" level="0.500" mode="7" loop="-1" url="media/skin_snd_joyinsound-corporate-motivational-background-music-403417.mp3"/>
+    </media>
+    <transition type="crossdissolve" zoomafterinfov="140" zoomfov="40" enabled="1" delay="none" blendtime="1" zoomspeed="2" zoomafteroutfov="40" zoomin="0" zoomout="0" softedge="0" zoomoutpause="1" blendcolor="0x000000"/>
+    <autorotate returntohorizon="0.000" horizonfromdefview="0" noderandom="1" enabled="1" delay="5.00" nodedelay="15.00" startloaded="0" speed="0.070" nodefilter="" useanimation="0"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" clipsrandom="0" useinautorotation="0"/>
+    <control lockedkeyboardzoom="0" lockedmouse="0" zoomcentercursor="1" contextvr="1" contextprojections="0" invertwheel="1" dblclickfullscreen="1" rubberband="0" contextfullscreen="1" lockedwheel="0" sensitivity="8" speedwheel="1" invertcontrol="1" hideabout="1" simulatemass="1" lockedkeyboard="0"/>
+  </panorama>
+  <panorama id="node27" hideabout="1">
+    <input levelbiashidpi="1.000" width="2976" levelingroll="0" levelbias="0.400" leveltileurl="tiles/node27/cf_%c/l_%l/c_%x/tile_%y.jpg" height="2976" levelingpitch="0" overlap="1" leveltilesize="510">
+      <level preload="0" predecode="0" width="2976" height="2976"/>
+      <level preload="0" predecode="0" width="1488" height="1488"/>
+      <level preload="0" predecode="0" width="744" height="744"/>
+      <level preload="1" predecode="1" width="372" height="372"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="2">
+      <start fov="120" projection="4" tilt="0" pan="0"/>
+      <flyin fov="170" projection="9" tilt="-90" pan="0"/>
+      <min fov="80" tilt="-90" pan="0"/>
+      <max fovstereographic="330" fov="120" fovfisheye="360" tilt="90" pan="360" scaletofit="1"/>
+    </view>
+    <userdata copyright="" description="" altitude="910.50" source="" info="" datetime="16-04-2026 01:34 PM" latitude="13.056694" nodeid="node27" title="Auditorium" tags="auditorium" longitude="77.583000" heading="0" comment="" author="" customnodeid=""/>
+    <hotspots smoothmovement="0" width="180" wordwrap="1" height="20">
+      <label textalpha="1" borderalpha="1" enabled="1" width="180" backgroundcolor="0xffffff" borderradius="1" height="20" bordercolor="0x000000" textcolor="0x000000" background="1" backgroundalpha="1" border="1" wordwrap="1"/>
+      <polystyle mode="0" borderalpha="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.25098" handcursor="1"/>
+      <hotspot id="Point01" description="" skinid="ht_node_3d_arrow" target="172.3/-3.3/100.0" tilt="1.85" pan="-77.97" url="{node26}" title="Auditorium" distance="6.06593"/>
+      <hotspot id="Point02" description="" skinid="ht_node_3d_arrow" target="-178.7/-0.1/100.0" tilt="0.61" pan="-359.54" url="{node28}" title="Auditorium" distance="18.7059"/>
+    </hotspots>
+    <media>
+      <sound keep="1" id="joyinsound-corporate-motivational-background-music-403417" level="0.500" mode="7" loop="-1" url="media/skin_snd_joyinsound-corporate-motivational-background-music-403417.mp3"/>
+    </media>
+    <transition type="crossdissolve" zoomafterinfov="140" zoomfov="40" enabled="1" delay="none" blendtime="1" zoomspeed="2" zoomafteroutfov="40" zoomin="0" zoomout="0" softedge="0" zoomoutpause="1" blendcolor="0x000000"/>
+    <autorotate returntohorizon="0.000" horizonfromdefview="0" noderandom="1" enabled="1" delay="5.00" nodedelay="15.00" startloaded="0" speed="0.070" nodefilter="" useanimation="0"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" clipsrandom="0" useinautorotation="0"/>
+    <control lockedkeyboardzoom="0" lockedmouse="0" zoomcentercursor="1" contextvr="1" contextprojections="0" invertwheel="1" dblclickfullscreen="1" rubberband="0" contextfullscreen="1" lockedwheel="0" sensitivity="8" speedwheel="1" invertcontrol="1" hideabout="1" simulatemass="1" lockedkeyboard="0"/>
+  </panorama>
+  <panorama id="node28" hideabout="1">
+    <input levelbiashidpi="1.000" width="2976" levelingroll="0" levelbias="0.400" leveltileurl="tiles/node28/cf_%c/l_%l/c_%x/tile_%y.jpg" height="2976" levelingpitch="0" overlap="1" leveltilesize="510">
+      <level preload="0" predecode="0" width="2976" height="2976"/>
+      <level preload="0" predecode="0" width="1488" height="1488"/>
+      <level preload="0" predecode="0" width="744" height="744"/>
+      <level preload="1" predecode="1" width="372" height="372"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="2">
+      <start fov="120" projection="4" tilt="0" pan="0"/>
+      <flyin fov="170" projection="9" tilt="-90" pan="0"/>
+      <min fov="80" tilt="-90" pan="0"/>
+      <max fovstereographic="330" fov="120" fovfisheye="360" tilt="90" pan="360" scaletofit="1"/>
+    </view>
+    <userdata copyright="" description="" altitude="910.40" source="" info="" datetime="16-04-2026 01:35 PM" latitude="13.056528" nodeid="node28" title="Auditorium" tags="auditorium" longitude="77.583028" heading="0" comment="" author="" customnodeid=""/>
+    <hotspots smoothmovement="0" width="180" wordwrap="1" height="20">
+      <label textalpha="1" borderalpha="1" enabled="1" width="180" backgroundcolor="0xffffff" borderradius="1" height="20" bordercolor="0x000000" textcolor="0x000000" background="1" backgroundalpha="1" border="1" wordwrap="1"/>
+      <polystyle mode="0" borderalpha="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.25098" handcursor="1"/>
+      <hotspot id="Point01" description="" skinid="ht_node_3d_arrow" target="" tilt="-0.71" pan="-5.06" url="{node27}" title="Auditorium" distance="18.7059"/>
+    </hotspots>
+    <media>
+      <sound keep="1" id="joyinsound-corporate-motivational-background-music-403417" level="0.500" mode="7" loop="-1" url="media/skin_snd_joyinsound-corporate-motivational-background-music-403417.mp3"/>
+    </media>
+    <transition type="crossdissolve" zoomafterinfov="140" zoomfov="40" enabled="1" delay="none" blendtime="1" zoomspeed="2" zoomafteroutfov="40" zoomin="0" zoomout="0" softedge="0" zoomoutpause="1" blendcolor="0x000000"/>
+    <autorotate returntohorizon="0.000" horizonfromdefview="0" noderandom="1" enabled="1" delay="5.00" nodedelay="15.00" startloaded="0" speed="0.070" nodefilter="" useanimation="0"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" clipsrandom="0" useinautorotation="0"/>
+    <control lockedkeyboardzoom="0" lockedmouse="0" zoomcentercursor="1" contextvr="1" contextprojections="0" invertwheel="1" dblclickfullscreen="1" rubberband="0" contextfullscreen="1" lockedwheel="0" sensitivity="8" speedwheel="1" invertcontrol="1" hideabout="1" simulatemass="1" lockedkeyboard="0"/>
+  </panorama>
+  <panorama id="node29" hideabout="1">
+    <input levelbiashidpi="1.000" width="2976" levelingroll="0" levelbias="0.400" leveltileurl="tiles/node29/cf_%c/l_%l/c_%x/tile_%y.jpg" height="2976" levelingpitch="0" overlap="1" leveltilesize="510">
+      <level preload="0" predecode="0" width="2976" height="2976"/>
+      <level preload="0" predecode="0" width="1488" height="1488"/>
+      <level preload="0" predecode="0" width="744" height="744"/>
+      <level preload="1" predecode="1" width="372" height="372"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="2">
+      <start fov="120" projection="4" tilt="0" pan="0"/>
+      <flyin fov="170" projection="9" tilt="-90" pan="0"/>
+      <min fov="80" tilt="-90" pan="0"/>
+      <max fovstereographic="330" fov="120" fovfisheye="360" tilt="90" pan="360" scaletofit="1"/>
+    </view>
+    <userdata copyright="" description="" altitude="910.70" source="" info="" datetime="16-04-2026 01:36 PM" latitude="13.056639" nodeid="node29" title="Auditorium" tags="auditorium" longitude="77.582944" heading="0" comment="" author="" customnodeid=""/>
+    <hotspots smoothmovement="0" width="180" wordwrap="1" height="20">
+      <label textalpha="1" borderalpha="1" enabled="1" width="180" backgroundcolor="0xffffff" borderradius="1" height="20" bordercolor="0x000000" textcolor="0x000000" background="1" backgroundalpha="1" border="1" wordwrap="1"/>
+      <polystyle mode="0" borderalpha="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.25098" handcursor="1"/>
+      <hotspot id="Point01" description="" skinid="ht_node_3d_arrow" target="85.3/-5.8/100.0" tilt="-6.17" pan="-274.16" url="{node26}" title="Auditorium" distance="6.11572"/>
+    </hotspots>
+    <media>
+      <sound keep="1" id="joyinsound-corporate-motivational-background-music-403417" level="0.500" mode="7" loop="-1" url="media/skin_snd_joyinsound-corporate-motivational-background-music-403417.mp3"/>
+    </media>
+    <transition type="crossdissolve" zoomafterinfov="140" zoomfov="40" enabled="1" delay="none" blendtime="1" zoomspeed="2" zoomafteroutfov="40" zoomin="0" zoomout="0" softedge="0" zoomoutpause="1" blendcolor="0x000000"/>
+    <autorotate returntohorizon="0.000" horizonfromdefview="0" noderandom="1" enabled="1" delay="5.00" nodedelay="15.00" startloaded="0" speed="0.070" nodefilter="" useanimation="0"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" clipsrandom="0" useinautorotation="0"/>
+    <control lockedkeyboardzoom="0" lockedmouse="0" zoomcentercursor="1" contextvr="1" contextprojections="0" invertwheel="1" dblclickfullscreen="1" rubberband="0" contextfullscreen="1" lockedwheel="0" sensitivity="8" speedwheel="1" invertcontrol="1" hideabout="1" simulatemass="1" lockedkeyboard="0"/>
+  </panorama>
+  <panorama id="node30" hideabout="1">
+    <input levelbiashidpi="1.000" width="2976" levelingroll="0" levelbias="0.400" leveltileurl="tiles/node30/cf_%c/l_%l/c_%x/tile_%y.jpg" height="2976" levelingpitch="0" overlap="1" leveltilesize="510">
+      <level preload="0" predecode="0" width="2976" height="2976"/>
+      <level preload="0" predecode="0" width="1488" height="1488"/>
+      <level preload="0" predecode="0" width="744" height="744"/>
+      <level preload="1" predecode="1" width="372" height="372"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="2">
+      <start fov="120" projection="4" tilt="0" pan="0"/>
+      <flyin fov="170" projection="9" tilt="-90" pan="0"/>
+      <min fov="80" tilt="-90" pan="0"/>
+      <max fovstereographic="330" fov="120" fovfisheye="360" tilt="90" pan="360" scaletofit="1"/>
+    </view>
+    <userdata copyright="" description="" altitude="910.90" source="" info="" datetime="16-04-2026 01:37 PM" latitude="13.056694" nodeid="node30" title="Auditorium" tags="auditorium" longitude="77.582944" heading="0" comment="" author="" customnodeid=""/>
+    <hotspots smoothmovement="0" width="180" wordwrap="1" height="20">
+      <label textalpha="1" borderalpha="1" enabled="1" width="180" backgroundcolor="0xffffff" borderradius="1" height="20" bordercolor="0x000000" textcolor="0x000000" background="1" backgroundalpha="1" border="1" wordwrap="1"/>
+      <polystyle mode="0" borderalpha="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.25098" handcursor="1"/>
+    </hotspots>
+    <media>
+      <sound keep="1" id="joyinsound-corporate-motivational-background-music-403417" level="0.500" mode="7" loop="-1" url="media/skin_snd_joyinsound-corporate-motivational-background-music-403417.mp3"/>
+    </media>
+    <transition type="crossdissolve" zoomafterinfov="140" zoomfov="40" enabled="1" delay="none" blendtime="1" zoomspeed="2" zoomafteroutfov="40" zoomin="0" zoomout="0" softedge="0" zoomoutpause="1" blendcolor="0x000000"/>
+    <autorotate returntohorizon="0.000" horizonfromdefview="0" noderandom="1" enabled="1" delay="5.00" nodedelay="15.00" startloaded="0" speed="0.070" nodefilter="" useanimation="0"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" clipsrandom="0" useinautorotation="0"/>
+    <control lockedkeyboardzoom="0" lockedmouse="0" zoomcentercursor="1" contextvr="1" contextprojections="0" invertwheel="1" dblclickfullscreen="1" rubberband="0" contextfullscreen="1" lockedwheel="0" sensitivity="8" speedwheel="1" invertcontrol="1" hideabout="1" simulatemass="1" lockedkeyboard="0"/>
+  </panorama>
+  <panorama id="node31" hideabout="1">
+    <input levelbiashidpi="1.000" width="2976" levelingroll="0" levelbias="0.400" leveltileurl="tiles/node31/cf_%c/l_%l/c_%x/tile_%y.jpg" height="2976" levelingpitch="0" overlap="1" leveltilesize="510">
+      <level preload="0" predecode="0" width="2976" height="2976"/>
+      <level preload="0" predecode="0" width="1488" height="1488"/>
+      <level preload="0" predecode="0" width="744" height="744"/>
+      <level preload="1" predecode="1" width="372" height="372"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="2">
+      <start fov="120" projection="4" tilt="0" pan="0"/>
+      <flyin fov="170" projection="9" tilt="-90" pan="0"/>
+      <min fov="80" tilt="-90" pan="0"/>
+      <max fovstereographic="330" fov="120" fovfisheye="360" tilt="90" pan="360" scaletofit="1"/>
+    </view>
+    <userdata copyright="" description="" altitude="910.50" source="" info="" datetime="16-04-2026 01:44 PM" latitude="13.056583" nodeid="node31" title="Library" tags="Library" longitude="77.583056" heading="0" comment="" author="" customnodeid=""/>
+    <hotspots smoothmovement="0" width="180" wordwrap="1" height="20">
+      <label textalpha="1" borderalpha="1" enabled="1" width="180" backgroundcolor="0xffffff" borderradius="1" height="20" bordercolor="0x000000" textcolor="0x000000" background="1" backgroundalpha="1" border="1" wordwrap="1"/>
+      <polystyle mode="0" borderalpha="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.25098" handcursor="1"/>
+      <hotspot id="Point01" description="" skinid="ht_node_3d_arrow" target="-2.2/-3.0/100.0" tilt="0.62" pan="-292.33" url="{node32}" title="Library" distance="17.6264"/>
+      <hotspot id="Point02" description="" skinid="ht_node_3d_arrow" target="0.0/0.0/100.0" tilt="-1.62" pan="-185.7" url="{node21}" title="Computer Lab" distance="3.11346"/>
+    </hotspots>
+    <media>
+      <sound keep="1" id="joyinsound-corporate-motivational-background-music-403417" level="0.500" mode="7" loop="-1" url="media/skin_snd_joyinsound-corporate-motivational-background-music-403417.mp3"/>
+    </media>
+    <transition type="crossdissolve" zoomafterinfov="140" zoomfov="40" enabled="1" delay="none" blendtime="1" zoomspeed="2" zoomafteroutfov="40" zoomin="0" zoomout="0" softedge="0" zoomoutpause="1" blendcolor="0x000000"/>
+    <autorotate returntohorizon="0.000" horizonfromdefview="0" noderandom="1" enabled="1" delay="5.00" nodedelay="15.00" startloaded="0" speed="0.070" nodefilter="" useanimation="0"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" clipsrandom="0" useinautorotation="0"/>
+    <control lockedkeyboardzoom="0" lockedmouse="0" zoomcentercursor="1" contextvr="1" contextprojections="0" invertwheel="1" dblclickfullscreen="1" rubberband="0" contextfullscreen="1" lockedwheel="0" sensitivity="8" speedwheel="1" invertcontrol="1" hideabout="1" simulatemass="1" lockedkeyboard="0"/>
+  </panorama>
+  <panorama id="node32" hideabout="1">
+    <input levelbiashidpi="1.000" width="2976" levelingroll="0" levelbias="0.400" leveltileurl="tiles/node32/cf_%c/l_%l/c_%x/tile_%y.jpg" height="2976" levelingpitch="0" overlap="1" leveltilesize="510">
+      <level preload="0" predecode="0" width="2976" height="2976"/>
+      <level preload="0" predecode="0" width="1488" height="1488"/>
+      <level preload="0" predecode="0" width="744" height="744"/>
+      <level preload="1" predecode="1" width="372" height="372"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="2">
+      <start fov="120" projection="4" tilt="0" pan="0"/>
+      <flyin fov="170" projection="9" tilt="-90" pan="0"/>
+      <min fov="80" tilt="-90" pan="0"/>
+      <max fovstereographic="330" fov="120" fovfisheye="360" tilt="90" pan="360" scaletofit="1"/>
+    </view>
+    <userdata copyright="" description="" altitude="910.40" source="" info="" datetime="16-04-2026 01:45 PM" latitude="13.056667" nodeid="node32" title="Library" tags="Library" longitude="77.583194" heading="0" comment="" author="" customnodeid=""/>
+    <hotspots smoothmovement="0" width="180" wordwrap="1" height="20">
+      <label textalpha="1" borderalpha="1" enabled="1" width="180" backgroundcolor="0xffffff" borderradius="1" height="20" bordercolor="0x000000" textcolor="0x000000" background="1" backgroundalpha="1" border="1" wordwrap="1"/>
+      <polystyle mode="0" borderalpha="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.25098" handcursor="1"/>
+      <hotspot id="Point01" description="" skinid="ht_node_3d_arrow" target="-87.1/-8.0/100.0" tilt="-7.49" pan="-183.45" url="{node31}" title="Library" distance="17.6264"/>
+    </hotspots>
+    <media>
+      <sound keep="1" id="joyinsound-corporate-motivational-background-music-403417" level="0.500" mode="7" loop="-1" url="media/skin_snd_joyinsound-corporate-motivational-background-music-403417.mp3"/>
+    </media>
+    <transition type="crossdissolve" zoomafterinfov="140" zoomfov="40" enabled="1" delay="none" blendtime="1" zoomspeed="2" zoomafteroutfov="40" zoomin="0" zoomout="0" softedge="0" zoomoutpause="1" blendcolor="0x000000"/>
+    <autorotate returntohorizon="0.000" horizonfromdefview="0" noderandom="1" enabled="1" delay="5.00" nodedelay="15.00" startloaded="0" speed="0.070" nodefilter="" useanimation="0"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" clipsrandom="0" useinautorotation="0"/>
+    <control lockedkeyboardzoom="0" lockedmouse="0" zoomcentercursor="1" contextvr="1" contextprojections="0" invertwheel="1" dblclickfullscreen="1" rubberband="0" contextfullscreen="1" lockedwheel="0" sensitivity="8" speedwheel="1" invertcontrol="1" hideabout="1" simulatemass="1" lockedkeyboard="0"/>
+  </panorama>
+  <masternode>
+    <userdata copyright="" description="" title="Godwin Public School" tags="" comment="" author=""/>
+    <animationsequences>
+      <sequence title="Animation01"/>
+    </animationsequences>
+  </masternode>
+</tour>

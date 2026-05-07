@@ -1,0 +1,1104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tour hassounds="1" appversion="7.1.8" start="node41" apprev="20986">
+  <panorama hideabout="1" id="node41">
+    <input levelingpitch="0" overlap="1" levelbias="0.400" leveltileurl="tiles/node41/cf_%c/l_%l/c_%x/tile_%y.jpg" width="3000" levelingroll="0" height="3000" levelbiashidpi="1.000" leveltilesize="510">
+      <level predecode="0" preload="0" height="3000" width="3000"/>
+      <level predecode="0" preload="0" height="1500" width="1500"/>
+      <level predecode="0" preload="0" height="750" width="750"/>
+      <level predecode="1" preload="1" height="375" width="375"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="-92.6993" fovmode="2">
+      <start fov="280" projection="9" tilt="-90" pan="0"/>
+      <flyin fov="170" projection="9" tilt="-90" pan="0"/>
+      <min fovpixel="2" tilt="-90" pan="0"/>
+      <max fovstereographic="330" scaletofit="1" fov="140" tilt="90" fovfisheye="360" pan="360"/>
+    </view>
+    <userdata longitude="78.129789" tags="" copyright="" title="" altitude="646.40" comment="" info="" author="" description="" source="" latitude="12.144025" customnodeid="" datetime="19-04-2026 10:00 AM" heading="-92.6993" nodeid="node41"/>
+    <hotspots height="20" wordwrap="1" width="180" smoothmovement="0">
+      <label enabled="1" background="1" textalpha="1" width="180" border="1" backgroundalpha="1" borderalpha="1" bordercolor="0x000000" height="20" borderradius="1" textcolor="0x000000" wordwrap="1" backgroundcolor="0xffffff"/>
+      <polystyle backgroundalpha="0.25098" borderalpha="1" bordercolor="0x0000ff" handcursor="1" mode="0" backgroundcolor="0x0000ff"/>
+    </hotspots>
+    <media>
+      <sound id="krasnoshchok-real-estate-real-estate-hotel-music-505191" keep="1" url="media/skin_snd_krasnoshchok-real-estate-real-estate-hotel-music-505191.mp3" mode="7" loop="-1" level="0.500"/>
+    </media>
+    <transition enabled="1" delay="none" zoomin="7" zoomfov="40" blendcolor="0x000000" zoomafterinfov="140" zoomout="0" type="mesh" softedge="0" zoomoutpause="1" zoomafteroutfov="40" blendtime="1" zoomspeed="2"/>
+    <autorotate enabled="1" delay="3.00" useanimation="0" horizonfromdefview="0" nodedelay="15.00" noderandom="1" returntohorizon="0.000" startloaded="0" nodefilter="" speed="0.070"/>
+    <animation useinautorotation="0" clipsrandom="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control lockedwheel="0" speedwheel="1" contextfullscreen="1" contextvr="1" simulatemass="1" contextprojections="0" dblclickfullscreen="0" invertcontrol="1" hideabout="1" lockedmouse="0" lockedkeyboard="0" zoomcentercursor="1" invertwheel="1" sensitivity="8" lockedkeyboardzoom="0" rubberband="0"/>
+  </panorama>
+  <panorama hideabout="1" id="node1">
+    <input levelingpitch="0" overlap="1" levelbias="0.400" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" width="3000" levelingroll="0" height="3000" levelbiashidpi="1.000" leveltilesize="510">
+      <level predecode="0" preload="0" height="3000" width="3000"/>
+      <level predecode="0" preload="0" height="1500" width="1500"/>
+      <level predecode="0" preload="0" height="750" width="750"/>
+      <level predecode="1" preload="1" height="375" width="375"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="-91.0703" fovmode="2">
+      <start fov="120" projection="4" tilt="-90" pan="0.885609"/>
+      <flyin fov="170" projection="9" tilt="-90" pan="0"/>
+      <min fovpixel="2" tilt="-90" pan="0"/>
+      <max fovstereographic="330" scaletofit="1" fov="140" tilt="90" fovfisheye="360" pan="360"/>
+    </view>
+    <userdata longitude="78.129789" tags="Master" copyright="" title="Master View" altitude="646.40" comment="" info="" author="" description="" source="" latitude="12.144025" customnodeid="" datetime="19-04-2026 10:00 AM" heading="-91.0703" nodeid="node1"/>
+    <hotspots height="20" wordwrap="1" width="180" smoothmovement="0">
+      <label enabled="1" background="1" textalpha="1" width="180" border="1" backgroundalpha="1" borderalpha="1" bordercolor="0x000000" height="20" borderradius="1" textcolor="0x000000" wordwrap="1" backgroundcolor="0xffffff"/>
+      <polystyle backgroundalpha="0.25098" borderalpha="1" bordercolor="0x0000ff" handcursor="1" mode="0" backgroundcolor="0x0000ff"/>
+      <polyhotspot id="Poly01" url="{node13}" description="" title="" target="">
+        <polystring>-76.83/-63.81|-80.43/-53.69|-105.5/-52.81|-113.43/-62.61</polystring>
+      </polyhotspot>
+      <polyhotspot id="Poly02" url="{node14}" description="" title="" target="">
+        <polystring>-119.44/-61.36|-109.97/-51.95|-116.05/-50.75|-126.54/-59.14</polystring>
+      </polyhotspot>
+      <polyhotspot id="Poly03" url="{node6}" description="" title="" target="">
+        <polystring>-117.23/-65.16|-154.73/-77.19|-163.88/-70.03|-129.79/-61.26</polystring>
+      </polyhotspot>
+      <polyhotspot id="Poly04" url="{node5}" description="" title="" target="">
+        <polystring>-155.22/-77.28|-163.76/-70.39|-212.13/-68.1|-225.55/-73.38</polystring>
+      </polyhotspot>
+      <polyhotspot id="Poly05" url="{node4}" description="" title="" target="">
+        <polystring>-226.04/-73.1|-212.58/-68|-240.19/-55.74|-249.54/-57.13</polystring>
+      </polyhotspot>
+      <polyhotspot id="Poly06" url="{node15}" description="" title="" target="">
+        <polystring>-107.89/-66.36|-168.25/-81.34|-2.08/-67.32|-8.99/-67.11|-30.35/-83.47|-75.33/-66.3</polystring>
+      </polyhotspot>
+      <polyhotspot id="Poly07" url="{node19}" description="" title="" target="">
+        <polystring>-235.19/-75.28|-330.12/-65.06|-354.04/-67.98|-187.39/-81.18</polystring>
+      </polyhotspot>
+      <polyhotspot id="Poly08" url="{node18}" description="" title="" target="">
+        <polystring>-300.95/-52.92|-324.34/-63.98|-238.59/-72.66|-254.89/-57.78</polystring>
+      </polyhotspot>
+      <hotspot id="Point01" url="" description="4 min" title="The Vijay Millennium Senior Secondary School" target="_blank" skinid="ht_node_popup_image" tilt="-7.4" pan="-353.04"/>
+      <hotspot id="Point02" url="" description="3 min" title="Variyar Higher Secondary School" target="_blank" skinid="ht_node_popup_image" tilt="-9.39" pan="-314.27"/>
+      <hotspot id="Point03" url="" description="4 min" title="Jothi Mahal" target="_blank" skinid="ht_node_popup_image" tilt="-6.41" pan="-322.82"/>
+      <hotspot id="Point04" url="" description="5 min" title="Radha Krishna Brindavan" target="_blank" skinid="ht_node_popup_image" tilt="-4.1" pan="-330.34"/>
+      <hotspot id="Point05" url="" description="6 min" title="Sri Lakshmi Narayan College of Pharmacy" target="_blank" skinid="ht_node_popup_image" tilt="-3.19" pan="-2.95"/>
+      <hotspot id="Point06" url="" description="1 min" title="Chandra Residency" target="_blank" skinid="ht_node_popup_image" tilt="-14.82" pan="-235.26"/>
+      <hotspot id="Point07" url="" description="6 min" title="New Bus Stand" target="_blank" skinid="ht_node_popup_image" tilt="-6.25" pan="-226.11"/>
+      <hotspot id="Point08" url="" description="5 min" title="sri sai hospital" target="_blank" skinid="ht_node_popup_image" tilt="-5.87" pan="-201.06"/>
+      <hotspot id="Point09" url="" description="6 min" title="Ranga Superspeciality" target="_blank" skinid="ht_node_popup_image" tilt="-0.91" pan="-186.44"/>
+      <hotspot id="Point10" url="" description="13 min" title="District Stadium" target="_blank" skinid="ht_node_popup_image" tilt="-1.67" pan="-209.4"/>
+      <hotspot id="Point11" url="" description="16 min" title="Dharmapuri Railway Station" target="_blank" skinid="ht_node_popup_image" tilt="1.35" pan="-222.37"/>
+      <hotspot id="Point12" url="" description="8 min" title="Dharmapuri Lake" target="_blank" skinid="ht_node_popup_image" tilt="1.17" pan="-160.32"/>
+      <hotspot title="Entrance B" target="" distance="66.7729" id="Point13" url="{node16}" description="" skinid="ht_node_pulse" tilt="-63.43" pan="-63.99"/>
+      <hotspot title="Entrance A" target="" distance="89.9488" id="Point14" url="{node21}" description="" skinid="ht_node_pulse" tilt="-53.79" pan="-255.13"/>
+      <hotspot title="Street View" target="-92.9/0.1/100.0" distance="60.0369" id="Point15" url="{node38}" description="" skinid="ht_node_pulse" tilt="-64.84" pan="-111.34"/>
+      <hotspot title="Street View" target="-133.5/-4.1/100.0" distance="22.9382" id="Point16" url="{node34}" description="" skinid="ht_node_pulse" tilt="-80.42" pan="-178.56"/>
+      <hotspot title="Street View" target="-43.4/-4.8/100.0" distance="30.7887" id="Point17" url="{node30}" description="" skinid="ht_node_pulse" tilt="-73.31" pan="-234.12"/>
+      <hotspot title="Street View" target="176.4/0.3/100.0" distance="93.0402" id="Point18" url="{node26}" description="" skinid="ht_node_pulse" tilt="-62.61" pan="-248.77"/>
+    </hotspots>
+    <media>
+      <image rotz="95.050" popbackmode="0" hidepinned="0" stretch="1.036" width="1612" clickmode="0" roty="4.360" id="Element01" height="2743" handcursor="0" fov="47.920" popoutscaling="100" rotx="-0.480" tilt="-88.170" pan="4.090">
+        <source url="media/Viruksha Avenue Dra_Clipped_Transparent.png"/>
+      </image>
+      <image rotz="0.000" popbackmode="0" hidepinned="0" stretch="1.000" width="1536" clickmode="0" roty="0.000" id="Element02" height="1024" handcursor="0" fov="44.662" popoutscaling="100" rotx="0.000" tilt="-40.700" pan="-353.160">
+        <source url="media/salem blr hwy text.png"/>
+      </image>
+      <image rotz="5.000" popbackmode="0" hidepinned="0" stretch="1.000" width="1536" clickmode="0" roty="0.000" id="Element03" height="1024" handcursor="0" fov="32.707" popoutscaling="100" rotx="0.000" tilt="-44.260" pan="-261.410">
+        <source url="media/Viruksha Avenue A.png"/>
+      </image>
+      <image rotz="-45.000" popbackmode="0" hidepinned="0" stretch="1.000" width="1536" clickmode="0" roty="-12.000" id="Element04" height="1024" handcursor="0" fov="30.451" popoutscaling="100" rotx="0.000" tilt="-56.200" pan="-47.790">
+        <source url="media/Viruksha Avenue B.png"/>
+      </image>
+      <sound id="krasnoshchok-real-estate-real-estate-hotel-music-505191" keep="1" url="media/skin_snd_krasnoshchok-real-estate-real-estate-hotel-music-505191.mp3" mode="7" loop="-1" level="0.500"/>
+    </media>
+    <transition enabled="1" delay="none" zoomin="7" zoomfov="40" blendcolor="0x000000" zoomafterinfov="140" zoomout="0" type="mesh" softedge="0" zoomoutpause="1" zoomafteroutfov="40" blendtime="1" zoomspeed="2"/>
+    <autorotate enabled="1" delay="3.00" useanimation="0" horizonfromdefview="0" nodedelay="15.00" noderandom="1" returntohorizon="0.000" startloaded="0" nodefilter="" speed="0.070"/>
+    <animation useinautorotation="0" clipsrandom="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control lockedwheel="0" speedwheel="1" contextfullscreen="1" contextvr="1" simulatemass="1" contextprojections="0" dblclickfullscreen="0" invertcontrol="1" hideabout="1" lockedmouse="0" lockedkeyboard="0" zoomcentercursor="1" invertwheel="1" sensitivity="8" lockedkeyboardzoom="0" rubberband="0"/>
+  </panorama>
+  <panorama hideabout="1" id="node13">
+    <input levelingpitch="0" overlap="1" levelbias="0.400" leveltileurl="tiles/node13/cf_%c/l_%l/c_%x/tile_%y.jpg" width="3000" levelingroll="0" height="3000" levelbiashidpi="1.000" leveltilesize="510">
+      <level predecode="0" preload="0" height="3000" width="3000"/>
+      <level predecode="0" preload="0" height="1500" width="1500"/>
+      <level predecode="0" preload="0" height="750" width="750"/>
+      <level predecode="1" preload="1" height="375" width="375"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="-180.222" fovmode="2">
+      <start fov="120" projection="4" tilt="-45.0188" pan="-39.9665"/>
+      <flyin fov="170" projection="9" tilt="-90" pan="0"/>
+      <min fovpixel="2" tilt="-90" pan="0"/>
+      <max fovstereographic="330" scaletofit="1" fov="140" tilt="90" fovfisheye="360" pan="360"/>
+    </view>
+    <userdata longitude="78.130064" tags="plotabove" copyright="" title="Plot 1-12 Green" altitude="534.40" comment="" info="" author="" description="" source="" latitude="12.144719" customnodeid="" datetime="19-04-2026 10:44 AM" heading="-180.222" nodeid="node13"/>
+    <hotspots height="20" wordwrap="1" width="180" smoothmovement="0">
+      <label enabled="1" background="1" textalpha="1" width="180" border="1" backgroundalpha="1" borderalpha="1" bordercolor="0x000000" height="20" borderradius="1" textcolor="0x000000" wordwrap="1" backgroundcolor="0xffffff"/>
+      <polystyle backgroundalpha="0.25098" borderalpha="1" bordercolor="0x0000ff" handcursor="1" mode="0" backgroundcolor="0x0000ff"/>
+    </hotspots>
+    <media>
+      <sound id="krasnoshchok-real-estate-real-estate-hotel-music-505191" keep="1" url="media/skin_snd_krasnoshchok-real-estate-real-estate-hotel-music-505191.mp3" mode="7" loop="-1" level="0.500"/>
+    </media>
+    <transition enabled="1" delay="none" zoomin="7" zoomfov="40" blendcolor="0x000000" zoomafterinfov="140" zoomout="0" type="mesh" softedge="0" zoomoutpause="1" zoomafteroutfov="40" blendtime="1" zoomspeed="2"/>
+    <autorotate enabled="1" delay="3.00" useanimation="0" horizonfromdefview="0" nodedelay="15.00" noderandom="1" returntohorizon="0.000" startloaded="0" nodefilter="" speed="0.070"/>
+    <animation useinautorotation="0" clipsrandom="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control lockedwheel="0" speedwheel="1" contextfullscreen="1" contextvr="1" simulatemass="1" contextprojections="0" dblclickfullscreen="0" invertcontrol="1" hideabout="1" lockedmouse="0" lockedkeyboard="0" zoomcentercursor="1" invertwheel="1" sensitivity="8" lockedkeyboardzoom="0" rubberband="0"/>
+  </panorama>
+  <panorama hideabout="1" id="node14">
+    <input levelingpitch="0" overlap="1" levelbias="0.400" leveltileurl="tiles/node14/cf_%c/l_%l/c_%x/tile_%y.jpg" width="3000" levelingroll="0" height="3000" levelbiashidpi="1.000" leveltilesize="510">
+      <level predecode="0" preload="0" height="3000" width="3000"/>
+      <level predecode="0" preload="0" height="1500" width="1500"/>
+      <level predecode="0" preload="0" height="750" width="750"/>
+      <level predecode="1" preload="1" height="375" width="375"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="92.1581" fovmode="2">
+      <start fov="120" projection="4" tilt="-33.8998" pan="-124.835"/>
+      <flyin fov="170" projection="9" tilt="-90" pan="0"/>
+      <min fovpixel="2" tilt="-90" pan="0"/>
+      <max fovstereographic="330" scaletofit="1" fov="140" tilt="90" fovfisheye="360" pan="360"/>
+    </view>
+    <userdata longitude="78.130308" tags="plotabove" copyright="" title="Plot 13-16 Green" altitude="529.10" comment="" info="" author="" description="" source="" latitude="12.144686" customnodeid="" datetime="19-04-2026 10:46 AM" heading="92.1581" nodeid="node14"/>
+    <hotspots height="20" wordwrap="1" width="180" smoothmovement="0">
+      <label enabled="1" background="1" textalpha="1" width="180" border="1" backgroundalpha="1" borderalpha="1" bordercolor="0x000000" height="20" borderradius="1" textcolor="0x000000" wordwrap="1" backgroundcolor="0xffffff"/>
+      <polystyle backgroundalpha="0.25098" borderalpha="1" bordercolor="0x0000ff" handcursor="1" mode="0" backgroundcolor="0x0000ff"/>
+    </hotspots>
+    <media>
+      <sound id="krasnoshchok-real-estate-real-estate-hotel-music-505191" keep="1" url="media/skin_snd_krasnoshchok-real-estate-real-estate-hotel-music-505191.mp3" mode="7" loop="-1" level="0.500"/>
+    </media>
+    <transition enabled="1" delay="none" zoomin="7" zoomfov="40" blendcolor="0x000000" zoomafterinfov="140" zoomout="0" type="mesh" softedge="0" zoomoutpause="1" zoomafteroutfov="40" blendtime="1" zoomspeed="2"/>
+    <autorotate enabled="1" delay="3.00" useanimation="0" horizonfromdefview="0" nodedelay="15.00" noderandom="1" returntohorizon="0.000" startloaded="0" nodefilter="" speed="0.070"/>
+    <animation useinautorotation="0" clipsrandom="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control lockedwheel="0" speedwheel="1" contextfullscreen="1" contextvr="1" simulatemass="1" contextprojections="0" dblclickfullscreen="0" invertcontrol="1" hideabout="1" lockedmouse="0" lockedkeyboard="0" zoomcentercursor="1" invertwheel="1" sensitivity="8" lockedkeyboardzoom="0" rubberband="0"/>
+  </panorama>
+  <panorama hideabout="1" id="node6">
+    <input levelingpitch="0" overlap="1" levelbias="0.400" leveltileurl="tiles/node6/cf_%c/l_%l/c_%x/tile_%y.jpg" width="3000" levelingroll="0" height="3000" levelbiashidpi="1.000" leveltilesize="510">
+      <level predecode="0" preload="0" height="3000" width="3000"/>
+      <level predecode="0" preload="0" height="1500" width="1500"/>
+      <level predecode="0" preload="0" height="750" width="750"/>
+      <level predecode="1" preload="1" height="375" width="375"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="6.74586" fovmode="2">
+      <start fov="120" projection="4" tilt="-24.421" pan="28.3146"/>
+      <flyin fov="170" projection="9" tilt="-90" pan="0"/>
+      <min fovpixel="2" tilt="-90" pan="0"/>
+      <max fovstereographic="330" scaletofit="1" fov="140" tilt="90" fovfisheye="360" pan="360"/>
+    </view>
+    <userdata longitude="78.130203" tags="plotabove" copyright="" title="Plot 1-4 Yellow" altitude="527.10" comment="" info="" author="" description="" source="" latitude="12.144286" customnodeid="" datetime="19-04-2026 10:56 AM" heading="6.74586" nodeid="node6"/>
+    <hotspots height="20" wordwrap="1" width="180" smoothmovement="0">
+      <label enabled="1" background="1" textalpha="1" width="180" border="1" backgroundalpha="1" borderalpha="1" bordercolor="0x000000" height="20" borderradius="1" textcolor="0x000000" wordwrap="1" backgroundcolor="0xffffff"/>
+      <polystyle backgroundalpha="0.25098" borderalpha="1" bordercolor="0x0000ff" handcursor="1" mode="0" backgroundcolor="0x0000ff"/>
+    </hotspots>
+    <media>
+      <sound id="krasnoshchok-real-estate-real-estate-hotel-music-505191" keep="1" url="media/skin_snd_krasnoshchok-real-estate-real-estate-hotel-music-505191.mp3" mode="7" loop="-1" level="0.500"/>
+    </media>
+    <transition enabled="1" delay="none" zoomin="7" zoomfov="40" blendcolor="0x000000" zoomafterinfov="140" zoomout="0" type="mesh" softedge="0" zoomoutpause="1" zoomafteroutfov="40" blendtime="1" zoomspeed="2"/>
+    <autorotate enabled="1" delay="3.00" useanimation="0" horizonfromdefview="0" nodedelay="15.00" noderandom="1" returntohorizon="0.000" startloaded="0" nodefilter="" speed="0.070"/>
+    <animation useinautorotation="0" clipsrandom="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control lockedwheel="0" speedwheel="1" contextfullscreen="1" contextvr="1" simulatemass="1" contextprojections="0" dblclickfullscreen="0" invertcontrol="1" hideabout="1" lockedmouse="0" lockedkeyboard="0" zoomcentercursor="1" invertwheel="1" sensitivity="8" lockedkeyboardzoom="0" rubberband="0"/>
+  </panorama>
+  <panorama hideabout="1" id="node5">
+    <input levelingpitch="0" overlap="1" levelbias="0.400" leveltileurl="tiles/node5/cf_%c/l_%l/c_%x/tile_%y.jpg" width="3000" levelingroll="0" height="3000" levelbiashidpi="1.000" leveltilesize="510">
+      <level predecode="0" preload="0" height="3000" width="3000"/>
+      <level predecode="0" preload="0" height="1500" width="1500"/>
+      <level predecode="0" preload="0" height="750" width="750"/>
+      <level predecode="1" preload="1" height="375" width="375"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="-86.3955" fovmode="2">
+      <start fov="120" projection="4" tilt="-23.3645" pan="-52.0728"/>
+      <flyin fov="170" projection="9" tilt="-90" pan="0"/>
+      <min fovpixel="2" tilt="-90" pan="0"/>
+      <max fovstereographic="330" scaletofit="1" fov="140" tilt="90" fovfisheye="360" pan="360"/>
+    </view>
+    <userdata longitude="78.130147" tags="plotabove" copyright="" title="Plot 5-8 Yellow" altitude="527.30" comment="" info="" author="" description="" source="" latitude="12.143961" customnodeid="" datetime="19-04-2026 10:55 AM" heading="-86.3955" nodeid="node5"/>
+    <hotspots height="20" wordwrap="1" width="180" smoothmovement="0">
+      <label enabled="1" background="1" textalpha="1" width="180" border="1" backgroundalpha="1" borderalpha="1" bordercolor="0x000000" height="20" borderradius="1" textcolor="0x000000" wordwrap="1" backgroundcolor="0xffffff"/>
+      <polystyle backgroundalpha="0.25098" borderalpha="1" bordercolor="0x0000ff" handcursor="1" mode="0" backgroundcolor="0x0000ff"/>
+    </hotspots>
+    <media>
+      <sound id="krasnoshchok-real-estate-real-estate-hotel-music-505191" keep="1" url="media/skin_snd_krasnoshchok-real-estate-real-estate-hotel-music-505191.mp3" mode="7" loop="-1" level="0.500"/>
+    </media>
+    <transition enabled="1" delay="none" zoomin="7" zoomfov="40" blendcolor="0x000000" zoomafterinfov="140" zoomout="0" type="mesh" softedge="0" zoomoutpause="1" zoomafteroutfov="40" blendtime="1" zoomspeed="2"/>
+    <autorotate enabled="1" delay="3.00" useanimation="0" horizonfromdefview="0" nodedelay="15.00" noderandom="1" returntohorizon="0.000" startloaded="0" nodefilter="" speed="0.070"/>
+    <animation useinautorotation="0" clipsrandom="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control lockedwheel="0" speedwheel="1" contextfullscreen="1" contextvr="1" simulatemass="1" contextprojections="0" dblclickfullscreen="0" invertcontrol="1" hideabout="1" lockedmouse="0" lockedkeyboard="0" zoomcentercursor="1" invertwheel="1" sensitivity="8" lockedkeyboardzoom="0" rubberband="0"/>
+  </panorama>
+  <panorama hideabout="1" id="node4">
+    <input levelingpitch="0" overlap="1" levelbias="0.400" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg" width="3000" levelingroll="0" height="3000" levelbiashidpi="1.000" leveltilesize="510">
+      <level predecode="0" preload="0" height="3000" width="3000"/>
+      <level predecode="0" preload="0" height="1500" width="1500"/>
+      <level predecode="0" preload="0" height="750" width="750"/>
+      <level predecode="1" preload="1" height="375" width="375"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="93.2228" fovmode="2">
+      <start fov="120" projection="4" tilt="-22.9071" pan="127.241"/>
+      <flyin fov="170" projection="9" tilt="-90" pan="0"/>
+      <min fovpixel="2" tilt="-90" pan="0"/>
+      <max fovstereographic="330" scaletofit="1" fov="140" tilt="90" fovfisheye="360" pan="360"/>
+    </view>
+    <userdata longitude="78.130064" tags="plotabove" copyright="" title="Plot 9-11 Yellow" altitude="528.80" comment="" info="" author="" description="" source="" latitude="12.143517" customnodeid="" datetime="19-04-2026 10:53 AM" heading="93.2228" nodeid="node4"/>
+    <hotspots height="20" wordwrap="1" width="180" smoothmovement="0">
+      <label enabled="1" background="1" textalpha="1" width="180" border="1" backgroundalpha="1" borderalpha="1" bordercolor="0x000000" height="20" borderradius="1" textcolor="0x000000" wordwrap="1" backgroundcolor="0xffffff"/>
+      <polystyle backgroundalpha="0.25098" borderalpha="1" bordercolor="0x0000ff" handcursor="1" mode="0" backgroundcolor="0x0000ff"/>
+    </hotspots>
+    <media>
+      <sound id="krasnoshchok-real-estate-real-estate-hotel-music-505191" keep="1" url="media/skin_snd_krasnoshchok-real-estate-real-estate-hotel-music-505191.mp3" mode="7" loop="-1" level="0.500"/>
+    </media>
+    <transition enabled="1" delay="none" zoomin="7" zoomfov="40" blendcolor="0x000000" zoomafterinfov="140" zoomout="0" type="mesh" softedge="0" zoomoutpause="1" zoomafteroutfov="40" blendtime="1" zoomspeed="2"/>
+    <autorotate enabled="1" delay="3.00" useanimation="0" horizonfromdefview="0" nodedelay="15.00" noderandom="1" returntohorizon="0.000" startloaded="0" nodefilter="" speed="0.070"/>
+    <animation useinautorotation="0" clipsrandom="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control lockedwheel="0" speedwheel="1" contextfullscreen="1" contextvr="1" simulatemass="1" contextprojections="0" dblclickfullscreen="0" invertcontrol="1" hideabout="1" lockedmouse="0" lockedkeyboard="0" zoomcentercursor="1" invertwheel="1" sensitivity="8" lockedkeyboardzoom="0" rubberband="0"/>
+  </panorama>
+  <panorama hideabout="1" id="node15">
+    <input levelingpitch="0" overlap="1" levelbias="0.400" leveltileurl="tiles/node15/cf_%c/l_%l/c_%x/tile_%y.jpg" width="3000" levelingroll="0" height="3000" levelbiashidpi="1.000" leveltilesize="510">
+      <level predecode="0" preload="0" height="3000" width="3000"/>
+      <level predecode="0" preload="0" height="1500" width="1500"/>
+      <level predecode="0" preload="0" height="750" width="750"/>
+      <level predecode="1" preload="1" height="375" width="375"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="-90.8749" fovmode="2">
+      <start fov="120" projection="4" tilt="-19.7328" pan="-108.026"/>
+      <flyin fov="170" projection="9" tilt="-90" pan="0"/>
+      <min fovpixel="2" tilt="-90" pan="0"/>
+      <max fovstereographic="330" scaletofit="1" fov="140" tilt="90" fovfisheye="360" pan="360"/>
+    </view>
+    <userdata longitude="78.129856" tags="plotabove" copyright="" title="Plot 1-5 Red" altitude="528.30" comment="" info="" author="" description="" source="" latitude="12.144306" customnodeid="" datetime="19-04-2026 10:48 AM" heading="-90.8749" nodeid="node15"/>
+    <hotspots height="20" wordwrap="1" width="180" smoothmovement="0">
+      <label enabled="1" background="1" textalpha="1" width="180" border="1" backgroundalpha="1" borderalpha="1" bordercolor="0x000000" height="20" borderradius="1" textcolor="0x000000" wordwrap="1" backgroundcolor="0xffffff"/>
+      <polystyle backgroundalpha="0.25098" borderalpha="1" bordercolor="0x0000ff" handcursor="1" mode="0" backgroundcolor="0x0000ff"/>
+    </hotspots>
+    <media>
+      <sound id="krasnoshchok-real-estate-real-estate-hotel-music-505191" keep="1" url="media/skin_snd_krasnoshchok-real-estate-real-estate-hotel-music-505191.mp3" mode="7" loop="-1" level="0.500"/>
+    </media>
+    <transition enabled="1" delay="none" zoomin="7" zoomfov="40" blendcolor="0x000000" zoomafterinfov="140" zoomout="0" type="mesh" softedge="0" zoomoutpause="1" zoomafteroutfov="40" blendtime="1" zoomspeed="2"/>
+    <autorotate enabled="1" delay="3.00" useanimation="0" horizonfromdefview="0" nodedelay="15.00" noderandom="1" returntohorizon="0.000" startloaded="0" nodefilter="" speed="0.070"/>
+    <animation useinautorotation="0" clipsrandom="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control lockedwheel="0" speedwheel="1" contextfullscreen="1" contextvr="1" simulatemass="1" contextprojections="0" dblclickfullscreen="0" invertcontrol="1" hideabout="1" lockedmouse="0" lockedkeyboard="0" zoomcentercursor="1" invertwheel="1" sensitivity="8" lockedkeyboardzoom="0" rubberband="0"/>
+  </panorama>
+  <panorama hideabout="1" id="node19">
+    <input levelingpitch="0" overlap="1" levelbias="0.400" leveltileurl="tiles/node19/cf_%c/l_%l/c_%x/tile_%y.jpg" width="3000" levelingroll="0" height="3000" levelbiashidpi="1.000" leveltilesize="510">
+      <level predecode="0" preload="0" height="3000" width="3000"/>
+      <level predecode="0" preload="0" height="1500" width="1500"/>
+      <level predecode="0" preload="0" height="750" width="750"/>
+      <level predecode="1" preload="1" height="375" width="375"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="-83.3072" fovmode="2">
+      <start fov="100" projection="4" tilt="-13.5674" pan="-151.011"/>
+      <flyin fov="170" projection="9" tilt="-90" pan="0"/>
+      <min fovpixel="2" tilt="-90" pan="0"/>
+      <max fovstereographic="330" scaletofit="1" fov="140" tilt="90" fovfisheye="360" pan="360"/>
+    </view>
+    <userdata longitude="78.129611" tags="plotabove" copyright="" title="Plot 6-21 Red" altitude="528.60" comment="" info="" author="" description="" source="" latitude="12.143897" customnodeid="" datetime="19-04-2026 10:50 AM" heading="-83.3072" nodeid="node19"/>
+    <hotspots height="20" wordwrap="1" width="180" smoothmovement="0">
+      <label enabled="1" background="1" textalpha="1" width="180" border="1" backgroundalpha="1" borderalpha="1" bordercolor="0x000000" height="20" borderradius="1" textcolor="0x000000" wordwrap="1" backgroundcolor="0xffffff"/>
+      <polystyle backgroundalpha="0.25098" borderalpha="1" bordercolor="0x0000ff" handcursor="1" mode="0" backgroundcolor="0x0000ff"/>
+    </hotspots>
+    <media>
+      <sound id="krasnoshchok-real-estate-real-estate-hotel-music-505191" keep="1" url="media/skin_snd_krasnoshchok-real-estate-real-estate-hotel-music-505191.mp3" mode="7" loop="-1" level="0.500"/>
+    </media>
+    <transition enabled="1" delay="none" zoomin="7" zoomfov="40" blendcolor="0x000000" zoomafterinfov="140" zoomout="0" type="mesh" softedge="0" zoomoutpause="1" zoomafteroutfov="40" blendtime="1" zoomspeed="2"/>
+    <autorotate enabled="1" delay="3.00" useanimation="0" horizonfromdefview="0" nodedelay="15.00" noderandom="1" returntohorizon="0.000" startloaded="0" nodefilter="" speed="0.070"/>
+    <animation useinautorotation="0" clipsrandom="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control lockedwheel="0" speedwheel="1" contextfullscreen="1" contextvr="1" simulatemass="1" contextprojections="0" dblclickfullscreen="0" invertcontrol="1" hideabout="1" lockedmouse="0" lockedkeyboard="0" zoomcentercursor="1" invertwheel="1" sensitivity="8" lockedkeyboardzoom="0" rubberband="0"/>
+  </panorama>
+  <panorama hideabout="1" id="node18">
+    <input levelingpitch="0" overlap="1" levelbias="0.400" leveltileurl="tiles/node18/cf_%c/l_%l/c_%x/tile_%y.jpg" width="3000" levelingroll="0" height="3000" levelbiashidpi="1.000" leveltilesize="510">
+      <level predecode="0" preload="0" height="3000" width="3000"/>
+      <level predecode="0" preload="0" height="1500" width="1500"/>
+      <level predecode="0" preload="0" height="750" width="750"/>
+      <level predecode="1" preload="1" height="375" width="375"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="-86.0934" fovmode="2">
+      <start fov="100" projection="4" tilt="-14.9198" pan="-147.97"/>
+      <flyin fov="170" projection="9" tilt="-90" pan="0"/>
+      <min fovpixel="2" tilt="-90" pan="0"/>
+      <max fovstereographic="330" scaletofit="1" fov="140" tilt="90" fovfisheye="360" pan="360"/>
+    </view>
+    <userdata longitude="78.129561" tags="plotabove" copyright="" title="Plot 22-45 Red" altitude="527.40" comment="" info="" author="" description="" source="" latitude="12.143592" customnodeid="" datetime="19-04-2026 10:52 AM" heading="-86.0934" nodeid="node18"/>
+    <hotspots height="20" wordwrap="1" width="180" smoothmovement="0">
+      <label enabled="1" background="1" textalpha="1" width="180" border="1" backgroundalpha="1" borderalpha="1" bordercolor="0x000000" height="20" borderradius="1" textcolor="0x000000" wordwrap="1" backgroundcolor="0xffffff"/>
+      <polystyle backgroundalpha="0.25098" borderalpha="1" bordercolor="0x0000ff" handcursor="1" mode="0" backgroundcolor="0x0000ff"/>
+    </hotspots>
+    <media>
+      <sound id="krasnoshchok-real-estate-real-estate-hotel-music-505191" keep="1" url="media/skin_snd_krasnoshchok-real-estate-real-estate-hotel-music-505191.mp3" mode="7" loop="-1" level="0.500"/>
+    </media>
+    <transition enabled="1" delay="none" zoomin="7" zoomfov="40" blendcolor="0x000000" zoomafterinfov="140" zoomout="0" type="mesh" softedge="0" zoomoutpause="1" zoomafteroutfov="40" blendtime="1" zoomspeed="2"/>
+    <autorotate enabled="1" delay="3.00" useanimation="0" horizonfromdefview="0" nodedelay="15.00" noderandom="1" returntohorizon="0.000" startloaded="0" nodefilter="" speed="0.070"/>
+    <animation useinautorotation="0" clipsrandom="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control lockedwheel="0" speedwheel="1" contextfullscreen="1" contextvr="1" simulatemass="1" contextprojections="0" dblclickfullscreen="0" invertcontrol="1" hideabout="1" lockedmouse="0" lockedkeyboard="0" zoomcentercursor="1" invertwheel="1" sensitivity="8" lockedkeyboardzoom="0" rubberband="0"/>
+  </panorama>
+  <panorama hideabout="1" id="node9">
+    <input levelingpitch="0" overlap="1" levelbias="0.400" leveltileurl="tiles/node9/cf_%c/l_%l/c_%x/tile_%y.jpg" width="3000" levelingroll="0" height="3000" levelbiashidpi="1.000" leveltilesize="510">
+      <level predecode="0" preload="0" height="3000" width="3000"/>
+      <level predecode="0" preload="0" height="1500" width="1500"/>
+      <level predecode="0" preload="0" height="750" width="750"/>
+      <level predecode="1" preload="1" height="375" width="375"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="174.155" fovmode="2">
+      <start fov="120" projection="4" tilt="-39.3889" pan="0.846747"/>
+      <flyin fov="170" projection="9" tilt="-90" pan="0"/>
+      <min fovpixel="2" tilt="-90" pan="0"/>
+      <max fovstereographic="330" scaletofit="1" fov="140" tilt="90" fovfisheye="360" pan="360"/>
+    </view>
+    <userdata longitude="78.130053" tags="aerialview" copyright="" title="North View" altitude="585.20" comment="" info="" author="" description="" source="" latitude="12.145192" customnodeid="" datetime="19-04-2026 10:05 AM" heading="174.155" nodeid="node9"/>
+    <hotspots height="20" wordwrap="1" width="180" smoothmovement="0">
+      <label enabled="1" background="1" textalpha="1" width="180" border="1" backgroundalpha="1" borderalpha="1" bordercolor="0x000000" height="20" borderradius="1" textcolor="0x000000" wordwrap="1" backgroundcolor="0xffffff"/>
+      <polystyle backgroundalpha="0.25098" borderalpha="1" bordercolor="0x0000ff" handcursor="1" mode="0" backgroundcolor="0x0000ff"/>
+    </hotspots>
+    <media>
+      <sound id="krasnoshchok-real-estate-real-estate-hotel-music-505191" keep="1" url="media/skin_snd_krasnoshchok-real-estate-real-estate-hotel-music-505191.mp3" mode="7" loop="-1" level="0.500"/>
+    </media>
+    <transition enabled="1" delay="none" zoomin="7" zoomfov="40" blendcolor="0x000000" zoomafterinfov="140" zoomout="0" type="mesh" softedge="0" zoomoutpause="1" zoomafteroutfov="40" blendtime="1" zoomspeed="2"/>
+    <autorotate enabled="1" delay="3.00" useanimation="0" horizonfromdefview="0" nodedelay="15.00" noderandom="1" returntohorizon="0.000" startloaded="0" nodefilter="" speed="0.070"/>
+    <animation useinautorotation="0" clipsrandom="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control lockedwheel="0" speedwheel="1" contextfullscreen="1" contextvr="1" simulatemass="1" contextprojections="0" dblclickfullscreen="0" invertcontrol="1" hideabout="1" lockedmouse="0" lockedkeyboard="0" zoomcentercursor="1" invertwheel="1" sensitivity="8" lockedkeyboardzoom="0" rubberband="0"/>
+  </panorama>
+  <panorama hideabout="1" id="node10">
+    <input levelingpitch="0" overlap="1" levelbias="0.400" leveltileurl="tiles/node10/cf_%c/l_%l/c_%x/tile_%y.jpg" width="3000" levelingroll="0" height="3000" levelbiashidpi="1.000" leveltilesize="510">
+      <level predecode="0" preload="0" height="3000" width="3000"/>
+      <level predecode="0" preload="0" height="1500" width="1500"/>
+      <level predecode="0" preload="0" height="750" width="750"/>
+      <level predecode="1" preload="1" height="375" width="375"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="-92.3805" fovmode="2">
+      <start fov="120" projection="4" tilt="-29.3076" pan="-0.202591"/>
+      <flyin fov="170" projection="9" tilt="-90" pan="0"/>
+      <min fovpixel="2" tilt="-90" pan="0"/>
+      <max fovstereographic="330" scaletofit="1" fov="140" tilt="90" fovfisheye="360" pan="360"/>
+    </view>
+    <userdata longitude="78.130794" tags="aerialview" copyright="" title="East View" altitude="585.10" comment="" info="" author="" description="" source="" latitude="12.143983" customnodeid="" datetime="19-04-2026 10:06 AM" heading="-92.3805" nodeid="node10"/>
+    <hotspots height="20" wordwrap="1" width="180" smoothmovement="0">
+      <label enabled="1" background="1" textalpha="1" width="180" border="1" backgroundalpha="1" borderalpha="1" bordercolor="0x000000" height="20" borderradius="1" textcolor="0x000000" wordwrap="1" backgroundcolor="0xffffff"/>
+      <polystyle backgroundalpha="0.25098" borderalpha="1" bordercolor="0x0000ff" handcursor="1" mode="0" backgroundcolor="0x0000ff"/>
+    </hotspots>
+    <media>
+      <sound id="krasnoshchok-real-estate-real-estate-hotel-music-505191" keep="1" url="media/skin_snd_krasnoshchok-real-estate-real-estate-hotel-music-505191.mp3" mode="7" loop="-1" level="0.500"/>
+    </media>
+    <transition enabled="1" delay="none" zoomin="7" zoomfov="40" blendcolor="0x000000" zoomafterinfov="140" zoomout="0" type="mesh" softedge="0" zoomoutpause="1" zoomafteroutfov="40" blendtime="1" zoomspeed="2"/>
+    <autorotate enabled="1" delay="3.00" useanimation="0" horizonfromdefview="0" nodedelay="15.00" noderandom="1" returntohorizon="0.000" startloaded="0" nodefilter="" speed="0.070"/>
+    <animation useinautorotation="0" clipsrandom="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control lockedwheel="0" speedwheel="1" contextfullscreen="1" contextvr="1" simulatemass="1" contextprojections="0" dblclickfullscreen="0" invertcontrol="1" hideabout="1" lockedmouse="0" lockedkeyboard="0" zoomcentercursor="1" invertwheel="1" sensitivity="8" lockedkeyboardzoom="0" rubberband="0"/>
+  </panorama>
+  <panorama hideabout="1" id="node11">
+    <input levelingpitch="0" overlap="1" levelbias="0.400" leveltileurl="tiles/node11/cf_%c/l_%l/c_%x/tile_%y.jpg" width="3000" levelingroll="0" height="3000" levelbiashidpi="1.000" leveltilesize="510">
+      <level predecode="0" preload="0" height="3000" width="3000"/>
+      <level predecode="0" preload="0" height="1500" width="1500"/>
+      <level predecode="0" preload="0" height="750" width="750"/>
+      <level predecode="1" preload="1" height="375" width="375"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="-0.355987" fovmode="2">
+      <start fov="120" projection="4" tilt="-34.9539" pan="2.56333"/>
+      <flyin fov="170" projection="9" tilt="-90" pan="0"/>
+      <min fovpixel="2" tilt="-90" pan="0"/>
+      <max fovstereographic="330" scaletofit="1" fov="140" tilt="90" fovfisheye="360" pan="360"/>
+    </view>
+    <userdata longitude="78.129503" tags="aerialview" copyright="" title="South View" altitude="575.90" comment="" info="" author="" description="" source="" latitude="12.142928" customnodeid="" datetime="19-04-2026 10:08 AM" heading="-0.355987" nodeid="node11"/>
+    <hotspots height="20" wordwrap="1" width="180" smoothmovement="0">
+      <label enabled="1" background="1" textalpha="1" width="180" border="1" backgroundalpha="1" borderalpha="1" bordercolor="0x000000" height="20" borderradius="1" textcolor="0x000000" wordwrap="1" backgroundcolor="0xffffff"/>
+      <polystyle backgroundalpha="0.25098" borderalpha="1" bordercolor="0x0000ff" handcursor="1" mode="0" backgroundcolor="0x0000ff"/>
+    </hotspots>
+    <media>
+      <sound id="krasnoshchok-real-estate-real-estate-hotel-music-505191" keep="1" url="media/skin_snd_krasnoshchok-real-estate-real-estate-hotel-music-505191.mp3" mode="7" loop="-1" level="0.500"/>
+    </media>
+    <transition enabled="1" delay="none" zoomin="7" zoomfov="40" blendcolor="0x000000" zoomafterinfov="140" zoomout="0" type="mesh" softedge="0" zoomoutpause="1" zoomafteroutfov="40" blendtime="1" zoomspeed="2"/>
+    <autorotate enabled="1" delay="3.00" useanimation="0" horizonfromdefview="0" nodedelay="15.00" noderandom="1" returntohorizon="0.000" startloaded="0" nodefilter="" speed="0.070"/>
+    <animation useinautorotation="0" clipsrandom="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control lockedwheel="0" speedwheel="1" contextfullscreen="1" contextvr="1" simulatemass="1" contextprojections="0" dblclickfullscreen="0" invertcontrol="1" hideabout="1" lockedmouse="0" lockedkeyboard="0" zoomcentercursor="1" invertwheel="1" sensitivity="8" lockedkeyboardzoom="0" rubberband="0"/>
+  </panorama>
+  <panorama hideabout="1" id="node8">
+    <input levelingpitch="0" overlap="1" levelbias="0.400" leveltileurl="tiles/node8/cf_%c/l_%l/c_%x/tile_%y.jpg" width="3000" levelingroll="0" height="3000" levelbiashidpi="1.000" leveltilesize="510">
+      <level predecode="0" preload="0" height="3000" width="3000"/>
+      <level predecode="0" preload="0" height="1500" width="1500"/>
+      <level predecode="0" preload="0" height="750" width="750"/>
+      <level predecode="1" preload="1" height="375" width="375"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="-272.792" fovmode="2">
+      <start fov="120" projection="4" tilt="-26.1694" pan="-53.4729"/>
+      <flyin fov="170" projection="9" tilt="-90" pan="0"/>
+      <min fovpixel="2" tilt="-90" pan="0"/>
+      <max fovstereographic="330" scaletofit="1" fov="140" tilt="90" fovfisheye="360" pan="360"/>
+    </view>
+    <userdata longitude="78.128744" tags="aerialview" copyright="" title="NH View" altitude="585.20" comment="" info="" author="" description="" source="" latitude="12.144744" customnodeid="" datetime="19-04-2026 10:04 AM" heading="-272.792" nodeid="node8"/>
+    <hotspots height="20" wordwrap="1" width="180" smoothmovement="0">
+      <label enabled="1" background="1" textalpha="1" width="180" border="1" backgroundalpha="1" borderalpha="1" bordercolor="0x000000" height="20" borderradius="1" textcolor="0x000000" wordwrap="1" backgroundcolor="0xffffff"/>
+      <polystyle backgroundalpha="0.25098" borderalpha="1" bordercolor="0x0000ff" handcursor="1" mode="0" backgroundcolor="0x0000ff"/>
+    </hotspots>
+    <media>
+      <sound id="krasnoshchok-real-estate-real-estate-hotel-music-505191" keep="1" url="media/skin_snd_krasnoshchok-real-estate-real-estate-hotel-music-505191.mp3" mode="7" loop="-1" level="0.500"/>
+    </media>
+    <transition enabled="1" delay="none" zoomin="7" zoomfov="40" blendcolor="0x000000" zoomafterinfov="140" zoomout="0" type="mesh" softedge="0" zoomoutpause="1" zoomafteroutfov="40" blendtime="1" zoomspeed="2"/>
+    <autorotate enabled="1" delay="3.00" useanimation="0" horizonfromdefview="0" nodedelay="15.00" noderandom="1" returntohorizon="0.000" startloaded="0" nodefilter="" speed="0.070"/>
+    <animation useinautorotation="0" clipsrandom="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control lockedwheel="0" speedwheel="1" contextfullscreen="1" contextvr="1" simulatemass="1" contextprojections="0" dblclickfullscreen="0" invertcontrol="1" hideabout="1" lockedmouse="0" lockedkeyboard="0" zoomcentercursor="1" invertwheel="1" sensitivity="8" lockedkeyboardzoom="0" rubberband="0"/>
+  </panorama>
+  <panorama hideabout="1" id="node12">
+    <input levelingpitch="0" overlap="1" levelbias="0.400" leveltileurl="tiles/node12/cf_%c/l_%l/c_%x/tile_%y.jpg" width="3000" levelingroll="0" height="3000" levelbiashidpi="1.000" leveltilesize="510">
+      <level predecode="0" preload="0" height="3000" width="3000"/>
+      <level predecode="0" preload="0" height="1500" width="1500"/>
+      <level predecode="0" preload="0" height="750" width="750"/>
+      <level predecode="1" preload="1" height="375" width="375"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="91.4428" fovmode="2">
+      <start fov="120" projection="4" tilt="-19.7756" pan="-22.3554"/>
+      <flyin fov="170" projection="9" tilt="-90" pan="0"/>
+      <min fovpixel="2" tilt="-90" pan="0"/>
+      <max fovstereographic="330" scaletofit="1" fov="140" tilt="90" fovfisheye="360" pan="360"/>
+    </view>
+    <userdata longitude="78.127897" tags="aerialview" copyright="" title="Long View NH" altitude="599.00" comment="" info="" author="" description="" source="" latitude="12.144872" customnodeid="" datetime="19-04-2026 10:41 AM" heading="91.4428" nodeid="node12"/>
+    <hotspots height="20" wordwrap="1" width="180" smoothmovement="0">
+      <label enabled="1" background="1" textalpha="1" width="180" border="1" backgroundalpha="1" borderalpha="1" bordercolor="0x000000" height="20" borderradius="1" textcolor="0x000000" wordwrap="1" backgroundcolor="0xffffff"/>
+      <polystyle backgroundalpha="0.25098" borderalpha="1" bordercolor="0x0000ff" handcursor="1" mode="0" backgroundcolor="0x0000ff"/>
+    </hotspots>
+    <media>
+      <sound id="krasnoshchok-real-estate-real-estate-hotel-music-505191" keep="1" url="media/skin_snd_krasnoshchok-real-estate-real-estate-hotel-music-505191.mp3" mode="7" loop="-1" level="0.500"/>
+    </media>
+    <transition enabled="1" delay="none" zoomin="7" zoomfov="40" blendcolor="0x000000" zoomafterinfov="140" zoomout="0" type="mesh" softedge="0" zoomoutpause="1" zoomafteroutfov="40" blendtime="1" zoomspeed="2"/>
+    <autorotate enabled="1" delay="3.00" useanimation="0" horizonfromdefview="0" nodedelay="15.00" noderandom="1" returntohorizon="0.000" startloaded="0" nodefilter="" speed="0.070"/>
+    <animation useinautorotation="0" clipsrandom="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control lockedwheel="0" speedwheel="1" contextfullscreen="1" contextvr="1" simulatemass="1" contextprojections="0" dblclickfullscreen="0" invertcontrol="1" hideabout="1" lockedmouse="0" lockedkeyboard="0" zoomcentercursor="1" invertwheel="1" sensitivity="8" lockedkeyboardzoom="0" rubberband="0"/>
+  </panorama>
+  <panorama hideabout="1" id="node21">
+    <input levelingpitch="0" overlap="1" levelbias="0.400" leveltileurl="tiles/node21/cf_%c/l_%l/c_%x/tile_%y.jpg" width="2976" levelingroll="0" height="2976" levelbiashidpi="1.000" leveltilesize="510">
+      <level predecode="0" preload="0" height="2976" width="2976"/>
+      <level predecode="0" preload="0" height="1488" width="1488"/>
+      <level predecode="0" preload="0" height="744" width="744"/>
+      <level predecode="1" preload="1" height="372" width="372"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="0" fovmode="2">
+      <start fov="100" projection="4" tilt="0" pan="0"/>
+      <flyin fov="170" projection="9" tilt="-90" pan="0"/>
+      <min fovpixel="2" tilt="-90" pan="0"/>
+      <max fovstereographic="330" scaletofit="1" fov="140" tilt="90" fovfisheye="360" pan="360"/>
+    </view>
+    <userdata longitude="78.129889" tags="streetview" copyright="" title="Entrance A" altitude="459.10" comment="" info="" author="" description="" source="" latitude="12.143222" customnodeid="" datetime="19-04-2026 11:45 AM" heading="0" nodeid="node21"/>
+    <hotspots height="20" wordwrap="1" width="180" smoothmovement="0">
+      <label enabled="1" background="1" textalpha="1" width="180" border="1" backgroundalpha="1" borderalpha="1" bordercolor="0x000000" height="20" borderradius="1" textcolor="0x000000" wordwrap="1" backgroundcolor="0xffffff"/>
+      <polystyle backgroundalpha="0.25098" borderalpha="1" bordercolor="0x0000ff" handcursor="1" mode="0" backgroundcolor="0x0000ff"/>
+      <hotspot title="Street View" target="177.6/-1.6/100.0" distance="3.11346" id="Point01" url="{node22}" description="" skinid="ht_node_3d_arrow" tilt="0.18" pan="-359.88"/>
+    </hotspots>
+    <media>
+      <sound id="krasnoshchok-real-estate-real-estate-hotel-music-505191" keep="1" url="media/skin_snd_krasnoshchok-real-estate-real-estate-hotel-music-505191.mp3" mode="7" loop="-1" level="0.500"/>
+    </media>
+    <transition enabled="1" delay="none" zoomin="7" zoomfov="40" blendcolor="0x000000" zoomafterinfov="140" zoomout="0" type="mesh" softedge="0" zoomoutpause="1" zoomafteroutfov="40" blendtime="1" zoomspeed="2"/>
+    <autorotate enabled="1" delay="3.00" useanimation="0" horizonfromdefview="0" nodedelay="15.00" noderandom="1" returntohorizon="0.000" startloaded="0" nodefilter="" speed="0.070"/>
+    <animation useinautorotation="0" clipsrandom="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control lockedwheel="0" speedwheel="1" contextfullscreen="1" contextvr="1" simulatemass="1" contextprojections="0" dblclickfullscreen="0" invertcontrol="1" hideabout="1" lockedmouse="0" lockedkeyboard="0" zoomcentercursor="1" invertwheel="1" sensitivity="8" lockedkeyboardzoom="0" rubberband="0"/>
+  </panorama>
+  <panorama hideabout="1" id="node22">
+    <input levelingpitch="0" overlap="1" levelbias="0.400" leveltileurl="tiles/node22/cf_%c/l_%l/c_%x/tile_%y.jpg" width="2976" levelingroll="0" height="2976" levelbiashidpi="1.000" leveltilesize="510">
+      <level predecode="0" preload="0" height="2976" width="2976"/>
+      <level predecode="0" preload="0" height="1488" width="1488"/>
+      <level predecode="0" preload="0" height="744" width="744"/>
+      <level predecode="1" preload="1" height="372" width="372"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="178.155" fovmode="2">
+      <start fov="100" projection="4" tilt="0" pan="0"/>
+      <flyin fov="170" projection="9" tilt="-90" pan="0"/>
+      <min fovpixel="2" tilt="-90" pan="0"/>
+      <max fovstereographic="330" scaletofit="1" fov="140" tilt="90" fovfisheye="360" pan="360"/>
+    </view>
+    <userdata longitude="78.129889" tags="Edited|streetview" copyright="" title="Street View" altitude="459.40" comment="" info="" author="" description="" source="" latitude="12.143194" customnodeid="" datetime="19-04-2026 11:44 AM" heading="178.155" nodeid="node22"/>
+    <hotspots height="20" wordwrap="1" width="180" smoothmovement="0">
+      <label enabled="1" background="1" textalpha="1" width="180" border="1" backgroundalpha="1" borderalpha="1" bordercolor="0x000000" height="20" borderradius="1" textcolor="0x000000" wordwrap="1" backgroundcolor="0xffffff"/>
+      <polystyle backgroundalpha="0.25098" borderalpha="1" bordercolor="0x0000ff" handcursor="1" mode="0" backgroundcolor="0x0000ff"/>
+      <hotspot title="Entrance A" target="" distance="3.11346" id="Point01" url="{node21}" description="" skinid="ht_node_3d_arrow" tilt="-0.03" pan="-3.23"/>
+      <hotspot id="Point02" url="{node26}" description="" title="Street View" target="178.7/-2.7/100.0" skinid="ht_node_3d_arrow" tilt="-0.99" pan="-182.45"/>
+    </hotspots>
+    <media>
+      <sound id="krasnoshchok-real-estate-real-estate-hotel-music-505191" keep="1" url="media/skin_snd_krasnoshchok-real-estate-real-estate-hotel-music-505191.mp3" mode="7" loop="-1" level="0.500"/>
+    </media>
+    <transition enabled="1" delay="none" zoomin="7" zoomfov="40" blendcolor="0x000000" zoomafterinfov="140" zoomout="0" type="mesh" softedge="0" zoomoutpause="1" zoomafteroutfov="40" blendtime="1" zoomspeed="2"/>
+    <autorotate enabled="1" delay="3.00" useanimation="0" horizonfromdefview="0" nodedelay="15.00" noderandom="1" returntohorizon="0.000" startloaded="0" nodefilter="" speed="0.070"/>
+    <animation useinautorotation="0" clipsrandom="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control lockedwheel="0" speedwheel="1" contextfullscreen="1" contextvr="1" simulatemass="1" contextprojections="0" dblclickfullscreen="0" invertcontrol="1" hideabout="1" lockedmouse="0" lockedkeyboard="0" zoomcentercursor="1" invertwheel="1" sensitivity="8" lockedkeyboardzoom="0" rubberband="0"/>
+  </panorama>
+  <panorama hideabout="1" id="node26">
+    <input levelingpitch="0" overlap="1" levelbias="0.400" leveltileurl="tiles/node26/cf_%c/l_%l/c_%x/tile_%y.jpg" width="2976" levelingroll="0" height="2976" levelbiashidpi="1.000" leveltilesize="510">
+      <level predecode="0" preload="0" height="2976" width="2976"/>
+      <level predecode="0" preload="0" height="1488" width="1488"/>
+      <level predecode="0" preload="0" height="744" width="744"/>
+      <level predecode="1" preload="1" height="372" width="372"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="-183.814" fovmode="2">
+      <start fov="100" projection="4" tilt="0.314392" pan="176.387"/>
+      <flyin fov="170" projection="9" tilt="-90" pan="0"/>
+      <min fovpixel="2" tilt="-90" pan="0"/>
+      <max fovstereographic="330" scaletofit="1" fov="140" tilt="90" fovfisheye="360" pan="360"/>
+    </view>
+    <userdata longitude="78.129889" tags="Edited|streetview" copyright="" title="Street View" altitude="458.60" comment="" info="" author="" description="" source="" latitude="12.143194" customnodeid="" datetime="19-04-2026 11:41 AM" heading="-183.814" nodeid="node26"/>
+    <hotspots height="20" wordwrap="1" width="180" smoothmovement="0">
+      <label enabled="1" background="1" textalpha="1" width="180" border="1" backgroundalpha="1" borderalpha="1" bordercolor="0x000000" height="20" borderradius="1" textcolor="0x000000" wordwrap="1" backgroundcolor="0xffffff"/>
+      <polystyle backgroundalpha="0.25098" borderalpha="1" bordercolor="0x0000ff" handcursor="1" mode="0" backgroundcolor="0x0000ff"/>
+      <hotspot id="Point01" url="{node22}" description="" title="Street View" target="-1.5/3.0/100.0" skinid="ht_node_3d_arrow" tilt="-0.09" pan="-5.05"/>
+      <hotspot title="Street View" target="-3.7/0.2/100.0" distance="21.6151" id="Point02" url="{node24}" description="" skinid="ht_node_3d_arrow" tilt="-0.22" pan="-93.56"/>
+      <hotspot title="Street View" target="177.1/-0.5/100.0" distance="31.0617" id="Point03" url="{node27}" description="" skinid="ht_node_3d_arrow" tilt="-0.52" pan="-183.51"/>
+    </hotspots>
+    <media>
+      <sound id="krasnoshchok-real-estate-real-estate-hotel-music-505191" keep="1" url="media/skin_snd_krasnoshchok-real-estate-real-estate-hotel-music-505191.mp3" mode="7" loop="-1" level="0.500"/>
+    </media>
+    <transition enabled="1" delay="none" zoomin="7" zoomfov="40" blendcolor="0x000000" zoomafterinfov="140" zoomout="0" type="mesh" softedge="0" zoomoutpause="1" zoomafteroutfov="40" blendtime="1" zoomspeed="2"/>
+    <autorotate enabled="1" delay="3.00" useanimation="0" horizonfromdefview="0" nodedelay="15.00" noderandom="1" returntohorizon="0.000" startloaded="0" nodefilter="" speed="0.070"/>
+    <animation useinautorotation="0" clipsrandom="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control lockedwheel="0" speedwheel="1" contextfullscreen="1" contextvr="1" simulatemass="1" contextprojections="0" dblclickfullscreen="0" invertcontrol="1" hideabout="1" lockedmouse="0" lockedkeyboard="0" zoomcentercursor="1" invertwheel="1" sensitivity="8" lockedkeyboardzoom="0" rubberband="0"/>
+  </panorama>
+  <panorama hideabout="1" id="node24">
+    <input levelingpitch="0" overlap="1" levelbias="0.400" leveltileurl="tiles/node24/cf_%c/l_%l/c_%x/tile_%y.jpg" width="2976" levelingroll="0" height="2976" levelbiashidpi="1.000" leveltilesize="510">
+      <level predecode="0" preload="0" height="2976" width="2976"/>
+      <level predecode="0" preload="0" height="1488" width="1488"/>
+      <level predecode="0" preload="0" height="744" width="744"/>
+      <level predecode="1" preload="1" height="372" width="372"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="-93.0742" fovmode="2">
+      <start fov="100" projection="4" tilt="0.392585" pan="-4.42957"/>
+      <flyin fov="170" projection="9" tilt="-90" pan="0"/>
+      <min fovpixel="2" tilt="-90" pan="0"/>
+      <max fovstereographic="330" scaletofit="1" fov="140" tilt="90" fovfisheye="360" pan="360"/>
+    </view>
+    <userdata longitude="78.129750" tags="Edited|streetview" copyright="" title="Street View" altitude="459.10" comment="" info="" author="" description="" source="" latitude="12.143333" customnodeid="" datetime="19-04-2026 11:42 AM" heading="-93.0742" nodeid="node24"/>
+    <hotspots height="20" wordwrap="1" width="180" smoothmovement="0">
+      <label enabled="1" background="1" textalpha="1" width="180" border="1" backgroundalpha="1" borderalpha="1" bordercolor="0x000000" height="20" borderradius="1" textcolor="0x000000" wordwrap="1" backgroundcolor="0xffffff"/>
+      <polystyle backgroundalpha="0.25098" borderalpha="1" bordercolor="0x0000ff" handcursor="1" mode="0" backgroundcolor="0x0000ff"/>
+      <hotspot title="Street View" target="85.6/-5.1/100.0" distance="21.6151" id="Point01" url="{node26}" description="" skinid="ht_node_3d_arrow" tilt="-1.54" pan="-183.67"/>
+      <hotspot title="Street View" target="0.0/0.0/100.0" distance="33.9436" id="Point02" url="{node23}" description="" skinid="ht_node_3d_arrow" tilt="2.04" pan="-3.8"/>
+    </hotspots>
+    <media>
+      <sound id="krasnoshchok-real-estate-real-estate-hotel-music-505191" keep="1" url="media/skin_snd_krasnoshchok-real-estate-real-estate-hotel-music-505191.mp3" mode="7" loop="-1" level="0.500"/>
+    </media>
+    <transition enabled="1" delay="none" zoomin="7" zoomfov="40" blendcolor="0x000000" zoomafterinfov="140" zoomout="0" type="mesh" softedge="0" zoomoutpause="1" zoomafteroutfov="40" blendtime="1" zoomspeed="2"/>
+    <autorotate enabled="1" delay="3.00" useanimation="0" horizonfromdefview="0" nodedelay="15.00" noderandom="1" returntohorizon="0.000" startloaded="0" nodefilter="" speed="0.070"/>
+    <animation useinautorotation="0" clipsrandom="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control lockedwheel="0" speedwheel="1" contextfullscreen="1" contextvr="1" simulatemass="1" contextprojections="0" dblclickfullscreen="0" invertcontrol="1" hideabout="1" lockedmouse="0" lockedkeyboard="0" zoomcentercursor="1" invertwheel="1" sensitivity="8" lockedkeyboardzoom="0" rubberband="0"/>
+  </panorama>
+  <panorama hideabout="1" id="node23">
+    <input levelingpitch="0" overlap="1" levelbias="0.400" leveltileurl="tiles/node23/cf_%c/l_%l/c_%x/tile_%y.jpg" width="2976" levelingroll="0" height="2976" levelbiashidpi="1.000" leveltilesize="510">
+      <level predecode="0" preload="0" height="2976" width="2976"/>
+      <level predecode="0" preload="0" height="1488" width="1488"/>
+      <level predecode="0" preload="0" height="744" width="744"/>
+      <level predecode="1" preload="1" height="372" width="372"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="-92.0233" fovmode="2">
+      <start fov="100" projection="4" tilt="0" pan="0"/>
+      <flyin fov="170" projection="9" tilt="-90" pan="0"/>
+      <min fovpixel="2" tilt="-90" pan="0"/>
+      <max fovstereographic="330" scaletofit="1" fov="140" tilt="90" fovfisheye="360" pan="360"/>
+    </view>
+    <userdata longitude="78.129472" tags="Edited|streetview" copyright="" title="Street View" altitude="458.80" comment="" info="" author="" description="" source="" latitude="12.143472" customnodeid="" datetime="19-04-2026 11:43 AM" heading="-92.0233" nodeid="node23"/>
+    <hotspots height="20" wordwrap="1" width="180" smoothmovement="0">
+      <label enabled="1" background="1" textalpha="1" width="180" border="1" backgroundalpha="1" borderalpha="1" bordercolor="0x000000" height="20" borderradius="1" textcolor="0x000000" wordwrap="1" backgroundcolor="0xffffff"/>
+      <polystyle backgroundalpha="0.25098" borderalpha="1" bordercolor="0x0000ff" handcursor="1" mode="0" backgroundcolor="0x0000ff"/>
+      <hotspot title="Street View" target="175.5/-0.6/100.0" distance="33.9436" id="Point01" url="{node24}" description="" skinid="ht_node_3d_arrow" tilt="-1.52" pan="-180.21"/>
+    </hotspots>
+    <media>
+      <sound id="krasnoshchok-real-estate-real-estate-hotel-music-505191" keep="1" url="media/skin_snd_krasnoshchok-real-estate-real-estate-hotel-music-505191.mp3" mode="7" loop="-1" level="0.500"/>
+    </media>
+    <transition enabled="1" delay="none" zoomin="7" zoomfov="40" blendcolor="0x000000" zoomafterinfov="140" zoomout="0" type="mesh" softedge="0" zoomoutpause="1" zoomafteroutfov="40" blendtime="1" zoomspeed="2"/>
+    <autorotate enabled="1" delay="3.00" useanimation="0" horizonfromdefview="0" nodedelay="15.00" noderandom="1" returntohorizon="0.000" startloaded="0" nodefilter="" speed="0.070"/>
+    <animation useinautorotation="0" clipsrandom="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control lockedwheel="0" speedwheel="1" contextfullscreen="1" contextvr="1" simulatemass="1" contextprojections="0" dblclickfullscreen="0" invertcontrol="1" hideabout="1" lockedmouse="0" lockedkeyboard="0" zoomcentercursor="1" invertwheel="1" sensitivity="8" lockedkeyboardzoom="0" rubberband="0"/>
+  </panorama>
+  <panorama hideabout="1" id="node27">
+    <input levelingpitch="0" overlap="1" levelbias="0.400" leveltileurl="tiles/node27/cf_%c/l_%l/c_%x/tile_%y.jpg" width="2976" levelingroll="0" height="2976" levelbiashidpi="1.000" leveltilesize="510">
+      <level predecode="0" preload="0" height="2976" width="2976"/>
+      <level predecode="0" preload="0" height="1488" width="1488"/>
+      <level predecode="0" preload="0" height="744" width="744"/>
+      <level predecode="1" preload="1" height="372" width="372"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="-183.1" fovmode="2">
+      <start fov="100" projection="4" tilt="0" pan="0"/>
+      <flyin fov="170" projection="9" tilt="-90" pan="0"/>
+      <min fovpixel="2" tilt="-90" pan="0"/>
+      <max fovstereographic="330" scaletofit="1" fov="140" tilt="90" fovfisheye="360" pan="360"/>
+    </view>
+    <userdata longitude="78.129861" tags="Edited|streetview" copyright="" title="Street View" altitude="459.40" comment="" info="" author="" description="" source="" latitude="12.143472" customnodeid="" datetime="19-04-2026 11:40 AM" heading="-183.1" nodeid="node27"/>
+    <hotspots height="20" wordwrap="1" width="180" smoothmovement="0">
+      <label enabled="1" background="1" textalpha="1" width="180" border="1" backgroundalpha="1" borderalpha="1" bordercolor="0x000000" height="20" borderradius="1" textcolor="0x000000" wordwrap="1" backgroundcolor="0xffffff"/>
+      <polystyle backgroundalpha="0.25098" borderalpha="1" bordercolor="0x0000ff" handcursor="1" mode="0" backgroundcolor="0x0000ff"/>
+      <hotspot title="Street View" target="-5.1/2.4/100.0" distance="31.0617" id="Point01" url="{node26}" description="" skinid="ht_node_3d_arrow" tilt="0.37" pan="-4.14"/>
+      <hotspot title="Street View" target="177.4/-0.7/100.0" distance="34.5659" id="Point02" url="{node30}" description="" skinid="ht_node_3d_arrow" tilt="-0.35" pan="-182.86"/>
+    </hotspots>
+    <media>
+      <sound id="krasnoshchok-real-estate-real-estate-hotel-music-505191" keep="1" url="media/skin_snd_krasnoshchok-real-estate-real-estate-hotel-music-505191.mp3" mode="7" loop="-1" level="0.500"/>
+    </media>
+    <transition enabled="1" delay="none" zoomin="7" zoomfov="40" blendcolor="0x000000" zoomafterinfov="140" zoomout="0" type="mesh" softedge="0" zoomoutpause="1" zoomafteroutfov="40" blendtime="1" zoomspeed="2"/>
+    <autorotate enabled="1" delay="3.00" useanimation="0" horizonfromdefview="0" nodedelay="15.00" noderandom="1" returntohorizon="0.000" startloaded="0" nodefilter="" speed="0.070"/>
+    <animation useinautorotation="0" clipsrandom="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control lockedwheel="0" speedwheel="1" contextfullscreen="1" contextvr="1" simulatemass="1" contextprojections="0" dblclickfullscreen="0" invertcontrol="1" hideabout="1" lockedmouse="0" lockedkeyboard="0" zoomcentercursor="1" invertwheel="1" sensitivity="8" lockedkeyboardzoom="0" rubberband="0"/>
+  </panorama>
+  <panorama hideabout="1" id="node30">
+    <input levelingpitch="0" overlap="1" levelbias="0.400" leveltileurl="tiles/node30/cf_%c/l_%l/c_%x/tile_%y.jpg" width="2976" levelingroll="0" height="2976" levelbiashidpi="1.000" leveltilesize="510">
+      <level predecode="0" preload="0" height="2976" width="2976"/>
+      <level predecode="0" preload="0" height="1488" width="1488"/>
+      <level predecode="0" preload="0" height="744" width="744"/>
+      <level predecode="1" preload="1" height="372" width="372"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="177.693" fovmode="2">
+      <start fov="100" projection="4" tilt="0" pan="0"/>
+      <flyin fov="170" projection="9" tilt="-90" pan="0"/>
+      <min fovpixel="2" tilt="-90" pan="0"/>
+      <max fovstereographic="330" scaletofit="1" fov="140" tilt="90" fovfisheye="360" pan="360"/>
+    </view>
+    <userdata longitude="78.129917" tags="Edited|streetview" copyright="" title="Street View" altitude="458.80" comment="" info="" author="" description="" source="" latitude="12.143778" customnodeid="" datetime="19-04-2026 11:37 AM" heading="177.693" nodeid="node30"/>
+    <hotspots height="20" wordwrap="1" width="180" smoothmovement="0">
+      <label enabled="1" background="1" textalpha="1" width="180" border="1" backgroundalpha="1" borderalpha="1" bordercolor="0x000000" height="20" borderradius="1" textcolor="0x000000" wordwrap="1" backgroundcolor="0xffffff"/>
+      <polystyle backgroundalpha="0.25098" borderalpha="1" bordercolor="0x0000ff" handcursor="1" mode="0" backgroundcolor="0x0000ff"/>
+      <hotspot title="Street View" target="-3.3/0.9/100.0" distance="34.5659" id="Point01" url="{node27}" description="" skinid="ht_node_3d_arrow" tilt="0.44" pan="-3.04"/>
+      <hotspot title="Street View" target="-2.6/1.5/100.0" distance="19.1923" id="Point02" url="{node29}" description="" skinid="ht_node_3d_arrow" tilt="1.26" pan="-91.36"/>
+      <hotspot title="Street View" target="176.1/-0.2/100.0" distance="9.22918" id="Point03" url="{node34}" description="" skinid="ht_node_3d_arrow" tilt="-0.64" pan="-182.54"/>
+    </hotspots>
+    <media>
+      <sound id="krasnoshchok-real-estate-real-estate-hotel-music-505191" keep="1" url="media/skin_snd_krasnoshchok-real-estate-real-estate-hotel-music-505191.mp3" mode="7" loop="-1" level="0.500"/>
+    </media>
+    <transition enabled="1" delay="none" zoomin="7" zoomfov="40" blendcolor="0x000000" zoomafterinfov="140" zoomout="0" type="mesh" softedge="0" zoomoutpause="1" zoomafteroutfov="40" blendtime="1" zoomspeed="2"/>
+    <autorotate enabled="1" delay="3.00" useanimation="0" horizonfromdefview="0" nodedelay="15.00" noderandom="1" returntohorizon="0.000" startloaded="0" nodefilter="" speed="0.070"/>
+    <animation useinautorotation="0" clipsrandom="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control lockedwheel="0" speedwheel="1" contextfullscreen="1" contextvr="1" simulatemass="1" contextprojections="0" dblclickfullscreen="0" invertcontrol="1" hideabout="1" lockedmouse="0" lockedkeyboard="0" zoomcentercursor="1" invertwheel="1" sensitivity="8" lockedkeyboardzoom="0" rubberband="0"/>
+  </panorama>
+  <panorama hideabout="1" id="node29">
+    <input levelingpitch="0" overlap="1" levelbias="0.400" leveltileurl="tiles/node29/cf_%c/l_%l/c_%x/tile_%y.jpg" width="2976" levelingroll="0" height="2976" levelbiashidpi="1.000" leveltilesize="510">
+      <level predecode="0" preload="0" height="2976" width="2976"/>
+      <level predecode="0" preload="0" height="1488" width="1488"/>
+      <level predecode="0" preload="0" height="744" width="744"/>
+      <level predecode="1" preload="1" height="372" width="372"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="-95.7874" fovmode="2">
+      <start fov="100" projection="4" tilt="0" pan="0"/>
+      <flyin fov="170" projection="9" tilt="-90" pan="0"/>
+      <min fovpixel="2" tilt="-90" pan="0"/>
+      <max fovstereographic="330" scaletofit="1" fov="140" tilt="90" fovfisheye="360" pan="360"/>
+    </view>
+    <userdata longitude="78.129750" tags="Edited|streetview" copyright="" title="Street View" altitude="458.90" comment="" info="" author="" description="" source="" latitude="12.143722" customnodeid="" datetime="19-04-2026 11:38 AM" heading="-95.7874" nodeid="node29"/>
+    <hotspots height="20" wordwrap="1" width="180" smoothmovement="0">
+      <label enabled="1" background="1" textalpha="1" width="180" border="1" backgroundalpha="1" borderalpha="1" bordercolor="0x000000" height="20" borderradius="1" textcolor="0x000000" wordwrap="1" backgroundcolor="0xffffff"/>
+      <polystyle backgroundalpha="0.25098" borderalpha="1" bordercolor="0x0000ff" handcursor="1" mode="0" backgroundcolor="0x0000ff"/>
+      <hotspot title="Street View" target="87.4/3.4/100.0" distance="19.1923" id="Point01" url="{node30}" description="" skinid="ht_node_3d_arrow" tilt="0.02" pan="-182.86"/>
+      <hotspot title="Street View" target="-0.4/0.0/100.0" distance="33.2643" id="Point02" url="{node28}" description="" skinid="ht_node_3d_arrow" tilt="1.67" pan="-2.64"/>
+    </hotspots>
+    <media>
+      <sound id="krasnoshchok-real-estate-real-estate-hotel-music-505191" keep="1" url="media/skin_snd_krasnoshchok-real-estate-real-estate-hotel-music-505191.mp3" mode="7" loop="-1" level="0.500"/>
+    </media>
+    <transition enabled="1" delay="none" zoomin="7" zoomfov="40" blendcolor="0x000000" zoomafterinfov="140" zoomout="0" type="mesh" softedge="0" zoomoutpause="1" zoomafteroutfov="40" blendtime="1" zoomspeed="2"/>
+    <autorotate enabled="1" delay="3.00" useanimation="0" horizonfromdefview="0" nodedelay="15.00" noderandom="1" returntohorizon="0.000" startloaded="0" nodefilter="" speed="0.070"/>
+    <animation useinautorotation="0" clipsrandom="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control lockedwheel="0" speedwheel="1" contextfullscreen="1" contextvr="1" simulatemass="1" contextprojections="0" dblclickfullscreen="0" invertcontrol="1" hideabout="1" lockedmouse="0" lockedkeyboard="0" zoomcentercursor="1" invertwheel="1" sensitivity="8" lockedkeyboardzoom="0" rubberband="0"/>
+  </panorama>
+  <panorama hideabout="1" id="node28">
+    <input levelingpitch="0" overlap="1" levelbias="0.400" leveltileurl="tiles/node28/cf_%c/l_%l/c_%x/tile_%y.jpg" width="2976" levelingroll="0" height="2976" levelbiashidpi="1.000" leveltilesize="510">
+      <level predecode="0" preload="0" height="2976" width="2976"/>
+      <level predecode="0" preload="0" height="1488" width="1488"/>
+      <level predecode="0" preload="0" height="744" width="744"/>
+      <level predecode="1" preload="1" height="372" width="372"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="-93.6129" fovmode="2">
+      <start fov="100" projection="4" tilt="0" pan="0"/>
+      <flyin fov="170" projection="9" tilt="-90" pan="0"/>
+      <min fovpixel="2" tilt="-90" pan="0"/>
+      <max fovstereographic="330" scaletofit="1" fov="140" tilt="90" fovfisheye="360" pan="360"/>
+    </view>
+    <userdata longitude="78.129444" tags="Edited|streetview" copyright="" title="Street View" altitude="459.50" comment="" info="" author="" description="" source="" latitude="12.143722" customnodeid="" datetime="19-04-2026 11:39 AM" heading="-93.6129" nodeid="node28"/>
+    <hotspots height="20" wordwrap="1" width="180" smoothmovement="0">
+      <label enabled="1" background="1" textalpha="1" width="180" border="1" backgroundalpha="1" borderalpha="1" bordercolor="0x000000" height="20" borderradius="1" textcolor="0x000000" wordwrap="1" backgroundcolor="0xffffff"/>
+      <polystyle backgroundalpha="0.25098" borderalpha="1" bordercolor="0x0000ff" handcursor="1" mode="0" backgroundcolor="0x0000ff"/>
+      <hotspot title="Street View" target="177.2/-1.5/100.0" distance="33.2643" id="Point01" url="{node29}" description="" skinid="ht_node_3d_arrow" tilt="-1.11" pan="-181.32"/>
+    </hotspots>
+    <media>
+      <sound id="krasnoshchok-real-estate-real-estate-hotel-music-505191" keep="1" url="media/skin_snd_krasnoshchok-real-estate-real-estate-hotel-music-505191.mp3" mode="7" loop="-1" level="0.500"/>
+    </media>
+    <transition enabled="1" delay="none" zoomin="7" zoomfov="40" blendcolor="0x000000" zoomafterinfov="140" zoomout="0" type="mesh" softedge="0" zoomoutpause="1" zoomafteroutfov="40" blendtime="1" zoomspeed="2"/>
+    <autorotate enabled="1" delay="3.00" useanimation="0" horizonfromdefview="0" nodedelay="15.00" noderandom="1" returntohorizon="0.000" startloaded="0" nodefilter="" speed="0.070"/>
+    <animation useinautorotation="0" clipsrandom="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control lockedwheel="0" speedwheel="1" contextfullscreen="1" contextvr="1" simulatemass="1" contextprojections="0" dblclickfullscreen="0" invertcontrol="1" hideabout="1" lockedmouse="0" lockedkeyboard="0" zoomcentercursor="1" invertwheel="1" sensitivity="8" lockedkeyboardzoom="0" rubberband="0"/>
+  </panorama>
+  <panorama hideabout="1" id="node34">
+    <input levelingpitch="0" overlap="1" levelbias="0.400" leveltileurl="tiles/node34/cf_%c/l_%l/c_%x/tile_%y.jpg" width="2976" levelingroll="0" height="2976" levelbiashidpi="1.000" leveltilesize="510">
+      <level predecode="0" preload="0" height="2976" width="2976"/>
+      <level predecode="0" preload="0" height="1488" width="1488"/>
+      <level predecode="0" preload="0" height="744" width="744"/>
+      <level predecode="1" preload="1" height="372" width="372"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="-184.388" fovmode="2">
+      <start fov="100" projection="4" tilt="0" pan="0"/>
+      <flyin fov="170" projection="9" tilt="-90" pan="0"/>
+      <min fovpixel="2" tilt="-90" pan="0"/>
+      <max fovstereographic="330" scaletofit="1" fov="140" tilt="90" fovfisheye="360" pan="360"/>
+    </view>
+    <userdata longitude="78.129917" tags="Edited|streetview" copyright="" title="Street View" altitude="459.90" comment="" info="" author="" description="" source="" latitude="12.143861" customnodeid="" datetime="19-04-2026 11:33 AM" heading="-184.388" nodeid="node34"/>
+    <hotspots height="20" wordwrap="1" width="180" smoothmovement="0">
+      <label enabled="1" background="1" textalpha="1" width="180" border="1" backgroundalpha="1" borderalpha="1" bordercolor="0x000000" height="20" borderradius="1" textcolor="0x000000" wordwrap="1" backgroundcolor="0xffffff"/>
+      <polystyle backgroundalpha="0.25098" borderalpha="1" bordercolor="0x0000ff" handcursor="1" mode="0" backgroundcolor="0x0000ff"/>
+      <hotspot title="Street View" target="-2.5/2.2/100.0" distance="9.22918" id="Point01" url="{node30}" description="" skinid="ht_node_3d_arrow" tilt="0.77" pan="-4.69"/>
+      <hotspot title="Street View" target="-2.0/2.2/100.0" distance="25.9691" id="Point02" url="{node33}" description="" skinid="ht_node_3d_arrow" tilt="0.84" pan="-93.03"/>
+      <hotspot title="Street View" target="176.6/-0.0/100.0" distance="50.9389" id="Point03" url="{node35}" description="" skinid="ht_node_3d_arrow" tilt="0.62" pan="-184.08"/>
+    </hotspots>
+    <media>
+      <sound id="krasnoshchok-real-estate-real-estate-hotel-music-505191" keep="1" url="media/skin_snd_krasnoshchok-real-estate-real-estate-hotel-music-505191.mp3" mode="7" loop="-1" level="0.500"/>
+    </media>
+    <transition enabled="1" delay="none" zoomin="7" zoomfov="40" blendcolor="0x000000" zoomafterinfov="140" zoomout="0" type="mesh" softedge="0" zoomoutpause="1" zoomafteroutfov="40" blendtime="1" zoomspeed="2"/>
+    <autorotate enabled="1" delay="3.00" useanimation="0" horizonfromdefview="0" nodedelay="15.00" noderandom="1" returntohorizon="0.000" startloaded="0" nodefilter="" speed="0.070"/>
+    <animation useinautorotation="0" clipsrandom="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control lockedwheel="0" speedwheel="1" contextfullscreen="1" contextvr="1" simulatemass="1" contextprojections="0" dblclickfullscreen="0" invertcontrol="1" hideabout="1" lockedmouse="0" lockedkeyboard="0" zoomcentercursor="1" invertwheel="1" sensitivity="8" lockedkeyboardzoom="0" rubberband="0"/>
+  </panorama>
+  <panorama hideabout="1" id="node33">
+    <input levelingpitch="0" overlap="1" levelbias="0.400" leveltileurl="tiles/node33/cf_%c/l_%l/c_%x/tile_%y.jpg" width="2976" levelingroll="0" height="2976" levelbiashidpi="1.000" leveltilesize="510">
+      <level predecode="0" preload="0" height="2976" width="2976"/>
+      <level predecode="0" preload="0" height="1488" width="1488"/>
+      <level predecode="0" preload="0" height="744" width="744"/>
+      <level predecode="1" preload="1" height="372" width="372"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="-93.7048" fovmode="2">
+      <start fov="100" projection="4" tilt="0" pan="0"/>
+      <flyin fov="170" projection="9" tilt="-90" pan="0"/>
+      <min fovpixel="2" tilt="-90" pan="0"/>
+      <max fovstereographic="330" scaletofit="1" fov="140" tilt="90" fovfisheye="360" pan="360"/>
+    </view>
+    <userdata longitude="78.129750" tags="Edited|streetview" copyright="" title="Street View" altitude="458.50" comment="" info="" author="" description="" source="" latitude="12.144028" customnodeid="" datetime="19-04-2026 11:34 AM" heading="-93.7048" nodeid="node33"/>
+    <hotspots height="20" wordwrap="1" width="180" smoothmovement="0">
+      <label enabled="1" background="1" textalpha="1" width="180" border="1" backgroundalpha="1" borderalpha="1" bordercolor="0x000000" height="20" borderradius="1" textcolor="0x000000" wordwrap="1" backgroundcolor="0xffffff"/>
+      <polystyle backgroundalpha="0.25098" borderalpha="1" bordercolor="0x0000ff" handcursor="1" mode="0" backgroundcolor="0x0000ff"/>
+      <hotspot title="Street View" target="84.3/1.0/100.0" distance="25.9691" id="Point01" url="{node34}" description="" skinid="ht_node_3d_arrow" tilt="-0.52" pan="-182.34"/>
+      <hotspot title="Street View" target="-6.8/2.4/100.0" distance="4.35411" id="Point02" url="{node32}" description="" skinid="ht_node_3d_arrow" tilt="0.55" pan="-1.95"/>
+    </hotspots>
+    <media>
+      <sound id="krasnoshchok-real-estate-real-estate-hotel-music-505191" keep="1" url="media/skin_snd_krasnoshchok-real-estate-real-estate-hotel-music-505191.mp3" mode="7" loop="-1" level="0.500"/>
+    </media>
+    <transition enabled="1" delay="none" zoomin="7" zoomfov="40" blendcolor="0x000000" zoomafterinfov="140" zoomout="0" type="mesh" softedge="0" zoomoutpause="1" zoomafteroutfov="40" blendtime="1" zoomspeed="2"/>
+    <autorotate enabled="1" delay="3.00" useanimation="0" horizonfromdefview="0" nodedelay="15.00" noderandom="1" returntohorizon="0.000" startloaded="0" nodefilter="" speed="0.070"/>
+    <animation useinautorotation="0" clipsrandom="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control lockedwheel="0" speedwheel="1" contextfullscreen="1" contextvr="1" simulatemass="1" contextprojections="0" dblclickfullscreen="0" invertcontrol="1" hideabout="1" lockedmouse="0" lockedkeyboard="0" zoomcentercursor="1" invertwheel="1" sensitivity="8" lockedkeyboardzoom="0" rubberband="0"/>
+  </panorama>
+  <panorama hideabout="1" id="node32">
+    <input levelingpitch="0" overlap="1" levelbias="0.400" leveltileurl="tiles/node32/cf_%c/l_%l/c_%x/tile_%y.jpg" width="2976" levelingroll="0" height="2976" levelbiashidpi="1.000" leveltilesize="510">
+      <level predecode="0" preload="0" height="2976" width="2976"/>
+      <level predecode="0" preload="0" height="1488" width="1488"/>
+      <level predecode="0" preload="0" height="744" width="744"/>
+      <level predecode="1" preload="1" height="372" width="372"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="-94.7708" fovmode="2">
+      <start fov="100" projection="4" tilt="0" pan="0"/>
+      <flyin fov="170" projection="9" tilt="-90" pan="0"/>
+      <min fovpixel="2" tilt="-90" pan="0"/>
+      <max fovstereographic="330" scaletofit="1" fov="140" tilt="90" fovfisheye="360" pan="360"/>
+    </view>
+    <userdata longitude="78.129778" tags="Edited|streetview" copyright="" title="Street View" altitude="459.10" comment="" info="" author="" description="" source="" latitude="12.144056" customnodeid="" datetime="19-04-2026 11:34 AM" heading="-94.7708" nodeid="node32"/>
+    <hotspots height="20" wordwrap="1" width="180" smoothmovement="0">
+      <label enabled="1" background="1" textalpha="1" width="180" border="1" backgroundalpha="1" borderalpha="1" bordercolor="0x000000" height="20" borderradius="1" textcolor="0x000000" wordwrap="1" backgroundcolor="0xffffff"/>
+      <polystyle backgroundalpha="0.25098" borderalpha="1" bordercolor="0x0000ff" handcursor="1" mode="0" backgroundcolor="0x0000ff"/>
+      <hotspot title="Street View" target="177.9/2.1/100.0" distance="4.35411" id="Point01" url="{node33}" description="" skinid="ht_node_3d_arrow" tilt="0.58" pan="-186.82"/>
+      <hotspot title="Street View" target="0.3/3.5/100.0" distance="27.342" id="Point02" url="{node31}" description="" skinid="ht_node_3d_arrow" tilt="2.13" pan="-6.62"/>
+    </hotspots>
+    <media>
+      <sound id="krasnoshchok-real-estate-real-estate-hotel-music-505191" keep="1" url="media/skin_snd_krasnoshchok-real-estate-real-estate-hotel-music-505191.mp3" mode="7" loop="-1" level="0.500"/>
+    </media>
+    <transition enabled="1" delay="none" zoomin="7" zoomfov="40" blendcolor="0x000000" zoomafterinfov="140" zoomout="0" type="mesh" softedge="0" zoomoutpause="1" zoomafteroutfov="40" blendtime="1" zoomspeed="2"/>
+    <autorotate enabled="1" delay="3.00" useanimation="0" horizonfromdefview="0" nodedelay="15.00" noderandom="1" returntohorizon="0.000" startloaded="0" nodefilter="" speed="0.070"/>
+    <animation useinautorotation="0" clipsrandom="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control lockedwheel="0" speedwheel="1" contextfullscreen="1" contextvr="1" simulatemass="1" contextprojections="0" dblclickfullscreen="0" invertcontrol="1" hideabout="1" lockedmouse="0" lockedkeyboard="0" zoomcentercursor="1" invertwheel="1" sensitivity="8" lockedkeyboardzoom="0" rubberband="0"/>
+  </panorama>
+  <panorama hideabout="1" id="node31">
+    <input levelingpitch="0" overlap="1" levelbias="0.400" leveltileurl="tiles/node31/cf_%c/l_%l/c_%x/tile_%y.jpg" width="2976" levelingroll="0" height="2976" levelbiashidpi="1.000" leveltilesize="510">
+      <level predecode="0" preload="0" height="2976" width="2976"/>
+      <level predecode="0" preload="0" height="1488" width="1488"/>
+      <level predecode="0" preload="0" height="744" width="744"/>
+      <level predecode="1" preload="1" height="372" width="372"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="-91.7276" fovmode="2">
+      <start fov="100" projection="4" tilt="0" pan="0"/>
+      <flyin fov="170" projection="9" tilt="-90" pan="0"/>
+      <min fovpixel="2" tilt="-90" pan="0"/>
+      <max fovstereographic="330" scaletofit="1" fov="140" tilt="90" fovfisheye="360" pan="360"/>
+    </view>
+    <userdata longitude="78.129528" tags="Edited|streetview" copyright="" title="Street View" altitude="459.30" comment="" info="" author="" description="" source="" latitude="12.144083" customnodeid="" datetime="19-04-2026 11:35 AM" heading="-91.7276" nodeid="node31"/>
+    <hotspots height="20" wordwrap="1" width="180" smoothmovement="0">
+      <label enabled="1" background="1" textalpha="1" width="180" border="1" backgroundalpha="1" borderalpha="1" bordercolor="0x000000" height="20" borderradius="1" textcolor="0x000000" wordwrap="1" backgroundcolor="0xffffff"/>
+      <polystyle backgroundalpha="0.25098" borderalpha="1" bordercolor="0x0000ff" handcursor="1" mode="0" backgroundcolor="0x0000ff"/>
+      <hotspot title="Street View" target="173.1/0.2/100.0" distance="27.342" id="Point01" url="{node32}" description="" skinid="ht_node_3d_arrow" tilt="0.58" pan="-179.61"/>
+    </hotspots>
+    <media>
+      <sound id="krasnoshchok-real-estate-real-estate-hotel-music-505191" keep="1" url="media/skin_snd_krasnoshchok-real-estate-real-estate-hotel-music-505191.mp3" mode="7" loop="-1" level="0.500"/>
+    </media>
+    <transition enabled="1" delay="none" zoomin="7" zoomfov="40" blendcolor="0x000000" zoomafterinfov="140" zoomout="0" type="mesh" softedge="0" zoomoutpause="1" zoomafteroutfov="40" blendtime="1" zoomspeed="2"/>
+    <autorotate enabled="1" delay="3.00" useanimation="0" horizonfromdefview="0" nodedelay="15.00" noderandom="1" returntohorizon="0.000" startloaded="0" nodefilter="" speed="0.070"/>
+    <animation useinautorotation="0" clipsrandom="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control lockedwheel="0" speedwheel="1" contextfullscreen="1" contextvr="1" simulatemass="1" contextprojections="0" dblclickfullscreen="0" invertcontrol="1" hideabout="1" lockedmouse="0" lockedkeyboard="0" zoomcentercursor="1" invertwheel="1" sensitivity="8" lockedkeyboardzoom="0" rubberband="0"/>
+  </panorama>
+  <panorama hideabout="1" id="node35">
+    <input levelingpitch="0" overlap="1" levelbias="0.400" leveltileurl="tiles/node35/cf_%c/l_%l/c_%x/tile_%y.jpg" width="2976" levelingroll="0" height="2976" levelbiashidpi="1.000" leveltilesize="510">
+      <level predecode="0" preload="0" height="2976" width="2976"/>
+      <level predecode="0" preload="0" height="1488" width="1488"/>
+      <level predecode="0" preload="0" height="744" width="744"/>
+      <level predecode="1" preload="1" height="372" width="372"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="-184.369" fovmode="2">
+      <start fov="100" projection="4" tilt="0" pan="0"/>
+      <flyin fov="170" projection="9" tilt="-90" pan="0"/>
+      <min fovpixel="2" tilt="-90" pan="0"/>
+      <max fovstereographic="330" scaletofit="1" fov="140" tilt="90" fovfisheye="360" pan="360"/>
+    </view>
+    <userdata longitude="78.130111" tags="Edited|streetview" copyright="" title="Street View" altitude="460.40" comment="" info="" author="" description="" source="" latitude="12.144278" customnodeid="" datetime="19-04-2026 11:32 AM" heading="-184.369" nodeid="node35"/>
+    <hotspots height="20" wordwrap="1" width="180" smoothmovement="0">
+      <label enabled="1" background="1" textalpha="1" width="180" border="1" backgroundalpha="1" borderalpha="1" bordercolor="0x000000" height="20" borderradius="1" textcolor="0x000000" wordwrap="1" backgroundcolor="0xffffff"/>
+      <polystyle backgroundalpha="0.25098" borderalpha="1" bordercolor="0x0000ff" handcursor="1" mode="0" backgroundcolor="0x0000ff"/>
+      <hotspot title="Street View" target="-4.9/2.3/100.0" distance="50.9389" id="Point01" url="{node34}" description="" skinid="ht_node_3d_arrow" tilt="1.43" pan="-4.69"/>
+      <hotspot title="Street View" target="90.8/1.7/100.0" distance="39.2168" id="Point02" url="{node38}" description="" skinid="ht_node_3d_arrow" tilt="-0.44" pan="-184.73"/>
+    </hotspots>
+    <media>
+      <sound id="krasnoshchok-real-estate-real-estate-hotel-music-505191" keep="1" url="media/skin_snd_krasnoshchok-real-estate-real-estate-hotel-music-505191.mp3" mode="7" loop="-1" level="0.500"/>
+    </media>
+    <transition enabled="1" delay="none" zoomin="7" zoomfov="40" blendcolor="0x000000" zoomafterinfov="140" zoomout="0" type="mesh" softedge="0" zoomoutpause="1" zoomafteroutfov="40" blendtime="1" zoomspeed="2"/>
+    <autorotate enabled="1" delay="3.00" useanimation="0" horizonfromdefview="0" nodedelay="15.00" noderandom="1" returntohorizon="0.000" startloaded="0" nodefilter="" speed="0.070"/>
+    <animation useinautorotation="0" clipsrandom="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control lockedwheel="0" speedwheel="1" contextfullscreen="1" contextvr="1" simulatemass="1" contextprojections="0" dblclickfullscreen="0" invertcontrol="1" hideabout="1" lockedmouse="0" lockedkeyboard="0" zoomcentercursor="1" invertwheel="1" sensitivity="8" lockedkeyboardzoom="0" rubberband="0"/>
+  </panorama>
+  <panorama hideabout="1" id="node38">
+    <input levelingpitch="0" overlap="1" levelbias="0.400" leveltileurl="tiles/node38/cf_%c/l_%l/c_%x/tile_%y.jpg" width="2976" levelingroll="0" height="2976" levelbiashidpi="1.000" leveltilesize="510">
+      <level predecode="0" preload="0" height="2976" width="2976"/>
+      <level predecode="0" preload="0" height="1488" width="1488"/>
+      <level predecode="0" preload="0" height="744" width="744"/>
+      <level predecode="1" preload="1" height="372" width="372"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="-266.94" fovmode="2">
+      <start fov="100" projection="4" tilt="0" pan="0"/>
+      <flyin fov="170" projection="9" tilt="-90" pan="0"/>
+      <min fovpixel="2" tilt="-90" pan="0"/>
+      <max fovstereographic="330" scaletofit="1" fov="140" tilt="90" fovfisheye="360" pan="360"/>
+    </view>
+    <userdata longitude="78.129889" tags="Edited|streetview" copyright="" title="Street View" altitude="460.80" comment="" info="" author="" description="" source="" latitude="12.144556" customnodeid="" datetime="19-04-2026 11:30 AM" heading="-266.94" nodeid="node38"/>
+    <hotspots height="20" wordwrap="1" width="180" smoothmovement="0">
+      <label enabled="1" background="1" textalpha="1" width="180" border="1" backgroundalpha="1" borderalpha="1" bordercolor="0x000000" height="20" borderradius="1" textcolor="0x000000" wordwrap="1" backgroundcolor="0xffffff"/>
+      <polystyle backgroundalpha="0.25098" borderalpha="1" bordercolor="0x0000ff" handcursor="1" mode="0" backgroundcolor="0x0000ff"/>
+      <hotspot title="Street View" target="-4.9/1.9/100.0" distance="39.2168" id="Point01" url="{node35}" description="" skinid="ht_node_3d_arrow" tilt="0.26" pan="-92.83"/>
+      <hotspot title="Street View" target="0.0/2.6/100.0" distance="27.1568" id="Point02" url="{node37}" description="" skinid="ht_node_3d_arrow" tilt="0.77" pan="-3.14"/>
+      <hotspot title="Street View" target="177.0/-0.2/100.0" distance="8.70821" id="Point03" url="{node40}" description="" skinid="ht_node_3d_arrow" tilt="-0.5" pan="-183.54"/>
+    </hotspots>
+    <media>
+      <sound id="krasnoshchok-real-estate-real-estate-hotel-music-505191" keep="1" url="media/skin_snd_krasnoshchok-real-estate-real-estate-hotel-music-505191.mp3" mode="7" loop="-1" level="0.500"/>
+    </media>
+    <transition enabled="1" delay="none" zoomin="7" zoomfov="40" blendcolor="0x000000" zoomafterinfov="140" zoomout="0" type="mesh" softedge="0" zoomoutpause="1" zoomafteroutfov="40" blendtime="1" zoomspeed="2"/>
+    <autorotate enabled="1" delay="3.00" useanimation="0" horizonfromdefview="0" nodedelay="15.00" noderandom="1" returntohorizon="0.000" startloaded="0" nodefilter="" speed="0.070"/>
+    <animation useinautorotation="0" clipsrandom="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control lockedwheel="0" speedwheel="1" contextfullscreen="1" contextvr="1" simulatemass="1" contextprojections="0" dblclickfullscreen="0" invertcontrol="1" hideabout="1" lockedmouse="0" lockedkeyboard="0" zoomcentercursor="1" invertwheel="1" sensitivity="8" lockedkeyboardzoom="0" rubberband="0"/>
+  </panorama>
+  <panorama hideabout="1" id="node37">
+    <input levelingpitch="0" overlap="1" levelbias="0.400" leveltileurl="tiles/node37/cf_%c/l_%l/c_%x/tile_%y.jpg" width="2976" levelingroll="0" height="2976" levelbiashidpi="1.000" leveltilesize="510">
+      <level predecode="0" preload="0" height="2976" width="2976"/>
+      <level predecode="0" preload="0" height="1488" width="1488"/>
+      <level predecode="0" preload="0" height="744" width="744"/>
+      <level predecode="1" preload="1" height="372" width="372"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="-266.952" fovmode="2">
+      <start fov="100" projection="4" tilt="0" pan="0"/>
+      <flyin fov="170" projection="9" tilt="-90" pan="0"/>
+      <min fovpixel="2" tilt="-90" pan="0"/>
+      <max fovstereographic="330" scaletofit="1" fov="140" tilt="90" fovfisheye="360" pan="360"/>
+    </view>
+    <userdata longitude="78.130111" tags="Edited|streetview" copyright="" title="Street View" altitude="459.90" comment="" info="" author="" description="" source="" latitude="12.144444" customnodeid="" datetime="19-04-2026 11:30 AM" heading="-266.952" nodeid="node37"/>
+    <hotspots height="20" wordwrap="1" width="180" smoothmovement="0">
+      <label enabled="1" background="1" textalpha="1" width="180" border="1" backgroundalpha="1" borderalpha="1" bordercolor="0x000000" height="20" borderradius="1" textcolor="0x000000" wordwrap="1" backgroundcolor="0xffffff"/>
+      <polystyle backgroundalpha="0.25098" borderalpha="1" bordercolor="0x0000ff" handcursor="1" mode="0" backgroundcolor="0x0000ff"/>
+      <hotspot title="Street View" target="176.0/-0.2/100.0" distance="27.1568" id="Point01" url="{node38}" description="" skinid="ht_node_3d_arrow" tilt="-0.75" pan="-177.66"/>
+      <hotspot title="Street View" target="90.5/-0.2/100.0" distance="9.34037" id="Point02" url="{node36}" description="" skinid="ht_node_3d_arrow" tilt="-0.59" pan="-268.22"/>
+    </hotspots>
+    <media>
+      <sound id="krasnoshchok-real-estate-real-estate-hotel-music-505191" keep="1" url="media/skin_snd_krasnoshchok-real-estate-real-estate-hotel-music-505191.mp3" mode="7" loop="-1" level="0.500"/>
+    </media>
+    <transition enabled="1" delay="none" zoomin="7" zoomfov="40" blendcolor="0x000000" zoomafterinfov="140" zoomout="0" type="mesh" softedge="0" zoomoutpause="1" zoomafteroutfov="40" blendtime="1" zoomspeed="2"/>
+    <autorotate enabled="1" delay="3.00" useanimation="0" horizonfromdefview="0" nodedelay="15.00" noderandom="1" returntohorizon="0.000" startloaded="0" nodefilter="" speed="0.070"/>
+    <animation useinautorotation="0" clipsrandom="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control lockedwheel="0" speedwheel="1" contextfullscreen="1" contextvr="1" simulatemass="1" contextprojections="0" dblclickfullscreen="0" invertcontrol="1" hideabout="1" lockedmouse="0" lockedkeyboard="0" zoomcentercursor="1" invertwheel="1" sensitivity="8" lockedkeyboardzoom="0" rubberband="0"/>
+  </panorama>
+  <panorama hideabout="1" id="node36">
+    <input levelingpitch="0" overlap="1" levelbias="0.400" leveltileurl="tiles/node36/cf_%c/l_%l/c_%x/tile_%y.jpg" width="2976" levelingroll="0" height="2976" levelbiashidpi="1.000" leveltilesize="510">
+      <level predecode="0" preload="0" height="2976" width="2976"/>
+      <level predecode="0" preload="0" height="1488" width="1488"/>
+      <level predecode="0" preload="0" height="744" width="744"/>
+      <level predecode="1" preload="1" height="372" width="372"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="91.6263" fovmode="2">
+      <start fov="100" projection="4" tilt="0" pan="0"/>
+      <flyin fov="170" projection="9" tilt="-90" pan="0"/>
+      <min fovpixel="2" tilt="-90" pan="0"/>
+      <max fovstereographic="330" scaletofit="1" fov="140" tilt="90" fovfisheye="360" pan="360"/>
+    </view>
+    <userdata longitude="78.130111" tags="Edited|streetview" copyright="" title="Street View" altitude="459.60" comment="" info="" author="" description="" source="" latitude="12.144528" customnodeid="" datetime="19-04-2026 11:31 AM" heading="91.6263" nodeid="node36"/>
+    <hotspots height="20" wordwrap="1" width="180" smoothmovement="0">
+      <label enabled="1" background="1" textalpha="1" width="180" border="1" backgroundalpha="1" borderalpha="1" bordercolor="0x000000" height="20" borderradius="1" textcolor="0x000000" wordwrap="1" backgroundcolor="0xffffff"/>
+      <polystyle backgroundalpha="0.25098" borderalpha="1" bordercolor="0x0000ff" handcursor="1" mode="0" backgroundcolor="0x0000ff"/>
+      <hotspot title="Street View" target="-87.7/-3.6/100.0" distance="9.34037" id="Point01" url="{node37}" description="" skinid="ht_node_3d_arrow" tilt="-0.24" pan="-92.29"/>
+    </hotspots>
+    <media>
+      <sound id="krasnoshchok-real-estate-real-estate-hotel-music-505191" keep="1" url="media/skin_snd_krasnoshchok-real-estate-real-estate-hotel-music-505191.mp3" mode="7" loop="-1" level="0.500"/>
+    </media>
+    <transition enabled="1" delay="none" zoomin="7" zoomfov="40" blendcolor="0x000000" zoomafterinfov="140" zoomout="0" type="mesh" softedge="0" zoomoutpause="1" zoomafteroutfov="40" blendtime="1" zoomspeed="2"/>
+    <autorotate enabled="1" delay="3.00" useanimation="0" horizonfromdefview="0" nodedelay="15.00" noderandom="1" returntohorizon="0.000" startloaded="0" nodefilter="" speed="0.070"/>
+    <animation useinautorotation="0" clipsrandom="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control lockedwheel="0" speedwheel="1" contextfullscreen="1" contextvr="1" simulatemass="1" contextprojections="0" dblclickfullscreen="0" invertcontrol="1" hideabout="1" lockedmouse="0" lockedkeyboard="0" zoomcentercursor="1" invertwheel="1" sensitivity="8" lockedkeyboardzoom="0" rubberband="0"/>
+  </panorama>
+  <panorama hideabout="1" id="node40">
+    <input levelingpitch="0" overlap="1" levelbias="0.400" leveltileurl="tiles/node40/cf_%c/l_%l/c_%x/tile_%y.jpg" width="2976" levelingroll="0" height="2976" levelbiashidpi="1.000" leveltilesize="510">
+      <level predecode="0" preload="0" height="2976" width="2976"/>
+      <level predecode="0" preload="0" height="1488" width="1488"/>
+      <level predecode="0" preload="0" height="744" width="744"/>
+      <level predecode="1" preload="1" height="372" width="372"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="88.8842" fovmode="2">
+      <start fov="100" projection="4" tilt="0" pan="0"/>
+      <flyin fov="170" projection="9" tilt="-90" pan="0"/>
+      <min fovpixel="2" tilt="-90" pan="0"/>
+      <max fovstereographic="330" scaletofit="1" fov="140" tilt="90" fovfisheye="360" pan="360"/>
+    </view>
+    <userdata longitude="78.129833" tags="Edited|streetview" copyright="" title="Street View" altitude="467.10" comment="" info="" author="" description="" source="" latitude="12.144500" customnodeid="" datetime="19-04-2026 11:28 AM" heading="88.8842" nodeid="node40"/>
+    <hotspots height="20" wordwrap="1" width="180" smoothmovement="0">
+      <label enabled="1" background="1" textalpha="1" width="180" border="1" backgroundalpha="1" borderalpha="1" bordercolor="0x000000" height="20" borderradius="1" textcolor="0x000000" wordwrap="1" backgroundcolor="0xffffff"/>
+      <polystyle backgroundalpha="0.25098" borderalpha="1" bordercolor="0x0000ff" handcursor="1" mode="0" backgroundcolor="0x0000ff"/>
+      <hotspot title="Street View" target="-4.1/1.9/100.0" distance="8.70821" id="Point01" url="{node38}" description="" skinid="ht_node_3d_arrow" tilt="1.27" pan="-0.15"/>
+      <hotspot title="Street View" target="-3.3/3.3/100.0" distance="11.0524" id="Point02" url="{node39}" description="" skinid="ht_node_3d_arrow" tilt="-0.14" pan="-270.97"/>
+      <hotspot title="Street View" target="6.5/0.0/120.0" distance="10.2668" id="Point03" url="{node17}" description="" skinid="ht_node_3d_arrow" tilt="-0.32" pan="-182.66"/>
+    </hotspots>
+    <media>
+      <sound id="krasnoshchok-real-estate-real-estate-hotel-music-505191" keep="1" url="media/skin_snd_krasnoshchok-real-estate-real-estate-hotel-music-505191.mp3" mode="7" loop="-1" level="0.500"/>
+    </media>
+    <transition enabled="1" delay="none" zoomin="7" zoomfov="40" blendcolor="0x000000" zoomafterinfov="140" zoomout="0" type="mesh" softedge="0" zoomoutpause="1" zoomafteroutfov="40" blendtime="1" zoomspeed="2"/>
+    <autorotate enabled="1" delay="3.00" useanimation="0" horizonfromdefview="0" nodedelay="15.00" noderandom="1" returntohorizon="0.000" startloaded="0" nodefilter="" speed="0.070"/>
+    <animation useinautorotation="0" clipsrandom="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control lockedwheel="0" speedwheel="1" contextfullscreen="1" contextvr="1" simulatemass="1" contextprojections="0" dblclickfullscreen="0" invertcontrol="1" hideabout="1" lockedmouse="0" lockedkeyboard="0" zoomcentercursor="1" invertwheel="1" sensitivity="8" lockedkeyboardzoom="0" rubberband="0"/>
+  </panorama>
+  <panorama hideabout="1" id="node39">
+    <input levelingpitch="0" overlap="1" levelbias="0.400" leveltileurl="tiles/node39/cf_%c/l_%l/c_%x/tile_%y.jpg" width="2976" levelingroll="0" height="2976" levelbiashidpi="1.000" leveltilesize="510">
+      <level predecode="0" preload="0" height="2976" width="2976"/>
+      <level predecode="0" preload="0" height="1488" width="1488"/>
+      <level predecode="0" preload="0" height="744" width="744"/>
+      <level predecode="1" preload="1" height="372" width="372"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="0" fovmode="2">
+      <start fov="100" projection="4" tilt="0" pan="0"/>
+      <flyin fov="170" projection="9" tilt="-90" pan="0"/>
+      <min fovpixel="2" tilt="-90" pan="0"/>
+      <max fovstereographic="330" scaletofit="1" fov="140" tilt="90" fovfisheye="360" pan="360"/>
+    </view>
+    <userdata longitude="78.129917" tags="Edited|streetview" copyright="" title="Street View" altitude="460.10" comment="" info="" author="" description="" source="" latitude="12.144556" customnodeid="" datetime="19-04-2026 11:29 AM" heading="0" nodeid="node39"/>
+    <hotspots height="20" wordwrap="1" width="180" smoothmovement="0">
+      <label enabled="1" background="1" textalpha="1" width="180" border="1" backgroundalpha="1" borderalpha="1" bordercolor="0x000000" height="20" borderradius="1" textcolor="0x000000" wordwrap="1" backgroundcolor="0xffffff"/>
+      <polystyle backgroundalpha="0.25098" borderalpha="1" bordercolor="0x0000ff" handcursor="1" mode="0" backgroundcolor="0x0000ff"/>
+      <hotspot title="Street View" target="-89.7/-3.0/100.0" distance="11.0524" id="Point01" url="{node40}" description="" skinid="ht_node_3d_arrow" tilt="-0.52" pan="-182.4"/>
+    </hotspots>
+    <media>
+      <sound id="krasnoshchok-real-estate-real-estate-hotel-music-505191" keep="1" url="media/skin_snd_krasnoshchok-real-estate-real-estate-hotel-music-505191.mp3" mode="7" loop="-1" level="0.500"/>
+    </media>
+    <transition enabled="1" delay="none" zoomin="7" zoomfov="40" blendcolor="0x000000" zoomafterinfov="140" zoomout="0" type="mesh" softedge="0" zoomoutpause="1" zoomafteroutfov="40" blendtime="1" zoomspeed="2"/>
+    <autorotate enabled="1" delay="3.00" useanimation="0" horizonfromdefview="0" nodedelay="15.00" noderandom="1" returntohorizon="0.000" startloaded="0" nodefilter="" speed="0.070"/>
+    <animation useinautorotation="0" clipsrandom="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control lockedwheel="0" speedwheel="1" contextfullscreen="1" contextvr="1" simulatemass="1" contextprojections="0" dblclickfullscreen="0" invertcontrol="1" hideabout="1" lockedmouse="0" lockedkeyboard="0" zoomcentercursor="1" invertwheel="1" sensitivity="8" lockedkeyboardzoom="0" rubberband="0"/>
+  </panorama>
+  <panorama hideabout="1" id="node17">
+    <input levelingpitch="0" overlap="1" levelbias="0.400" leveltileurl="tiles/node17/cf_%c/l_%l/c_%x/tile_%y.jpg" width="3000" levelingroll="0" height="3000" levelbiashidpi="1.000" leveltilesize="510">
+      <level predecode="0" preload="0" height="3000" width="3000"/>
+      <level predecode="0" preload="0" height="1500" width="1500"/>
+      <level predecode="0" preload="0" height="750" width="750"/>
+      <level predecode="1" preload="1" height="375" width="375"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="-83.8558" fovmode="2">
+      <start fov="120" projection="4" tilt="0" pan="0"/>
+      <flyin fov="170" projection="9" tilt="-90" pan="0"/>
+      <min fovpixel="2" tilt="-90" pan="0"/>
+      <max fovstereographic="330" scaletofit="1" fov="140" tilt="90" fovfisheye="360" pan="360"/>
+    </view>
+    <userdata longitude="78.129825" tags="streetview" copyright="" title="Street View" altitude="520.10" comment="" info="" author="" description="" source="" latitude="12.144592" customnodeid="" datetime="19-04-2026 10:58 AM" heading="-83.8558" nodeid="node17"/>
+    <hotspots height="20" wordwrap="1" width="180" smoothmovement="0">
+      <label enabled="1" background="1" textalpha="1" width="180" border="1" backgroundalpha="1" borderalpha="1" bordercolor="0x000000" height="20" borderradius="1" textcolor="0x000000" wordwrap="1" backgroundcolor="0xffffff"/>
+      <polystyle backgroundalpha="0.25098" borderalpha="1" bordercolor="0x0000ff" handcursor="1" mode="0" backgroundcolor="0x0000ff"/>
+      <hotspot title="Entrance B" target="0.5/1.6/120.0" distance="15.3638" id="Point01" url="{node16}" description="" skinid="ht_node_3d_arrow" tilt="-1.89" pan="-354.23"/>
+      <hotspot title="Street View" target="0.0/1.8/100.0" distance="10.2668" id="Point02" url="{node40}" description="" skinid="ht_node_3d_arrow" tilt="-0.56" pan="-173.99"/>
+      <hotspot title="Office Room" target="39.4/-12.7/100.0" distance="9.08269" id="Point03" url="{node20}" description="" skinid="ht_node_3d_arrow" tilt="-6.4" pan="-281.23"/>
+    </hotspots>
+    <media>
+      <sound id="krasnoshchok-real-estate-real-estate-hotel-music-505191" keep="1" url="media/skin_snd_krasnoshchok-real-estate-real-estate-hotel-music-505191.mp3" mode="7" loop="-1" level="0.500"/>
+    </media>
+    <transition enabled="1" delay="none" zoomin="7" zoomfov="40" blendcolor="0x000000" zoomafterinfov="140" zoomout="0" type="mesh" softedge="0" zoomoutpause="1" zoomafteroutfov="40" blendtime="1" zoomspeed="2"/>
+    <autorotate enabled="1" delay="3.00" useanimation="0" horizonfromdefview="0" nodedelay="15.00" noderandom="1" returntohorizon="0.000" startloaded="0" nodefilter="" speed="0.070"/>
+    <animation useinautorotation="0" clipsrandom="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control lockedwheel="0" speedwheel="1" contextfullscreen="1" contextvr="1" simulatemass="1" contextprojections="0" dblclickfullscreen="0" invertcontrol="1" hideabout="1" lockedmouse="0" lockedkeyboard="0" zoomcentercursor="1" invertwheel="1" sensitivity="8" lockedkeyboardzoom="0" rubberband="0"/>
+  </panorama>
+  <panorama hideabout="1" id="node20">
+    <input levelingpitch="0" overlap="1" levelbias="0.400" leveltileurl="tiles/node20/cf_%c/l_%l/c_%x/tile_%y.jpg" width="2976" levelingroll="0" height="2976" levelbiashidpi="1.000" leveltilesize="510">
+      <level predecode="0" preload="0" height="2976" width="2976"/>
+      <level predecode="0" preload="0" height="1488" width="1488"/>
+      <level predecode="0" preload="0" height="744" width="744"/>
+      <level predecode="1" preload="1" height="372" width="372"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="-89.8548" fovmode="2">
+      <start fov="100" projection="4" tilt="0" pan="0"/>
+      <flyin fov="170" projection="9" tilt="-90" pan="0"/>
+      <min fovpixel="2" tilt="-90" pan="0"/>
+      <max fovstereographic="330" scaletofit="1" fov="140" tilt="90" fovfisheye="360" pan="360"/>
+    </view>
+    <userdata longitude="78.129750" tags="Edited|streetview" copyright="" title="Office Room" altitude="463.20" comment="" info="" author="" description="" source="" latitude="12.144556" customnodeid="" datetime="19-04-2026 11:50 AM" heading="-89.8548" nodeid="node20"/>
+    <hotspots height="20" wordwrap="1" width="180" smoothmovement="0">
+      <label enabled="1" background="1" textalpha="1" width="180" border="1" backgroundalpha="1" borderalpha="1" bordercolor="0x000000" height="20" borderradius="1" textcolor="0x000000" wordwrap="1" backgroundcolor="0xffffff"/>
+      <polystyle backgroundalpha="0.25098" borderalpha="1" bordercolor="0x0000ff" handcursor="1" mode="0" backgroundcolor="0x0000ff"/>
+      <hotspot title="Street View" target="-175.5/-9.6/120.0" distance="9.08269" id="Point01" url="{node17}" description="" skinid="ht_node_3d_arrow" tilt="-4.41" pan="-109.79"/>
+    </hotspots>
+    <media>
+      <sound id="krasnoshchok-real-estate-real-estate-hotel-music-505191" keep="1" url="media/skin_snd_krasnoshchok-real-estate-real-estate-hotel-music-505191.mp3" mode="7" loop="-1" level="0.500"/>
+    </media>
+    <transition enabled="1" delay="none" zoomin="7" zoomfov="40" blendcolor="0x000000" zoomafterinfov="140" zoomout="0" type="mesh" softedge="0" zoomoutpause="1" zoomafteroutfov="40" blendtime="1" zoomspeed="2"/>
+    <autorotate enabled="1" delay="3.00" useanimation="0" horizonfromdefview="0" nodedelay="15.00" noderandom="1" returntohorizon="0.000" startloaded="0" nodefilter="" speed="0.070"/>
+    <animation useinautorotation="0" clipsrandom="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control lockedwheel="0" speedwheel="1" contextfullscreen="1" contextvr="1" simulatemass="1" contextprojections="0" dblclickfullscreen="0" invertcontrol="1" hideabout="1" lockedmouse="0" lockedkeyboard="0" zoomcentercursor="1" invertwheel="1" sensitivity="8" lockedkeyboardzoom="0" rubberband="0"/>
+  </panorama>
+  <panorama hideabout="1" id="node16">
+    <input levelingpitch="0" overlap="1" levelbias="0.400" leveltileurl="tiles/node16/cf_%c/l_%l/c_%x/tile_%y.jpg" width="3000" levelingroll="0" height="3000" levelbiashidpi="1.000" leveltilesize="510">
+      <level predecode="0" preload="0" height="3000" width="3000"/>
+      <level predecode="0" preload="0" height="1500" width="1500"/>
+      <level predecode="0" preload="0" height="750" width="750"/>
+      <level predecode="1" preload="1" height="375" width="375"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="-88.614" fovmode="2">
+      <start fov="120" projection="4" tilt="1.83763" pan="-178.735"/>
+      <flyin fov="170" projection="9" tilt="-90" pan="0"/>
+      <min fovpixel="2" tilt="-90" pan="0"/>
+      <max fovstereographic="330" scaletofit="1" fov="140" tilt="90" fovfisheye="360" pan="360"/>
+    </view>
+    <userdata longitude="78.129686" tags="streetview" copyright="" title="Entrance B" altitude="520.10" comment="" info="" author="" description="" source="" latitude="12.144617" customnodeid="" datetime="19-04-2026 11:00 AM" heading="-88.614" nodeid="node16"/>
+    <hotspots height="20" wordwrap="1" width="180" smoothmovement="0">
+      <label enabled="1" background="1" textalpha="1" width="180" border="1" backgroundalpha="1" borderalpha="1" bordercolor="0x000000" height="20" borderradius="1" textcolor="0x000000" wordwrap="1" backgroundcolor="0xffffff"/>
+      <polystyle backgroundalpha="0.25098" borderalpha="1" bordercolor="0x0000ff" handcursor="1" mode="0" backgroundcolor="0x0000ff"/>
+      <hotspot title="Street View" target="-174.4/-1.3/120.0" distance="15.3638" id="Point01" url="{node17}" description="" skinid="ht_node_3d_arrow" tilt="-1.14" pan="-180.27"/>
+    </hotspots>
+    <media>
+      <sound id="krasnoshchok-real-estate-real-estate-hotel-music-505191" keep="1" url="media/skin_snd_krasnoshchok-real-estate-real-estate-hotel-music-505191.mp3" mode="7" loop="-1" level="0.500"/>
+    </media>
+    <transition enabled="1" delay="none" zoomin="7" zoomfov="40" blendcolor="0x000000" zoomafterinfov="140" zoomout="0" type="mesh" softedge="0" zoomoutpause="1" zoomafteroutfov="40" blendtime="1" zoomspeed="2"/>
+    <autorotate enabled="1" delay="3.00" useanimation="0" horizonfromdefview="0" nodedelay="15.00" noderandom="1" returntohorizon="0.000" startloaded="0" nodefilter="" speed="0.070"/>
+    <animation useinautorotation="0" clipsrandom="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control lockedwheel="0" speedwheel="1" contextfullscreen="1" contextvr="1" simulatemass="1" contextprojections="0" dblclickfullscreen="0" invertcontrol="1" hideabout="1" lockedmouse="0" lockedkeyboard="0" zoomcentercursor="1" invertwheel="1" sensitivity="8" lockedkeyboardzoom="0" rubberband="0"/>
+  </panorama>
+  <masternode>
+    <userdata comment="" author="" tags="" description="" copyright="" title="Viruksha Avenue"/>
+    <animationsequences>
+      <sequence title="Animation01"/>
+    </animationsequences>
+  </masternode>
+</tour>
