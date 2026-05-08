@@ -4,7 +4,7 @@ import { Facebook as FB, Instagram as IG, Linkedin as LI } from './Icons';
 import { SocialIcon } from 'react-social-icons';
 const Footer = () => {
   return (
-    <footer className="footer glass">
+    <footer className="footer glass" style={{ position: 'relative', zIndex: 10 }}>
       <div className="container">
         <div style={{ 
           display: 'grid', 
