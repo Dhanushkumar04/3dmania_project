@@ -20,8 +20,8 @@ const Projects = () => {
       location: 'Dharmapuri, Tamil Nadu',
       category: 'Real Estate',
       description: 'An immersive 3D virtual tour of a premium residential development featuring high-resolution panoramas and interactive hotspots.',
-      image: '/tours/viruksha-avenue/preview.jpg',
-      tourLink: '/tours/viruksha-avenue/index.html'
+      image: 'https://mania3d-assets.web.app/viruksha-avenue/preview.jpg',
+      tourLink: 'https://mania3d-assets.web.app/viruksha-avenue/index.html'
     },
     {
       id: 10,
@@ -29,8 +29,8 @@ const Projects = () => {
       location: 'Bangalore, Karnataka',
       category: 'Schools & Colleges',
       description: 'A comprehensive virtual exploration of the school campus, classrooms, and facilities.',
-      image: '/tours/godwin-public-school/preview.jpg',
-      tourLink: '/tours/godwin-public-school/index.html'
+      image: 'https://mania3d-assets.web.app/godwin-public-school/preview.jpg',
+      tourLink: 'https://mania3d-assets.web.app/godwin-public-school/index.html'
     },
     {
       id: 11,
@@ -38,8 +38,8 @@ const Projects = () => {
       location: 'Bangalore, Karnataka',
       category: 'Schools & Colleges',
       description: 'An immersive tour of the prestigious Presidency School East campus and its modern infrastructure.',
-      image: '/tours/presidency-school-east/preview.jpg',
-      tourLink: '/tours/presidency-school-east/index.html'
+      image: 'https://mania3d-assets.web.app/presidency-school-east/preview.jpg',
+      tourLink: 'https://mania3d-assets.web.app/presidency-school-east/index.html'
     },
     {
       id: 12,
@@ -47,8 +47,8 @@ const Projects = () => {
       location: 'Bangalore, Karnataka',
       category: 'Real Estate',
       description: 'Explore the elegance and luxury of this premium villa through a detailed 3D walk-through.',
-      image: '/tours/prestige-villa/preview.jpg',
-      tourLink: '/tours/prestige-villa/index.html'
+      image: 'https://mania3d-assets.web.app/prestige-villa/preview.jpg',
+      tourLink: 'https://mania3d-assets.web.app/prestige-villa/index.html'
     }
     
   ];
