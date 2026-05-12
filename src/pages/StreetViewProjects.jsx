@@ -6,43 +6,43 @@ import { Link } from 'react-router-dom';
 const StreetViewProjects = () => {
   const [filter, setFilter] = useState('All');
 
-  const categories = ['All', 'Retail', 'Restaurant', 'Public Spaces'];
+  const categories = ['All', 'Retail', 'Restaurant', 'Showroom'];
 
   const projects = [
     {
       id: 1,
-      name: 'Modern Residential Complex',
+      name: 'Duroflex Experience Centre',
       location: 'HSR Layout, Bangalore',
-      category: 'Residential',
-      description: 'A comprehensive indoor street view of a modern residential complex, highlighting amenities and architecture.',
-      image: 'https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&q=80&w=1200',
+      category: 'Retail',
+      description: 'Step inside the premium sleep experience centre and explore their range of mattresses and sleep solutions in high-definition 360°.',
+      image: '/duroflex.jpeg',
       actionLink: 'https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=12.920298,77.651708',
     },
     {
       id: 2,
-      name: 'Premium Commercial Space',
+      name: 'Oyster Bar & Kitchen',
       location: 'HSR Layout, Bangalore',
-      category: 'Commercial',
-      description: 'Showcasing the expansive interiors and professional environment of a premium commercial building.',
-      image: 'https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&q=80&w=1200',
+      category: 'Restaurant',
+      description: 'Discover the vibrant ambiance and elegant interiors of this premium dining destination through an immersive virtual walkthrough.',
+      image: '/oyster-bar-kitchen.jpg',
       actionLink: 'https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=12.911895,77.637997',
     },
     {
       id: 3,
-      name: 'Tech Hub Office',
+      name: 'US Polo Assn.',
       location: 'Domlur, Bangalore',
-      category: 'Office',
-      description: 'Interactive tour of a high-tech office space, perfect for attracting top talent and clients.',
-      image: 'https://images.unsplash.com/photo-1497215728101-856f4ea42174?auto=format&fit=crop&q=80&w=1200',
+      category: 'Retail',
+      description: 'Explore the latest fashion collections and the premium store layout of US Polo Assn in this detailed Google Street View integration.',
+      image: '/polo.jpg',
       actionLink: 'https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=12.969359,77.641236',
     },
     {
       id: 4,
-      name: 'Luxury Showroom',
-      location: 'Gurgaon, Haryana',
-      category: 'Retail',
-      description: 'A detailed walkthrough of a luxury retail showroom, offering customers an immersive preview of the products.',
-      image: 'https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&q=80&w=1200',
+      name: 'Luxury Cart',
+      location: 'Gurugram, Haryana',
+      category: 'Showroom',
+      description: 'A high-end automotive showroom experience, allowing customers to virtually browse premium vehicles and the showroom facility.',
+      image: '/cart.avif',
       actionLink: 'https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=28.437497,77.103206',
     }
   ];
