@@ -41,8 +41,8 @@ const Projects = () => {
       location: 'Dharmapuri, Tamil Nadu',
       category: 'Real Estate',
       description: 'An immersive 3D virtual tour of a premium residential development featuring high-resolution panoramas and interactive hotspots.',
-      image: '/tours/viruksha-avenue/preview.jpg',
-      tourLink: '/tours/viruksha-avenue/index.html'
+      image: 'https://mania3d-assets.web.app/viruksha-avenue/preview.jpg',
+      tourLink: 'https://mania3d-assets.web.app/viruksha-avenue/index.html'
     },
     {
       id: 10,

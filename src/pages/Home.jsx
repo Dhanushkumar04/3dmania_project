@@ -330,7 +330,7 @@ const Home = () => {
               style={{ position: 'relative' }}
             >
               <img 
-                src="/tours/viruksha-avenue/preview.jpg" 
+                src="https://mania3d-assets.web.app/viruksha-avenue/preview.jpg" 
                 alt="Viruksha Avenue Preview" 
                 style={{ 
                   width: '100%', 
