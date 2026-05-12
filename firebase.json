@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "public/tours",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}

@@ -1,7 +1,42 @@
+import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { Phone, Mail, Globe, MapPin, Send, MessageSquare } from 'lucide-react';
 
 const Contact = () => {
+  const [formData, setFormData] = useState({
+    fullName: '',
+    phoneNumber: '',
+    email: '',
+    message: ''
+  });
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData(prev => ({
+      ...prev,
+      [name]: value
+    }));
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    
+    const subject = "Response from 3dmania website";
+    const body = `Full Name: ${formData.fullName}
+Phone Number: ${formData.phoneNumber}
+Email Address: ${formData.email}
+
+Message:
+${formData.message}`;
+
+    const mailtoUrl = `mailto:info@3dmania.in?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    
+    window.location.href = mailtoUrl;
+    
+    // Optional: Reset form after submission
+    // setFormData({ fullName: '', phoneNumber: '', email: '', message: '' });
+  };
+
   return (
     <div className="page-container">
       <section className="section">
@@ -83,22 +118,54 @@ const Contact = () => {
               className="glass"
               style={{ padding: '3rem', borderRadius: '30px' }}
             >
-              <form style={{ display: 'flex', flexDirection: 'column', gap: '1.5rem' }}>
+              <form onSubmit={handleSubmit} style={{ display: 'flex', flexDirection: 'column', gap: '1.5rem' }}>
                 <div className="form-group">
-                  <label>Full Name</label>
-                  <input type="text" placeholder="John Doe" />
+                  <label htmlFor="fullName">Full Name</label>
+                  <input 
+                    type="text" 
+                    id="fullName"
+                    name="fullName"
+                    value={formData.fullName}
+                    onChange={handleChange}
+                    placeholder="John Doe" 
+                    required
+                  />
                 </div>
                 <div className="form-group">
-                  <label>Phone Number</label>
-                  <input type="tel" placeholder="+91 00000 00000" />
+                  <label htmlFor="phoneNumber">Phone Number</label>
+                  <input 
+                    type="tel" 
+                    id="phoneNumber"
+                    name="phoneNumber"
+                    value={formData.phoneNumber}
+                    onChange={handleChange}
+                    placeholder="+91 00000 00000" 
+                    required
+                  />
                 </div>
                 <div className="form-group">
-                  <label>Email Address</label>
-                  <input type="email" placeholder="john@example.com" />
+                  <label htmlFor="email">Email Address</label>
+                  <input 
+                    type="email" 
+                    id="email"
+                    name="email"
+                    value={formData.email}
+                    onChange={handleChange}
+                    placeholder="john@example.com" 
+                    required
+                  />
                 </div>
                 <div className="form-group">
-                  <label>Your Message</label>
-                  <textarea rows="5" placeholder="Tell us about your project..."></textarea>
+                  <label htmlFor="message">Your Message</label>
+                  <textarea 
+                    id="message"
+                    name="message"
+                    value={formData.message}
+                    onChange={handleChange}
+                    rows="5" 
+                    placeholder="Tell us about your project..."
+                    required
+                  ></textarea>
                 </div>
                 <button type="submit" className="btn btn-primary" style={{ padding: '1.2rem', display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '0.8rem' }}>
                   Send Message <Send size={20} />

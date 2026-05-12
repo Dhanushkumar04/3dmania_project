@@ -3,13 +3,6 @@ node_modules/
 package-lock.json
 yarn.lock
 
-# Large media folders (Targeting tiles and media globally)
-**/tiles/
-**/images/
-**/media/
-**/gallery/
-**/output/
-
 # Build outputs
 dist/
 build/
@@ -34,3 +27,8 @@ yarn-debug.log*
 
 # OS
 Thumbs.db
+
+# Large Project Assets
+public/tours/
+* output/
+* output_R2/

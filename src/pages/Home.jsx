@@ -32,11 +32,109 @@ const Home = () => {
 
   const [activeIndustry, setActiveIndustry] = useState(0);
   const industries = [
-    { name: "Residential Real Estate", desc: "Turn every property into a 24/7 open house. Reduce drive time, attract more qualified buyers, and accelerate your sales process.", img: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&q=80&w=800" },
-    { name: "Travel & Hospitality", desc: "Showcase your resort, hotel, or vacation rental in stunning 360°. Build trust and boost direct bookings with immersive tours.", img: "https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&q=80&w=800" },
-    { name: "Retail & Showrooms", desc: "Let customers explore your store layout and products virtually. Increase walk-ins and build excitement before they visit.", img: "https://images.unsplash.com/photo-1567401893414-76b7b1e5a7a5?auto=format&fit=crop&q=80&w=800" },
-    { name: "Commercial Real Estate", desc: "Give potential tenants a complete view of office spaces, amenities, and community areas remotely.", img: "https://images.unsplash.com/photo-1497215728101-856f4ea42174?auto=format&fit=crop&q=80&w=800" }
+    { 
+      name: "Real Estate", 
+      desc: "Showcase residential and commercial properties with interactive, high-definition walkthroughs. Attract buyers and tenants by allowing them to explore properties remotely. Save time by pre-qualifying leads with immersive experiences.", 
+      img: "/real_estate.jpg" 
+    },
+    { 
+      name: "Hospitality & Tourism", 
+      desc: "Highlight resorts, hotels, and vacation rentals with stunning 360° views. Enhance booking confidence by letting guests explore rooms, amenities, and surroundings beforehand. Promote destination attractions with virtual guides.", 
+      img: "https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&q=80&w=1200" 
+    },
+    { 
+      name: "Co-working Spaces & Offices", 
+      desc: "Let businesses explore shared office spaces or corporate buildings before committing. Showcase amenities, layouts, and environment.", 
+      img: "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80&w=1200" 
+    },
+    { 
+      name: "Retail & Showrooms", 
+      desc: "Offer customers a virtual shopping experience for furniture, cars, or luxury goods. Let buyers explore showrooms and products without leaving their homes.", 
+      img: "https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&q=80&w=1200" 
+    },
+    { 
+      name: "Interior Design & Architecture", 
+      desc: "Present design concepts and completed projects through immersive virtual tours. Help clients visualize spaces and layouts in detail before implementation. Showcase portfolios in a compelling and interactive format.", 
+      img: "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&q=80&w=1200" 
+    },
+    { 
+      name: "Construction & Infrastructure", 
+      desc: "Provide project progress updates with 360° site views. Share detailed visual reports with stakeholders and clients.", 
+      img: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&q=80&w=1200" 
+    },
+    { 
+      name: "Event Venues", 
+      desc: "Showcase banquet halls, conference centers, and wedding venues to potential clients. Allow customers to visualize event layouts and seating arrangements.", 
+      img: "/event.jpg" 
+    },
+    { 
+      name: "Healthcare", 
+      desc: "Enable patients to virtually tour hospitals, clinics, and wellness centers. Build trust by showcasing your facilities in detail.", 
+      img: "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&q=80&w=1200" 
+    },
+    { 
+      name: "Manufacturing & Warehousing", 
+      desc: "Offer virtual factory tours to prospective clients or partners. Highlight safety measures and operational capabilities.", 
+      img: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80&w=1200" 
+    },
+    { 
+      name: "Museums & Cultural Heritage", 
+      desc: "Bring art, history, and culture to life with immersive virtual exhibits. Attract global audiences to explore your collections digitally.", 
+      img: "/cultural_heritage.jpg" 
+    },
+    { 
+      name: "Education & Training", 
+      desc: "Create virtual campus tours for schools, colleges, and universities. Develop interactive training modules for technical and corporate learning environments.", 
+      img: "/education.jpg" 
+    }
   ];
+
+  const whyChooseData = [
+    {
+      title: "Key Benefits of Virtual Tours",
+      content: (
+        <ul style={{ listStyle: 'none', padding: 0 }}>
+          <li style={{ marginBottom: '1.2rem', display: 'flex', alignItems: 'flex-start', gap: '0.8rem' }}>
+            <CheckCircle size={20} style={{ color: 'var(--accent-blue)', marginTop: '4px', flexShrink: 0 }} />
+            <span><strong style={{ color: '#fff' }}>Enhanced Client Engagement:</strong> Interactive tours keep viewers hooked longer.</span>
+          </li>
+          <li style={{ marginBottom: '1.2rem', display: 'flex', alignItems: 'flex-start', gap: '0.8rem' }}>
+            <CheckCircle size={20} style={{ color: 'var(--accent-blue)', marginTop: '4px', flexShrink: 0 }} />
+            <span><strong style={{ color: '#fff' }}>Cost-Effective Marketing:</strong> Reduce the need for multiple physical visits.</span>
+          </li>
+          <li style={{ marginBottom: '1.2rem', display: 'flex', alignItems: 'flex-start', gap: '0.8rem' }}>
+            <CheckCircle size={20} style={{ color: 'var(--accent-blue)', marginTop: '4px', flexShrink: 0 }} />
+            <span><strong style={{ color: '#fff' }}>Increased Trust:</strong> Provide transparency with detailed, authentic visual experiences.</span>
+          </li>
+        </ul>
+      )
+    },
+    {
+      title: "Google Street View Service by 3Dmania",
+      content: (
+        <p style={{ lineHeight: 1.8, color: 'var(--text-muted)', fontSize: '1.2rem' }}>
+          Take your business to the next level with 3DMania’s Google Street View service. As a Google Street View Trusted Photographer, we help you showcase your business interiors on Google Maps, allowing potential customers to virtually walk through your space anytime, anywhere.
+        </p>
+      )
+    },
+    {
+      title: "A Game-Changer for Sales & Marketing",
+      content: (
+        <p style={{ lineHeight: 1.8, color: 'var(--text-muted)', fontSize: '1.2rem' }}>
+          Virtual tours are no longer just a novelty—they're a <strong style={{ color: 'var(--accent-blue)' }}>powerful sales and marketing tool</strong>. By giving your audience the ability to "step into" your space virtually, you build trust, enhance engagement, and shorten the decision-making process. Our tours act as a 24/7 showroom, accessible to clients around the globe.
+        </p>
+      )
+    }
+  ];
+
+  const [whyChooseIndex, setWhyChooseIndex] = useState(0);
+
+  useEffect(() => {
+    const timer = setInterval(() => {
+      setWhyChooseIndex((prev) => (prev + 1) % whyChooseData.length);
+    }, 10000);
+    return () => clearInterval(timer);
+  }, []);
 
   return (
     <div>
@@ -126,36 +224,88 @@ const Home = () => {
 
      
 
-      {/* Corporate Grid (Screenshot 2 style) */}
-      <section className="section">
+      {/* Why Choose 3Dmania Slider */}
+      <section className="section" style={{ background: 'rgba(255,255,255,0.02)', padding: '6rem 0' }}>
         <div className="container">
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: '2rem' }}>
-            {[
-              { title: "Corporate Real Estate", desc: "Manage global portfolios with confidence using 3D insights to centralize management decisions." },
-              { title: "Design & Construction", desc: "Integrate with Procore and Autodesk to save time, reduce site visits, and improve communication." },
-              { title: "Facilities Management", desc: "Manage operations from anywhere — incorporating real-time data to cut costs and increase ROI." },
-              { title: "Property Marketing", desc: "Close faster by increasing seller and buyer confidence with immersive 3D tours and floor plans." }
-            ].map((card, i) => (
-              <motion.div 
+          <div style={{ textAlign: 'center', marginBottom: '4rem' }}>
+            <motion.h2 
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              style={{ fontSize: 'clamp(2.5rem, 5vw, 4rem)', fontWeight: 800 }}
+            >
+              Why Choose <span className="text-gradient">3Dmania?</span>
+            </motion.h2>
+          </div>
+
+          <div style={{ 
+            display: 'grid', 
+            gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', 
+            gap: '2rem',
+            alignItems: 'stretch'
+          }}>
+            {whyChooseData.map((card, i) => (
+              <motion.div
                 key={i}
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
+                animate={{
+                  scale: whyChooseIndex === i ? 1.05 : 1,
+                  borderColor: whyChooseIndex === i ? 'rgba(0, 242, 255, 0.5)' : 'rgba(255, 255, 255, 0.05)',
+                  backgroundColor: whyChooseIndex === i ? 'rgba(0, 242, 255, 0.03)' : 'rgba(255, 255, 255, 0.01)',
+                  boxShadow: whyChooseIndex === i ? '0 20px 40px rgba(0, 242, 255, 0.15)' : '0 10px 30px rgba(0,0,0,0.1)'
+                }}
+                transition={{ duration: 0.5 }}
                 className="glass"
-                style={{ padding: '3rem', borderRadius: '15px', height: '100%' }}
+                style={{ 
+                  padding: '2.5rem', 
+                  borderRadius: '24px', 
+                  border: '1px solid',
+                  display: 'flex',
+                  flexDirection: 'column',
+                  cursor: 'pointer',
+                  position: 'relative',
+                  overflow: 'hidden'
+                }}
+                onClick={() => setWhyChooseIndex(i)}
               >
-                <h3 style={{ fontSize: '1.6rem', marginBottom: '1.5rem' }}>{card.title}</h3>
-                <p style={{ color: 'var(--text-muted)', marginBottom: '2rem', lineHeight: 1.6 }}>{card.card ? card.card : card.desc}</p>
-                <Link to="/services" style={{ color: 'var(--accent-blue)', textDecoration: 'none', fontWeight: 600, display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
-                  Learn More <ArrowRight size={16} />
-                </Link>
+                {whyChooseIndex === i && (
+                  <motion.div 
+                    layoutId="highlight"
+                    style={{ 
+                      position: 'absolute', 
+                      top: 0, 
+                      left: 0, 
+                      width: '4px', 
+                      height: '100%', 
+                      background: 'var(--accent-blue)' 
+                    }} 
+                  />
+                )}
+                <h3 style={{ 
+                  fontSize: '1.5rem', 
+                  marginBottom: '1.5rem', 
+                  color: whyChooseIndex === i ? 'var(--accent-blue)' : '#fff',
+                  transition: 'color 0.3s'
+                }}>
+                  {card.title}
+                </h3>
+                <div style={{ 
+                  fontSize: '0.95rem', 
+                  color: whyChooseIndex === i ? '#fff' : 'var(--text-muted)',
+                  transition: 'color 0.3s',
+                  lineHeight: 1.6
+                }}>
+                  {card.content}
+                </div>
               </motion.div>
             ))}
           </div>
         </div>
       </section>
 
-      {/* Split Section: Smartphone (Screenshot 2 style) */}
+      {/* Featured Project: Viruksha Avenue */}
       <section className="section glass" style={{ overflow: 'hidden' }}>
         <div className="container">
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(350px, 1fr))', gap: '5rem', alignItems: 'center' }}>
@@ -164,12 +314,14 @@ const Home = () => {
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
             >
-              <p style={{ color: '#ff4d4d', fontWeight: 700, marginBottom: '1rem', fontSize: '0.9rem' }}>MATTERPORT 24/7 AGENT</p>
-              <h2 style={{ fontSize: 'clamp(2rem, 5vw, 3.5rem)', fontWeight: 800, marginBottom: '2rem' }}>Add life to every listing.</h2>
-              <p style={{ fontSize: '1.2rem', color: 'var(--text-muted)', marginBottom: '2.5rem', lineHeight: 1.6 }}>
-                Make your marketing multi-task. 3DMania equips you with all the tools needed to win more listings, sell more homes, and maximize your limited time.
+              <p style={{ color: 'var(--accent-blue)', fontWeight: 700, marginBottom: '1rem', fontSize: '0.9rem', letterSpacing: '0.1rem' }}>FEATURED PROJECT</p>
+              <h2 style={{ fontSize: 'clamp(2.5rem, 5vw, 4rem)', fontWeight: 800, marginBottom: '2rem' }}>Viruksha Avenue</h2>
+              <p style={{ fontSize: '1.2rem', color: 'var(--text-muted)', marginBottom: '2.5rem', lineHeight: 1.8 }}>
+                Explore the premium residential development of Viruksha Avenue in Dharmapuri. Experience an immersive 3D virtual tour featuring high-resolution panoramas and interactive hotspots, bringing every detail of this stunning project to life right from your screen.
               </p>
-              <Link to="/contact" className="btn btn-outline" style={{ display: 'inline-flex', alignItems: 'center', gap: '0.5rem' }}>Learn More <ArrowRight size={18} /></Link>
+              <Link to="/projects#viruksha-avenue" className="btn btn-outline" style={{ display: 'inline-flex', alignItems: 'center', gap: '0.5rem' }}>
+                Learn More <ArrowRight size={18} />
+              </Link>
             </motion.div>
             <motion.div
               initial={{ opacity: 0, scale: 0.8 }}
@@ -178,50 +330,20 @@ const Home = () => {
               style={{ position: 'relative' }}
             >
               <img 
-                src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&q=80&w=800" 
-                alt="Property on phone" 
-                style={{ width: '100%', borderRadius: '40px', border: '10px solid #222', boxShadow: '0 50px 100px rgba(0,0,0,0.5)' }}
+                src="/tours/viruksha-avenue/preview.jpg" 
+                alt="Viruksha Avenue Preview" 
+                style={{ 
+                  width: '100%', 
+                  borderRadius: '24px', 
+                  boxShadow: '0 50px 100px rgba(0,0,0,0.5)',
+                  border: '1px solid rgba(255,255,255,0.1)'
+                }}
               />
-              <div style={{ position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', background: 'var(--accent-blue)', width: '80px', height: '80px', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', cursor: 'pointer' }}>
-                <Play fill="#000" color="#000" size={30} />
-              </div>
             </motion.div>
           </div>
         </div>
       </section>
 
-      {/* 3D Capture Section (Screenshot 3 style) */}
-      <section className="section">
-        <div className="container">
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(350px, 1fr))', gap: '6rem', alignItems: 'center' }}>
-             <motion.div
-              initial={{ opacity: 0, y: 30 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-            >
-              <img 
-                src="/3dmania_smartphone (1).png" 
-                alt="3D Camera" 
-                style={{ width: '100%', borderRadius: '20px' }}
-              />
-            </motion.div>
-            <motion.div
-              initial={{ opacity: 0, y: 30 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-            >
-              <h2 style={{ fontSize: 'clamp(2rem, 6vw, 4rem)', fontWeight: 800, marginBottom: '2rem' }}>It all starts with 3D capture.</h2>
-              <p style={{ fontSize: '1.2rem', color: 'var(--text-muted)', marginBottom: '3rem', lineHeight: 1.6 }}>
-                With a variety of cameras and capture options to choose from, 3DMania makes it easy to create digital twins of your properties. Ranging from smartphone capture to our professional-grade Pro3 lidar camera.
-              </p>
-              <div style={{ display: 'flex', gap: '1.5rem' }}>
-                <Link to="/services" className="btn btn-primary">Shop Services</Link>
-                <Link to="/contact" className="btn btn-outline">Get Started Free</Link>
-              </div>
-            </motion.div>
-          </div>
-        </div>
-      </section>
 
       {/* Industries Accordion Section (Screenshot 4 style) */}
       <section className="section glass">
@@ -236,6 +358,7 @@ const Home = () => {
                   animate={{ opacity: 1 }}
                   exit={{ opacity: 0 }}
                   src={industries[activeIndustry].img} 
+                  alt={industries[activeIndustry].name}
                   style={{ width: '100%', height: '100%', objectFit: 'cover' }}
                 />
               </AnimatePresence>
@@ -245,7 +368,7 @@ const Home = () => {
                 </div>
               </div>
             </div>
-            <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+            <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem', maxHeight: '600px', overflowY: 'auto', paddingRight: '1rem', scrollbarWidth: 'thin', scrollbarColor: 'var(--accent-blue) transparent' }} className="custom-scrollbar">
               {industries.map((industry, i) => (
                 <div 
                   key={i} 
@@ -293,6 +416,16 @@ const Home = () => {
           transform: translateY(-15px);
           background: rgba(255,255,255,0.08);
           border-color: var(--accent-blue);
+        }
+        .custom-scrollbar::-webkit-scrollbar {
+          width: 5px;
+        }
+        .custom-scrollbar::-webkit-scrollbar-track {
+          background: rgba(255,255,255,0.02);
+        }
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+          background: var(--accent-blue);
+          border-radius: 10px;
         }
       `}} />
     </div>

@@ -156,6 +156,106 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--accent-blue);
 }
 
+/* Dropdown Styles */
+.nav-item-wrapper {
+  position: relative;
+}
+
+.dropdown-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.dropdown-container .nav-item {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  cursor: pointer;
+}
+
+.chevron {
+  transition: transform 0.3s ease;
+  opacity: 0.7;
+}
+
+.chevron.rotate {
+  transform: rotate(180deg);
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  min-width: 240px;
+  padding: 0.8rem;
+  border-radius: 12px;
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+  border: 1px solid rgba(255,255,255,0.08);
+  z-index: 1001;
+}
+
+.dropdown-item {
+  padding: 0.8rem 1.2rem;
+  border-radius: 8px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition: all 0.2s ease;
+  opacity: 0.7;
+}
+
+.dropdown-item:hover, .dropdown-item.active {
+  background: rgba(0, 242, 255, 0.1);
+  color: var(--accent-blue);
+  opacity: 1;
+  padding-left: 1.5rem;
+}
+
+/* Mobile Dropdown */
+.mobile-dropdown-section {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.mobile-sublinks {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  padding-left: 1rem;
+  border-left: 1px solid rgba(0, 242, 255, 0.2);
+  margin-left: 0.2rem;
+}
+
+.mobile-sublink {
+  font-size: 1rem;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  opacity: 0.6;
+  transition: 0.3s;
+}
+
+.mobile-sublink.active {
+  color: var(--accent-blue);
+  opacity: 1;
+}
+
+.parent-link {
+  font-size: 1.1rem;
+  opacity: 1;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 0.5rem;
+}
+
 .nav-actions {
   display: flex;
   align-items: center;
@@ -305,5 +405,49 @@ main {
 @media (max-width: 640px) {
   .grid-responsive {
     grid-template-columns: 1fr;
+  }
+}
+
+/* WhatsApp Floating Button */
+.whatsapp-float {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  bottom: 30px;
+  right: 30px;
+  background-color: #25d366;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  text-decoration: none;
+  opacity: 0;
+  transform: scale(0) translateY(20px);
+  pointer-events: none;
+}
+
+.whatsapp-float.show {
+  opacity: 1;
+  transform: scale(1) translateY(0);
+  pointer-events: auto;
+}
+
+.whatsapp-float:hover {
+  transform: scale(1.1) translateY(-5px);
+  background-color: #128c7e;
+  box-shadow: 0 6px 20px rgba(37, 211, 102, 0.4);
+}
+
+@media (max-width: 480px) {
+  .whatsapp-float {
+    width: 45px;
+    height: 45px;
+    bottom: 20px;
+    right: 20px;
   }
 }

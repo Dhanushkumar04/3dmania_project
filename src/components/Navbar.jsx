@@ -6,6 +6,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+  const [dropdownOpen, setDropdownOpen] = useState(false);
   const location = useLocation();
 
   useEffect(() => {
@@ -18,6 +19,7 @@ const Navbar = () => {
 
   useEffect(() => {
     setIsOpen(false);
+    setDropdownOpen(false);
     window.scrollTo(0, 0);
   }, [location]);
 
@@ -25,7 +27,15 @@ const Navbar = () => {
     { name: 'Home', path: '/' },
     { name: 'About Us', path: '/about' },
     { name: 'Services', path: '/services' },
-    { name: 'Portfolio', path: '/projects' },
+    { 
+      name: 'Portfolio', 
+      path: '/projects',
+      subLinks: [
+        { name: '360° Virtual Tours', path: '/projects' },
+        { name: 'Drone Photo & Videography', path: '/drone-projects' },
+        { name: 'Google Street View', path: '/street-view' }
+      ]
+    },
     { name: 'Contact Us', path: '/contact' }
   ];
 
@@ -44,13 +54,47 @@ const Navbar = () => {
         {/* Desktop Navigation */}
         <div className="nav-menu">
           {navLinks.map(link => (
-            <Link 
+            <div 
               key={link.name} 
-              to={link.path} 
-              className={`nav-item ${location.pathname === link.path ? 'active' : ''}`}
+              className="nav-item-wrapper"
+              onMouseEnter={() => link.subLinks && setDropdownOpen(true)}
+              onMouseLeave={() => link.subLinks && setDropdownOpen(false)}
             >
-              {link.name}
-            </Link>
+              {link.subLinks ? (
+                <div className="dropdown-container">
+                  <span className={`nav-item ${location.pathname.includes(link.path) || link.subLinks.some(s => location.pathname === s.path) ? 'active' : ''}`}>
+                    {link.name} <ChevronDown size={16} className={`chevron ${dropdownOpen ? 'rotate' : ''}`} />
+                  </span>
+                  <AnimatePresence>
+                    {dropdownOpen && (
+                      <motion.div 
+                        initial={{ opacity: 0, y: 10 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        exit={{ opacity: 0, y: 10 }}
+                        className="dropdown-menu glass"
+                      >
+                        {link.subLinks.map(sub => (
+                          <Link 
+                            key={sub.name} 
+                            to={sub.path} 
+                            className={`dropdown-item ${location.pathname === sub.path ? 'active' : ''}`}
+                          >
+                            {sub.name}
+                          </Link>
+                        ))}
+                      </motion.div>
+                    )}
+                  </AnimatePresence>
+                </div>
+              ) : (
+                <Link 
+                  to={link.path} 
+                  className={`nav-item ${location.pathname === link.path ? 'active' : ''}`}
+                >
+                  {link.name}
+                </Link>
+              )}
+            </div>
           ))}
         </div>
 
@@ -91,17 +135,38 @@ const Navbar = () => {
               </div>
               <div className="mobile-links">
                 {navLinks.map(link => (
-                  <Link 
-                    key={link.name} 
-                    to={link.path} 
-                    className={`mobile-link ${location.pathname === link.path ? 'active' : ''}`}
-                  >
-                    {link.name}
-                  </Link>
+                  <div key={link.name}>
+                    {link.subLinks ? (
+                      <div className="mobile-dropdown-section">
+                        <div className="mobile-link parent-link">
+                          {link.name}
+                        </div>
+                        <div className="mobile-sublinks">
+                          {link.subLinks.map(sub => (
+                            <Link 
+                              key={sub.name} 
+                              to={sub.path} 
+                              className={`mobile-sublink ${location.pathname === sub.path ? 'active' : ''}`}
+                              onClick={() => setIsOpen(false)}
+                            >
+                              {sub.name}
+                            </Link>
+                          ))}
+                        </div>
+                      </div>
+                    ) : (
+                      <Link 
+                        to={link.path} 
+                        className={`mobile-link ${location.pathname === link.path ? 'active' : ''}`}
+                        onClick={() => setIsOpen(false)}
+                      >
+                        {link.name}
+                      </Link>
+                    )}
+                  </div>
                 ))}
                 <div className="mobile-actions">
-                  <Link to="/contact" className="btn btn-outline" style={{ width: '100%', textAlign: 'center' }}>Sign In</Link>
-                  <Link to="/contact" className="btn btn-primary" style={{ width: '100%', textAlign: 'center' }}>Start Free</Link>
+                  <Link to="/contact" className="btn btn-primary" style={{ width: '100%', textAlign: 'center' }}>Book Now</Link>
                 </div>
               </div>
             </motion.div>

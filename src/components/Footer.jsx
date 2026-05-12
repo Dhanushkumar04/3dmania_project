@@ -15,9 +15,9 @@ const Footer = () => {
           {/* Brand */}
           <div style={{ display: 'flex', flexDirection: 'column', gap: '1.5rem' }}>
             <img 
-              src="/3Dmania_logo.png" 
+              src="/3Dmania_logo_name.png" 
               alt="3DMania Logo" 
-              style={{ height: '80px', width: '80px', objectFit: 'contain' }} 
+              style={{ height: '50px', width: 'auto', objectFit: 'contain', marginLeft: '-5px' }} 
             />
             <p style={{ color: 'var(--text-muted)', lineHeight: '1.6' }}>
               Redefining how businesses showcase their spaces through immersive 360° virtual tours. Based in Bangalore, serving globally.
@@ -63,10 +63,9 @@ const Footer = () => {
               "Giving you the confidence even before you visit"
             </p>
              <div style={{ display: 'flex', gap: '1.2rem', marginTop: '2rem' }}>
-              <SocialIcon url="https://twitter.com" />
-              <SocialIcon url="https://facebook.com" />
-              <SocialIcon url="https://linkedin.com" />
-              <SocialIcon url="https://instagram.com" />
+              <SocialIcon url="https://www.facebook.com/profile.php?id=61571287546052" target="_blank" />
+              <SocialIcon url="https://www.linkedin.com/company/v3dmania/" target="_blank" />
+              <SocialIcon url="https://www.instagram.com/v3dmania/" target="_blank" />
             </div>
           </div>
         </div>
