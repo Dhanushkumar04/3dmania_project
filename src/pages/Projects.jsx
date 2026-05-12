@@ -83,8 +83,8 @@ const Projects = () => {
       <section className="section">
         <div className="container">
           <div className="section-header" style={{ textAlign: 'center' }}>
-            <h1 style={{ fontSize: 'clamp(2.5rem, 8vw, 4rem)', marginBottom: '1.5rem' }}>360°<span className="text-gradient"> Virtual Tours</span></h1>
-            <p style={{ color: 'var(--text-muted)', fontSize: '1.2rem', maxWidth: '800px', margin: '0 auto' }}>
+            <h1 style={{ fontSize: 'clamp(2rem, 8vw, 4rem)', marginBottom: '1rem' }}>360°<span className="text-gradient"> Virtual Tours</span></h1>
+            <p style={{ color: 'var(--text-muted)', fontSize: 'clamp(1rem, 2vw, 1.2rem)', maxWidth: '800px', margin: '0 auto' }}>
               Explore our work across different industries and see how we transform spaces into digital experiences.
             </p>
           </div>
@@ -110,8 +110,8 @@ const Projects = () => {
 
           <div style={{
             display: 'grid',
-            gridTemplateColumns: 'repeat(auto-fill, minmax(320px, 1fr))',
-            gap: '2.5rem'
+            gridTemplateColumns: 'repeat(auto-fill, minmax(min(100%, 320px), 1fr))',
+            gap: 'clamp(1.5rem, 4vw, 2.5rem)'
           }}>
             <AnimatePresence mode='popLayout'>
               {filteredProjects.map((project) => {
@@ -182,18 +182,18 @@ const Projects = () => {
             viewport={{ once: true }}
             className="glass"
             style={{
-              marginTop: '6rem',
-              padding: '4rem',
+              marginTop: 'clamp(3rem, 10vw, 6rem)',
+              padding: 'clamp(2rem, 8vw, 4rem)',
               borderRadius: '24px',
               textAlign: 'center',
               border: '1px solid var(--accent-blue)'
             }}
           >
-            <h2 style={{ fontSize: '2.5rem', marginBottom: '1.5rem' }}>Want your space featured here?</h2>
-            <p style={{ color: 'var(--text-muted)', marginBottom: '2.5rem', fontSize: '1.1rem' }}>
+            <h2 style={{ fontSize: 'clamp(1.8rem, 5vw, 2.5rem)', marginBottom: '1rem' }}>Want your space featured here?</h2>
+            <p style={{ color: 'var(--text-muted)', marginBottom: '2rem', fontSize: 'clamp(0.95rem, 2vw, 1.1rem)' }}>
               Start your project today and let us help you reach a global audience.
             </p>
-            <Link to="/contact" className="btn btn-primary" style={{ padding: '1rem 3rem' }}>
+            <Link to="/contact" className="btn btn-primary" style={{ padding: '0.8rem 2.5rem' }}>
               Get Started Now <ArrowRight size={20} style={{ marginLeft: '0.5rem' }} />
             </Link>
           </motion.div>

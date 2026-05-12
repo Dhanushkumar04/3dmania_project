@@ -50,8 +50,8 @@ const DroneProjects = () => {
       <section className="section">
         <div className="container">
           <div className="section-header" style={{ textAlign: 'center' }}>
-            <h1 style={{ fontSize: 'clamp(2.5rem, 8vw, 4rem)', marginBottom: '1.5rem' }}>Drone <span className="text-gradient">Photo & Videography</span></h1>
-            <p style={{ color: 'var(--text-muted)', fontSize: '1.2rem', maxWidth: '800px', margin: '0 auto' }}>
+            <h1 style={{ fontSize: 'clamp(2rem, 8vw, 4rem)', marginBottom: '1rem' }}>Drone <span className="text-gradient">Photo & Videography</span></h1>
+            <p style={{ color: 'var(--text-muted)', fontSize: 'clamp(1rem, 2vw, 1.2rem)', maxWidth: '800px', margin: '0 auto' }}>
               Capture the world from above with our professional drone photography and videography services.
             </p>
           </div>
@@ -77,8 +77,8 @@ const DroneProjects = () => {
 
           <div style={{
             display: 'grid',
-            gridTemplateColumns: 'repeat(auto-fill, minmax(320px, 1fr))',
-            gap: '2.5rem'
+            gridTemplateColumns: 'repeat(auto-fill, minmax(min(100%, 320px), 1fr))',
+            gap: 'clamp(1.5rem, 4vw, 2.5rem)'
           }}>
             <AnimatePresence mode='popLayout'>
               {filteredProjects.map((project) => (
@@ -130,18 +130,18 @@ const DroneProjects = () => {
             viewport={{ once: true }}
             className="glass"
             style={{
-              marginTop: '6rem',
-              padding: '4rem',
+              marginTop: 'clamp(3rem, 10vw, 6rem)',
+              padding: 'clamp(2rem, 8vw, 4rem)',
               borderRadius: '24px',
               textAlign: 'center',
               border: '1px solid var(--accent-blue)'
             }}
           >
-            <h2 style={{ fontSize: '2.5rem', marginBottom: '1.5rem' }}>Need an aerial perspective?</h2>
-            <p style={{ color: 'var(--text-muted)', marginBottom: '2.5rem', fontSize: '1.1rem' }}>
+            <h2 style={{ fontSize: 'clamp(1.8rem, 5vw, 2.5rem)', marginBottom: '1rem' }}>Need an aerial perspective?</h2>
+            <p style={{ color: 'var(--text-muted)', marginBottom: '2rem', fontSize: 'clamp(0.95rem, 2vw, 1.1rem)' }}>
               From cinematic videos to industrial surveys, our drone services cover it all.
             </p>
-            <Link to="/contact" className="btn btn-primary" style={{ padding: '1rem 3rem' }}>
+            <Link to="/contact" className="btn btn-primary" style={{ padding: '0.8rem 2.5rem' }}>
               Contact Us <ArrowRight size={20} style={{ marginLeft: '0.5rem' }} />
             </Link>
           </motion.div>

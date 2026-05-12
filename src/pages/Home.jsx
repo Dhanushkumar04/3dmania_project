@@ -225,14 +225,14 @@ const Home = () => {
      
 
       {/* Why Choose 3Dmania Slider */}
-      <section className="section" style={{ background: 'rgba(255,255,255,0.02)', padding: '6rem 0' }}>
+      <section className="section" style={{ background: 'rgba(255,255,255,0.02)', padding: 'clamp(3rem, 10vw, 6rem) 0' }}>
         <div className="container">
-          <div style={{ textAlign: 'center', marginBottom: '4rem' }}>
+          <div style={{ textAlign: 'center', marginBottom: 'clamp(2rem, 8vw, 4rem)' }}>
             <motion.h2 
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              style={{ fontSize: 'clamp(2.5rem, 5vw, 4rem)', fontWeight: 800 }}
+              style={{ fontSize: 'clamp(2rem, 5vw, 4rem)', fontWeight: 800 }}
             >
               Why Choose <span className="text-gradient">3Dmania?</span>
             </motion.h2>
@@ -240,8 +240,8 @@ const Home = () => {
 
           <div style={{ 
             display: 'grid', 
-            gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', 
-            gap: '2rem',
+            gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', 
+            gap: 'clamp(1rem, 3vw, 2rem)',
             alignItems: 'stretch'
           }}>
             {whyChooseData.map((card, i) => (
@@ -259,7 +259,7 @@ const Home = () => {
                 transition={{ duration: 0.5 }}
                 className="glass"
                 style={{ 
-                  padding: '2.5rem', 
+                  padding: 'clamp(1.5rem, 5vw, 2.5rem)', 
                   borderRadius: '24px', 
                   border: '1px solid',
                   display: 'flex',
@@ -284,15 +284,15 @@ const Home = () => {
                   />
                 )}
                 <h3 style={{ 
-                  fontSize: '1.5rem', 
-                  marginBottom: '1.5rem', 
+                  fontSize: 'clamp(1.2rem, 3vw, 1.5rem)', 
+                  marginBottom: '1rem', 
                   color: whyChooseIndex === i ? 'var(--accent-blue)' : '#fff',
                   transition: 'color 0.3s'
                 }}>
                   {card.title}
                 </h3>
                 <div style={{ 
-                  fontSize: '0.95rem', 
+                  fontSize: 'clamp(0.85rem, 2vw, 0.95rem)', 
                   color: whyChooseIndex === i ? '#fff' : 'var(--text-muted)',
                   transition: 'color 0.3s',
                   lineHeight: 1.6
@@ -308,15 +308,20 @@ const Home = () => {
       {/* Featured Project: Viruksha Avenue */}
       <section className="section glass" style={{ overflow: 'hidden' }}>
         <div className="container">
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(350px, 1fr))', gap: '5rem', alignItems: 'center' }}>
+          <div style={{ 
+            display: 'grid', 
+            gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 350px), 1fr))', 
+            gap: 'clamp(2rem, 10vw, 5rem)', 
+            alignItems: 'center' 
+          }}>
             <motion.div
               initial={{ opacity: 0, x: -50 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
             >
               <p style={{ color: 'var(--accent-blue)', fontWeight: 700, marginBottom: '1rem', fontSize: '0.9rem', letterSpacing: '0.1rem' }}>FEATURED PROJECT</p>
-              <h2 style={{ fontSize: 'clamp(2.5rem, 5vw, 4rem)', fontWeight: 800, marginBottom: '2rem' }}>Viruksha Avenue</h2>
-              <p style={{ fontSize: '1.2rem', color: 'var(--text-muted)', marginBottom: '2.5rem', lineHeight: 1.8 }}>
+              <h2 style={{ fontSize: 'clamp(2rem, 5vw, 4rem)', fontWeight: 800, marginBottom: '1.5rem' }}>Viruksha Avenue</h2>
+              <p style={{ fontSize: 'clamp(1rem, 2vw, 1.2rem)', color: 'var(--text-muted)', marginBottom: '2rem', lineHeight: 1.8 }}>
                 Explore the premium residential development of Viruksha Avenue in Dharmapuri. Experience an immersive 3D virtual tour featuring high-resolution panoramas and interactive hotspots, bringing every detail of this stunning project to life right from your screen.
               </p>
               <Link to="/projects#viruksha-avenue" className="btn btn-outline" style={{ display: 'inline-flex', alignItems: 'center', gap: '0.5rem' }}>
@@ -335,7 +340,7 @@ const Home = () => {
                 style={{ 
                   width: '100%', 
                   borderRadius: '24px', 
-                  boxShadow: '0 50px 100px rgba(0,0,0,0.5)',
+                  boxShadow: '0 30px 60px rgba(0,0,0,0.5)',
                   border: '1px solid rgba(255,255,255,0.1)'
                 }}
               />
@@ -345,12 +350,16 @@ const Home = () => {
       </section>
 
 
-      {/* Industries Accordion Section (Screenshot 4 style) */}
+      {/* Industries Accordion Section */}
       <section className="section glass">
         <div className="container">
-          <h2 style={{ fontSize: 'clamp(1.8rem, 5vw, 3.5rem)', fontWeight: 800, marginBottom: '4rem' }}>Explore the power of 3D across industries.</h2>
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '5rem' }}>
-            <div style={{ position: 'relative', height: '500px', borderRadius: '20px', overflow: 'hidden' }}>
+          <h2 style={{ fontSize: 'clamp(1.8rem, 5vw, 3.5rem)', fontWeight: 800, marginBottom: 'clamp(2rem, 8vw, 4rem)' }}>Explore the power of 3D across industries.</h2>
+          <div style={{ 
+            display: 'grid', 
+            gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 300px), 1fr))', 
+            gap: 'clamp(2rem, 8vw, 5rem)' 
+          }}>
+            <div style={{ position: 'relative', height: 'clamp(300px, 50vh, 500px)', borderRadius: '20px', overflow: 'hidden' }}>
               <AnimatePresence mode="wait">
                 <motion.img 
                   key={activeIndustry}
@@ -362,19 +371,26 @@ const Home = () => {
                   style={{ width: '100%', height: '100%', objectFit: 'cover' }}
                 />
               </AnimatePresence>
-              <div style={{ position: 'absolute', bottom: '30px', left: '30px' }}>
-                 <div style={{ background: 'var(--accent-blue)', width: '60px', height: '60px', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                  <Play fill="#000" color="#000" size={24} />
+              <div style={{ position: 'absolute', bottom: '20px', left: '20px' }}>
+                 <div style={{ background: 'var(--accent-blue)', width: '50px', height: '50px', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                  <Play fill="#000" color="#000" size={20} />
                 </div>
               </div>
             </div>
-            <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem', maxHeight: '600px', overflowY: 'auto', paddingRight: '1rem', scrollbarWidth: 'thin', scrollbarColor: 'var(--accent-blue) transparent' }} className="custom-scrollbar">
+            <div style={{ 
+              display: 'flex', 
+              flexDirection: 'column', 
+              gap: '0.5rem', 
+              maxHeight: 'clamp(400px, 60vh, 600px)', 
+              overflowY: 'auto', 
+              paddingRight: '0.5rem' 
+            }} className="custom-scrollbar">
               {industries.map((industry, i) => (
                 <div 
                   key={i} 
                   onClick={() => setActiveIndustry(i)}
                   style={{ 
-                    padding: '2rem', 
+                    padding: 'clamp(1rem, 3vw, 2rem)', 
                     borderRadius: '15px', 
                     cursor: 'pointer',
                     background: activeIndustry === i ? 'rgba(255,255,255,0.05)' : 'transparent',
@@ -383,17 +399,17 @@ const Home = () => {
                   }}
                 >
                   <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: activeIndustry === i ? '1rem' : '0' }}>
-                    <h3 style={{ fontSize: '1.4rem', fontWeight: 700 }}>{industry.name}</h3>
-                    <ChevronDown style={{ transform: activeIndustry === i ? 'rotate(180deg)' : 'none', transition: '0.3s' }} />
+                    <h3 style={{ fontSize: 'clamp(1.1rem, 2.5vw, 1.4rem)', fontWeight: 700 }}>{industry.name}</h3>
+                    <ChevronDown size={18} style={{ transform: activeIndustry === i ? 'rotate(180deg)' : 'none', transition: '0.3s' }} />
                   </div>
                   {activeIndustry === i && (
                     <motion.div
                       initial={{ opacity: 0, height: 0 }}
                       animate={{ opacity: 1, height: 'auto' }}
                     >
-                      <p style={{ color: 'var(--text-muted)', marginBottom: '1.5rem' }}>{industry.desc}</p>
-                      <Link to="/projects" style={{ color: 'var(--accent-blue)', fontWeight: 600, display: 'flex', alignItems: 'center', gap: '0.5rem', textDecoration: 'none' }}>
-                        Learn More <ArrowRight size={16} />
+                      <p style={{ color: 'var(--text-muted)', marginBottom: '1rem', fontSize: '0.9rem' }}>{industry.desc}</p>
+                      <Link to="/projects" style={{ color: 'var(--accent-blue)', fontWeight: 600, display: 'flex', alignItems: 'center', gap: '0.5rem', textDecoration: 'none', fontSize: '0.9rem' }}>
+                        Learn More <ArrowRight size={14} />
                       </Link>
                     </motion.div>
                   )}

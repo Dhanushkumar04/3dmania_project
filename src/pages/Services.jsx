@@ -54,7 +54,7 @@ const Services = () => {
             </p>
           </div>
 
-          <div style={{ display: 'flex', flexDirection: 'column', gap: '6rem' }}>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: 'clamp(2rem, 10vw, 6rem)' }}>
             {serviceCategories.map((cat, index) => (
               <motion.div 
                 key={index}
@@ -62,25 +62,25 @@ const Services = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 className="glass"
-                style={{ padding: '4rem', borderRadius: '30px' }}
+                style={{ padding: 'clamp(1.5rem, 5vw, 4rem)', borderRadius: '30px' }}
               >
-                <div style={{ display: 'flex', alignItems: 'center', gap: '1.5rem', marginBottom: '2rem' }}>
-                  <div style={{ color: 'var(--accent-blue)', background: 'rgba(0, 242, 255, 0.1)', padding: '1rem', borderRadius: '15px' }}>
+                <div style={{ display: 'flex', alignItems: 'center', gap: '1.5rem', marginBottom: '1.5rem', flexWrap: 'wrap' }}>
+                  <div style={{ color: 'var(--accent-blue)', background: 'rgba(0, 242, 255, 0.1)', padding: '0.8rem', borderRadius: '15px' }}>
                     {cat.icon}
                   </div>
-                  <h2 style={{ fontSize: '2.5rem' }}>{cat.title}</h2>
+                  <h2 style={{ fontSize: 'clamp(1.5rem, 4vw, 2.5rem)' }}>{cat.title}</h2>
                 </div>
-                <p style={{ fontSize: '1.2rem', color: 'var(--text-muted)', marginBottom: '3rem', maxWidth: '900px' }}>
+                <p style={{ fontSize: 'clamp(0.95rem, 2vw, 1.2rem)', color: 'var(--text-muted)', marginBottom: '2.5rem', maxWidth: '900px' }}>
                   {cat.description}
                 </p>
                 
-                <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '2rem' }}>
+                <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 300px), 1fr))', gap: '1.5rem' }}>
                   {cat.items.map((item, i) => (
                     <div key={i} className="service-sub-card">
-                      <h4 style={{ color: 'var(--accent-blue)', marginBottom: '0.8rem', display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
-                        <ArrowRight size={18} /> {item.title}
+                      <h4 style={{ color: 'var(--accent-blue)', marginBottom: '0.8rem', display: 'flex', alignItems: 'center', gap: '0.5rem', fontSize: '1rem' }}>
+                        <ArrowRight size={16} /> {item.title}
                       </h4>
-                      <p style={{ fontSize: '0.95rem', color: 'rgba(255,255,255,0.7)' }}>{item.desc}</p>
+                      <p style={{ fontSize: '0.9rem', color: 'rgba(255,255,255,0.7)' }}>{item.desc}</p>
                     </div>
                   ))}
                 </div>
@@ -94,15 +94,15 @@ const Services = () => {
             viewport={{ once: true }}
             className="glass"
             style={{ 
-              marginTop: '6rem', 
-              padding: '4rem', 
+              marginTop: 'clamp(3rem, 10vw, 6rem)', 
+              padding: 'clamp(2rem, 8vw, 4rem)', 
               borderRadius: '30px', 
               textAlign: 'center',
               border: '1px solid var(--accent-blue)'
             }}
           >
-            <h2 style={{ fontSize: '2.5rem', marginBottom: '1.5rem' }}>Start Your Project Today</h2>
-            <p style={{ color: 'var(--text-muted)', marginBottom: '2.5rem' }}>
+            <h2 style={{ fontSize: 'clamp(1.8rem, 5vw, 2.5rem)', marginBottom: '1rem' }}>Start Your Project Today</h2>
+            <p style={{ color: 'var(--text-muted)', marginBottom: '2rem', fontSize: '1.1rem' }}>
               Let's create something amazing together.
             </p>
             <Link to="/contact" className="btn btn-primary" style={{ padding: '1rem 3rem' }}>

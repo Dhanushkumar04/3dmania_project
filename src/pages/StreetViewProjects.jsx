@@ -56,8 +56,8 @@ const StreetViewProjects = () => {
       <section className="section">
         <div className="container">
           <div className="section-header" style={{ textAlign: 'center' }}>
-            <h1 style={{ fontSize: 'clamp(2.5rem, 8vw, 4rem)', marginBottom: '1.5rem' }}>Google <span className="text-gradient">Street View</span></h1>
-            <p style={{ color: 'var(--text-muted)', fontSize: '1.2rem', maxWidth: '800px', margin: '0 auto' }}>
+            <h1 style={{ fontSize: 'clamp(2rem, 8vw, 4rem)', marginBottom: '1.5rem' }}>Google <span className="text-gradient">Street View</span></h1>
+            <p style={{ color: 'var(--text-muted)', fontSize: 'clamp(1rem, 2vw, 1.2rem)', maxWidth: '800px', margin: '0 auto' }}>
               Put your business on the map with professional Google Street View integration.
             </p>
           </div>
@@ -81,10 +81,10 @@ const StreetViewProjects = () => {
             ))}
           </div>
 
-          <div style={{ 
-            display: 'grid', 
-            gridTemplateColumns: 'repeat(auto-fill, minmax(320px, 1fr))', 
-            gap: '2.5rem' 
+          <div style={{
+            display: 'grid',
+            gridTemplateColumns: 'repeat(auto-fill, minmax(min(100%, 320px), 1fr))',
+            gap: 'clamp(1.5rem, 4vw, 2.5rem)'
           }}>
             <AnimatePresence mode='popLayout'>
               {filteredProjects.map((project) => (
@@ -138,18 +138,18 @@ const StreetViewProjects = () => {
             viewport={{ once: true }}
             className="glass"
             style={{ 
-              marginTop: '6rem', 
-              padding: '4rem', 
+              marginTop: 'clamp(3rem, 10vw, 6rem)', 
+              padding: 'clamp(2rem, 8vw, 4rem)', 
               borderRadius: '24px', 
               textAlign: 'center',
               border: '1px solid var(--accent-blue)'
             }}
           >
-            <h2 style={{ fontSize: '2.5rem', marginBottom: '1.5rem' }}>Ready to be on the map?</h2>
-            <p style={{ color: 'var(--text-muted)', marginBottom: '2.5rem', fontSize: '1.1rem' }}>
+            <h2 style={{ fontSize: 'clamp(1.8rem, 5vw, 2.5rem)', marginBottom: '1rem' }}>Ready to be on the map?</h2>
+            <p style={{ color: 'var(--text-muted)', marginBottom: '2rem', fontSize: 'clamp(0.95rem, 2vw, 1.1rem)' }}>
               Increase your online visibility and build trust with Google Street View.
             </p>
-            <Link to="/contact" className="btn btn-primary" style={{ padding: '1rem 3rem' }}>
+            <Link to="/contact" className="btn btn-primary" style={{ padding: '0.8rem 2.5rem' }}>
               Get Started <ArrowRight size={20} style={{ marginLeft: '0.5rem' }} />
             </Link>
           </motion.div>
