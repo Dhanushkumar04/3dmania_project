@@ -16,7 +16,7 @@ const StreetViewProjects = () => {
       category: 'Residential',
       description: 'A comprehensive indoor street view of a modern residential complex, highlighting amenities and architecture.',
       image: 'https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&q=80&w=1200',
-      actionLink: 'https://www.google.com/maps/embed?pb=!4v1778431172379!6m8!1m7!1sCAoSHENJQUJJaENsOUpHUmlHLUJ5Ti1Ebm9mdzNIbE0.!2m2!1d12.92029806020971!2d77.65170802805414!3f90.0432562886043!4f11.844887779717737!5f0.7820865974627469',
+      actionLink: 'https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=12.920298,77.651708',
     },
     {
       id: 2,
@@ -25,7 +25,7 @@ const StreetViewProjects = () => {
       category: 'Commercial',
       description: 'Showcasing the expansive interiors and professional environment of a premium commercial building.',
       image: 'https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&q=80&w=1200',
-      actionLink: 'https://www.google.com/maps/embed?pb=!4v1778431771096!6m8!1m7!1sCAoSHENJQUJJaEFHYnp6Z1lUbDdRV2Utd19rQUI1STk.!2m2!1d12.9118959420352!2d77.63799766593304!3f7.2932957520471895!4f-12.158418109892565!5f0.7820865974627469',
+      actionLink: 'https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=12.911895,77.637997',
     },
     {
       id: 3,
@@ -34,7 +34,7 @@ const StreetViewProjects = () => {
       category: 'Office',
       description: 'Interactive tour of a high-tech office space, perfect for attracting top talent and clients.',
       image: 'https://images.unsplash.com/photo-1497215728101-856f4ea42174?auto=format&fit=crop&q=80&w=1200',
-      actionLink: 'https://www.google.com/maps/embed?pb=!4v1778431866670!6m8!1m7!1sCAoSLEFGMVFpcE1FS0xRS1ZycDJiRkl2MjRGcVF2YnBLN0VfOGhaZFJ3SUtfZUlu!2m2!1d12.96935983406239!2d77.64123685270948!3f268.91578480080346!4f7.7512704539610695!5f0.5970117501821992',
+      actionLink: 'https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=12.969359,77.641236',
     },
     {
       id: 4,
@@ -43,7 +43,7 @@ const StreetViewProjects = () => {
       category: 'Retail',
       description: 'A detailed walkthrough of a luxury retail showroom, offering customers an immersive preview of the products.',
       image: 'https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&q=80&w=1200',
-      actionLink: 'https://www.google.com/maps/embed?pb=!4v1778431937192!6m8!1m7!1sCAoSHENJQUJJaEFsaHhlY1U4LWNKS244LU95TkxWMF8.!2m2!1d28.4374978554924!2d77.1032061962073!3f252.40179826129307!4f3.781663389249914!5f0.7820865974627469',
+      actionLink: 'https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=28.437497,77.103206',
     }
   ];
 
