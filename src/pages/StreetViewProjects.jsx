@@ -15,7 +15,7 @@ const StreetViewProjects = () => {
       location: 'HSR Layout, Bangalore',
       category: 'Retail',
       description: 'Step inside the premium sleep experience centre and explore their range of mattresses and sleep solutions in high-definition 360°.',
-      image: '/duroflex.jpeg',
+      image: 'https://mania3d-assets.web.app/duroflex.jpeg',
       actionLink: 'https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=12.920298,77.651708',
     },
     {
@@ -24,7 +24,7 @@ const StreetViewProjects = () => {
       location: 'HSR Layout, Bangalore',
       category: 'Restaurant',
       description: 'Discover the vibrant ambiance and elegant interiors of this premium dining destination through an immersive virtual walkthrough.',
-      image: '/oyster-bar-kitchen.jpg',
+      image: 'https://mania3d-assets.web.app/oyster-bar-kitchen.jpg',
       actionLink: 'https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=12.911895,77.637997',
     },
     {
@@ -33,7 +33,7 @@ const StreetViewProjects = () => {
       location: 'Domlur, Bangalore',
       category: 'Retail',
       description: 'Explore the latest fashion collections and the premium store layout of US Polo Assn in this detailed Google Street View integration.',
-      image: '/polo.jpg',
+      image: 'https://mania3d-assets.web.app/polo.jpg',
       actionLink: 'https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=12.969359,77.641236',
     },
     {
@@ -42,7 +42,7 @@ const StreetViewProjects = () => {
       location: 'Gurugram, Haryana',
       category: 'Showroom',
       description: 'A high-end automotive showroom experience, allowing customers to virtually browse premium vehicles and the showroom facility.',
-      image: '/cart.avif',
+      image: 'https://mania3d-assets.web.app/cart.avif',
       actionLink: 'https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=28.437497,77.103206',
     }
   ];
