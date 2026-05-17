@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { ExternalLink, Play, MapPin, Tag, Info, ArrowRight } from 'lucide-react';
+import { Play, MapPin, Info, ArrowRight, Video, Globe, Camera } from 'lucide-react';
 import { Link, useLocation } from 'react-router-dom';
 
 const Projects = () => {
@@ -29,49 +29,187 @@ const Projects = () => {
 
   const categories = [
     'All',
-    'Real Estate',
-    'Schools & Colleges'
-
+    '360° Virtual Tours',
+    'Drone Photo & Videography',
+    'Google Street View',
+    'Drone Survey & Mapping'
   ];
 
   const projects = [
+    // 360° Virtual Tours
     {
-      id: 9,
+      id: 1,
       name: 'Viruksha Avenue',
       location: 'Dharmapuri, Tamil Nadu',
-      category: 'Real Estate',
+      category: '360° Virtual Tours',
       description: 'An immersive 3D virtual tour of a premium residential development featuring high-resolution panoramas and interactive hotspots.',
       image: 'https://mania3d-assets.web.app/viruksha-avenue/preview.jpg',
       tourLink: 'https://mania3d-assets.web.app/viruksha-avenue/index.html'
     },
     {
-      id: 10,
+      id: 2,
       name: 'Godwin Public School',
       location: 'Bangalore, Karnataka',
-      category: 'Schools & Colleges',
+      category: '360° Virtual Tours',
       description: 'A comprehensive virtual exploration of the school campus, classrooms, and facilities.',
       image: 'https://mania3d-assets.web.app/godwin-public-school/preview.jpg',
       tourLink: 'https://mania3d-assets.web.app/godwin-public-school/index.html'
     },
     {
-      id: 11,
+      id: 3,
       name: 'Presidency School East',
       location: 'Bangalore, Karnataka',
-      category: 'Schools & Colleges',
+      category: '360° Virtual Tours',
       description: 'An immersive tour of the prestigious Presidency School East campus and its modern infrastructure.',
       image: 'https://mania3d-assets.web.app/presidency-school-east/preview.jpg',
       tourLink: 'https://mania3d-assets.web.app/presidency-school-east/index.html'
     },
     {
-      id: 12,
+      id: 4,
       name: 'Prestige Villa',
       location: 'Bangalore, Karnataka',
-      category: 'Real Estate',
+      category: '360° Virtual Tours',
       description: 'Explore the elegance and luxury of this premium villa through a detailed 3D walk-through.',
       image: 'https://mania3d-assets.web.app/prestige-villa/preview.jpg',
       tourLink: 'https://mania3d-assets.web.app/prestige-villa/index.html'
+    },
+    // Drone Photo & Videography (UPDATED WITH DRONE1-7 AND VIDEO)
+    {
+      id: 5,
+      name: 'Aerial Villa Shoot',
+      location: 'Bangalore, Karnataka',
+      category: 'Drone Photo & Videography',
+      description: 'A beautiful high-altitude capture highlighting modern villa architecture and plotted development layouts.',
+      image: '/drone1.jpeg',
+      tourLink: '#',
+      type: 'photo'
+    },
+    {
+      id: 6,
+      name: 'Urban Development Landscape',
+      location: 'Hosur, Tamil Nadu',
+      category: 'Drone Photo & Videography',
+      description: 'Scenic aerial views showcasing dynamic layout planning, community scale, and infrastructure outlines.',
+      image: '/drone2.jpeg',
+      tourLink: '#',
+      type: 'photo'
+    },
+    {
+      id: 7,
+      name: 'Coastal Horizon Captures',
+      location: 'Goa, India',
+      category: 'Drone Photo & Videography',
+      description: 'Breathtaking high-altitude perspectives capturing waterfront properties and luxury resort locations.',
+      image: '/drone3.jpeg',
+      tourLink: '#',
+      type: 'photo'
+    },
+    {
+      id: 8,
+      name: 'Industrial Unit Survey',
+      location: 'Chennai, Tamil Nadu',
+      category: 'Drone Photo & Videography',
+      description: 'High-resolution vertical survey inspections for manufacturing sites and complex asset monitoring.',
+      image: '/drone4.jpeg',
+      tourLink: '#',
+      type: 'photo'
+    },
+    {
+      id: 9,
+      name: 'Premium Resort Showcase',
+      location: 'Ooty, Tamil Nadu',
+      category: 'Drone Photo & Videography',
+      description: 'Stunning commercial estate property photography, perfect for high-impact social media marketing.',
+      image: '/drone6.JPG',
+      tourLink: '#',
+      type: 'photo'
+    },
+    {
+      id: 10,
+      name: 'Real Estate Layout Mapping',
+      location: 'Bangalore, Karnataka',
+      category: 'Drone Photo & Videography',
+      description: 'Detailed high-definition layout boundary imaging and plotted developer layout visual mapping.',
+      image: '/drone7.JPG',
+      tourLink: '#',
+      type: 'photo'
+    },
+    {
+      id: 11,
+      name: 'Viruksha Avenue Aerial Cinematic',
+      location: 'Dharmapuri, Tamil Nadu',
+      category: 'Drone Photo & Videography',
+      description: 'An immersive 4K cinematic video walkthrough detailing complete property access and surrounding developments.',
+      image: '/drone1.jpeg',
+      video: '/Viruksha Avenue First Cut.mp4',
+      tourLink: '#',
+      type: 'video'
+    },
+    // Google Street View
+    {
+      id: 12,
+      name: 'Duroflex Experience Centre',
+      location: 'HSR Layout, Bangalore',
+      category: 'Google Street View',
+      description: 'Step inside the premium sleep experience centre and explore their range of mattresses and sleep solutions in high-definition 360°.',
+      image: 'https://mania3d-assets.web.app/duroflex.jpeg',
+      tourLink: 'https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=12.920298,77.651708'
+    },
+    {
+      id: 13,
+      name: 'Oyster Bar & Kitchen',
+      location: 'HSR Layout, Bangalore',
+      category: 'Google Street View',
+      description: 'Discover the vibrant ambiance and elegant interiors of this premium dining destination through an immersive virtual walkthrough.',
+      image: 'https://mania3d-assets.web.app/oyster-bar-kitchen.jpg',
+      tourLink: 'https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=12.911895,77.637997'
+    },
+    {
+      id: 14,
+      name: 'US Polo Assn.',
+      location: 'Domlur, Bangalore',
+      category: 'Google Street View',
+      description: 'Explore the latest fashion collections and the premium store layout of US Polo Assn in this detailed Google Street View integration.',
+      image: 'https://mania3d-assets.web.app/polo.jpg',
+      tourLink: 'https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=12.969359,77.641236'
+    },
+    {
+      id: 15,
+      name: 'Luxury Cart',
+      location: 'Gurugram, Haryana',
+      category: 'Google Street View',
+      description: 'A high-end automotive showroom experience, allowing customers to virtually browse premium vehicles and the showroom facility.',
+      image: 'https://mania3d-assets.web.app/cart.avif',
+      tourLink: 'https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=28.437497,77.103206'
+    },
+    // Drone Survey & Mapping (NEW CATEGORY SECTION)
+    {
+      id: 16,
+      name: 'Boundary Land Survey Map',
+      location: 'Hosur, Tamil Nadu',
+      category: 'Drone Survey & Mapping',
+      description: 'High-precision 2D boundary land analysis and development layout mapping survey.',
+      image: '/mapping.png',
+      tourLink: '#'
+    },
+    {
+      id: 17,
+      name: 'Orthomosaic Site Mapping',
+      location: 'Chennai, Tamil Nadu',
+      category: 'Drone Survey & Mapping',
+      description: 'Highly detailed vertical orthomosaic site survey maps for commercial engineering assessment.',
+      image: '/mapping1.jpg',
+      tourLink: '#'
+    },
+    {
+      id: 18,
+      name: 'Infrastructure Analysis Map',
+      location: 'Bangalore, Karnataka',
+      category: 'Drone Survey & Mapping',
+      description: 'Detailed top-down layout mapping outlining massive plotted layouts and terrain models.',
+      image: '/mapping2.png',
+      tourLink: '#'
     }
-
   ];
 
   const filteredProjects = filter === 'All'
@@ -80,15 +218,18 @@ const Projects = () => {
 
   return (
     <div className="page-container">
-      <section className="section">
+      <section className="section" style={{ paddingTop: 'clamp(5rem, 15vw, 8rem)' }}>
         <div className="container">
-          <div className="section-header" style={{ textAlign: 'center' }}>
-            <h1 style={{ fontSize: 'clamp(2rem, 8vw, 4rem)', marginBottom: '1rem' }}>360°<span className="text-gradient"> Virtual Tours</span></h1>
+          <div className="section-header" style={{ textAlign: 'center', marginBottom: '4rem' }}>
+            <h1 style={{ fontSize: 'clamp(2rem, 8vw, 4rem)', marginBottom: '1rem', fontWeight: 800 }}>
+              Our <span className="text-gradient">Portfolio</span>
+            </h1>
             <p style={{ color: 'var(--text-muted)', fontSize: 'clamp(1rem, 2vw, 1.2rem)', maxWidth: '800px', margin: '0 auto' }}>
-              Explore our work across different industries and see how we transform spaces into digital experiences.
+              Explore our unified work collection. Seamlessly filter through 360° virtual walkthroughs, professional drone media, official Google Street View maps, and high-precision mapping surveys.
             </p>
           </div>
 
+          {/* Filters Bar */}
           <div style={{
             display: 'flex',
             justifyContent: 'center',
@@ -108,6 +249,7 @@ const Projects = () => {
             ))}
           </div>
 
+          {/* Projects Grid */}
           <div style={{
             display: 'grid',
             gridTemplateColumns: 'repeat(auto-fill, minmax(min(100%, 320px), 1fr))',
@@ -142,11 +284,21 @@ const Projects = () => {
                     }}
                   >
                     <div className="project-image-container">
-                      <img src={project.image} alt={project.name} />
+                      {project.video ? (
+                        <video 
+                          src={project.video} 
+                          poster={project.image}
+                          controls
+                          playsInline
+                          style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                        />
+                      ) : (
+                        <img src={project.image} alt={project.name} />
+                      )}
                       <div className="project-category-badge">{project.category}</div>
                     </div>
                     <div className="project-info" style={{ flex: 1, display: 'flex', flexDirection: 'column' }}>
-                      <h3 style={{ fontSize: '1.5rem', marginBottom: '1rem' }}>{project.name}</h3>
+                      <h3 style={{ fontSize: '1.4rem', fontWeight: 800, marginBottom: '1rem' }}>{project.name}</h3>
 
                       <div style={{ display: 'flex', flexDirection: 'column', gap: '0.8rem', marginBottom: '1.5rem' }}>
                         <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', fontSize: '0.9rem', color: 'var(--text-muted)' }}>
@@ -160,13 +312,69 @@ const Projects = () => {
                       </div>
 
                       <div style={{ marginTop: 'auto' }}>
-                        <a
-                          href={project.tourLink}
-                          className="btn btn-primary"
-                          style={{ width: '100%', textAlign: 'center', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '0.5rem' }}
-                        >
-                          View Tour <Play size={16} fill="currentColor" />
-                        </a>
+                        {project.category === '360° Virtual Tours' && (
+                          <a
+                            href={project.tourLink}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="btn btn-primary"
+                            style={{ width: '100%', textAlign: 'center', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '0.5rem' }}
+                          >
+                            View Tour <Play size={16} fill="currentColor" />
+                          </a>
+                        )}
+                        {project.category === 'Drone Photo & Videography' && (
+                          <div style={{ display: 'flex', gap: '0.5rem' }}>
+                            {project.video ? (
+                              <button
+                                className="btn btn-primary"
+                                onClick={(e) => {
+                                  // Play/Pause direct controls
+                                  const videoEl = e.currentTarget.closest('.project-card').querySelector('video');
+                                  if (videoEl) {
+                                    if (videoEl.paused) videoEl.play();
+                                    else videoEl.pause();
+                                  }
+                                }}
+                                style={{ width: '100%', textAlign: 'center', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '0.5rem' }}
+                              >
+                                Play / Pause Video <Video size={16} />
+                              </button>
+                            ) : (
+                              <a
+                                href={project.image}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="btn btn-primary"
+                                style={{ width: '100%', textAlign: 'center', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '0.5rem' }}
+                              >
+                                View Photo <Camera size={16} />
+                              </a>
+                            )}
+                          </div>
+                        )}
+                        {project.category === 'Google Street View' && (
+                          <a
+                            href={project.tourLink}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="btn btn-primary"
+                            style={{ width: '100%', textAlign: 'center', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '0.5rem' }}
+                          >
+                            View on Maps <Globe size={16} />
+                          </a>
+                        )}
+                        {project.category === 'Drone Survey & Mapping' && (
+                          <a
+                            href={project.image}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="btn btn-primary"
+                            style={{ width: '100%', textAlign: 'center', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '0.5rem' }}
+                          >
+                            View Survey Map <Globe size={16} />
+                          </a>
+                        )}
                       </div>
                     </div>
                   </motion.div>
@@ -217,6 +425,7 @@ const Projects = () => {
           position: relative;
           height: 220px;
           overflow: hidden;
+          background: #000;
         }
         .project-image-container img {
           width: 100%;
@@ -225,7 +434,7 @@ const Projects = () => {
           transition: transform 0.5s ease;
         }
         .project-card:hover .project-image-container img {
-          transform: scale(1.1);
+          transform: scale(1.05);
         }
         .project-category-badge {
           position: absolute;
@@ -238,6 +447,7 @@ const Projects = () => {
           font-size: 0.75rem;
           font-weight: 700;
           text-transform: uppercase;
+          z-index: 10;
         }
         .project-info {
           padding: 2rem;

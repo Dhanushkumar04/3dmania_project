@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Menu, X, ChevronDown } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
+import { SocialIcon } from 'react-social-icons';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -26,16 +27,18 @@ const Navbar = () => {
   const navLinks = [
     { name: 'Home', path: '/' },
     { name: 'About Us', path: '/about' },
-    { name: 'Services', path: '/services' },
     { 
-      name: 'Portfolio', 
-      path: '/projects',
+      name: 'Services', 
+      path: '/services',
       subLinks: [
-        { name: '360° Virtual Tours', path: '/projects' },
-        { name: 'Drone Photo & Videography', path: '/drone-projects' },
-        { name: 'Google Street View', path: '/street-view' }
+        { name: 'Overall Services', path: '/services' },
+        { name: '360° Virtual Tours', path: '/virtual-tours' },
+        { name: 'Drone Photo & Videography', path: '/drone-services' },
+        { name: 'Google Street View', path: '/google-street-view' },
+        { name: 'Drone Aerial Survey', path: '/drone-survey' }
       ]
     },
+    { name: 'Portfolio', path: '/projects' },
     { name: 'Contact Us', path: '/contact' }
   ];
 
@@ -99,10 +102,13 @@ const Navbar = () => {
         </div>
 
         {/* Desktop Actions */}
-        <div className="nav-actions">
-          <Link to="/contact" className="btn btn-primary start-btn">
-            Book Now
-          </Link>
+        <div className="nav-actions" style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
+          <div style={{ display: 'flex', gap: '0.8rem', alignItems: 'center' }}>
+            <SocialIcon url="https://wa.me/919353456068" target="_blank" style={{ height: 35, width: 35 }} />
+            <SocialIcon url="https://www.instagram.com/v3dmania/" target="_blank" style={{ height: 35, width: 35 }} />
+            <SocialIcon url="https://www.linkedin.com/company/v3dmania/" target="_blank" style={{ height: 35, width: 35 }} />
+            <SocialIcon url="https://www.facebook.com/profile.php?id=61571287546052" target="_blank" style={{ height: 35, width: 35 }} />
+          </div>
           
           {/* Mobile Toggle */}
           <button className="mobile-toggle" onClick={() => setIsOpen(!isOpen)} aria-label="Toggle Menu">
@@ -165,8 +171,11 @@ const Navbar = () => {
                     )}
                   </div>
                 ))}
-                <div className="mobile-actions">
-                  <Link to="/contact" className="btn btn-primary" style={{ width: '100%', textAlign: 'center' }}>Book Now</Link>
+                <div className="mobile-actions" style={{ display: 'flex', justifyContent: 'center', gap: '1.2rem', padding: '1.5rem 0' }}>
+                  <SocialIcon url="https://wa.me/919353456068" target="_blank" style={{ height: 40, width: 40 }} />
+                  <SocialIcon url="https://www.instagram.com/v3dmania/" target="_blank" style={{ height: 40, width: 40 }} />
+                  <SocialIcon url="https://www.linkedin.com/company/v3dmania/" target="_blank" style={{ height: 40, width: 40 }} />
+                  <SocialIcon url="https://www.facebook.com/profile.php?id=61571287546052" target="_blank" style={{ height: 40, width: 40 }} />
                 </div>
               </div>
             </motion.div>

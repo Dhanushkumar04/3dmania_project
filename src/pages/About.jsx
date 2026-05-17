@@ -60,9 +60,9 @@ const About = () => {
 
           {/* Vision & Mission */}
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 300px), 1fr))', gap: '2rem', marginTop: 'clamp(4rem, 12vw, 6rem)' }}>
-            <motion.div 
+            <motion.div
               whileHover={{ y: -10 }}
-              className="glass" 
+              className="glass"
               style={{ padding: 'clamp(2rem, 5vw, 3rem)', borderRadius: '24px', textAlign: 'center' }}
             >
               <div className="icon-circle" style={{ margin: '0 auto 1.5rem' }}><Eye size={30} /></div>
@@ -72,9 +72,9 @@ const About = () => {
               </p>
             </motion.div>
 
-            <motion.div 
+            <motion.div
               whileHover={{ y: -10 }}
-              className="glass" 
+              className="glass"
               style={{ padding: 'clamp(2rem, 5vw, 3rem)', borderRadius: '24px', textAlign: 'center' }}
             >
               <div className="icon-circle" style={{ margin: '0 auto 1.5rem' }}><Target size={30} /></div>
@@ -84,9 +84,9 @@ const About = () => {
               </p>
             </motion.div>
 
-            <motion.div 
+            <motion.div
               whileHover={{ y: -10 }}
-              className="glass" 
+              className="glass"
               style={{ padding: 'clamp(2rem, 5vw, 3rem)', borderRadius: '24px', textAlign: 'center' }}
             >
               <div className="icon-circle" style={{ margin: '0 auto 1.5rem' }}><Award size={30} /></div>
@@ -106,32 +106,20 @@ const About = () => {
               className="glass"
               style={{ maxWidth: '800px', margin: '0 auto', padding: 'clamp(2rem, 8vw, 4rem)', borderRadius: '30px' }}
             >
-              <div style={{ 
-                width: 'clamp(100px, 20vw, 150px)', 
-                height: 'clamp(100px, 20vw, 150px)', 
-                borderRadius: '50%', 
-                background: 'linear-gradient(45deg, var(--accent-blue), #555)', 
-                margin: '0 auto 2rem',
-                display: 'flex',
-                alignItems: 'center',
-                justifyContent: 'center',
-                fontSize: 'clamp(2rem, 5vw, 3rem)',
-                color: '#fff',
-                fontWeight: 800
-              }}>
-                VK
-              </div>
-              <h2 style={{ fontSize: 'clamp(1.8rem, 5vw, 2.5rem)', marginBottom: '0.5rem' }}>Venkatesh Kumar</h2>
+              <img src='/profile.png' style={{ height: '300px', width: '300px', borderRadius: '10px', margin: '0 auto 2rem', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: 'clamp(2rem, 5vw, 3rem)', color: '#fff', fontWeight: 800 }} />
+              <h2 style={{ fontSize: 'clamp(1.8rem, 5vw, 2.5rem)', marginBottom: '0.5rem' }}>Venkatesh</h2>
               <p style={{ color: 'var(--accent-blue)', fontSize: 'clamp(1rem, 2.5vw, 1.2rem)', fontWeight: 500, marginBottom: '1.5rem' }}>Founder & CEO</p>
               <p style={{ color: 'var(--text-muted)', fontSize: 'clamp(0.95rem, 2vw, 1.1rem)', lineHeight: '1.8', maxWidth: '600px', margin: '0 auto' }}>
-                Lead by passion for technology and visual storytelling, Venkatesh established 3DMania to bridge the gap between physical spaces and the digital world.
+                With 10+ years of experience in drone operations, 360° photography, and visual media solutions. Passionate about technology and digital experiences, Venkatesh started 3Dmania to help businesses showcase their spaces in a more immersive and interactive way through virtual tours, drone visuals, and modern digital solutions.
+
               </p>
             </motion.div>
           </section>
         </div>
       </section>
 
-      <style dangerouslySetInnerHTML={{ __html: `
+      <style dangerouslySetInnerHTML={{
+        __html: `
         .icon-circle {
           width: 80px;
           height: 80px;

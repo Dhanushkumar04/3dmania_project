@@ -28,7 +28,33 @@ yarn-debug.log*
 # OS
 Thumbs.db
 
-# Large Project Assets
-public/tours/
+# Large Project Assets, Images, Videos & Outputs
+# Virtual Tour Outputs
 * output/
 * output_R2/
+output/
+public/tours/
+
+# Image Files
+*.jpg
+*.jpeg
+*.png
+*.webp
+*.gif
+*.avif
+*.JPG
+*.JPEG
+*.PNG
+*.WEBP
+*.GIF
+*.AVIF
+Client Logo/
+public/client-logos/
+
+# Video Files
+*.mp4
+*.webm
+*.avi
+*.mov
+*.MP4
+
