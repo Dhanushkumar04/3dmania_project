@@ -232,7 +232,7 @@ const GoogleStreetViewService = () => {
             }}
           >
             <iframe
-              src="/tours/viruksha-avenue/index.html"
+              src="https://mania3d-assets.web.app/viruksha-avenue/index.html"
               title="Presidency School East Sample Tour"
               style={{
                 width: '100%',

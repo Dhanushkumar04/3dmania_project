@@ -5,19 +5,19 @@ import { Link } from 'react-router-dom';
 const Services = () => {
   const galleries = {
     "360° Virtual Tours": [
-      { url: "/Hotel_2.jpg", label: "Hospitality & Resorts" },
-      { url: "/Coworking-2.webp", label: "Coworking Spaces" },
-      { url: "/Showroom_2.jpg", label: "Premium Retail" },
-      { url: "/Showroom_3.jpg", label: "Luxury Showrooms" }
+      { url: "https://mania3d-assets.web.app/Hotel_2.jpg", label: "Hospitality & Resorts" },
+      { url: "https://mania3d-assets.web.app/Coworking-2.webp", label: "Coworking Spaces" },
+      { url: "https://mania3d-assets.web.app/Showroom_2.jpg", label: "Premium Retail" },
+      { url: "https://mania3d-assets.web.app/Showroom_3.jpg", label: "Luxury Showrooms" }
     ],
     "Drone Photo & Videography": [
-      { url: "/drone1.jpeg", label: "Aerial Property Shoots" },
-      { url: "/drone2.jpeg", label: "Urban Layout Scale" },
-      { url: "/drone3.jpeg", label: "Coastal Horizon Captures" }
+      { url: "https://mania3d-assets.web.app/drone1.jpeg", label: "Aerial Property Shoots" },
+      { url: "https://mania3d-assets.web.app/drone2.jpeg", label: "Urban Layout Scale" },
+      { url: "https://mania3d-assets.web.app/drone3.jpeg", label: "Coastal Horizon Captures" }
     ],
     "Google Street View": [
-      { url: "/duroflex.jpeg", label: "Duroflex Experience Centre" },
-      { url: "/polo.jpg", label: "US Polo Assn. Store" }
+      { url: "https://mania3d-assets.web.app/duroflex.jpeg", label: "Duroflex Experience Centre" },
+      { url: "https://mania3d-assets.web.app/polo.jpg", label: "US Polo Assn. Store" }
     ]
   };
 

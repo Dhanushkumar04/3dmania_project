@@ -26,27 +26,27 @@ const Home = () => {
     {
       title: "Interactive 3D Virtual Tours - Step Inside Your Space",
       subtitle: "FEATURED SHOWCASE",
-      tourUrl: "/tours/output/index.html"
+      tourUrl: "https://mania3d-assets.web.app/output/index.html"
     },
     {
       title: "Experience Properties Remotely with Complete Detail",
       subtitle: "REAL ESTATE",
-      tourUrl: "/tours/viruksha-avenue/index.html"
+      tourUrl: "https://mania3d-assets.web.app/viruksha-avenue/index.html"
     },
     {
       title: "Immersive 360° Walkthroughs That Build True Trust",
       subtitle: "LUXURY VILLAS",
-      tourUrl: "/tours/prestige-villa/index.html"
+      tourUrl: "https://mania3d-assets.web.app/prestige-villa/index.html"
     },
     {
       title: "Let Students & Parents Tour Your Campus Virtually",
       subtitle: "SCHOOLS & COLLEGES",
-      tourUrl: "/tours/godwin-public-school/index.html"
+      tourUrl: "https://mania3d-assets.web.app/godwin-public-school/index.html"
     },
     {
       title: "State-of-the-Art Facilities & Modern Infrastructure",
       subtitle: "CAMPUS WALKTHROUGHS",
-      tourUrl: "/tours/presidency-school-east/index.html"
+      tourUrl: "https://mania3d-assets.web.app/presidency-school-east/index.html"
     }
   ];
 
@@ -57,42 +57,41 @@ const Home = () => {
     return () => clearInterval(timer);
   }, [slides.length]);
 
-  const [activeIndustry, setActiveIndustry] = useState(0);
-  const industries = [
+  const [activeIndustry, setActiveIndustry] = useState(0);  const industries = [
     {
       name: "Real Estate",
       desc: "Make property decisions with immersive virtual tours - Showcase every detail in 360° and let buyers explore properties remotely with confidence and clarity.",
-      img: "/Real Estate_1.JPG"
+      img: "https://mania3d-assets.web.app/Real Estate_1.JPG"
     },
     {
       name: "Retail Showrooms",
       desc: "Bring your showroom experience online in 360° - Let customers walk through your products and spaces virtually before visiting your store.",
-      img: "/Showroom_1.avif"
+      img: "https://mania3d-assets.web.app/Showroom_1.avif"
     },
     {
       name: "Construction Sites",
       desc: "Monitor progress smarter with digital site walkthroughs - Track construction updates, document milestones, and showcase project development remotely.",
-      img: "/building-1210677_1280.jpg"
+      img: "https://mania3d-assets.web.app/building-1210677_1280.jpg"
     },
     {
       name: "Schools & Colleges",
       desc: "Create a virtual campus experience for students and parents - Showcase classrooms, labs, infrastructure, and facilities through interactive 360° tours.",
-      img: "/education.jpg"
+      img: "https://mania3d-assets.web.app/education.jpg"
     },
     {
       name: "Hotels & Resorts",
       desc: "Inspire bookings with immersive guest experiences - Allow guests to explore rooms, amenities, and ambience virtually before they arrive.",
-      img: "/Hotel_1.jpg"
+      img: "https://mania3d-assets.web.app/Hotel_1.jpg"
     },
     {
       name: "Coworking Spaces",
       desc: "Showcase modern workspaces with interactive 360° tours - Help businesses and freelancers explore your workspace, amenities, and environment remotely.",
-      img: "Coworking_1.webp"
+      img: "https://mania3d-assets.web.app/Coworking_1.webp"
     },
     {
       name: "Event Venues",
       desc: "Showcase banquet halls, conference centers, and wedding venues to potential clients. Allow customers to visualize event layouts and seating arrangements",
-      img: "/event.jpg"
+      img: "https://mania3d-assets.web.app/event.jpg"
     },
     {
       name: "Hospitality & Tourism",
@@ -117,7 +116,7 @@ const Home = () => {
     {
       name: "Museums & Cultural Heritage",
       desc: "Bring art, history, and culture to life with immersive virtual exhibits. Attract global audiences to explore your collections digitally.",
-      img: "/cultural_heritage.jpg"
+      img: "https://mania3d-assets.web.app/cultural_heritage.jpg"
     },
   ];
 
@@ -298,7 +297,7 @@ const Home = () => {
           {[...clientLogos, ...clientLogos].map((logo, index) => (
             <img
               key={index}
-              src={`/client-logos/${logo}`}
+              src={`https://mania3d-assets.web.app/client-logos/${logo}`}
               alt={`Client Logo ${index + 1}`}
               className="marquee-item"
             />
@@ -431,7 +430,7 @@ const Home = () => {
                 Let your customers explore your space just like this, anytime from anywhere.
               </p>
               <a 
-                href="/tours/viruksha-avenue/index.html" 
+                href="https://mania3d-assets.web.app/viruksha-avenue/index.html" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="btn btn-outline" 
@@ -511,7 +510,7 @@ const Home = () => {
                 </div>
               ) : (
                 <iframe
-                  src="/tours/viruksha-avenue/index.html"
+                  src="https://mania3d-assets.web.app/viruksha-avenue/index.html"
                   title="Viruksha Avenue Interactive Tour"
                   style={{
                     width: '100%',

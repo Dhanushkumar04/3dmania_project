@@ -106,7 +106,7 @@ const About = () => {
               className="glass"
               style={{ maxWidth: '800px', margin: '0 auto', padding: 'clamp(2rem, 8vw, 4rem)', borderRadius: '30px' }}
             >
-              <img src='/profile.png' style={{ height: '300px', width: '300px', borderRadius: '10px', margin: '0 auto 2rem', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: 'clamp(2rem, 5vw, 3rem)', color: '#fff', fontWeight: 800 }} />
+              <img src='https://mania3d-assets.web.app/profile.png' style={{ height: '300px', width: '300px', borderRadius: '10px', margin: '0 auto 2rem', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: 'clamp(2rem, 5vw, 3rem)', color: '#fff', fontWeight: 800 }} />
               <h2 style={{ fontSize: 'clamp(1.8rem, 5vw, 2.5rem)', marginBottom: '0.5rem' }}>Venkatesh</h2>
               <p style={{ color: 'var(--accent-blue)', fontSize: 'clamp(1rem, 2.5vw, 1.2rem)', fontWeight: 500, marginBottom: '1.5rem' }}>Founder & CEO</p>
               <p style={{ color: 'var(--text-muted)', fontSize: 'clamp(0.95rem, 2vw, 1.1rem)', lineHeight: '1.8', maxWidth: '600px', margin: '0 auto' }}>

@@ -286,7 +286,7 @@ const VirtualToursService = () => {
             }}
           >
             <iframe
-              src="/tours/viruksha-avenue/index.html"
+              src="https://mania3d-assets.web.app/viruksha-avenue/index.html"
               title="3DMania Sample Virtual Tour"
               style={{
                 width: '100%',
