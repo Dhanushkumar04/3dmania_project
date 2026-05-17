@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { ShieldCheck, Sparkles, Globe, MapPin, CheckCircle2, ChevronRight } from 'lucide-react';
+import { ShieldCheck, Sparkles, Globe, MapPin, CheckCircle2, ChevronRight, Compass } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const GoogleStreetViewService = () => {
@@ -39,7 +39,66 @@ const GoogleStreetViewService = () => {
   ];
 
   return (
-    <div className="page-container" style={{ overflow: 'hidden' }}>
+    <div className="page-container" style={{ overflow: 'hidden', position: 'relative' }}>
+      {/* Background Animated Compass & Target elements */}
+      <div style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', overflow: 'hidden', pointerEvents: 'none', zIndex: 0 }}>
+        {/* Giant rotating compass silhouette */}
+        <motion.div
+          animate={{ rotate: 360 }}
+          transition={{
+            duration: 60,
+            repeat: Infinity,
+            ease: "linear"
+          }}
+          style={{ position: 'absolute', top: '10%', right: '-10%', color: 'var(--accent-blue)', opacity: 0.04 }}
+        >
+          <Compass size={400} />
+        </motion.div>
+        {/* Giant rotating globe outline */}
+        <motion.div
+          animate={{ rotate: -360 }}
+          transition={{
+            duration: 80,
+            repeat: Infinity,
+            ease: "linear"
+          }}
+          style={{ position: 'absolute', bottom: '15%', left: '-5%', color: 'var(--accent-blue)', opacity: 0.03 }}
+        >
+          <Globe size={350} />
+        </motion.div>
+        {/* Floating target focus coordinates */}
+        <motion.div
+          animate={{
+            scale: [0.9, 1.1, 0.9],
+            opacity: [0.15, 0.4, 0.15]
+          }}
+          transition={{
+            duration: 6,
+            repeat: Infinity,
+            ease: "easeInOut"
+          }}
+          style={{ position: 'absolute', top: '35%', left: '15%', color: 'var(--accent-blue)', display: 'flex', gap: '0.5rem', alignItems: 'center' }}
+        >
+          <div style={{ width: '12px', height: '12px', borderRadius: '50%', border: '2px solid var(--accent-blue)' }} className="animate-pulse-slow" />
+          <span style={{ fontSize: '0.75rem', fontFamily: 'monospace', letterSpacing: '0.1rem' }}>PANO NODE: 12.920298, 77.651708</span>
+        </motion.div>
+        <motion.div
+          animate={{
+            scale: [1.1, 0.9, 1.1],
+            opacity: [0.1, 0.3, 0.1]
+          }}
+          transition={{
+            duration: 8,
+            repeat: Infinity,
+            ease: "easeInOut"
+          }}
+          style={{ position: 'absolute', bottom: '35%', right: '20%', color: 'var(--accent-blue)', display: 'flex', gap: '0.5rem', alignItems: 'center' }}
+        >
+          <div style={{ width: '12px', height: '12px', borderRadius: '50%', border: '2px solid var(--accent-blue)' }} className="animate-pulse-slow" />
+          <span style={{ fontSize: '0.75rem', fontFamily: 'monospace', letterSpacing: '0.1rem' }}>GSV SCAN ACTIVE...</span>
+        </motion.div>
+      </div>
+
       {/* Hero Section */}
       <section className="section" style={{ paddingTop: 'clamp(5rem, 15vw, 8rem)', position: 'relative' }}>
         <div className="container">
@@ -216,33 +275,127 @@ const GoogleStreetViewService = () => {
             </p>
           </div>
 
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6 }}
-            style={{ 
-              width: '100%', 
-              height: 'clamp(350px, 60vh, 550px)', 
-              borderRadius: '24px', 
-              overflow: 'hidden', 
-              border: '1px solid rgba(255,255,255,0.1)',
-              boxShadow: '0 30px 60px rgba(0,0,0,0.5)',
-              position: 'relative'
-            }}
-          >
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m0!3m2!1sen!2sus!4v1652876543210!6m8!1sAF1QipN_Q9mFh2b-vP2O670z7_c-w54!2i768!4f10.1"
-              title="Google Street View Interactive Showroom Pano"
-              style={{
-                width: '100%',
-                height: '100%',
-                border: 'none',
-                background: '#000'
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 480px), 1fr))', gap: '2.5rem' }}>
+            {/* Column 1: US Polo Assn. Domlur */}
+            <motion.div
+              initial={{ opacity: 0, x: -30 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6 }}
+              style={{ 
+                width: '100%', 
+                height: '420px', 
+                borderRadius: '24px', 
+                overflow: 'hidden', 
+                border: '1px solid rgba(255,255,255,0.08)',
+                boxShadow: '0 20px 40px rgba(0,0,0,0.4)',
+                position: 'relative'
               }}
-              allowFullScreen
-            />
-          </motion.div>
+              className="glass"
+            >
+              <img
+                src="https://mania3d-assets.web.app/polo.jpg"
+                alt="US Polo Assn Domlur Street View Showcase"
+                style={{
+                  width: '100%',
+                  height: '100%',
+                  objectFit: 'cover'
+                }}
+              />
+              <div style={{
+                position: 'absolute',
+                bottom: 0,
+                left: 0,
+                width: '100%',
+                background: 'linear-gradient(transparent, rgba(0,0,0,0.85))',
+                padding: '2.5rem 1.5rem 1.5rem 1.5rem',
+                color: '#fff',
+                textAlign: 'left'
+              }}>
+                <p style={{ margin: 0, color: 'var(--accent-blue)', fontWeight: 700, textTransform: 'uppercase', fontSize: '0.75rem', letterSpacing: '0.1rem' }}>Google Street View mapping</p>
+                <h3 style={{ margin: '0.3rem 0 0.1rem 0', fontSize: '1.3rem', fontWeight: 800 }}>US Polo Assn.</h3>
+                <p style={{ margin: '0 0 1.2rem 0', color: 'var(--text-muted)', fontSize: '0.85rem' }}>Domlur, Bangalore</p>
+                <a
+                  href="https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=12.969359,77.641236"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn btn-primary"
+                  style={{
+                    padding: '0.6rem 1.2rem',
+                    fontSize: '0.85rem',
+                    fontWeight: 700,
+                    borderRadius: '8px',
+                    display: 'inline-flex',
+                    alignItems: 'center',
+                    gap: '0.4rem',
+                    textDecoration: 'none'
+                  }}
+                >
+                  <Globe size={14} /> Explore Live 360° Pano
+                </a>
+              </div>
+            </motion.div>
+
+            {/* Column 2: Duroflex Experience Centre */}
+            <motion.div
+              initial={{ opacity: 0, x: 30 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6 }}
+              style={{ 
+                width: '100%', 
+                height: '420px', 
+                borderRadius: '24px', 
+                overflow: 'hidden', 
+                border: '1px solid rgba(255,255,255,0.08)',
+                boxShadow: '0 20px 40px rgba(0,0,0,0.4)',
+                position: 'relative'
+              }}
+              className="glass"
+            >
+              <img
+                src="https://mania3d-assets.web.app/duroflex.jpeg"
+                alt="Duroflex Experience Centre Street View Showcase"
+                style={{
+                  width: '100%',
+                  height: '100%',
+                  objectFit: 'cover'
+                }}
+              />
+              <div style={{
+                position: 'absolute',
+                bottom: 0,
+                left: 0,
+                width: '100%',
+                background: 'linear-gradient(transparent, rgba(0,0,0,0.85))',
+                padding: '2.5rem 1.5rem 1.5rem 1.5rem',
+                color: '#fff',
+                textAlign: 'left'
+              }}>
+                <p style={{ margin: 0, color: 'var(--accent-blue)', fontWeight: 700, textTransform: 'uppercase', fontSize: '0.75rem', letterSpacing: '0.1rem' }}>Google Street View mapping</p>
+                <h3 style={{ margin: '0.3rem 0 0.1rem 0', fontSize: '1.3rem', fontWeight: 800 }}>Duroflex Experience Centre</h3>
+                <p style={{ margin: '0 0 1.2rem 0', color: 'var(--text-muted)', fontSize: '0.85rem' }}>HSR Layout, Bangalore</p>
+                <a
+                  href="https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=12.920298,77.651708"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn btn-primary"
+                  style={{
+                    padding: '0.6rem 1.2rem',
+                    fontSize: '0.85rem',
+                    fontWeight: 700,
+                    borderRadius: '8px',
+                    display: 'inline-flex',
+                    alignItems: 'center',
+                    gap: '0.4rem',
+                    textDecoration: 'none'
+                  }}
+                >
+                  <Globe size={14} /> Explore Live 360° Pano
+                </a>
+              </div>
+            </motion.div>
+          </div>
         </div>
       </section>
 

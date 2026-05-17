@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Shield, Activity, Calendar, CheckCircle2, ChevronRight } from 'lucide-react';
+import { Shield, Activity, Calendar, CheckCircle2, ChevronRight, Layers } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const DroneSurveyService = () => {
@@ -39,7 +39,65 @@ const DroneSurveyService = () => {
   ];
 
   return (
-    <div className="page-container" style={{ overflow: 'hidden' }}>
+    <div className="page-container" style={{ overflow: 'hidden', position: 'relative' }}>
+      {/* Topological Grid & Laser Scanner Animation */}
+      <div style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', overflow: 'hidden', pointerEvents: 'none', zIndex: 0 }}>
+        {/* Sweep scanner line */}
+        <motion.div
+          animate={{
+            y: ['0vh', '100vh']
+          }}
+          transition={{
+            duration: 15,
+            repeat: Infinity,
+            ease: "linear"
+          }}
+          style={{
+            position: 'absolute',
+            left: 0,
+            width: '100%',
+            height: '2px',
+            background: 'linear-gradient(to right, transparent, rgba(0, 242, 255, 0.15), transparent)',
+            boxShadow: '0 0 15px rgba(0, 242, 255, 0.5)',
+            zIndex: 1
+          }}
+        />
+        {/* Giant rotating layout grid contour */}
+        <motion.div
+          animate={{ rotate: 180 }}
+          transition={{
+            duration: 90,
+            repeat: Infinity,
+            ease: "linear"
+          }}
+          style={{ position: 'absolute', top: '15%', right: '-15%', color: 'var(--accent-blue)', opacity: 0.03 }}
+        >
+          <Layers size={450} />
+        </motion.div>
+        {/* Scanning topological radar grid */}
+        <motion.div
+          animate={{
+            scale: [0.95, 1.05, 0.95],
+            opacity: [0.03, 0.08, 0.03]
+          }}
+          transition={{
+            duration: 10,
+            repeat: Infinity,
+            ease: "easeInOut"
+          }}
+          style={{
+            position: 'absolute',
+            bottom: '10%',
+            left: '5%',
+            width: '300px',
+            height: '300px',
+            background: 'radial-gradient(circle, rgba(0, 242, 255, 0.08) 0%, transparent 70%)',
+            border: '1px dashed rgba(0, 242, 255, 0.1)',
+            borderRadius: '50%'
+          }}
+        />
+      </div>
+
       {/* Hero Section */}
       <section className="section" style={{ paddingTop: 'clamp(5rem, 15vw, 8rem)', position: 'relative' }}>
         <div className="container">
@@ -194,45 +252,91 @@ const DroneSurveyService = () => {
             </p>
           </div>
 
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6 }}
-            style={{ 
-              width: '100%', 
-              height: 'clamp(350px, 60vh, 550px)', 
-              borderRadius: '24px', 
-              overflow: 'hidden', 
-              border: '1px solid rgba(255,255,255,0.1)',
-              boxShadow: '0 30px 60px rgba(0,0,0,0.5)',
-              position: 'relative'
-            }}
-          >
-            <img
-              src="https://mania3d-assets.web.app/mapping1.jpg"
-              alt="Survey mapping sample view"
-              style={{
-                width: '100%',
-                height: '100%',
-                objectFit: 'cover'
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 480px), 1fr))', gap: '2.5rem' }}>
+            {/* Project 1: Orthomosaic Site Mapping */}
+            <motion.div
+              initial={{ opacity: 0, x: -30 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6 }}
+              style={{ 
+                width: '100%', 
+                height: '420px', 
+                borderRadius: '24px', 
+                overflow: 'hidden', 
+                border: '1px solid rgba(255,255,255,0.08)',
+                boxShadow: '0 20px 40px rgba(0,0,0,0.4)',
+                position: 'relative'
               }}
-            />
-            <div style={{
-              position: 'absolute',
-              bottom: 0,
-              left: 0,
-              width: '100%',
-              background: 'linear-gradient(transparent, rgba(0,0,0,0.85))',
-              padding: '3rem 2rem 2rem 2rem',
-              color: '#fff',
-              textAlign: 'left'
-            }}>
-              <p style={{ margin: 0, color: 'var(--accent-blue)', fontWeight: 700, textTransform: 'uppercase', fontSize: '0.8rem', letterSpacing: '0.1rem' }}>Active Survey Site</p>
-              <h3 style={{ margin: '0.5rem 0 0.2rem 0', fontSize: '1.5rem', fontWeight: 800 }}>Orthomosaic Site Mapping</h3>
-              <p style={{ margin: 0, color: 'var(--text-muted)', fontSize: '0.9rem' }}>Chennai, Tamil Nadu</p>
-            </div>
-          </motion.div>
+              className="glass"
+            >
+              <img
+                src="https://mania3d-assets.web.app/mapping1.jpg"
+                alt="Orthomosaic Site Mapping Survey"
+                style={{
+                  width: '100%',
+                  height: '100%',
+                  objectFit: 'cover'
+                }}
+              />
+              <div style={{
+                position: 'absolute',
+                bottom: 0,
+                left: 0,
+                width: '100%',
+                background: 'linear-gradient(transparent, rgba(0,0,0,0.85))',
+                padding: '2.5rem 1.5rem 1.5rem 1.5rem',
+                color: '#fff',
+                textAlign: 'left'
+              }}>
+                <p style={{ margin: 0, color: 'var(--accent-blue)', fontWeight: 700, textTransform: 'uppercase', fontSize: '0.75rem', letterSpacing: '0.1rem' }}>Active Survey Site</p>
+                <h3 style={{ margin: '0.3rem 0 0.1rem 0', fontSize: '1.3rem', fontWeight: 800 }}>Orthomosaic Site Mapping</h3>
+                <p style={{ margin: 0, color: 'var(--text-muted)', fontSize: '0.85rem' }}>Chennai, Tamil Nadu</p>
+              </div>
+            </motion.div>
+
+            {/* Project 2: Infrastructure Analysis Map */}
+            <motion.div
+              initial={{ opacity: 0, x: 30 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6 }}
+              style={{ 
+                width: '100%', 
+                height: '420px', 
+                borderRadius: '24px', 
+                overflow: 'hidden', 
+                border: '1px solid rgba(255,255,255,0.08)',
+                boxShadow: '0 20px 40px rgba(0,0,0,0.4)',
+                position: 'relative'
+              }}
+              className="glass"
+            >
+              <img
+                src="https://mania3d-assets.web.app/mapping2.png"
+                alt="Infrastructure Analysis Mapping Survey"
+                style={{
+                  width: '100%',
+                  height: '100%',
+                  objectFit: 'cover'
+                }}
+              />
+              <div style={{
+                position: 'absolute',
+                bottom: 0,
+                left: 0,
+                width: '100%',
+                background: 'linear-gradient(transparent, rgba(0,0,0,0.85))',
+                padding: '2.5rem 1.5rem 1.5rem 1.5rem',
+                color: '#fff',
+                textAlign: 'left'
+              }}>
+                <p style={{ margin: 0, color: 'var(--accent-blue)', fontWeight: 700, textTransform: 'uppercase', fontSize: '0.75rem', letterSpacing: '0.1rem' }}>Active Survey Site</p>
+                <h3 style={{ margin: '0.3rem 0 0.1rem 0', fontSize: '1.3rem', fontWeight: 800 }}>Infrastructure Analysis Map</h3>
+                <p style={{ margin: 0, color: 'var(--text-muted)', fontSize: '0.85rem' }}>Bangalore, Karnataka</p>
+              </div>
+            </motion.div>
+          </div>
         </div>
       </section>
 

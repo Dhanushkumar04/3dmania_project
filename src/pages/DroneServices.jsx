@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Eye, Video, Award, Camera, CheckCircle2, ChevronRight } from 'lucide-react';
+import { Eye, Video, Award, Camera, CheckCircle2, ChevronRight, Drone } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const DroneServices = () => {
@@ -39,7 +39,56 @@ const DroneServices = () => {
   ];
 
   return (
-    <div className="page-container" style={{ overflow: 'hidden' }}>
+    <div className="page-container" style={{ overflow: 'hidden', position: 'relative' }}>
+      {/* Background Animated Drones floating around */}
+      <div style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', overflow: 'hidden', pointerEvents: 'none', zIndex: 0 }}>
+        <motion.div
+          animate={{
+            y: [0, -40, 20, -30, 0],
+            x: [0, 50, -30, 40, 0],
+            rotate: [0, 8, -5, 6, 0]
+          }}
+          transition={{
+            duration: 20,
+            repeat: Infinity,
+            ease: "easeInOut"
+          }}
+          style={{ position: 'absolute', top: '15%', left: '5%', color: 'var(--accent-blue)', opacity: 0.08 }}
+        >
+          <Drone size={100} />
+        </motion.div>
+        <motion.div
+          animate={{
+            y: [0, 30, -50, 20, 0],
+            x: [0, -40, 60, -30, 0],
+            rotate: [0, -6, 8, -4, 0]
+          }}
+          transition={{
+            duration: 25,
+            repeat: Infinity,
+            ease: "easeInOut"
+          }}
+          style={{ position: 'absolute', top: '45%', right: '10%', color: 'var(--accent-blue)', opacity: 0.06 }}
+        >
+          <Drone size={140} />
+        </motion.div>
+        <motion.div
+          animate={{
+            y: [0, -30, 40, -20, 0],
+            x: [0, -50, -20, 40, 0],
+            rotate: [0, 5, -8, 4, 0]
+          }}
+          transition={{
+            duration: 18,
+            repeat: Infinity,
+            ease: "easeInOut"
+          }}
+          style={{ position: 'absolute', bottom: '15%', left: '15%', color: 'var(--accent-blue)', opacity: 0.07 }}
+        >
+          <Drone size={80} />
+        </motion.div>
+      </div>
+
       {/* Hero Section */}
       <section className="section" style={{ paddingTop: 'clamp(5rem, 15vw, 8rem)', position: 'relative' }}>
         <div className="container">
