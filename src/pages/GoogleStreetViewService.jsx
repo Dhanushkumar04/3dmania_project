@@ -232,8 +232,8 @@ const GoogleStreetViewService = () => {
             }}
           >
             <iframe
-              src="https://mania3d-assets.web.app/viruksha-avenue/index.html"
-              title="Presidency School East Sample Tour"
+              src="https://www.google.com/maps/embed?pb=!1m0!3m2!1sen!2sus!4v1652876543210!6m8!1sAF1QipN_Q9mFh2b-vP2O670z7_c-w54!2i768!4f10.1"
+              title="Google Street View Interactive Showroom Pano"
               style={{
                 width: '100%',
                 height: '100%',
@@ -287,7 +287,7 @@ const GoogleStreetViewService = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="section" style={{ background: 'rgba(255,255,255,0.02)', padding: '6rem 0' }}>
+      <section className="section" style={{ background: 'rgba(255,255,255,0.02)', padding: '3rem 0' }}>
         <div className="container">
           <motion.div
             initial={{ opacity: 0, y: 30 }}

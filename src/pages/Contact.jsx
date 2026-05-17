@@ -44,7 +44,7 @@ ${formData.message}`;
           <motion.div 
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
-            style={{ textAlign: 'center', marginBottom: 'clamp(2rem, 10vw, 5rem)' }}
+            style={{ textAlign: 'center', marginBottom: 'clamp(1.5rem, 5vw, 3rem)' }}
           >
             <h1 style={{ fontSize: 'clamp(2rem, 8vw, 4rem)', marginBottom: '1rem' }}>Get In <span className="text-gradient">Touch</span></h1>
             <p style={{ color: 'var(--text-muted)', fontSize: 'clamp(1rem, 2vw, 1.2rem)', maxWidth: '800px', margin: '0 auto' }}>

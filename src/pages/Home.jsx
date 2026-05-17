@@ -306,7 +306,7 @@ const Home = () => {
       </section>
 
       {/* Why Choose 3Dmania Slider */}
-      <section className="section" style={{ background: 'rgba(255,255,255,0.02)', padding: 'clamp(3rem, 10vw, 6rem) 0' }}>
+      <section className="section" style={{ background: 'rgba(255,255,255,0.02)', padding: 'clamp(2rem, 5vw, 3rem) 0' }}>
         <div className="container">
           <div style={{ textAlign: 'center', marginBottom: 'clamp(2rem, 8vw, 4rem)' }}>
             <motion.h2
@@ -623,8 +623,8 @@ const Home = () => {
           background: rgba(0, 0, 0, 0.4);
           backdrop-filter: blur(10px);
           -webkit-backdrop-filter: blur(10px);
-          padding: 4rem 0;
-          margin: 2.5rem 0;
+          padding: 2rem 0;
+          margin: 1.5rem 0;
           border-bottom: 1px solid rgba(255, 255, 255, 0.05);
           border-top: 1px solid rgba(255, 255, 255, 0.05);
           display: flex;

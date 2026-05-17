@@ -87,7 +87,7 @@ const DroneSurveyService = () => {
             >
               <div className="glass" style={{ borderRadius: '30px', padding: '2rem', border: '1px solid rgba(255,255,255,0.08)', position: 'relative', overflow: 'hidden' }}>
                 <img 
-                  src="https://images.unsplash.com/photo-1508614589041-895b88991e3e?auto=format&fit=crop&q=80&w=1200" 
+                  src="https://mania3d-assets.web.app/mapping.png" 
                   alt="Drone Mapping Showcase" 
                   style={{ width: '100%', borderRadius: '20px', objectFit: 'cover', height: '350px', boxShadow: '0 20px 40px rgba(0,0,0,0.5)' }} 
                 />
@@ -210,7 +210,7 @@ const DroneSurveyService = () => {
             }}
           >
             <img
-              src="https://images.unsplash.com/photo-1473968512647-3e44a224fe8f?auto=format&fit=crop&q=80&w=1200"
+              src="https://mania3d-assets.web.app/mapping1.jpg"
               alt="Survey mapping sample view"
               style={{
                 width: '100%',
@@ -229,8 +229,8 @@ const DroneSurveyService = () => {
               textAlign: 'left'
             }}>
               <p style={{ margin: 0, color: 'var(--accent-blue)', fontWeight: 700, textTransform: 'uppercase', fontSize: '0.8rem', letterSpacing: '0.1rem' }}>Active Survey Site</p>
-              <h3 style={{ margin: '0.5rem 0 0.2rem 0', fontSize: '1.5rem', fontWeight: 800 }}>Industrial Site mapping</h3>
-              <p style={{ margin: 0, color: 'var(--text-muted)', fontSize: '0.9rem' }}>Hosur, Tamil Nadu</p>
+              <h3 style={{ margin: '0.5rem 0 0.2rem 0', fontSize: '1.5rem', fontWeight: 800 }}>Orthomosaic Site Mapping</h3>
+              <p style={{ margin: 0, color: 'var(--text-muted)', fontSize: '0.9rem' }}>Chennai, Tamil Nadu</p>
             </div>
           </motion.div>
         </div>
@@ -277,7 +277,7 @@ const DroneSurveyService = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="section" style={{ background: 'rgba(255,255,255,0.02)', padding: '6rem 0' }}>
+      <section className="section" style={{ background: 'rgba(255,255,255,0.02)', padding: '3rem 0' }}>
         <div className="container">
           <motion.div
             initial={{ opacity: 0, y: 30 }}

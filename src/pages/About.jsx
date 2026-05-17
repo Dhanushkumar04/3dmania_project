@@ -59,7 +59,7 @@ const About = () => {
           </div>
 
           {/* Vision & Mission */}
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 300px), 1fr))', gap: '2rem', marginTop: 'clamp(4rem, 12vw, 6rem)' }}>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 300px), 1fr))', gap: '2rem', marginTop: 'clamp(2.5rem, 6vw, 3rem)' }}>
             <motion.div
               whileHover={{ y: -10 }}
               className="glass"
@@ -98,7 +98,7 @@ const About = () => {
           </div>
 
           {/* Founder Section */}
-          <section style={{ marginTop: 'clamp(5rem, 15vw, 8rem)', textAlign: 'center' }}>
+          <section style={{ marginTop: 'clamp(3rem, 8vw, 4rem)', textAlign: 'center' }}>
             <motion.div
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}

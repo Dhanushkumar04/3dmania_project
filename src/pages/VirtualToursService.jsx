@@ -330,7 +330,7 @@ const VirtualToursService = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="section" style={{ background: 'rgba(255,255,255,0.02)', padding: '6rem 0' }}>
+      <section className="section" style={{ background: 'rgba(255,255,255,0.02)', padding: '3rem 0' }}>
         <div className="container">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
