@@ -240,7 +240,7 @@ const Home = () => {
                     initial={{ opacity: 0, y: 30 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ delay: 0.5, duration: 0.8 }}
-                    style={{ fontSize: '50px', fontWeight: 800, marginBottom: '2.5rem', lineHeight: 1.1, color: '#ffffff' }}
+                    style={{ fontSize: 'clamp(1.8rem, 6vw, 3.2rem)', fontWeight: 800, marginBottom: '2rem', lineHeight: 1.2, color: '#ffffff' }}
                   >
                     {slides[currentSlide].title.split('digital twins').map((part, i) => (
                       i === 0 ? part : <span key={i}><span className="text-gradient">digital twins</span>{part}</span>
@@ -250,10 +250,10 @@ const Home = () => {
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ delay: 0.7 }}
-                    style={{ display: 'flex', gap: '1.5rem' }}
+                    style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap' }}
                   >
-                    <Link to="/services" className="btn btn-primary" style={{ padding: '1rem 2.5rem' }}>Learn More</Link>
-                    <Link to="/contact" className="btn btn-outline" style={{ padding: '1rem 2.5rem', background: 'rgba(255,255,255,0.1)' }}>Contact Us</Link>
+                    <Link to="/services" className="btn btn-primary" style={{ padding: '0.8rem 2rem' }}>Learn More</Link>
+                    <Link to="/contact" className="btn btn-outline" style={{ padding: '0.8rem 2rem', background: 'rgba(255,255,255,0.1)' }}>Contact Us</Link>
                   </motion.div>
                 </div>
               </div>

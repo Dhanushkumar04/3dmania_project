@@ -72,7 +72,7 @@ const DroneSurveyService = () => {
           }}
           style={{ position: 'absolute', top: '15%', right: '-15%', color: 'var(--accent-blue)', opacity: 0.03 }}
         >
-          <Layers size={450} />
+          <Layers style={{ width: 'clamp(220px, 45vw, 450px)', height: 'clamp(220px, 45vw, 450px)' }} />
         </motion.div>
         {/* Scanning topological radar grid */}
         <motion.div
@@ -261,7 +261,7 @@ const DroneSurveyService = () => {
               transition={{ duration: 0.6 }}
               style={{ 
                 width: '100%', 
-                height: '420px', 
+                height: 'clamp(280px, 45vh, 420px)', 
                 borderRadius: '24px', 
                 overflow: 'hidden', 
                 border: '1px solid rgba(255,255,255,0.08)',
@@ -303,7 +303,7 @@ const DroneSurveyService = () => {
               transition={{ duration: 0.6 }}
               style={{ 
                 width: '100%', 
-                height: '420px', 
+                height: 'clamp(280px, 45vh, 420px)', 
                 borderRadius: '24px', 
                 overflow: 'hidden', 
                 border: '1px solid rgba(255,255,255,0.08)',

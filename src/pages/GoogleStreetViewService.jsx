@@ -52,7 +52,7 @@ const GoogleStreetViewService = () => {
           }}
           style={{ position: 'absolute', top: '10%', right: '-10%', color: 'var(--accent-blue)', opacity: 0.04 }}
         >
-          <Compass size={400} />
+          <Compass style={{ width: 'clamp(200px, 40vw, 400px)', height: 'clamp(200px, 40vw, 400px)' }} />
         </motion.div>
         {/* Giant rotating globe outline */}
         <motion.div
@@ -64,7 +64,7 @@ const GoogleStreetViewService = () => {
           }}
           style={{ position: 'absolute', bottom: '15%', left: '-5%', color: 'var(--accent-blue)', opacity: 0.03 }}
         >
-          <Globe size={350} />
+          <Globe style={{ width: 'clamp(180px, 35vw, 350px)', height: 'clamp(180px, 35vw, 350px)' }} />
         </motion.div>
         {/* Floating target focus coordinates */}
         <motion.div
@@ -77,10 +77,10 @@ const GoogleStreetViewService = () => {
             repeat: Infinity,
             ease: "easeInOut"
           }}
-          style={{ position: 'absolute', top: '35%', left: '15%', color: 'var(--accent-blue)', display: 'flex', gap: '0.5rem', alignItems: 'center' }}
+          style={{ position: 'absolute', top: '35%', left: '5%', color: 'var(--accent-blue)', display: 'flex', gap: '0.5rem', alignItems: 'center' }}
         >
-          <div style={{ width: '12px', height: '12px', borderRadius: '50%', border: '2px solid var(--accent-blue)' }} className="animate-pulse-slow" />
-          <span style={{ fontSize: '0.75rem', fontFamily: 'monospace', letterSpacing: '0.1rem' }}>PANO NODE: 12.920298, 77.651708</span>
+          <div style={{ width: '12px', height: '12px', borderRadius: '50%', border: '2px solid var(--accent-blue)', flexShrink: 0 }} className="animate-pulse-slow" />
+          <span style={{ fontSize: 'clamp(0.6rem, 1.8vw, 0.75rem)', fontFamily: 'monospace', letterSpacing: '0.05rem' }}>PANO NODE: 12.920298, 77.651708</span>
         </motion.div>
         <motion.div
           animate={{
@@ -92,10 +92,10 @@ const GoogleStreetViewService = () => {
             repeat: Infinity,
             ease: "easeInOut"
           }}
-          style={{ position: 'absolute', bottom: '35%', right: '20%', color: 'var(--accent-blue)', display: 'flex', gap: '0.5rem', alignItems: 'center' }}
+          style={{ position: 'absolute', bottom: '35%', right: '5%', color: 'var(--accent-blue)', display: 'flex', gap: '0.5rem', alignItems: 'center' }}
         >
-          <div style={{ width: '12px', height: '12px', borderRadius: '50%', border: '2px solid var(--accent-blue)' }} className="animate-pulse-slow" />
-          <span style={{ fontSize: '0.75rem', fontFamily: 'monospace', letterSpacing: '0.1rem' }}>GSV SCAN ACTIVE...</span>
+          <div style={{ width: '12px', height: '12px', borderRadius: '50%', border: '2px solid var(--accent-blue)', flexShrink: 0 }} className="animate-pulse-slow" />
+          <span style={{ fontSize: 'clamp(0.6rem, 1.8vw, 0.75rem)', fontFamily: 'monospace', letterSpacing: '0.05rem' }}>GSV SCAN ACTIVE...</span>
         </motion.div>
       </div>
 
@@ -284,7 +284,7 @@ const GoogleStreetViewService = () => {
               transition={{ duration: 0.6 }}
               style={{ 
                 width: '100%', 
-                height: '420px', 
+                height: 'clamp(280px, 45vh, 420px)', 
                 borderRadius: '24px', 
                 overflow: 'hidden', 
                 border: '1px solid rgba(255,255,255,0.08)',
@@ -344,7 +344,7 @@ const GoogleStreetViewService = () => {
               transition={{ duration: 0.6 }}
               style={{ 
                 width: '100%', 
-                height: '420px', 
+                height: 'clamp(280px, 45vh, 420px)', 
                 borderRadius: '24px', 
                 overflow: 'hidden', 
                 border: '1px solid rgba(255,255,255,0.08)',

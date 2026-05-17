@@ -55,7 +55,7 @@ const DroneServices = () => {
           }}
           style={{ position: 'absolute', top: '15%', left: '5%', color: 'var(--accent-blue)', opacity: 0.08 }}
         >
-          <Drone size={100} />
+          <Drone style={{ width: 'clamp(60px, 10vw, 100px)', height: 'clamp(60px, 10vw, 100px)' }} />
         </motion.div>
         <motion.div
           animate={{
@@ -70,7 +70,7 @@ const DroneServices = () => {
           }}
           style={{ position: 'absolute', top: '45%', right: '10%', color: 'var(--accent-blue)', opacity: 0.06 }}
         >
-          <Drone size={140} />
+          <Drone style={{ width: 'clamp(80px, 14vw, 140px)', height: 'clamp(80px, 14vw, 140px)' }} />
         </motion.div>
         <motion.div
           animate={{
@@ -85,7 +85,7 @@ const DroneServices = () => {
           }}
           style={{ position: 'absolute', bottom: '15%', left: '15%', color: 'var(--accent-blue)', opacity: 0.07 }}
         >
-          <Drone size={80} />
+          <Drone style={{ width: 'clamp(50px, 8vw, 80px)', height: 'clamp(50px, 8vw, 80px)' }} />
         </motion.div>
       </div>
 
@@ -252,7 +252,7 @@ const DroneServices = () => {
               transition={{ duration: 0.6 }}
               style={{ 
                 width: '100%', 
-                height: '420px', 
+                height: 'clamp(280px, 45vh, 420px)', 
                 borderRadius: '24px', 
                 overflow: 'hidden', 
                 border: '1px solid rgba(255,255,255,0.08)',
@@ -294,7 +294,7 @@ const DroneServices = () => {
               transition={{ duration: 0.6 }}
               style={{ 
                 width: '100%', 
-                height: '420px', 
+                height: 'clamp(280px, 45vh, 420px)', 
                 borderRadius: '24px', 
                 overflow: 'hidden', 
                 border: '1px solid rgba(255,255,255,0.08)',

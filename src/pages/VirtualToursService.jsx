@@ -88,8 +88,8 @@ const VirtualToursService = () => {
             position: 'absolute', 
             top: '20%', 
             right: '5%', 
-            width: '250px', 
-            height: '250px', 
+            width: 'clamp(150px, 25vw, 250px)', 
+            height: 'clamp(150px, 25vw, 250px)', 
             border: '1px dashed rgba(0, 242, 255, 0.08)', 
             borderRadius: '50%',
             perspective: '1000px',
@@ -106,7 +106,7 @@ const VirtualToursService = () => {
           }}
           style={{ position: 'absolute', bottom: '10%', right: '10%', color: 'var(--accent-blue)', opacity: 0.03 }}
         >
-          <Map size={350} />
+          <Map style={{ width: 'clamp(180px, 35vw, 350px)', height: 'clamp(180px, 35vw, 350px)' }} />
         </motion.div>
         {/* Spatial hotspots pulsing in background */}
         <motion.div
@@ -336,7 +336,7 @@ const VirtualToursService = () => {
               transition={{ duration: 0.6 }}
               style={{ 
                 width: '100%', 
-                height: 'clamp(350px, 50vh, 480px)', 
+                height: 'clamp(280px, 45vh, 420px)', 
                 borderRadius: '24px', 
                 overflow: 'hidden', 
                 border: '1px solid rgba(255,255,255,0.08)',
@@ -383,7 +383,7 @@ const VirtualToursService = () => {
               transition={{ duration: 0.6 }}
               style={{ 
                 width: '100%', 
-                height: 'clamp(350px, 50vh, 480px)', 
+                height: 'clamp(280px, 45vh, 420px)', 
                 borderRadius: '24px', 
                 overflow: 'hidden', 
                 border: '1px solid rgba(255,255,255,0.08)',
