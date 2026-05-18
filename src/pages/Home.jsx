@@ -4,19 +4,19 @@ import { ChevronRight, Camera, Drone, MapPin, CheckCircle, Smartphone, Globe, Za
 import { Link } from 'react-router-dom';
 
 const clientLogos = [
-  "Indecimal Logo.png",
-  "LOGO DR ANAS SADIK copy (1)_pages-to-jpg-0003.jpg",
-  "Logo green.png",
-  "NSC Logo cropped.png",
-  "Presidency-Logo-V2.png",
-  "Sai saravana developers  Logo.png",
-  "Topaz Logo.png",
-  "Urban_Ladder_Old_logo.png",
-  "WhatsApp Image 2026-03-21 at 4.38.30 PM.jpeg",
-  "duroflex Logo.png",
+  "indecimal-logo.png",
+  "dr-anas-sadik-logo.jpg",
+  "logo-green.png",
+  "nsc-logo.png",
+  "presidency-logo.png",
+  "sai-saravana-logo.png",
+  "topaz-logo.png",
+  "urban-ladder-logo.png",
+  "whatsapp-logo.jpeg",
+  "duroflex-logo.png",
   "logo.png",
-  "logo_Edited.png",
-  "png-clipart-prestige-lake-ridge-prestige-group-property-developer-business-real-estate-business-people-logo.png"
+  "logo-edited.png",
+  "prestige-logo.png"
 ];
 
 const heroTitles = [
