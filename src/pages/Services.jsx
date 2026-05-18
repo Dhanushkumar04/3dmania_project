@@ -1,25 +1,9 @@
 import { motion } from 'framer-motion';
-import { Camera, MapPin, Drone, ArrowRight } from 'lucide-react';
+import { Camera, MapPin, Drone, ArrowRight, Layers } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const Services = () => {
-  const galleries = {
-    "360° Virtual Tours": [
-      { url: "https://mania3d-assets.web.app/Hotel_2.jpg", label: "Hospitality & Resorts" },
-      { url: "https://mania3d-assets.web.app/Coworking-2.webp", label: "Coworking Spaces" },
-      { url: "https://mania3d-assets.web.app/Showroom_2.jpg", label: "Premium Retail" },
-      { url: "https://mania3d-assets.web.app/Showroom_3.jpg", label: "Luxury Showrooms" }
-    ],
-    "Drone Photo & Videography": [
-      { url: "https://mania3d-assets.web.app/drone1.jpeg", label: "Aerial Property Shoots" },
-      { url: "https://mania3d-assets.web.app/drone2.jpeg", label: "Urban Layout Scale" },
-      { url: "https://mania3d-assets.web.app/drone3.jpeg", label: "Coastal Horizon Captures" }
-    ],
-    "Google Street View": [
-      { url: "https://mania3d-assets.web.app/duroflex.jpeg", label: "Duroflex Experience Centre" },
-      { url: "https://mania3d-assets.web.app/polo.jpg", label: "US Polo Assn. Store" }
-    ]
-  };
+
 
   const serviceCategories = [
     {
@@ -61,6 +45,20 @@ const Services = () => {
         { title: 'Verified Photography', desc: 'Trust-building high-resolution imagery for your business profile.' },
         { title: '24/7 Virtual Showroom', desc: 'Accessible to potential customers around the clock.' }
       ]
+    },
+    {
+      title: "Drone Aerial Survey",
+      description: "3Dmania’s Drone Survey & Mapping services help businesses collect accurate aerial data quickly, safely, and efficiently. We provide high-resolution site visuals and mapping solutions for construction, land analysis, and infrastructure planning.",
+      icon: <Layers size={40} />,
+      link: "/drone-survey",
+      items: [
+        { title: 'Site Mapping', desc: 'Detailed high-resolution 2D and 3D orthomosaic maps.' },
+        { title: 'Construction Progress Monitoring', desc: 'Periodic visual site tracking and documentation.' },
+        { title: 'Aerial Land Survey', desc: 'Accurate visual captures of vast terrains.' },
+        { title: 'High-Resolution Documentation', desc: 'UHD visual records for audits and assessments.' },
+        { title: 'Top View Visualization', desc: 'Perfect top-down layouts for planning teams.' },
+        { title: 'Faster Data Collection', desc: 'Capture large areas quickly and safely.' }
+      ]
     }
   ];
 
@@ -85,8 +83,8 @@ const Services = () => {
                 className="glass"
                 style={{ padding: 'clamp(1.5rem, 5vw, 4rem)', borderRadius: '30px' }}
               >
-                <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 420px), 1fr))', gap: '3rem', alignItems: 'start' }}>
-                  {/* Left Column - Details */}
+                <div style={{ display: 'block' }}>
+                  {/* Full Width Content */}
                   <div>
                     <div style={{ display: 'flex', alignItems: 'center', gap: '1.5rem', marginBottom: '1.5rem', flexWrap: 'wrap' }}>
                       <div style={{ color: 'var(--accent-blue)', background: 'rgba(0, 242, 255, 0.1)', padding: '0.8rem', borderRadius: '15px' }}>
@@ -94,12 +92,12 @@ const Services = () => {
                       </div>
                       <h2 style={{ fontSize: 'clamp(1.8rem, 4vw, 2.3rem)', fontWeight: 800 }}>{cat.title}</h2>
                     </div>
-                    <p style={{ fontSize: '1.05rem', color: 'var(--text-muted)', marginBottom: '2.5rem', lineHeight: 1.6 }}>
+                    <p style={{ fontSize: '1.05rem', color: 'var(--text-muted)', marginBottom: '2.5rem', lineHeight: 1.6, maxWidth: '800px' }}>
                       {cat.description}
                     </p>
                     
-                    <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '1.5rem', marginBottom: '2rem' }}>
-                      {cat.items.slice(0, 4).map((item, i) => (
+                    <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))', gap: '1.5rem', marginBottom: '2rem' }}>
+                      {cat.items.map((item, i) => (
                         <div key={i} className="service-sub-card">
                           <h4 style={{ color: 'var(--accent-blue)', marginBottom: '0.5rem', display: 'flex', alignItems: 'center', gap: '0.5rem', fontSize: '0.95rem', fontWeight: 700 }}>
                             <ArrowRight size={14} /> {item.title}
@@ -112,53 +110,6 @@ const Services = () => {
                     <Link to={cat.link} className="btn btn-primary" style={{ padding: '0.8rem 2rem', display: 'inline-flex', alignItems: 'center', gap: '0.5rem' }}>
                       Learn More <ArrowRight size={16} />
                     </Link>
-                  </div>
-
-                  {/* Right Column - Visual Gallery Grid */}
-                  <div>
-                    <h3 style={{ fontSize: '1.2rem', fontWeight: 800, marginBottom: '1.5rem', color: 'rgba(255, 255, 255, 0.9)' }}>
-                      Visual Showcase
-                    </h3>
-                    <div style={{ 
-                      display: 'grid', 
-                      gridTemplateColumns: galleries[cat.title].length > 2 ? '1fr 1fr' : '1fr', 
-                      gap: '1rem' 
-                    }}>
-                      {galleries[cat.title].map((img, i) => (
-                        <motion.div
-                          key={i}
-                          whileHover={{ scale: 1.03, y: -5 }}
-                          style={{ 
-                            position: 'relative', 
-                            height: galleries[cat.title].length > 2 ? '150px' : '220px', 
-                            borderRadius: '16px', 
-                            overflow: 'hidden',
-                            border: '1px solid rgba(255,255,255,0.08)',
-                            boxShadow: '0 10px 20px rgba(0,0,0,0.3)'
-                          }}
-                        >
-                          <img 
-                            src={img.url} 
-                            alt={img.label} 
-                            style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-                          />
-                          <div style={{
-                            position: 'absolute',
-                            bottom: 0,
-                            left: 0,
-                            width: '100%',
-                            background: 'linear-gradient(transparent, rgba(0,0,0,0.85))',
-                            padding: '1.5rem 1rem 0.8rem 1rem',
-                            color: '#fff',
-                            fontSize: '0.85rem',
-                            fontWeight: 700,
-                            textAlign: 'left'
-                          }}>
-                            {img.label}
-                          </div>
-                        </motion.div>
-                      ))}
-                    </div>
                   </div>
                 </div>
               </motion.div>

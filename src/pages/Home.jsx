@@ -180,17 +180,21 @@ const Home = () => {
           allowFullScreen
         />
 
-        {/* Cycling Title — bottom-center */}
+        {/* Cycling Title and Controls — bottom-center */}
         <div style={{
           position: 'absolute',
-          bottom: '2.5rem',
+          bottom: '10rem', // Positioned higher to make space for the logo carousel
           left: '50%',
           transform: 'translateX(-50%)',
           zIndex: 10,
           pointerEvents: 'none',
-          width: '100%',
-          maxWidth: '800px',
+          width: '95%',
+          maxWidth: '1200px',
           textAlign: 'center',
+          display: 'flex',
+          flexDirection: 'column',
+          alignItems: 'center',
+          gap: '2rem'
         }}>
           <AnimatePresence mode="wait">
             <motion.p
@@ -202,16 +206,84 @@ const Home = () => {
               style={{
                 color: '#ffffff',
                 fontWeight: 800,
-                fontSize: 'clamp(1.5rem, 3vw, 2.5rem)',
+                fontSize: 'clamp(0.85rem, 2.5vw, 2.2rem)',
                 letterSpacing: '0.02em',
                 textShadow: '0 4px 20px rgba(0,0,0,1), 0 2px 10px rgba(0,0,0,0.8)',
                 lineHeight: 1.3,
                 margin: 0,
+                whiteSpace: 'nowrap',
+                overflow: 'hidden',
+                textOverflow: 'ellipsis'
               }}
             >
               {heroTitles[currentTitle]}
             </motion.p>
           </AnimatePresence>
+
+          {/* Buttons */}
+          <div style={{ pointerEvents: 'auto', display: 'flex', gap: '1.5rem', justifyContent: 'center' }}>
+            <Link 
+              to="/services" 
+              className="btn btn-primary" 
+              style={{ padding: '0.8rem 2.5rem', fontSize: '1.1rem', fontWeight: 600, borderRadius: '50px', textDecoration: 'none' }}
+            >
+              Learn More
+            </Link>
+            <Link 
+              to="/contact" 
+              className="btn btn-outline" 
+              style={{ padding: '0.8rem 2.5rem', fontSize: '1.1rem', fontWeight: 600, borderRadius: '50px', textDecoration: 'none', background: 'rgba(0,0,0,0.5)', backdropFilter: 'blur(5px)' }}
+            >
+              Contact Us
+            </Link>
+          </div>
+
+          {/* Carousel Pagination Dots for Titles */}
+          <div style={{ pointerEvents: 'auto', display: 'flex', gap: '0.6rem', justifyContent: 'center', marginTop: '0.5rem' }}>
+            {heroTitles.map((_, i) => (
+              <button 
+                key={i} 
+                onClick={() => setCurrentTitle(i)}
+                style={{
+                  width: currentTitle === i ? '24px' : '10px',
+                  height: '10px', 
+                  borderRadius: '10px',
+                  background: currentTitle === i ? 'var(--accent-blue)' : 'rgba(255,255,255,0.4)',
+                  border: 'none', 
+                  cursor: 'pointer',
+                  transition: 'all 0.3s ease',
+                  boxShadow: '0 2px 5px rgba(0,0,0,0.5)'
+                }}
+                aria-label={`Go to slide ${i + 1}`}
+              />
+            ))}
+          </div>
+        </div>
+
+        {/* Client Logos Carousel at the bottom of the hero section */}
+        <div className="marquee-container" style={{ 
+          position: 'absolute', 
+          bottom: 0, 
+          left: 0,
+          width: '100%', 
+          margin: 0, 
+          padding: '1rem 0',
+          borderTop: '1px solid rgba(255, 255, 255, 0.1)',
+          borderBottom: 'none',
+          background: 'rgba(0, 0, 0, 0.5)',
+          zIndex: 10
+        }}>
+          <div className="marquee-content" style={{ animationDuration: '40s' }}>
+            {[...clientLogos, ...clientLogos, ...clientLogos].map((logo, index) => (
+              <img
+                key={index}
+                src={`/client-logos/${logo}`}
+                alt={`Client logo ${index}`}
+                className="marquee-item"
+                style={{ height: '90px', maxWidth: '220px', objectFit: 'contain', padding: '10px' }}
+              />
+            ))}
+          </div>
         </div>
       </section>
 
