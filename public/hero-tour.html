@@ -24,16 +24,22 @@
 		</style>
 	</head>
 	<body>
-		<script type="text/javascript" src="https://mania3d-assets.web.app/presidency-school-east/pano2vr_player.js"></script>
-		<script type="text/javascript" src="https://mania3d-assets.web.app/presidency-school-east/skin.js"></script>
+		<script type="text/javascript" src="https://mania3d-assets.web.app/output/pano2vr_player.js"></script>
 		<div id="container" style="width:100%;height:100%;overflow:hidden;"></div>
 		<script type="text/javascript">
 			var pano = new pano2vrPlayer("container");
-			pano.setBasePath && pano.setBasePath("https://mania3d-assets.web.app/presidency-school-east/");
-			var skin = new pano2vrSkin(pano, "https://mania3d-assets.web.app/presidency-school-east/");
+			if (pano.setBasePath) pano.setBasePath("https://mania3d-assets.web.app/output/");
+			
+			// Load config without skin to remove all labels, skins, and UI
 			window.addEventListener("load", function() {
-				pano.readConfigUrlAsync("https://mania3d-assets.web.app/presidency-school-east/pano.xml");
+				pano.readConfigUrlAsync("https://mania3d-assets.web.app/output/pano.xml");
 			});
+
+			// Intercept mouse wheel events before Pano2VR gets them
+			// This prevents zooming and allows the browser to scroll the main parent page instead
+			window.addEventListener('wheel', function(e) {
+				e.stopPropagation();
+			}, true);
 		</script>
 	</body>
 </html>

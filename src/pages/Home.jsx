@@ -167,7 +167,7 @@ const Home = () => {
         {/* Static Presidency School Virtual Tour */}
         <iframe
           src={HERO_TOUR_URL}
-          title="Presidency School Virtual Tour"
+          title="Virtual Tour Background"
           style={{
             width: '100%',
             height: '100%',
@@ -175,7 +175,6 @@ const Home = () => {
             position: 'absolute',
             top: 0,
             left: 0,
-            pointerEvents: 'none'
           }}
           allow="accelerometer; gyroscope; autoplay; fullscreen"
           allowFullScreen
