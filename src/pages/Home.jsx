@@ -27,7 +27,7 @@ const heroTitles = [
   "Let Customers Explore Before They Visit"
 ];
 
-const HERO_TOUR_URL = "/tours/presidency-school-east/index.html";
+const HERO_TOUR_URL = "/hero-tour.html";
 
 const Home = () => {
   const [currentTitle, setCurrentTitle] = useState(0);
