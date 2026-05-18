@@ -315,6 +315,7 @@ h1, h2, h3, h4, h5, h6 {
   flex-direction: column;
   padding: 2rem;
   box-shadow: -10px 0 30px rgba(0,0,0,0.5);
+  overflow: hidden;
 }
 
 .mobile-menu-header {
@@ -333,6 +334,11 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
+  flex: 1;
+  overflow-y: auto;
+  margin-top: 1.5rem;
+  padding-right: 0.25rem;
+  padding-bottom: 1rem;
 }
 
 .mobile-link {
@@ -386,8 +392,39 @@ main {
   }
 }
 
+.desktop-socials {
+  display: flex;
+  gap: 0.8rem;
+  align-items: center;
+}
+
+.mobile-social-text-link {
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  padding: 0.15rem 0;
+}
+
+.mobile-social-text-link:hover {
+  transform: translateX(6px);
+  opacity: 0.85;
+}
+
+/* Hide scrollbar in mobile drawer but keep it scrollable */
+.mobile-links::-webkit-scrollbar {
+  display: none;
+}
+.mobile-links {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
 @media (max-width: 968px) {
-  .nav-menu, .signin-btn, .start-btn {
+  .nav-menu, .signin-btn, .start-btn, .desktop-socials {
     display: none !important;
   }
   .mobile-toggle {

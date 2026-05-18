@@ -157,10 +157,10 @@ const VirtualToursService = () => {
                 3DMania's 360° Virtual Tours help businesses create immersive and interactive digital experiences that allow customers to explore spaces remotely from any device, anytime. Unlike traditional photos or videos, virtual tours provide a realistic walkthrough experience that increases engagement, builds trust, and helps customers make faster decisions.
               </p>
               <div style={{ display: 'flex', flexWrap: 'wrap', gap: '1rem' }}>
-                <a href="#sample-tour" className="btn btn-primary" style={{ padding: '1rem 2.5rem', fontWeight: 700 }}>
+                <a href="#sample-tour" className="btn btn-primary" style={{ padding: '1rem 1.5rem', fontWeight: 700, minWidth: '240px', textAlign: 'center' }}>
                   View Sample Tour
                 </a>
-                <Link to="/contact" className="btn btn-outline" style={{ padding: '1rem 2.5rem', fontWeight: 600 }}>
+                <Link to="/contact" className="btn btn-outline" style={{ padding: '1rem 1.5rem', fontWeight: 600, minWidth: '240px', textAlign: 'center' }}>
                   Contact 3DMania Today
                 </Link>
               </div>
@@ -371,6 +371,7 @@ const VirtualToursService = () => {
                   background: '#000',
                   paddingTop: '40px'
                 }}
+                allow="accelerometer; gyroscope; autoplay; fullscreen"
                 allowFullScreen
               />
             </motion.div>
@@ -418,6 +419,7 @@ const VirtualToursService = () => {
                   background: '#000',
                   paddingTop: '40px'
                 }}
+                allow="accelerometer; gyroscope; autoplay; fullscreen"
                 allowFullScreen
               />
             </motion.div>
@@ -478,10 +480,10 @@ const VirtualToursService = () => {
               Immersive virtual tours help businesses create stronger digital experiences, attract more customers, and stand out from competitors. Ready to showcase your business in 360°?
             </p>
             <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: '1.2rem' }}>
-              <a href="#sample-tour" className="btn btn-primary" style={{ padding: '1rem 2.5rem', fontWeight: 700, borderRadius: '50px', textDecoration: 'none' }}>
+              <a href="#sample-tour" className="btn btn-primary" style={{ padding: '1rem 1.5rem', fontWeight: 700, borderRadius: '50px', textDecoration: 'none', minWidth: '240px', textAlign: 'center' }}>
                 View Sample Tour
               </a>
-              <Link to="/contact" className="btn btn-outline" style={{ padding: '1rem 2.5rem', fontWeight: 600, borderRadius: '50px' }}>
+              <Link to="/contact" className="btn btn-outline" style={{ padding: '1rem 1.5rem', fontWeight: 600, borderRadius: '50px', minWidth: '240px', textAlign: 'center' }}>
                 Contact 3DMania Today
               </Link>
             </div>

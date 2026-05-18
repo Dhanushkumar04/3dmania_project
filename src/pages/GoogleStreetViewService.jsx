@@ -129,10 +129,10 @@ const GoogleStreetViewService = () => {
                 In today's digital world, customers explore businesses online before they visit in person. With 3Dmania's Google Street View Service, your customers can virtually walk through your business directly from Google Search and Google Maps.
               </p>
               <div style={{ display: 'flex', flexWrap: 'wrap', gap: '1rem' }}>
-                <Link to="/contact" className="btn btn-primary" style={{ padding: '1rem 2.5rem', fontWeight: 700 }}>
+                <Link to="/contact" className="btn btn-primary" style={{ padding: '1rem 1.5rem', fontWeight: 700, minWidth: '240px', textAlign: 'center' }}>
                   Get Free Consultation
                 </Link>
-                <a href="tel:+919353456068" className="btn btn-outline" style={{ padding: '1rem 2.5rem', fontWeight: 600 }}>
+                <a href="tel:+919353456068" className="btn btn-outline" style={{ padding: '1rem 1.5rem', fontWeight: 600, minWidth: '240px', textAlign: 'center' }}>
                   Call Today
                 </a>
               </div>
@@ -463,10 +463,10 @@ const GoogleStreetViewService = () => {
               Give your business a stronger online presence with immersive Google Street View integration by 3Dmania. Ready to showcase your business on Google Maps?
             </p>
             <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: '1.2rem' }}>
-              <Link to="/contact" className="btn btn-primary" style={{ padding: '1rem 2.5rem', fontWeight: 700, borderRadius: '50px' }}>
+              <Link to="/contact" className="btn btn-primary" style={{ padding: '1rem 1.5rem', fontWeight: 700, borderRadius: '50px', minWidth: '240px', textAlign: 'center' }}>
                 Get Free Consultation
               </Link>
-              <Link to="/contact" className="btn btn-outline" style={{ padding: '1rem 2.5rem', fontWeight: 600, borderRadius: '50px' }}>
+              <Link to="/contact" className="btn btn-outline" style={{ padding: '1rem 1.5rem', fontWeight: 600, borderRadius: '50px', minWidth: '240px', textAlign: 'center' }}>
                 Contact 3Dmania Today
               </Link>
             </div>

@@ -119,10 +119,10 @@ const DroneServices = () => {
                 Aerial visuals create a powerful first impression. With 3Dmania's Drone Photography & Videography services, showcase your property, project, or business with stunning cinematic visuals that attract attention instantly.
               </p>
               <div style={{ display: 'flex', flexWrap: 'wrap', gap: '1rem' }}>
-                <Link to="/contact" className="btn btn-primary" style={{ padding: '1rem 2.5rem', fontWeight: 700 }}>
+                <Link to="/contact" className="btn btn-primary" style={{ padding: '1rem 1.5rem', fontWeight: 700, minWidth: '240px', textAlign: 'center' }}>
                   Book a Drone Shoot
                 </Link>
-                <a href="tel:+919353456068" className="btn btn-outline" style={{ padding: '1rem 2.5rem', fontWeight: 600 }}>
+                <a href="tel:+919353456068" className="btn btn-outline" style={{ padding: '1rem 1.5rem', fontWeight: 600, minWidth: '240px', textAlign: 'center' }}>
                   Contact Today
                 </a>
               </div>
@@ -399,10 +399,10 @@ const DroneServices = () => {
               Professional drone content helps businesses capture attention, improve marketing impact, and create memorable customer experiences. Ready to showcase your business from the sky?
             </p>
             <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: '1.2rem' }}>
-              <Link to="/contact" className="btn btn-primary" style={{ padding: '1rem 2.5rem', fontWeight: 700, borderRadius: '50px' }}>
+              <Link to="/contact" className="btn btn-primary" style={{ padding: '1rem 1.5rem', fontWeight: 700, borderRadius: '50px', minWidth: '240px', textAlign: 'center' }}>
                 Book a Drone Shoot
               </Link>
-              <Link to="/contact" className="btn btn-outline" style={{ padding: '1rem 2.5rem', fontWeight: 600, borderRadius: '50px' }}>
+              <Link to="/contact" className="btn btn-outline" style={{ padding: '1rem 1.5rem', fontWeight: 600, borderRadius: '50px', minWidth: '240px', textAlign: 'center' }}>
                 Contact 3Dmania Today
               </Link>
             </div>

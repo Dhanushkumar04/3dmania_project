@@ -24,6 +24,18 @@ const Navbar = () => {
     window.scrollTo(0, 0);
   }, [location]);
 
+  // Lock body scroll when mobile menu is open
+  useEffect(() => {
+    if (isOpen) {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = '';
+    }
+    return () => {
+      document.body.style.overflow = '';
+    };
+  }, [isOpen]);
+
   const navLinks = [
     { name: 'Home', path: '/' },
     { name: 'About Us', path: '/about' },
@@ -43,6 +55,7 @@ const Navbar = () => {
   ];
 
   return (
+    <>
     <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
       <div className="container nav-container">
         {/* Logo */}
@@ -103,7 +116,7 @@ const Navbar = () => {
 
         {/* Desktop Actions */}
         <div className="nav-actions" style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
-          <div style={{ display: 'flex', gap: '0.8rem', alignItems: 'center' }}>
+          <div className="desktop-socials">
             <SocialIcon url="https://wa.me/919353456068" target="_blank" style={{ height: 35, width: 35 }} />
             <SocialIcon url="https://www.instagram.com/v3dmania/" target="_blank" style={{ height: 35, width: 35 }} />
             <SocialIcon url="https://www.linkedin.com/company/v3dmania/" target="_blank" style={{ height: 35, width: 35 }} />
@@ -116,8 +129,9 @@ const Navbar = () => {
           </button>
         </div>
       </div>
+    </nav>
 
-      {/* Mobile Menu Overlay */}
+      {/* Mobile Menu Overlay — rendered outside <nav> to avoid clipping */}
       <AnimatePresence>
         {isOpen && (
           <>
@@ -171,18 +185,57 @@ const Navbar = () => {
                     )}
                   </div>
                 ))}
-                <div className="mobile-actions" style={{ display: 'flex', justifyContent: 'center', gap: '1.2rem', padding: '1.5rem 0' }}>
-                  <SocialIcon url="https://wa.me/919353456068" target="_blank" style={{ height: 40, width: 40 }} />
-                  <SocialIcon url="https://www.instagram.com/v3dmania/" target="_blank" style={{ height: 40, width: 40 }} />
-                  <SocialIcon url="https://www.linkedin.com/company/v3dmania/" target="_blank" style={{ height: 40, width: 40 }} />
-                  <SocialIcon url="https://www.facebook.com/profile.php?id=61571287546052" target="_blank" style={{ height: 40, width: 40 }} />
+                <div style={{ marginTop: '1rem', display: 'flex', flexDirection: 'column', gap: '1rem', borderTop: '1px solid rgba(255,255,255,0.08)', paddingTop: '1.2rem' }}>
+                  <a 
+                    href="https://wa.me/919353456068" 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="mobile-social-text-link"
+                    style={{ color: '#25D366' }}
+                  >
+                    WhatsApp
+                  </a>
+                  <a 
+                    href="https://www.facebook.com/profile.php?id=61571287546052" 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="mobile-social-text-link"
+                    style={{ color: '#1877F2' }}
+                  >
+                    Facebook
+                  </a>
+                  <a 
+                    href="https://www.linkedin.com/company/v3dmania/" 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="mobile-social-text-link"
+                    style={{ color: '#0077B5' }}
+                  >
+                    LinkedIn
+                  </a>
+                  <a 
+                    href="https://www.instagram.com/v3dmania/" 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="mobile-social-text-link"
+                    style={{ color: '#E1306C' }}
+                  >
+                    Instagram
+                  </a>
+                  <a 
+                    href="tel:+919353456068" 
+                    className="mobile-social-text-link"
+                    style={{ color: 'var(--accent-blue)' }}
+                  >
+                    Phone
+                  </a>
                 </div>
               </div>
             </motion.div>
           </>
         )}
       </AnimatePresence>
-    </nav>
+    </>
   );
 };
 

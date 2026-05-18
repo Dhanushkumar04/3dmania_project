@@ -66,6 +66,7 @@ const Footer = () => {
               <SocialIcon url="https://www.facebook.com/profile.php?id=61571287546052" target="_blank" />
               <SocialIcon url="https://www.linkedin.com/company/v3dmania/" target="_blank" />
               <SocialIcon url="https://www.instagram.com/v3dmania/" target="_blank" />
+              <SocialIcon url="https://wa.me/919353456068" target="_blank" />
             </div>
           </div>
         </div>

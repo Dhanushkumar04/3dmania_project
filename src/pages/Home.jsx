@@ -210,6 +210,7 @@ const Home = () => {
                 top: 0,
                 left: 0,
               }}
+              allow="accelerometer; gyroscope; autoplay; fullscreen"
               allowFullScreen
             />
 
@@ -519,6 +520,7 @@ const Home = () => {
                     borderRadius: '24px',
                     boxShadow: '0 30px 60px rgba(0,0,0,0.5)'
                   }}
+                  allow="accelerometer; gyroscope; autoplay; fullscreen"
                   allowFullScreen
                 />
               )}

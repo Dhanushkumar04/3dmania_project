@@ -128,10 +128,10 @@ const DroneSurveyService = () => {
                 3Dmania’s Drone Survey & Mapping services help businesses collect accurate aerial data quickly, safely, and efficiently. Using advanced drone technology, we provide high-resolution site visuals and mapping solutions for construction, land analysis, infrastructure planning, and project monitoring.
               </p>
               <div style={{ display: 'flex', flexWrap: 'wrap', gap: '1rem' }}>
-                <Link to="/contact" className="btn btn-primary" style={{ padding: '1rem 2.5rem', fontWeight: 700 }}>
+                <Link to="/contact" className="btn btn-primary" style={{ padding: '1rem 1.5rem', fontWeight: 700, minWidth: '240px', textAlign: 'center' }}>
                   Schedule a Drone Survey
                 </Link>
-                <a href="tel:+919353456068" className="btn btn-outline" style={{ padding: '1rem 2.5rem', fontWeight: 600 }}>
+                <a href="tel:+919353456068" className="btn btn-outline" style={{ padding: '1rem 1.5rem', fontWeight: 600, minWidth: '240px', textAlign: 'center' }}>
                   Call Today
                 </a>
               </div>
@@ -404,10 +404,10 @@ const DroneSurveyService = () => {
               Drone surveying helps businesses save time, improve visibility, and make smarter project decisions with accurate aerial insights. Ready to streamline your site monitoring process?
             </p>
             <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: '1.2rem' }}>
-              <Link to="/contact" className="btn btn-primary" style={{ padding: '1rem 2.5rem', fontWeight: 700, borderRadius: '50px' }}>
+              <Link to="/contact" className="btn btn-primary" style={{ padding: '1rem 1.5rem', fontWeight: 700, borderRadius: '50px', minWidth: '240px', textAlign: 'center' }}>
                 Schedule a Drone Survey
               </Link>
-              <Link to="/contact" className="btn btn-outline" style={{ padding: '1rem 2.5rem', fontWeight: 600, borderRadius: '50px' }}>
+              <Link to="/contact" className="btn btn-outline" style={{ padding: '1rem 1.5rem', fontWeight: 600, borderRadius: '50px', minWidth: '240px', textAlign: 'center' }}>
                 Contact 3Dmania Today
               </Link>
             </div>
