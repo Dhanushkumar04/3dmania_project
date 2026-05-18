@@ -35,7 +35,7 @@ Thumbs.db
 output/
 public/tours/
 
-# Image Files
+# Image Files (global ignore - large assets)
 *.jpg
 *.jpeg
 *.png
@@ -49,7 +49,15 @@ public/tours/
 *.GIF
 *.AVIF
 Client Logo/
-public/client-logos/
+
+# Exception: client logos must be tracked for Vercel deployment
+!public/client-logos/
+!public/client-logos/*.png
+!public/client-logos/*.jpg
+!public/client-logos/*.jpeg
+!public/client-logos/*.PNG
+!public/client-logos/*.JPG
+!public/client-logos/*.JPEG
 
 # Video Files
 *.mp4
