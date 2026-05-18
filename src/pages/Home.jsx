@@ -27,9 +27,7 @@ const heroTitles = [
   "Let Customers Explore Before They Visit"
 ];
 
-const HERO_TOUR_URL = import.meta.env.DEV 
-  ? "/tours/output/index.html" 
-  : "https://mania3d-assets.web.app/output/index.html";
+const HERO_TOUR_URL = "/tours/output/index.html";
 
 const Home = () => {
   const [currentTitle, setCurrentTitle] = useState(0);
