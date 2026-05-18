@@ -180,14 +180,17 @@ const Home = () => {
           allowFullScreen
         />
 
-        {/* Cycling Title — bottom-left corner */}
+        {/* Cycling Title — bottom-center */}
         <div style={{
           position: 'absolute',
           bottom: '2.5rem',
-          left: '2.5rem',
+          left: '50%',
+          transform: 'translateX(-50%)',
           zIndex: 10,
           pointerEvents: 'none',
+          width: '100%',
           maxWidth: '800px',
+          textAlign: 'center',
         }}>
           <AnimatePresence mode="wait">
             <motion.p
@@ -204,8 +207,6 @@ const Home = () => {
                 textShadow: '0 4px 20px rgba(0,0,0,1), 0 2px 10px rgba(0,0,0,0.8)',
                 lineHeight: 1.3,
                 margin: 0,
-                borderLeft: '4px solid var(--accent-blue)',
-                paddingLeft: '1rem',
               }}
             >
               {heroTitles[currentTitle]}
@@ -214,19 +215,7 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Section 1.5: Client Logos Scrolling Marquee */}
-      <section className="marquee-container">
-        <div className="marquee-content">
-          {[...clientLogos, ...clientLogos].map((logo, index) => (
-            <img
-              key={index}
-              src={`https://mania3d-assets.web.app/client-logos/${logo}`}
-              alt={`Client Logo ${index + 1}`}
-              className="marquee-item"
-            />
-          ))}
-        </div>
-      </section>
+
 
       {/* Why Choose 3Dmania Slider */}
       <section className="section" style={{ background: 'rgba(255,255,255,0.02)', padding: 'clamp(2rem, 5vw, 3rem) 0' }}>
