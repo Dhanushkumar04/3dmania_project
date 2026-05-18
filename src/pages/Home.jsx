@@ -19,43 +19,25 @@ const clientLogos = [
   "png-clipart-prestige-lake-ridge-prestige-group-property-developer-business-real-estate-business-people-logo.png"
 ];
 
+const heroTitles = [
+  "Step Inside Your Space - Anytime, Anywhere",
+  "Immersive 360° Experiences That Build Trust",
+  "Showcase Your Business Beyond Photos",
+  "Drone Visuals & Virtual Tours That Capture Attention",
+  "Let Customers Explore Before They Visit"
+];
+
+const HERO_TOUR_URL = "https://mania3d-assets.web.app/presidency-school-east/index.html";
+
 const Home = () => {
-  const [currentSlide, setCurrentSlide] = useState(0);
-  const [isFeaturedTourPlaying, setIsFeaturedTourPlaying] = useState(false);
-  const slides = [
-    {
-      title: "Interactive 3D Virtual Tours - Step Inside Your Space",
-      subtitle: "FEATURED SHOWCASE",
-      tourUrl: "https://mania3d-assets.web.app/output/index.html"
-    },
-    {
-      title: "Experience Properties Remotely with Complete Detail",
-      subtitle: "REAL ESTATE",
-      tourUrl: "https://mania3d-assets.web.app/viruksha-avenue/index.html"
-    },
-    {
-      title: "Immersive 360° Walkthroughs That Build True Trust",
-      subtitle: "LUXURY VILLAS",
-      tourUrl: "https://mania3d-assets.web.app/prestige-villa/index.html"
-    },
-    {
-      title: "Let Students & Parents Tour Your Campus Virtually",
-      subtitle: "SCHOOLS & COLLEGES",
-      tourUrl: "https://mania3d-assets.web.app/godwin-public-school/index.html"
-    },
-    {
-      title: "State-of-the-Art Facilities & Modern Infrastructure",
-      subtitle: "CAMPUS WALKTHROUGHS",
-      tourUrl: "https://mania3d-assets.web.app/presidency-school-east/index.html"
-    }
-  ];
+  const [currentTitle, setCurrentTitle] = useState(0);
 
   useEffect(() => {
     const timer = setInterval(() => {
-      setCurrentSlide((prev) => (prev + 1) % slides.length);
-    }, 10000);
+      setCurrentTitle((prev) => (prev + 1) % heroTitles.length);
+    }, 5000);
     return () => clearInterval(timer);
-  }, [slides.length]);
+  }, []);
 
   const [activeIndustry, setActiveIndustry] = useState(0);  const industries = [
     {
@@ -180,115 +162,56 @@ const Home = () => {
 
   return (
     <div>
-      {/* Section 1: Hero Carousel (Matterport Style) */}
+      {/* Section 1: Hero - Single Tour Background with Cycling Titles */}
       <section style={{ height: '100vh', position: 'relative', overflow: 'hidden' }}>
-        <AnimatePresence mode="wait">
-          <motion.div
-            key={currentSlide}
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
-            transition={{ duration: 1 }}
-            style={{
-              position: 'absolute',
-              top: 0,
-              left: 0,
-              width: '100%',
-              height: '100%',
-              backgroundColor: '#000',
-            }}
-          >
-            {/* The 3D Virtual Tour Embed */}
-            <iframe
-              src={slides[currentSlide].tourUrl}
-              title={slides[currentSlide].title}
-              style={{
-                width: '100%',
-                height: '100%',
-                border: 'none',
-                position: 'absolute',
-                top: 0,
-                left: 0,
-              }}
-              allow="accelerometer; gyroscope; autoplay; fullscreen"
-              allowFullScreen
-            />
+        {/* Static Presidency School Virtual Tour */}
+        <iframe
+          src={HERO_TOUR_URL}
+          title="Presidency School Virtual Tour"
+          style={{
+            width: '100%',
+            height: '100%',
+            border: 'none',
+            position: 'absolute',
+            top: 0,
+            left: 0,
+            pointerEvents: 'none'
+          }}
+          allow="accelerometer; gyroscope; autoplay; fullscreen"
+          allowFullScreen
+        />
 
-            {/* Readability Gradient Overlay - pointerEvents: 'none' allows dragging the 3D tour on the right side */}
-            <div style={{
-              position: 'absolute',
-              top: 0,
-              left: 0,
-              width: '100%',
-              height: '100%',
-              background: 'linear-gradient(to right, rgba(0,0,0,0.85) 0%, rgba(0,0,0,0.5) 45%, rgba(0,0,0,0) 100%)',
-              display: 'flex',
-              alignItems: 'center',
-              pointerEvents: 'none'
-            }}>
-              {/* Restore pointerEvents: 'auto' so details and buttons remain interactive */}
-              <div className="container" style={{ pointerEvents: 'auto' }}>
-                <div style={{ maxWidth: '900px' }}>
-                  <motion.p
-                    initial={{ opacity: 0, y: 20 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    transition={{ delay: 0.3 }}
-                    style={{ color: 'var(--accent-blue)', fontWeight: 800, letterSpacing: '0.2em', marginBottom: '1.5rem', fontSize: '0.9rem' }}
-                  >
-                    {slides[currentSlide].subtitle}
-                  </motion.p>
-                  <motion.h1
-                    initial={{ opacity: 0, y: 30 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    transition={{ delay: 0.5, duration: 0.8 }}
-                    style={{ fontSize: 'clamp(1.8rem, 6vw, 3.2rem)', fontWeight: 800, marginBottom: '2rem', lineHeight: 1.2, color: '#ffffff' }}
-                  >
-                    {slides[currentSlide].title.split('digital twins').map((part, i) => (
-                      i === 0 ? part : <span key={i}><span className="text-gradient">digital twins</span>{part}</span>
-                    ))}
-                  </motion.h1>
-                  <motion.div
-                    initial={{ opacity: 0, y: 20 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    transition={{ delay: 0.7 }}
-                    style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap' }}
-                  >
-                    <Link to="/services" className="btn btn-primary" style={{ padding: '0.8rem 2rem' }}>Learn More</Link>
-                    <Link to="/contact" className="btn btn-outline" style={{ padding: '0.8rem 2rem', background: 'rgba(255,255,255,0.1)' }}>Contact Us</Link>
-                  </motion.div>
-                </div>
-              </div>
-            </div>
-          </motion.div>
-        </AnimatePresence>
-
-        {/* Carousel Indicators - Horizontally Centered at the Bottom */}
+        {/* Cycling Title — bottom-left corner */}
         <div style={{
           position: 'absolute',
-          bottom: '50px',
-          left: '50%',
-          transform: 'translateX(-50%)',
-          display: 'flex',
-          flexDirection: 'row',
-          gap: '1.2rem',
-          zIndex: 10
+          bottom: '2.5rem',
+          left: '2.5rem',
+          zIndex: 10,
+          pointerEvents: 'none',
+          maxWidth: '800px',
         }}>
-          {slides.map((_, i) => (
-            <div
-              key={i}
-              onClick={() => setCurrentSlide(i)}
+          <AnimatePresence mode="wait">
+            <motion.p
+              key={currentTitle}
+              initial={{ opacity: 0, y: 12 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -12 }}
+              transition={{ duration: 0.55, ease: 'easeInOut' }}
               style={{
-                width: '12px',
-                height: '12px',
-                borderRadius: '50%',
-                background: currentSlide === i ? 'var(--accent-blue)' : 'rgba(255,255,255,0.3)',
-                boxShadow: currentSlide === i ? '0 0 10px var(--accent-blue)' : 'none',
-                cursor: 'pointer',
-                transition: 'all 0.3s'
+                color: '#ffffff',
+                fontWeight: 800,
+                fontSize: 'clamp(1.5rem, 3vw, 2.5rem)',
+                letterSpacing: '0.02em',
+                textShadow: '0 4px 20px rgba(0,0,0,1), 0 2px 10px rgba(0,0,0,0.8)',
+                lineHeight: 1.3,
+                margin: 0,
+                borderLeft: '4px solid var(--accent-blue)',
+                paddingLeft: '1rem',
               }}
-              title={`Go to slide ${i + 1}`}
-            />
-          ))}
+            >
+              {heroTitles[currentTitle]}
+            </motion.p>
+          </AnimatePresence>
         </div>
       </section>
 
@@ -411,7 +334,7 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Featured Project: Viruksha Avenue */}
+      {/* Featured Project */}
       <section className="section glass" style={{ overflow: 'hidden' }}>
         <div className="container">
           <div style={{
@@ -425,20 +348,18 @@ const Home = () => {
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
             >
-              <p style={{ color: 'var(--accent-blue)', fontWeight: 700, marginBottom: '1rem', fontSize: '0.9rem', letterSpacing: '0.1rem' }}>Viruksha Avenue</p>
+              <p style={{ color: 'var(--accent-blue)', fontWeight: 700, marginBottom: '1rem', fontSize: '0.9rem', letterSpacing: '0.1rem' }}>Featured Project</p>
               <h2 style={{ fontSize: 'clamp(2rem, 5vw, 2rem)', fontWeight: 800, marginBottom: '1.5rem' }}>Experience a Live Virtual Tour</h2>
               <p style={{ fontSize: 'clamp(1rem, 2vw, 1.2rem)', color: 'var(--text-muted)', marginBottom: '2rem', lineHeight: 1.8 }}>
                 Let your customers explore your space just like this, anytime from anywhere.
               </p>
-              <a 
-                href="https://mania3d-assets.web.app/viruksha-avenue/index.html" 
-                target="_blank" 
-                rel="noopener noreferrer" 
-                className="btn btn-outline" 
+              <Link
+                to="/virtual-tours"
+                className="btn btn-outline"
                 style={{ display: 'inline-flex', alignItems: 'center', gap: '0.5rem', textDecoration: 'none' }}
               >
                 Learn More <ArrowRight size={18} />
-              </a>
+              </Link>
             </motion.div>
             <motion.div
               initial={{ opacity: 0, scale: 0.8 }}
@@ -446,84 +367,53 @@ const Home = () => {
               viewport={{ once: true }}
               style={{ position: 'relative', width: '100%', height: 'clamp(300px, 45vh, 450px)', borderRadius: '24px', overflow: 'hidden' }}
             >
-              {!isFeaturedTourPlaying ? (
-                <div 
-                  onClick={() => setIsFeaturedTourPlaying(true)}
-                  style={{ 
-                    position: 'relative', 
-                    width: '100%', 
-                    height: '100%', 
-                    cursor: 'pointer',
-                    overflow: 'hidden'
-                  }}
+              {/* Play button always opens in new tab */}
+              <img
+                src="https://mania3d-assets.web.app/viruksha-avenue/preview.jpg"
+                alt="Viruksha Avenue Preview"
+                style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+              />
+              <div style={{
+                position: 'absolute',
+                top: 0, left: 0,
+                width: '100%', height: '100%',
+                background: 'rgba(0, 0, 0, 0.4)',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center'
+              }}>
+                <a
+                  href="https://mania3d-assets.web.app/viruksha-avenue/index.html"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{ textDecoration: 'none' }}
+                  aria-label="Open Virtual Tour in new tab"
                 >
-                  <img
-                    src="https://mania3d-assets.web.app/viruksha-avenue/preview.jpg"
-                    alt="Viruksha Avenue Preview"
-                    style={{
-                      width: '100%',
-                      height: '100%',
-                      objectFit: 'cover'
+                  <motion.div
+                    animate={{
+                      scale: [1, 1.1, 1],
+                      boxShadow: [
+                        '0 0 0 0px rgba(0, 242, 255, 0.4)',
+                        '0 0 0 15px rgba(0, 242, 255, 0)',
+                        '0 0 0 0px rgba(0, 242, 255, 0)'
+                      ]
                     }}
-                  />
-                  {/* Pulsing Play Button Overlay */}
-                  <div style={{
-                    position: 'absolute',
-                    top: 0,
-                    left: 0,
-                    width: '100%',
-                    height: '100%',
-                    background: 'rgba(0, 0, 0, 0.4)',
-                    display: 'flex',
-                    alignItems: 'center',
-                    justifyContent: 'center'
-                  }}
+                    transition={{ duration: 2, repeat: Infinity, ease: 'easeInOut' }}
+                    style={{
+                      width: '80px',
+                      height: '80px',
+                      borderRadius: '50%',
+                      background: 'rgba(0, 242, 255, 0.9)',
+                      display: 'flex',
+                      alignItems: 'center',
+                      justifyContent: 'center',
+                      cursor: 'pointer'
+                    }}
                   >
-                    <motion.div
-                      animate={{
-                        scale: [1, 1.1, 1],
-                        boxShadow: [
-                          '0 0 0 0px rgba(0, 242, 255, 0.4)',
-                          '0 0 0 15px rgba(0, 242, 255, 0)',
-                          '0 0 0 0px rgba(0, 242, 255, 0)'
-                        ]
-                      }}
-                      transition={{
-                        duration: 2,
-                        repeat: Infinity,
-                        ease: "easeInOut"
-                      }}
-                      style={{
-                        width: '80px',
-                        height: '80px',
-                        borderRadius: '50%',
-                        background: 'rgba(0, 242, 255, 0.9)',
-                        display: 'flex',
-                        alignItems: 'center',
-                        justifyContent: 'center',
-                        color: '#000',
-                        cursor: 'pointer'
-                      }}
-                    >
-                      <Play fill="#000" color="#000" size={32} style={{ marginLeft: '4px' }} />
-                    </motion.div>
-                  </div>
-                </div>
-              ) : (
-                <iframe
-                  src="https://mania3d-assets.web.app/viruksha-avenue/index.html"
-                  title="Viruksha Avenue Interactive Tour"
-                  style={{
-                    width: '100%',
-                    height: '100%',
-                    border: 'none',
-                    borderRadius: '24px',
-                    boxShadow: '0 30px 60px rgba(0,0,0,0.5)'
-                  }}
-                  allow="accelerometer; gyroscope; autoplay; fullscreen"
-                  allowFullScreen
-                />
-              )}
+                    <Play fill="#000" color="#000" size={32} style={{ marginLeft: '4px' }} />
+                  </motion.div>
+                </a>
+              </div>
             </motion.div>
           </div>
         </div>
@@ -642,16 +532,19 @@ const Home = () => {
           will-change: transform;
         }
         .marquee-item {
-          height: 48px;
-          max-width: 140px;
+          height: 60px;
+          max-width: 160px;
           object-fit: contain;
-          opacity: 0.5;
-          filter: grayscale(1) brightness(1.6);
+          opacity: 1;
+          filter: none;
           transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+          background: #ffffff;
+          padding: 8px 16px;
+          border-radius: 8px;
+          box-shadow: 0 4px 15px rgba(0,0,0,0.2);
         }
         .marquee-item:hover {
-          opacity: 1;
-          filter: none !important;
+          opacity: 0.85;
           transform: scale(1.08);
           cursor: pointer;
         }

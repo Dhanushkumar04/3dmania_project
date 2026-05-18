@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Menu, X, ChevronDown } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
@@ -9,6 +9,7 @@ const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
   const [dropdownOpen, setDropdownOpen] = useState(false);
   const location = useLocation();
+  const dropdownRef = useRef(null);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -23,6 +24,17 @@ const Navbar = () => {
     setDropdownOpen(false);
     window.scrollTo(0, 0);
   }, [location]);
+
+  // Close dropdown on click outside
+  useEffect(() => {
+    const handleClickOutside = (e) => {
+      if (dropdownRef.current && !dropdownRef.current.contains(e.target)) {
+        setDropdownOpen(false);
+      }
+    };
+    document.addEventListener('mousedown', handleClickOutside);
+    return () => document.removeEventListener('mousedown', handleClickOutside);
+  }, []);
 
   // Lock body scroll when mobile menu is open
   useEffect(() => {
@@ -43,7 +55,6 @@ const Navbar = () => {
       name: 'Services', 
       path: '/services',
       subLinks: [
-        { name: 'Overall Services', path: '/services' },
         { name: '360° Virtual Tours', path: '/virtual-tours' },
         { name: 'Drone Photo & Videography', path: '/drone-services' },
         { name: 'Google Street View', path: '/google-street-view' },
@@ -73,21 +84,43 @@ const Navbar = () => {
             <div 
               key={link.name} 
               className="nav-item-wrapper"
-              onMouseEnter={() => link.subLinks && setDropdownOpen(true)}
-              onMouseLeave={() => link.subLinks && setDropdownOpen(false)}
+              ref={link.subLinks ? dropdownRef : null}
             >
               {link.subLinks ? (
                 <div className="dropdown-container">
-                  <span className={`nav-item ${location.pathname.includes(link.path) || link.subLinks.some(s => location.pathname === s.path) ? 'active' : ''}`}>
-                    {link.name} <ChevronDown size={16} className={`chevron ${dropdownOpen ? 'rotate' : ''}`} />
-                  </span>
+                  {/* Clicking the text navigates to /services */}
+                  <Link
+                    to={link.path}
+                    className={`nav-item ${
+                      location.pathname === link.path || link.subLinks.some(s => location.pathname === s.path) ? 'active' : ''
+                    }`}
+                  >
+                    {link.name}
+                  </Link>
+                  {/* Separate chevron button toggles dropdown */}
+                  <button
+                    onClick={() => setDropdownOpen(prev => !prev)}
+                    style={{
+                      background: 'none',
+                      border: 'none',
+                      cursor: 'pointer',
+                      padding: '0 4px',
+                      display: 'flex',
+                      alignItems: 'center',
+                      color: '#fff',
+                      opacity: 0.7,
+                    }}
+                    aria-label="Toggle services dropdown"
+                  >
+                    <ChevronDown size={16} className={`chevron ${dropdownOpen ? 'rotate' : ''}`} />
+                  </button>
                   <AnimatePresence>
                     {dropdownOpen && (
                       <motion.div 
                         initial={{ opacity: 0, y: 10 }}
                         animate={{ opacity: 1, y: 0 }}
                         exit={{ opacity: 0, y: 10 }}
-                        className="dropdown-menu glass"
+                        className="dropdown-menu"
                       >
                         {link.subLinks.map(sub => (
                           <Link 
