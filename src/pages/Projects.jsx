@@ -119,7 +119,7 @@ const Projects = () => {
       location: 'Dharmapuri, Tamil Nadu',
       category: 'Drone Photo & Videography',
       description: 'An immersive cinematic video detailing complete property access and surrounding developments.',
-      image: 'https://mania3d-assets.web.app/drone1.jpeg',
+      image: '/viruksha.png',
       video: 'https://mania3d-assets.web.app/Viruksha Avenue First Cut.mp4',
       tourLink: '#',
       type: 'video'
@@ -322,16 +322,24 @@ const Projects = () => {
                               <button
                                 className="btn btn-primary"
                                 onClick={(e) => {
-                                  // Play/Pause direct controls
+                                  // Request fullscreen and play
                                   const videoEl = e.currentTarget.closest('.project-card').querySelector('video');
                                   if (videoEl) {
-                                    if (videoEl.paused) videoEl.play();
-                                    else videoEl.pause();
+                                    videoEl.play();
+                                    if (videoEl.requestFullscreen) {
+                                      videoEl.requestFullscreen();
+                                    } else if (videoEl.webkitEnterFullscreen) {
+                                      videoEl.webkitEnterFullscreen();
+                                    } else if (videoEl.mozRequestFullScreen) {
+                                      videoEl.mozRequestFullScreen();
+                                    } else if (videoEl.msRequestFullscreen) {
+                                      videoEl.msRequestFullscreen();
+                                    }
                                   }
                                 }}
                                 style={{ width: '100%', textAlign: 'center', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '0.5rem' }}
                               >
-                                Play / Pause Video <Video size={16} />
+                                Watch Fullscreen <Video size={16} />
                               </button>
                             ) : (
                               <a

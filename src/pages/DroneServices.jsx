@@ -219,6 +219,7 @@ const DroneServices = () => {
             >
               <video
                 src="https://mania3d-assets.web.app/Viruksha%20Avenue%20First%20Cut.mp4"
+                poster="/viruksha.png"
                 controls
                 playsInline
                 style={{
