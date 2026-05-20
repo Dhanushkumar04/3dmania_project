@@ -66,3 +66,10 @@ Client Logo/
 *.mov
 *.MP4
 
+# Exception: preview images for virtual tours and projects must be tracked
+!viruksha.png
+!public/tours/viruksha-avenue/preview.jpg
+!public/tours/godwin-public-school/preview.jpg
+!public/tours/presidency-school-east/preview.jpg
+!public/tours/prestige-villa/preview.jpg
+
