@@ -174,7 +174,7 @@ const Home = () => {
         {/* Title and Controls — bottom-center */}
         <div style={{
           position: 'absolute',
-          bottom: '130px', // Positioned right above the native virtual tour carousel
+          bottom: '150px', // Positioned perfectly above the native virtual tour carousel
           left: '50%',
           transform: 'translateX(-50%)',
           zIndex: 10,
@@ -185,13 +185,13 @@ const Home = () => {
           display: 'flex',
           flexDirection: 'column',
           alignItems: 'center',
-          gap: '1rem'
+          gap: '0.8rem'
         }}>
           <p
             style={{
               color: '#ffffff',
               fontWeight: 800,
-              fontSize: 'clamp(0.85rem, 2.5vw, 2.2rem)',
+              fontSize: 'clamp(0.85rem, 2.2vw, 1.8rem)',
               letterSpacing: '0.02em',
               textShadow: '0 4px 20px rgba(0,0,0,1), 0 2px 10px rgba(0,0,0,0.8)',
               lineHeight: 1.3,
@@ -205,18 +205,18 @@ const Home = () => {
           </p>
 
           {/* Buttons */}
-          <div style={{ pointerEvents: 'auto', display: 'flex', gap: '1.5rem', justifyContent: 'center' }}>
+          <div style={{ pointerEvents: 'auto', display: 'flex', gap: '1.2rem', justifyContent: 'center' }}>
             <Link
               to="/services"
               className="btn btn-primary"
-              style={{ padding: '0.8rem 2.5rem', fontSize: '1.1rem', fontWeight: 600, borderRadius: '50px', textDecoration: 'none' }}
+              style={{ padding: '0.7rem 2.2rem', fontSize: '1rem', fontWeight: 600, borderRadius: '50px', textDecoration: 'none' }}
             >
               Learn More
             </Link>
             <Link
               to="/contact"
               className="btn btn-outline"
-              style={{ padding: '0.8rem 2.5rem', fontSize: '1.1rem', fontWeight: 600, borderRadius: '50px', textDecoration: 'none', background: 'rgba(0,0,0,0.5)', backdropFilter: 'blur(5px)' }}
+              style={{ padding: '0.7rem 2.2rem', fontSize: '1rem', fontWeight: 600, borderRadius: '50px', textDecoration: 'none', background: 'rgba(0,0,0,0.5)', backdropFilter: 'blur(5px)' }}
             >
               Contact Us
             </Link>
