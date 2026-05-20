@@ -448,7 +448,7 @@ const Home = () => {
       <section className="section glass">
         <div className="container">
           <h2 style={{ fontSize: 'clamp(1.8rem, 5vw, 3.5rem)', fontWeight: 800, marginBottom: 'clamp(2rem, 8vw, 4rem)' }}>Industries We Serve</h2>
-          <div style={{
+          <div className="industries-desktop-layout" style={{
             display: 'grid',
             gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 300px), 1fr))',
             gap: 'clamp(2rem, 8vw, 5rem)'
@@ -505,6 +505,60 @@ const Home = () => {
                 </div>
               ))}
             </div>
+          </div>
+
+          {/* Premium Mobile Format: Image -> Title -> Description for each category sequentially */}
+          <div className="industries-mobile-layout" style={{ display: 'none' }}>
+            {industries.map((industry, i) => (
+              <div 
+                key={i} 
+                style={{
+                  background: 'rgba(255, 255, 255, 0.02)',
+                  borderRadius: '24px',
+                  border: '1px solid rgba(255, 255, 255, 0.05)',
+                  overflow: 'hidden',
+                  boxShadow: '0 8px 32px rgba(0, 0, 0, 0.2)',
+                  display: 'flex',
+                  flexDirection: 'column',
+                  gap: '1.2rem',
+                  padding: '1.2rem',
+                  marginBottom: '2.5rem'
+                }}
+              >
+                {/* Category Image */}
+                <div style={{ width: '100%', height: '220px', borderRadius: '16px', overflow: 'hidden' }}>
+                  <img 
+                    src={industry.img} 
+                    alt={industry.name} 
+                    style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                  />
+                </div>
+                {/* Category Title & Description */}
+                <div style={{ display: 'flex', flexDirection: 'column', gap: '0.8rem', padding: '0 0.5rem' }}>
+                  <h3 style={{ fontSize: '1.35rem', fontWeight: 800, color: 'var(--accent-blue)', margin: 0 }}>
+                    {industry.name}
+                  </h3>
+                  <p style={{ fontSize: '0.92rem', color: 'var(--text-muted)', lineHeight: 1.6, margin: 0 }}>
+                    {industry.desc}
+                  </p>
+                  <Link 
+                    to="/projects" 
+                    style={{ 
+                      color: 'var(--accent-light)', 
+                      fontWeight: 600, 
+                      display: 'flex', 
+                      alignItems: 'center', 
+                      gap: '0.4rem', 
+                      textDecoration: 'none', 
+                      fontSize: '0.92rem',
+                      marginTop: '0.5rem'
+                    }}
+                  >
+                    Learn More <ArrowRight size={14} />
+                  </Link>
+                </div>
+              </div>
+            ))}
           </div>
         </div>
       </section>
@@ -581,8 +635,24 @@ const Home = () => {
           }
         }
 
+        .industries-mobile-layout {
+          display: none;
+        }
+        .industries-desktop-layout {
+          display: grid;
+        }
+
         /* Responsive Hero & Logos Carousel for Mobile and Tablet */
         @media (max-width: 768px) {
+          .industries-desktop-layout {
+            display: none !important;
+          }
+          .industries-mobile-layout {
+            display: flex !important;
+            flex-direction: column !important;
+            gap: 2rem !important;
+            width: 100% !important;
+          }
           .hero-section {
             height: 75vh !important;
             position: relative !important;
@@ -597,46 +667,49 @@ const Home = () => {
           }
           .hero-content-box {
             position: absolute !important;
-            bottom: 25px !important;
+            bottom: 95px !important; /* Lifted beautifully above the tour's native carousel/pagination dots */
             left: 50% !important;
             transform: translateX(-50%) !important;
-            width: 90% !important;
+            width: 92% !important;
             max-width: 100% !important;
             padding: 0 !important;
             margin: 0 !important;
             display: flex !important;
             flex-direction: column !important;
             align-items: center !important;
-            gap: 0.8rem !important;
+            gap: 1rem !important;
             background: transparent !important;
             pointer-events: none !important;
             z-index: 10 !important;
           }
           .hero-title-text {
             white-space: normal !important;
-            font-size: 1.15rem !important;
-            line-height: 1.35 !important;
+            font-size: 1.25rem !important;
+            font-weight: 800 !important;
+            line-height: 1.4 !important;
             text-overflow: clip !important;
             overflow: visible !important;
             margin-bottom: 0.2rem !important;
             max-width: 100% !important;
-            text-shadow: 0 4px 15px rgba(0,0,0,1), 0 2px 8px rgba(0,0,0,0.9), 0 1px 4px rgba(0,0,0,0.8) !important;
+            text-shadow: 0 4px 20px rgba(0,0,0,1), 0 2px 10px rgba(0,0,0,0.9), 0 1px 4px rgba(0,0,0,0.8) !important;
           }
           .hero-buttons-container {
             display: flex !important;
             flex-direction: row !important;
-            gap: 0.6rem !important;
+            gap: 0.8rem !important;
             justify-content: center !important;
             width: 100% !important;
             pointer-events: auto !important;
           }
           .hero-btn {
-            padding: 0.55rem 1.3rem !important;
-            font-size: 0.85rem !important;
-            border-radius: 30px !important;
+            padding: 0.65rem 1.4rem !important;
+            font-size: 0.88rem !important;
+            font-weight: 700 !important;
+            border-radius: 50px !important;
             flex: none !important;
             text-align: center !important;
-            width: 120px !important;
+            width: 130px !important;
+            transition: all 0.3s ease !important;
           }
 
           /* Client Logos Carousel inside the remaining 25vh of the first fold */
@@ -667,7 +740,9 @@ const Home = () => {
             max-width: 115px !important;
             padding: 5px 10px !important;
             background: #ffffff !important;
-            border-radius: 6px !important;
+            border-radius: 8px !important;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.3) !important;
+            border: 1px solid rgba(255,255,255,0.05) !important;
           }
         }
 
@@ -676,20 +751,25 @@ const Home = () => {
           .hero-section {
             height: 77vh !important;
           }
+          .hero-content-box {
+            bottom: 85px !important; /* Keep it nicely adjusted on extremely small screens */
+          }
           .client-logos-section {
             height: 23vh !important;
           }
           .hero-title-text {
-            font-size: 1.05rem !important;
+            font-size: 1.12rem !important;
+            line-height: 1.35 !important;
           }
           .hero-btn {
-            padding: 0.5rem 1.1rem !important;
-            font-size: 0.8rem !important;
-            width: 110px !important;
+            padding: 0.55rem 1.2rem !important;
+            font-size: 0.82rem !important;
+            width: 115px !important;
           }
           .marquee-item {
             height: 44px !important;
             max-width: 95px !important;
+            border-radius: 6px !important;
           }
         }
       `}} />

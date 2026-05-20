@@ -195,9 +195,14 @@ const Navbar = () => {
                   <div key={link.name}>
                     {link.subLinks ? (
                       <div className="mobile-dropdown-section">
-                        <div className="mobile-link parent-link">
+                        <Link 
+                          to={link.path}
+                          className="mobile-link parent-link"
+                          onClick={() => setIsOpen(false)}
+                          style={{ textDecoration: 'none', display: 'block' }}
+                        >
                           {link.name}
-                        </div>
+                        </Link>
                         <div className="mobile-sublinks">
                           {link.subLinks.map(sub => (
                             <Link 
