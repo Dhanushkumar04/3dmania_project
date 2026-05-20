@@ -154,11 +154,12 @@ const Home = () => {
   return (
     <div>
       {/* Section 1: Hero - Single Tour Background with Cycling Titles */}
-      <section style={{ height: '100vh', position: 'relative', overflow: 'hidden' }}>
+      <section className="hero-section" style={{ height: '100vh', position: 'relative', overflow: 'hidden' }}>
         {/* Static Presidency School Virtual Tour */}
         <iframe
           src={HERO_TOUR_URL}
           title="Virtual Tour Background"
+          className="hero-iframe"
           style={{
             width: '100%',
             height: '100%',
@@ -172,7 +173,7 @@ const Home = () => {
         />
 
         {/* Title and Controls — bottom-center */}
-        <div style={{
+        <div className="hero-content-box" style={{
           position: 'absolute',
           bottom: '50px', // Positioned perfectly above the native virtual tour carousel
           left: '50%',
@@ -188,6 +189,7 @@ const Home = () => {
           gap: '0.8rem'
         }}>
           <p
+            className="hero-title-text"
             style={{
               color: '#ffffff',
               fontWeight: 800,
@@ -205,17 +207,17 @@ const Home = () => {
           </p>
 
           {/* Buttons */}
-          <div style={{ pointerEvents: 'auto', display: 'flex', gap: '1.2rem', justifyContent: 'center' }}>
+          <div className="hero-buttons-container" style={{ pointerEvents: 'auto', display: 'flex', gap: '1.2rem', justifyContent: 'center' }}>
             <Link
               to="/services"
-              className="btn btn-primary"
+              className="btn btn-primary hero-btn"
               style={{ padding: '0.7rem 2.2rem', fontSize: '1rem', fontWeight: 600, borderRadius: '50px', textDecoration: 'none' }}
             >
               Learn More
             </Link>
             <Link
               to="/contact"
-              className="btn btn-outline"
+              className="btn btn-outline hero-btn"
               style={{ padding: '0.7rem 2.2rem', fontSize: '1rem', fontWeight: 600, borderRadius: '50px', textDecoration: 'none', background: 'rgba(0,0,0,0.5)', backdropFilter: 'blur(5px)' }}
             >
               Contact Us
@@ -576,6 +578,78 @@ const Home = () => {
           }
           100% {
             transform: translateX(-50%);
+          }
+        }
+
+        /* Responsive Hero Design for Mobile and Tablet */
+        @media (max-width: 768px) {
+          .hero-section {
+            height: auto !important;
+            display: flex !important;
+            flex-direction: column !important;
+            position: relative !important;
+            background: var(--bg-color) !important;
+            overflow: visible !important;
+          }
+          .hero-iframe {
+            position: relative !important;
+            width: 100% !important;
+            height: 50vh !important;
+            top: auto !important;
+            left: auto !important;
+          }
+          .hero-content-box {
+            position: relative !important;
+            bottom: auto !important;
+            left: auto !important;
+            transform: none !important;
+            padding: 2.5rem 1.2rem 3.5rem 1.2rem !important;
+            width: 100% !important;
+            margin: 0 auto !important;
+            display: flex !important;
+            flex-direction: column !important;
+            align-items: center !important;
+            gap: 1.2rem !important;
+            background: linear-gradient(to bottom, rgba(10, 15, 30, 0.95), rgba(5, 5, 10, 1)) !important;
+            pointer-events: auto !important;
+          }
+          .hero-title-text {
+            white-space: normal !important;
+            font-size: 1.35rem !important;
+            line-height: 1.4 !important;
+            text-overflow: clip !important;
+            overflow: visible !important;
+            margin-bottom: 0.5rem !important;
+            max-width: 100% !important;
+          }
+          .hero-buttons-container {
+            display: flex !important;
+            flex-direction: row !important;
+            gap: 0.8rem !important;
+            justify-content: center !important;
+            width: 100% !important;
+          }
+          .hero-btn {
+            padding: 0.6rem 1.5rem !important;
+            font-size: 0.95rem !important;
+            border-radius: 30px !important;
+            flex: 1 !important;
+            max-width: 150px !important;
+            text-align: center !important;
+          }
+        }
+
+        /* Additional Responsive Tweaks for Small Mobile Screens */
+        @media (max-width: 480px) {
+          .hero-iframe {
+            height: 45vh !important;
+          }
+          .hero-title-text {
+            font-size: 1.2rem !important;
+          }
+          .hero-btn {
+            padding: 0.5rem 1.2rem !important;
+            font-size: 0.85rem !important;
           }
         }
       `}} />
