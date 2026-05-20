@@ -228,7 +228,7 @@ const Home = () => {
       </section>
 
       {/* Client Logos Carousel - Moved to next section */}
-      <section style={{ background: 'var(--bg-dark)' }}>
+      <section className="client-logos-section" style={{ background: 'var(--bg-dark)' }}>
         <div className="marquee-container" style={{
           width: '100%',
           margin: 0,
@@ -581,75 +581,115 @@ const Home = () => {
           }
         }
 
-        /* Responsive Hero Design for Mobile and Tablet */
+        /* Responsive Hero & Logos Carousel for Mobile and Tablet */
         @media (max-width: 768px) {
           .hero-section {
-            height: auto !important;
-            display: flex !important;
-            flex-direction: column !important;
+            height: 75vh !important;
             position: relative !important;
-            background: var(--bg-color) !important;
-            overflow: visible !important;
+            overflow: hidden !important;
           }
           .hero-iframe {
-            position: relative !important;
+            position: absolute !important;
             width: 100% !important;
-            height: 50vh !important;
-            top: auto !important;
-            left: auto !important;
+            height: 100% !important;
+            top: 0 !important;
+            left: 0 !important;
           }
           .hero-content-box {
-            position: relative !important;
-            bottom: auto !important;
-            left: auto !important;
-            transform: none !important;
-            padding: 2.5rem 1.2rem 3.5rem 1.2rem !important;
-            width: 100% !important;
-            margin: 0 auto !important;
+            position: absolute !important;
+            bottom: 25px !important;
+            left: 50% !important;
+            transform: translateX(-50%) !important;
+            width: 90% !important;
+            max-width: 100% !important;
+            padding: 0 !important;
+            margin: 0 !important;
             display: flex !important;
             flex-direction: column !important;
             align-items: center !important;
-            gap: 1.2rem !important;
-            background: linear-gradient(to bottom, rgba(10, 15, 30, 0.95), rgba(5, 5, 10, 1)) !important;
-            pointer-events: auto !important;
+            gap: 0.8rem !important;
+            background: transparent !important;
+            pointer-events: none !important;
+            z-index: 10 !important;
           }
           .hero-title-text {
             white-space: normal !important;
-            font-size: 1.35rem !important;
-            line-height: 1.4 !important;
+            font-size: 1.15rem !important;
+            line-height: 1.35 !important;
             text-overflow: clip !important;
             overflow: visible !important;
-            margin-bottom: 0.5rem !important;
+            margin-bottom: 0.2rem !important;
             max-width: 100% !important;
+            text-shadow: 0 4px 15px rgba(0,0,0,1), 0 2px 8px rgba(0,0,0,0.9), 0 1px 4px rgba(0,0,0,0.8) !important;
           }
           .hero-buttons-container {
             display: flex !important;
             flex-direction: row !important;
-            gap: 0.8rem !important;
+            gap: 0.6rem !important;
             justify-content: center !important;
             width: 100% !important;
+            pointer-events: auto !important;
           }
           .hero-btn {
-            padding: 0.6rem 1.5rem !important;
-            font-size: 0.95rem !important;
+            padding: 0.55rem 1.3rem !important;
+            font-size: 0.85rem !important;
             border-radius: 30px !important;
-            flex: 1 !important;
-            max-width: 150px !important;
+            flex: none !important;
             text-align: center !important;
+            width: 120px !important;
+          }
+
+          /* Client Logos Carousel inside the remaining 25vh of the first fold */
+          .client-logos-section {
+            height: 25vh !important;
+            display: flex !important;
+            align-items: center !important;
+            justify-content: center !important;
+            background: var(--bg-dark) !important;
+            overflow: hidden !important;
+          }
+          .marquee-container {
+            height: 100% !important;
+            display: flex !important;
+            align-items: center !important;
+            padding: 0 !important;
+            margin: 0 !important;
+            background: rgba(0, 0, 0, 0.6) !important;
+            border-top: 1px solid rgba(255, 255, 255, 0.05) !important;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.05) !important;
+          }
+          .marquee-content {
+            gap: 3.5rem !important;
+            animation-duration: 25s !important;
+          }
+          .marquee-item {
+            height: 52px !important;
+            max-width: 115px !important;
+            padding: 5px 10px !important;
+            background: #ffffff !important;
+            border-radius: 6px !important;
           }
         }
 
         /* Additional Responsive Tweaks for Small Mobile Screens */
         @media (max-width: 480px) {
-          .hero-iframe {
-            height: 45vh !important;
+          .hero-section {
+            height: 77vh !important;
+          }
+          .client-logos-section {
+            height: 23vh !important;
           }
           .hero-title-text {
-            font-size: 1.2rem !important;
+            font-size: 1.05rem !important;
           }
           .hero-btn {
-            padding: 0.5rem 1.2rem !important;
-            font-size: 0.85rem !important;
+            padding: 0.5rem 1.1rem !important;
+            font-size: 0.8rem !important;
+            width: 110px !important;
+          }
+          .marquee-item {
+            height: 44px !important;
+            max-width: 95px !important;
           }
         }
       `}} />
