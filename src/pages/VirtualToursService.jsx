@@ -2,6 +2,14 @@ import { motion } from 'framer-motion';
 import { Map, Heart, TrendingUp, CheckCircle2, ChevronRight, Home as HomeIcon, ShoppingBag, HardHat, GraduationCap, Bed, Briefcase, Eye, Play } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
+const getTourUrl = (path) => {
+  if (!path || path.startsWith('http') || path === '#') return path;
+  if (typeof window !== 'undefined' && (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1')) {
+    return path;
+  }
+  return `https://mania3d-assets.web.app${path.replace('/tours', '')}`;
+};
+
 const VirtualToursService = () => {
   const benefits = [
     {
@@ -228,7 +236,7 @@ const VirtualToursService = () => {
                 <h3 style={{ fontSize: '0.95rem', margin: 0, fontWeight: 700 }}>Godwin Public School</h3>
                 <span style={{ fontSize: '0.75rem', color: 'var(--accent-blue)', fontWeight: 600 }}>Interactive 3D walkthrough</span>
               </div>
-              <a href="/tours/godwin-public-school/index.html" target="_blank" rel="noopener noreferrer" style={{ display: 'block', width: '100%', height: '100%', position: 'relative' }}>
+              <a href={getTourUrl("/tours/godwin-public-school/index.html")} target="_blank" rel="noopener noreferrer" style={{ display: 'block', width: '100%', height: '100%', position: 'relative' }}>
                 <img src="/godwin-preview.jpg" alt="Godwin Public School Tour" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
                 <div style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center', pointerEvents: 'none' }}>
                   <motion.div
@@ -294,7 +302,7 @@ const VirtualToursService = () => {
                 <h3 style={{ fontSize: '0.95rem', margin: 0, fontWeight: 700 }}>Prestige Villa</h3>
                 <span style={{ fontSize: '0.75rem', color: 'var(--accent-blue)', fontWeight: 600 }}>Interactive 3D walkthrough</span>
               </div>
-              <a href="/tours/prestige-villa/index.html" target="_blank" rel="noopener noreferrer" style={{ display: 'block', width: '100%', height: '100%', position: 'relative' }}>
+              <a href={getTourUrl("/tours/prestige-villa/index.html")} target="_blank" rel="noopener noreferrer" style={{ display: 'block', width: '100%', height: '100%', position: 'relative' }}>
                 <img src="/prestige-preview.jpg" alt="Prestige Villa Tour" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
                 <div style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center', pointerEvents: 'none' }}>
                   <motion.div

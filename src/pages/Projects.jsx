@@ -3,6 +3,14 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { Play, MapPin, Info, ArrowRight, Video, Globe, Camera } from 'lucide-react';
 import { Link, useLocation } from 'react-router-dom';
 
+const getTourUrl = (path) => {
+  if (!path || path.startsWith('http') || path === '#') return path;
+  if (typeof window !== 'undefined' && (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1')) {
+    return path;
+  }
+  return `https://mania3d-assets.web.app${path.replace('/tours', '')}`;
+};
+
 const Projects = () => {
   const [filter, setFilter] = useState('All');
   const { hash } = useLocation();
@@ -307,7 +315,7 @@ const Projects = () => {
                       <div style={{ marginTop: 'auto' }}>
                         {project.category === '360° Virtual Tours' && (
                           <a
-                            href={project.tourLink}
+                            href={getTourUrl(project.tourLink)}
                             target="_blank"
                             rel="noopener noreferrer"
                             className="btn btn-primary"

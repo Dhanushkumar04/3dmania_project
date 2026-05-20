@@ -27,7 +27,15 @@ const heroTitles = [
   "Let Customers Explore Before They Visit"
 ];
 
-const HERO_TOUR_URL = "/tours/output/index.html";
+const getTourUrl = (path) => {
+  if (!path || path.startsWith('http') || path === '#') return path;
+  if (typeof window !== 'undefined' && (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1')) {
+    return path;
+  }
+  return `https://mania3d-assets.web.app${path.replace('/tours', '')}`;
+};
+
+const HERO_TOUR_URL = getTourUrl("/tours/output/index.html");
 
 const Home = () => {
   const [activeIndustry, setActiveIndustry] = useState(0); const industries = [
@@ -407,7 +415,7 @@ const Home = () => {
                 justifyContent: 'center'
               }}>
                 <a
-                  href="/tours/viruksha-avenue/index.html"
+                  href={getTourUrl("/tours/viruksha-avenue/index.html")}
                   target="_blank"
                   rel="noopener noreferrer"
                   style={{ textDecoration: 'none' }}
