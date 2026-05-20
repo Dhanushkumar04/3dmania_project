@@ -143,11 +143,11 @@ const DroneSurveyService = () => {
               transition={{ duration: 0.6, delay: 0.2 }}
               style={{ position: 'relative' }}
             >
-              <div className="glass" style={{ borderRadius: '30px', padding: '2rem', border: '1px solid rgba(255,255,255,0.08)', position: 'relative', overflow: 'hidden' }}>
+              <div className="glass service-showcase-glass">
                 <img
                   src="/3dmania-drone-survey.png"
                   alt="Drone Mapping Showcase"
-                  style={{ width: '100%', borderRadius: '20px', objectFit: 'cover', height: '350px', boxShadow: '0 20px 40px rgba(0,0,0,0.5)' }}
+                  className="service-showcase-img"
                 />
               </div>
             </motion.div>

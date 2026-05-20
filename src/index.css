@@ -518,3 +518,32 @@ main {
 .animate-pulse-slow {
   animation: pulse-slow 4s ease-in-out infinite;
 }
+
+/* Service Hero Showcase Image and Glass Container Responsiveness */
+.service-showcase-glass {
+  border-radius: 30px;
+  padding: 2rem;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  position: relative;
+  overflow: hidden;
+}
+
+.service-showcase-img {
+  width: 100%;
+  border-radius: 20px;
+  object-fit: cover;
+  height: 350px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .service-showcase-glass {
+    padding: 1rem !important;
+    border-radius: 20px !important;
+  }
+  .service-showcase-img {
+    height: auto !important;
+    object-fit: contain !important;
+  }
+}
