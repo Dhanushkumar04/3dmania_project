@@ -1,8 +1,8 @@
 {
   "rewrites": [
     {
-      "source": "/tours/output/:match*",
-      "destination": "https://mania3d-assets.web.app/output/:match*"
+      "source": "/tours/:match*",
+      "destination": "https://mania3d-assets.web.app/:match*"
     },
     {
       "source": "/(.*)",
