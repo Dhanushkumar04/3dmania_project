@@ -66,10 +66,44 @@ Client Logo/
 *.mov
 *.MP4
 
-# Exception: preview images for virtual tours and projects must be tracked
+# Exception: preview images, gallery images, media files, xml, and skin scripts for virtual tours
 !viruksha.png
 !public/tours/viruksha-avenue/preview.jpg
 !public/tours/godwin-public-school/preview.jpg
 !public/tours/presidency-school-east/preview.jpg
 !public/tours/prestige-villa/preview.jpg
+
+# Track index.html, skin.js, and pano.xml for the tours
+!public/tours/viruksha-avenue/index.html
+!public/tours/viruksha-avenue/skin.js
+!public/tours/viruksha-avenue/pano.xml
+
+!public/tours/godwin-public-school/index.html
+!public/tours/godwin-public-school/skin.js
+!public/tours/godwin-public-school/pano.xml
+
+!public/tours/presidency-school-east/index.html
+!public/tours/presidency-school-east/skin.js
+!public/tours/presidency-school-east/pano.xml
+
+!public/tours/prestige-villa/index.html
+!public/tours/prestige-villa/skin.js
+!public/tours/prestige-villa/pano.xml
+
+# Track gallery images, custom media files, and interface images
+!public/tours/viruksha-avenue/gallery/
+!public/tours/viruksha-avenue/images/
+!public/tours/viruksha-avenue/media/
+
+!public/tours/godwin-public-school/gallery/
+!public/tours/godwin-public-school/images/
+!public/tours/godwin-public-school/media/
+
+!public/tours/presidency-school-east/gallery/
+!public/tours/presidency-school-east/images/
+!public/tours/presidency-school-east/media/
+
+!public/tours/prestige-villa/gallery/
+!public/tours/prestige-villa/images/
+!public/tours/prestige-villa/media/
 

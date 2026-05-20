@@ -1,0 +1,627 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tour appversion="7.1.8" apprev="20986" start="node8" hassounds="1">
+  <panorama id="node8" hideabout="1">
+    <input levelingroll="0" levelbiashidpi="1.000" leveltileurl="tiles/node8/cf_%c/l_%l/c_%x/tile_%y.jpg" width="3000" overlap="1" levelingpitch="0" leveltilesize="510" levelbias="0.400" height="3000">
+      <level preload="0" predecode="0" width="3000" height="3000"/>
+      <level preload="0" predecode="0" width="1500" height="1500"/>
+      <level preload="0" predecode="0" width="750" height="750"/>
+      <level preload="1" predecode="1" width="375" height="375"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="2">
+      <start tilt="-20" projection="4" fov="100" pan="0"/>
+      <flyin tilt="-20" projection="4" fov="90" pan="0"/>
+      <min tilt="-90" fovpixel="2" pan="0"/>
+      <max tilt="90" fovfisheye="360" fov="140" fovstereographic="330" scaletofit="1" pan="360"/>
+    </view>
+    <userdata customnodeid="" description="" datetime="03-04-2026 12:23 PM" tags="aerial|pano" author="" longitude="77.661911" latitude="13.005192" copyright="" altitude="974.70" source="" info="" nodeid="node8" heading="0" comment="" title="Aerial View"/>
+    <hotspots wordwrap="1" smoothmovement="0" width="180" height="20">
+      <label background="1" textcolor="0x000000" backgroundcolor="0xffffff" wordwrap="1" bordercolor="0x000000" border="1" backgroundalpha="1" width="180" borderalpha="1" borderradius="1" textalpha="1" height="20" enabled="1"/>
+      <polystyle backgroundcolor="0x0000ff" handcursor="1" bordercolor="0x0000ff" mode="0" backgroundalpha="0.25098" borderalpha="1"/>
+      <hotspot target="" tilt="-39.58" description="" id="Point01" distance="53.5935" url="{node6}" skinid="ht_node_pulse" title="Entrance" pan="-338.83"/>
+      <hotspot target="_blank" tilt="-14.31" description="" id="Point03" url="" skinid="ht_node_popup_img_no-dir" title="presidency School&#xa;Kasturi Nagar" pan="-3.26999"/>
+      <hotspot target="_blank" tilt="0.01" description="" id="Point05" url="" skinid="ht_node_popup_img_no-dir" title="presidency &#xa;Early years" pan="-338.92"/>
+      <hotspot target="_blank" tilt="-14.84" description="" id="Point06" url="" skinid="ht_node_popup_img_no-dir" title="Kasturi Nagar &#xa;Lake" pan="-77.48"/>
+      <hotspot target="_blank" tilt="0.81" description="10 min" id="Point07" url="" skinid="ht_node_popup_image" title="SMVT Bengaluru" pan="-257.58"/>
+      <hotspot target="_blank" tilt="0.19" description="10 min" id="Point08" url="" skinid="ht_node_popup_image" title="Tin Factory" pan="-215.81"/>
+      <hotspot target="_blank" tilt="-14.27" description="1 min" id="Point09" url="" skinid="ht_node_popup_image" title="Outer Ring Rd" pan="-146.56"/>
+      <hotspot target="" tilt="-4.14" description="" id="Point02" distance="153.839" url="{node5}" skinid="ht_node_pulse_aerial" title="Aerial View" pan="-320.76"/>
+    </hotspots>
+    <media>
+      <sound level="0.500" keep="1" loop="-1" id="watermelon_beats-background-video-2026-472836" mode="7" url="media/skin_snd_watermelon_beats-background-video-2026-472836.mp3"/>
+    </media>
+    <transition zoomafteroutfov="40" zoomout="0" type="crossdissolve" blendtime="1" zoomspeed="2" zoomoutpause="1" zoomin="0" zoomafterinfov="140" blendcolor="0x000000" zoomfov="40" softedge="0" delay="none" enabled="1"/>
+    <autorotate returntohorizon="0.000" nodedelay="0.00" startloaded="0" nodefilter="" speed="-0.050" delay="3.00" noderandom="1" horizonfromdefview="0" useanimation="0" enabled="1"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01" clipsrandom="0"/>
+    <control contextfullscreen="1" sensitivity="8" hideabout="1" dblclickfullscreen="0" speedwheel="1" contextvr="1" contextprojections="0" zoomcentercursor="1" lockedkeyboard="0" invertcontrol="1" lockedkeyboardzoom="0" lockedmouse="0" lockedwheel="0" invertwheel="1" rubberband="0" simulatemass="1"/>
+  </panorama>
+  <panorama id="node3" hideabout="1">
+    <input levelingroll="0" levelbiashidpi="1.000" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" width="3000" overlap="1" levelingpitch="0" leveltilesize="510" levelbias="0.400" height="3000">
+      <level preload="0" predecode="0" width="3000" height="3000"/>
+      <level preload="0" predecode="0" width="1500" height="1500"/>
+      <level preload="0" predecode="0" width="750" height="750"/>
+      <level preload="1" predecode="1" width="375" height="375"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="2">
+      <start tilt="-27.0134" projection="4" fov="100" pan="2.82908"/>
+      <flyin tilt="-90" projection="9" fov="170" pan="0"/>
+      <min tilt="-90" fovpixel="2" pan="0"/>
+      <max tilt="90" fovfisheye="360" fov="140" fovstereographic="330" scaletofit="1" pan="360"/>
+    </view>
+    <userdata customnodeid="" description="" datetime="03-04-2026 12:25 PM" tags="pano|aerial" author="" longitude="77.661481" latitude="13.004872" copyright="" altitude="974.70" source="" info="" nodeid="node3" heading="0" comment="" title="Aerial View"/>
+    <hotspots wordwrap="1" smoothmovement="0" width="180" height="20">
+      <label background="1" textcolor="0x000000" backgroundcolor="0xffffff" wordwrap="1" bordercolor="0x000000" border="1" backgroundalpha="1" width="180" borderalpha="1" borderradius="1" textalpha="1" height="20" enabled="1"/>
+      <polystyle backgroundcolor="0x0000ff" handcursor="1" bordercolor="0x0000ff" mode="0" backgroundalpha="0.25098" borderalpha="1"/>
+      <hotspot target="" tilt="-2.9" description="" id="Point01" distance="58.6216" url="{node8}" skinid="ht_node_pulse_aerial" title="Aerial View" pan="-61.73"/>
+      <hotspot target="" tilt="-0.51" description="" id="Point02" distance="96.1087" url="{node5}" skinid="ht_node_pulse_aerial" title="Aerial View" pan="-290.59"/>
+    </hotspots>
+    <media>
+      <sound level="0.500" keep="1" loop="-1" id="watermelon_beats-background-video-2026-472836" mode="7" url="media/skin_snd_watermelon_beats-background-video-2026-472836.mp3"/>
+    </media>
+    <transition zoomafteroutfov="40" zoomout="0" type="crossdissolve" blendtime="1" zoomspeed="2" zoomoutpause="1" zoomin="0" zoomafterinfov="140" blendcolor="0x000000" zoomfov="40" softedge="0" delay="none" enabled="1"/>
+    <autorotate returntohorizon="0.000" nodedelay="0.00" startloaded="0" nodefilter="" speed="-0.050" delay="3.00" noderandom="1" horizonfromdefview="0" useanimation="0" enabled="1"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01" clipsrandom="0"/>
+    <control contextfullscreen="1" sensitivity="8" hideabout="1" dblclickfullscreen="0" speedwheel="1" contextvr="1" contextprojections="0" zoomcentercursor="1" lockedkeyboard="0" invertcontrol="1" lockedkeyboardzoom="0" lockedmouse="0" lockedwheel="0" invertwheel="1" rubberband="0" simulatemass="1"/>
+  </panorama>
+  <panorama id="node5" hideabout="1">
+    <input levelingroll="0" levelbiashidpi="1.000" leveltileurl="tiles/node5/cf_%c/l_%l/c_%x/tile_%y.jpg" width="3000" overlap="1" levelingpitch="0" leveltilesize="510" levelbias="0.400" height="3000">
+      <level preload="0" predecode="0" width="3000" height="3000"/>
+      <level preload="0" predecode="0" width="1500" height="1500"/>
+      <level preload="0" predecode="0" width="750" height="750"/>
+      <level preload="1" predecode="1" width="375" height="375"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="2">
+      <start tilt="-32.2328" projection="4" fov="108.41" pan="-5.9638"/>
+      <flyin tilt="-90" projection="9" fov="170" pan="0"/>
+      <min tilt="-90" fovpixel="2" pan="0"/>
+      <max tilt="90" fovfisheye="360" fov="140" fovstereographic="330" scaletofit="1" pan="360"/>
+    </view>
+    <userdata customnodeid="" description="" datetime="03-04-2026 12:49 PM" tags="aerial|pano" author="" longitude="77.660675" latitude="13.004511" copyright="" altitude="1064.30" source="" info="" nodeid="node5" heading="0" comment="" title="Aerial View"/>
+    <hotspots wordwrap="1" smoothmovement="0" width="180" height="20">
+      <label background="1" textcolor="0x000000" backgroundcolor="0xffffff" wordwrap="1" bordercolor="0x000000" border="1" backgroundalpha="1" width="180" borderalpha="1" borderradius="1" textalpha="1" height="20" enabled="1"/>
+      <polystyle backgroundcolor="0x0000ff" handcursor="1" bordercolor="0x0000ff" mode="0" backgroundalpha="0.25098" borderalpha="1"/>
+      <hotspot target="" tilt="-29.17" description="" id="Point02" distance="88.1088" url="{node4}" skinid="ht_node_pulse_aerial" title="Early Years Aerial View" pan="-337.52"/>
+      <hotspot target="" tilt="-11.94" description="" id="Point01" distance="153.839" url="{node8}" skinid="ht_node_pulse_aerial" title="Aerial View" pan="-44.94"/>
+      <hotspot target="_blank" tilt="-25.93" description="" id="Point03" url="" skinid="ht_node_popup_img_no-dir" title="Presidency School&#xa;Kasturi Nagar" pan="-7.54"/>
+      <hotspot target="_blank" tilt="-28.82" description="" id="Point04" url="" skinid="ht_node_popup_img_no-dir" title="Presidency&#xa;Early years" pan="-320.13"/>
+      <hotspot target="_blank" tilt="0.57" description="10 min" id="Point05" url="" skinid="ht_node_popup_image" title="SMVT Bengaluru" pan="-163.09"/>
+      <hotspot target="_blank" tilt="-0.1" description="10 min" id="Point06" url="" skinid="ht_node_popup_image" title="Tin Factory" pan="-121.21"/>
+      <hotspot target="_blank" tilt="-8.1" description="1 min" id="Point07" url="" skinid="ht_node_popup_image" title="Outer Ring Rd" pan="-54.32"/>
+      <hotspot target="_blank" tilt="-11.63" description="" id="Point08" url="" skinid="ht_node_popup_img_no-dir" title="Kasturi Nagar &#xa;Lake" pan="-16.59"/>
+      <hotspot target="_blank" tilt="-19.59" description="" id="Point09" url="" skinid="ht_node_popup_img_no-dir" title="New Horizon &#xa;PU College" pan="-347.49"/>
+    </hotspots>
+    <media>
+      <sound level="0.500" keep="1" loop="-1" id="watermelon_beats-background-video-2026-472836" mode="7" url="media/skin_snd_watermelon_beats-background-video-2026-472836.mp3"/>
+    </media>
+    <transition zoomafteroutfov="40" zoomout="0" type="crossdissolve" blendtime="1" zoomspeed="2" zoomoutpause="1" zoomin="0" zoomafterinfov="140" blendcolor="0x000000" zoomfov="40" softedge="0" delay="none" enabled="1"/>
+    <autorotate returntohorizon="0.000" nodedelay="0.00" startloaded="0" nodefilter="" speed="-0.050" delay="3.00" noderandom="1" horizonfromdefview="0" useanimation="0" enabled="1"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01" clipsrandom="0"/>
+    <control contextfullscreen="1" sensitivity="8" hideabout="1" dblclickfullscreen="0" speedwheel="1" contextvr="1" contextprojections="0" zoomcentercursor="1" lockedkeyboard="0" invertcontrol="1" lockedkeyboardzoom="0" lockedmouse="0" lockedwheel="0" invertwheel="1" rubberband="0" simulatemass="1"/>
+  </panorama>
+  <panorama id="node4" hideabout="1">
+    <input levelingroll="0" levelbiashidpi="1.000" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg" width="3000" overlap="1" levelingpitch="0" leveltilesize="510" levelbias="0.400" height="3000">
+      <level preload="0" predecode="0" width="3000" height="3000"/>
+      <level preload="0" predecode="0" width="1500" height="1500"/>
+      <level preload="0" predecode="0" width="750" height="750"/>
+      <level preload="1" predecode="1" width="375" height="375"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="2">
+      <start tilt="-26.7971" projection="4" fov="100" pan="-0.0337157"/>
+      <flyin tilt="-90" projection="9" fov="170" pan="0"/>
+      <min tilt="-90" fovpixel="2" pan="0"/>
+      <max tilt="90" fovfisheye="360" fov="140" fovstereographic="330" scaletofit="1" pan="360"/>
+    </view>
+    <userdata customnodeid="" description="" datetime="03-04-2026 12:46 PM" tags="aerial|pano" author="" longitude="77.660572" latitude="13.005297" copyright="" altitude="1015.50" source="" info="" nodeid="node4" heading="0" comment="" title="Early Years Aerial View"/>
+    <hotspots wordwrap="1" smoothmovement="0" width="180" height="20">
+      <label background="1" textcolor="0x000000" backgroundcolor="0xffffff" wordwrap="1" bordercolor="0x000000" border="1" backgroundalpha="1" width="180" borderalpha="1" borderradius="1" textalpha="1" height="20" enabled="1"/>
+      <polystyle backgroundcolor="0x0000ff" handcursor="1" bordercolor="0x0000ff" mode="0" backgroundalpha="0.25098" borderalpha="1"/>
+      <hotspot target="" tilt="21.14" description="" id="Point01" distance="88.1088" url="{node5}" skinid="ht_node_pulse_aerial" title="Aerial View" pan="-281.74"/>
+      <hotspot target="_blank" tilt="-8.04" description="" id="Point02" url="" skinid="ht_node_popup_img_no-dir" title="Presidency&#xa;Early years" pan="-1.6"/>
+      <hotspot target="_blank" tilt="-6.28" description="" id="Point03" url="" skinid="ht_node_popup_img_no-dir" title="New Horizon &#xa;PU College" pan="-137.21"/>
+      <hotspot target="_blank" tilt="18.42" description="" id="Point04" url="" skinid="ht_node_popup_img_no-dir" title="Presidency School&#xa;Kasturi Nagar" pan="-250.95"/>
+    </hotspots>
+    <media>
+      <sound level="0.500" keep="1" loop="-1" id="watermelon_beats-background-video-2026-472836" mode="7" url="media/skin_snd_watermelon_beats-background-video-2026-472836.mp3"/>
+    </media>
+    <transition zoomafteroutfov="40" zoomout="0" type="crossdissolve" blendtime="1" zoomspeed="2" zoomoutpause="1" zoomin="0" zoomafterinfov="140" blendcolor="0x000000" zoomfov="40" softedge="0" delay="none" enabled="1"/>
+    <autorotate returntohorizon="0.000" nodedelay="0.00" startloaded="0" nodefilter="" speed="-0.050" delay="3.00" noderandom="1" horizonfromdefview="0" useanimation="0" enabled="1"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01" clipsrandom="0"/>
+    <control contextfullscreen="1" sensitivity="8" hideabout="1" dblclickfullscreen="0" speedwheel="1" contextvr="1" contextprojections="0" zoomcentercursor="1" lockedkeyboard="0" invertcontrol="1" lockedkeyboardzoom="0" lockedmouse="0" lockedwheel="0" invertwheel="1" rubberband="0" simulatemass="1"/>
+  </panorama>
+  <panorama id="node6" hideabout="1">
+    <input levelingroll="0" levelbiashidpi="1.000" leveltileurl="tiles/node6/cf_%c/l_%l/c_%x/tile_%y.jpg" width="2976" overlap="1" levelingpitch="0" leveltilesize="510" levelbias="0.400" height="2976">
+      <level preload="0" predecode="0" width="2976" height="2976"/>
+      <level preload="0" predecode="0" width="1488" height="1488"/>
+      <level preload="0" predecode="0" width="744" height="744"/>
+      <level preload="1" predecode="1" width="372" height="372"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="2">
+      <start tilt="0" projection="4" fov="100" pan="0"/>
+      <flyin tilt="-90" projection="9" fov="170" pan="0"/>
+      <min tilt="-90" fovpixel="2" pan="0"/>
+      <max tilt="90" fovfisheye="360" fov="140" fovstereographic="330" scaletofit="1" pan="360"/>
+    </view>
+    <userdata customnodeid="" description="" datetime="03-04-2026 11:43 AM" tags="overview" author="" longitude="77.661417" latitude="13.005167" copyright="" altitude="908.40" source="" info="" nodeid="node6" heading="0" comment="" title="Entrance"/>
+    <hotspots wordwrap="1" smoothmovement="0" width="180" height="20">
+      <label background="1" textcolor="0x000000" backgroundcolor="0xffffff" wordwrap="1" bordercolor="0x000000" border="1" backgroundalpha="1" width="180" borderalpha="1" borderradius="1" textalpha="1" height="20" enabled="1"/>
+      <polystyle backgroundcolor="0x0000ff" handcursor="1" bordercolor="0x0000ff" mode="0" backgroundalpha="0.25098" borderalpha="1"/>
+      <hotspot target="-5.9/8.7/100.0" tilt="2.65" description="" id="Point01" distance="6.11572" url="{node7}" skinid="ht_node_3d_arrow" title="Entrance" pan="-359.81"/>
+    </hotspots>
+    <media>
+      <sound level="0.500" keep="1" loop="-1" id="watermelon_beats-background-video-2026-472836" mode="7" url="media/skin_snd_watermelon_beats-background-video-2026-472836.mp3"/>
+    </media>
+    <transition zoomafteroutfov="40" zoomout="0" type="crossdissolve" blendtime="1" zoomspeed="2" zoomoutpause="1" zoomin="0" zoomafterinfov="140" blendcolor="0x000000" zoomfov="40" softedge="0" delay="none" enabled="1"/>
+    <autorotate returntohorizon="0.000" nodedelay="0.00" startloaded="0" nodefilter="" speed="-0.050" delay="3.00" noderandom="1" horizonfromdefview="0" useanimation="0" enabled="1"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01" clipsrandom="0"/>
+    <control contextfullscreen="1" sensitivity="8" hideabout="1" dblclickfullscreen="0" speedwheel="1" contextvr="1" contextprojections="0" zoomcentercursor="1" lockedkeyboard="0" invertcontrol="1" lockedkeyboardzoom="0" lockedmouse="0" lockedwheel="0" invertwheel="1" rubberband="0" simulatemass="1"/>
+  </panorama>
+  <panorama id="node7" hideabout="1">
+    <input levelingroll="0" levelbiashidpi="1.000" leveltileurl="tiles/node7/cf_%c/l_%l/c_%x/tile_%y.jpg" width="2976" overlap="1" levelingpitch="0" leveltilesize="510" levelbias="0.400" height="2976">
+      <level preload="0" predecode="0" width="2976" height="2976"/>
+      <level preload="0" predecode="0" width="1488" height="1488"/>
+      <level preload="0" predecode="0" width="744" height="744"/>
+      <level preload="1" predecode="1" width="372" height="372"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="2">
+      <start tilt="0" projection="4" fov="100" pan="0"/>
+      <flyin tilt="-90" projection="9" fov="170" pan="0"/>
+      <min tilt="-90" fovpixel="2" pan="0"/>
+      <max tilt="90" fovfisheye="360" fov="140" fovstereographic="330" scaletofit="1" pan="360"/>
+    </view>
+    <userdata customnodeid="" description="" datetime="03-04-2026 11:46 AM" tags="overview" author="" longitude="77.661417" latitude="13.005222" copyright="" altitude="903.50" source="" info="" nodeid="node7" heading="0" comment="" title="Entrance"/>
+    <hotspots wordwrap="1" smoothmovement="0" width="180" height="20">
+      <label background="1" textcolor="0x000000" backgroundcolor="0xffffff" wordwrap="1" bordercolor="0x000000" border="1" backgroundalpha="1" width="180" borderalpha="1" borderradius="1" textalpha="1" height="20" enabled="1"/>
+      <polystyle backgroundcolor="0x0000ff" handcursor="1" bordercolor="0x0000ff" mode="0" backgroundalpha="0.25098" borderalpha="1"/>
+      <hotspot target="-178.3/-2.6/100.0" tilt="-3.26" description="" id="Point01" distance="6.11572" url="{node6}" skinid="ht_node_3d_arrow" title="Entrance" pan="-168.58"/>
+      <hotspot target="21.1/-0.3/100.0" tilt="10.2" description="" id="Point02" distance="16.2962" url="{node1}" skinid="ht_node_3d_arrow" title="Entrance" pan="-358.15"/>
+    </hotspots>
+    <media>
+      <sound level="0.500" keep="1" loop="-1" id="watermelon_beats-background-video-2026-472836" mode="7" url="media/skin_snd_watermelon_beats-background-video-2026-472836.mp3"/>
+    </media>
+    <transition zoomafteroutfov="40" zoomout="0" type="crossdissolve" blendtime="1" zoomspeed="2" zoomoutpause="1" zoomin="0" zoomafterinfov="140" blendcolor="0x000000" zoomfov="40" softedge="0" delay="none" enabled="1"/>
+    <autorotate returntohorizon="0.000" nodedelay="0.00" startloaded="0" nodefilter="" speed="-0.050" delay="3.00" noderandom="1" horizonfromdefview="0" useanimation="0" enabled="1"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01" clipsrandom="0"/>
+    <control contextfullscreen="1" sensitivity="8" hideabout="1" dblclickfullscreen="0" speedwheel="1" contextvr="1" contextprojections="0" zoomcentercursor="1" lockedkeyboard="0" invertcontrol="1" lockedkeyboardzoom="0" lockedmouse="0" lockedwheel="0" invertwheel="1" rubberband="0" simulatemass="1"/>
+  </panorama>
+  <panorama id="node1" hideabout="1">
+    <input levelingroll="0" levelbiashidpi="1.000" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" width="2976" overlap="1" levelingpitch="0" leveltilesize="510" levelbias="0.400" height="2976">
+      <level preload="0" predecode="0" width="2976" height="2976"/>
+      <level preload="0" predecode="0" width="1488" height="1488"/>
+      <level preload="0" predecode="0" width="744" height="744"/>
+      <level preload="1" predecode="1" width="372" height="372"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="2">
+      <start tilt="0" projection="4" fov="100" pan="0"/>
+      <flyin tilt="-90" projection="9" fov="170" pan="0"/>
+      <min tilt="-90" fovpixel="2" pan="0"/>
+      <max tilt="90" fovfisheye="360" fov="140" fovstereographic="330" scaletofit="1" pan="360"/>
+    </view>
+    <userdata customnodeid="" description="" datetime="03-04-2026 11:47 AM" tags="overview" author="" longitude="77.661278" latitude="13.005278" copyright="" altitude="903.60" source="" info="" nodeid="node1" heading="0" comment="" title="Entrance"/>
+    <hotspots wordwrap="1" smoothmovement="0" width="180" height="20">
+      <label background="1" textcolor="0x000000" backgroundcolor="0xffffff" wordwrap="1" bordercolor="0x000000" border="1" backgroundalpha="1" width="180" borderalpha="1" borderradius="1" textalpha="1" height="20" enabled="1"/>
+      <polystyle backgroundcolor="0x0000ff" handcursor="1" bordercolor="0x0000ff" mode="0" backgroundalpha="0.25098" borderalpha="1"/>
+      <hotspot target="-164.3/-6.5/100.0" tilt="-8.16" description="" id="Point01" distance="16.2962" url="{node7}" skinid="ht_node_3d_arrow" title="Entrance" pan="-132.49"/>
+      <hotspot target="0.0/0.0/100.0" tilt="-2.09" description="" id="Point02" distance="9.71496" url="{node10}" skinid="ht_node_3d_arrow" title="Admission Office" pan="-354.86"/>
+      <hotspot target="-4.1/0.0/100.0" tilt="-1.33" description="" id="Point03" distance="23.9086" url="{node12}" skinid="ht_node_3d_arrow" title="Corridor" pan="-238.9"/>
+    </hotspots>
+    <media>
+      <sound level="0.500" keep="1" loop="-1" id="watermelon_beats-background-video-2026-472836" mode="7" url="media/skin_snd_watermelon_beats-background-video-2026-472836.mp3"/>
+    </media>
+    <transition zoomafteroutfov="40" zoomout="0" type="crossdissolve" blendtime="1" zoomspeed="2" zoomoutpause="1" zoomin="0" zoomafterinfov="140" blendcolor="0x000000" zoomfov="40" softedge="0" delay="none" enabled="1"/>
+    <autorotate returntohorizon="0.000" nodedelay="0.00" startloaded="0" nodefilter="" speed="-0.050" delay="3.00" noderandom="1" horizonfromdefview="0" useanimation="0" enabled="1"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01" clipsrandom="0"/>
+    <control contextfullscreen="1" sensitivity="8" hideabout="1" dblclickfullscreen="0" speedwheel="1" contextvr="1" contextprojections="0" zoomcentercursor="1" lockedkeyboard="0" invertcontrol="1" lockedkeyboardzoom="0" lockedmouse="0" lockedwheel="0" invertwheel="1" rubberband="0" simulatemass="1"/>
+  </panorama>
+  <panorama id="node10" hideabout="1">
+    <input levelingroll="0" levelbiashidpi="1.000" leveltileurl="tiles/node10/cf_%c/l_%l/c_%x/tile_%y.jpg" width="2976" overlap="1" levelingpitch="0" leveltilesize="510" levelbias="0.400" height="2976">
+      <level preload="0" predecode="0" width="2976" height="2976"/>
+      <level preload="0" predecode="0" width="1488" height="1488"/>
+      <level preload="0" predecode="0" width="744" height="744"/>
+      <level preload="1" predecode="1" width="372" height="372"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="2">
+      <start tilt="0" projection="4" fov="100" pan="0"/>
+      <flyin tilt="-90" projection="9" fov="170" pan="0"/>
+      <min tilt="-90" fovpixel="2" pan="0"/>
+      <max tilt="90" fovfisheye="360" fov="140" fovstereographic="330" scaletofit="1" pan="360"/>
+    </view>
+    <userdata customnodeid="" description="" datetime="03-04-2026 11:50 AM" tags="admission|Edited" author="" longitude="77.661250" latitude="13.005361" copyright="" altitude="903.60" source="" info="" nodeid="node10" heading="0" comment="" title="Admission Office"/>
+    <hotspots wordwrap="1" smoothmovement="0" width="180" height="20">
+      <label background="1" textcolor="0x000000" backgroundcolor="0xffffff" wordwrap="1" bordercolor="0x000000" border="1" backgroundalpha="1" width="180" borderalpha="1" borderradius="1" textalpha="1" height="20" enabled="1"/>
+      <polystyle backgroundcolor="0x0000ff" handcursor="1" bordercolor="0x0000ff" mode="0" backgroundalpha="0.25098" borderalpha="1"/>
+      <hotspot target="-59.2/-3.0/100.0" tilt="-0.52" description="" id="Point01" distance="8.61469" url="{node11}" skinid="ht_node_1" title="Admission Office" pan="-318"/>
+      <hotspot target="-133.4/-4.5/100.0" tilt="-1.97" description="" id="Point02" distance="9.71496" url="{node1}" skinid="ht_node_3d_arrow" title="Entrance" pan="-193.74"/>
+    </hotspots>
+    <media>
+      <sound level="0.500" keep="1" loop="-1" id="watermelon_beats-background-video-2026-472836" mode="7" url="media/skin_snd_watermelon_beats-background-video-2026-472836.mp3"/>
+    </media>
+    <transition zoomafteroutfov="40" zoomout="0" type="crossdissolve" blendtime="1" zoomspeed="2" zoomoutpause="1" zoomin="0" zoomafterinfov="140" blendcolor="0x000000" zoomfov="40" softedge="0" delay="none" enabled="1"/>
+    <autorotate returntohorizon="0.000" nodedelay="0.00" startloaded="0" nodefilter="" speed="-0.050" delay="3.00" noderandom="1" horizonfromdefview="0" useanimation="0" enabled="1"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01" clipsrandom="0"/>
+    <control contextfullscreen="1" sensitivity="8" hideabout="1" dblclickfullscreen="0" speedwheel="1" contextvr="1" contextprojections="0" zoomcentercursor="1" lockedkeyboard="0" invertcontrol="1" lockedkeyboardzoom="0" lockedmouse="0" lockedwheel="0" invertwheel="1" rubberband="0" simulatemass="1"/>
+  </panorama>
+  <panorama id="node11" hideabout="1">
+    <input levelingroll="0" levelbiashidpi="1.000" leveltileurl="tiles/node11/cf_%c/l_%l/c_%x/tile_%y.jpg" width="2976" overlap="1" levelingpitch="0" leveltilesize="510" levelbias="0.400" height="2976">
+      <level preload="0" predecode="0" width="2976" height="2976"/>
+      <level preload="0" predecode="0" width="1488" height="1488"/>
+      <level preload="0" predecode="0" width="744" height="744"/>
+      <level preload="1" predecode="1" width="372" height="372"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="2">
+      <start tilt="0" projection="4" fov="100" pan="0"/>
+      <flyin tilt="-90" projection="9" fov="170" pan="0"/>
+      <min tilt="-90" fovpixel="2" pan="0"/>
+      <max tilt="90" fovfisheye="360" fov="140" fovstereographic="330" scaletofit="1" pan="360"/>
+    </view>
+    <userdata customnodeid="" description="" datetime="03-04-2026 11:52 AM" tags="admission|Edited" author="" longitude="77.661306" latitude="13.005306" copyright="" altitude="903.90" source="" info="" nodeid="node11" heading="0" comment="" title="Admission Office"/>
+    <hotspots wordwrap="1" smoothmovement="0" width="180" height="20">
+      <label background="1" textcolor="0x000000" backgroundcolor="0xffffff" wordwrap="1" bordercolor="0x000000" border="1" backgroundalpha="1" width="180" borderalpha="1" borderradius="1" textalpha="1" height="20" enabled="1"/>
+      <polystyle backgroundcolor="0x0000ff" handcursor="1" bordercolor="0x0000ff" mode="0" backgroundalpha="0.25098" borderalpha="1"/>
+      <hotspot target="-177.4/-5.8/100.0" tilt="-1.23" description="" id="Point01" distance="8.61469" url="{node10}" skinid="ht_node_1" title="Admission Office" pan="-261.62"/>
+    </hotspots>
+    <media>
+      <sound level="0.500" keep="1" loop="-1" id="watermelon_beats-background-video-2026-472836" mode="7" url="media/skin_snd_watermelon_beats-background-video-2026-472836.mp3"/>
+    </media>
+    <transition zoomafteroutfov="40" zoomout="0" type="crossdissolve" blendtime="1" zoomspeed="2" zoomoutpause="1" zoomin="0" zoomafterinfov="140" blendcolor="0x000000" zoomfov="40" softedge="0" delay="none" enabled="1"/>
+    <autorotate returntohorizon="0.000" nodedelay="0.00" startloaded="0" nodefilter="" speed="-0.050" delay="3.00" noderandom="1" horizonfromdefview="0" useanimation="0" enabled="1"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01" clipsrandom="0"/>
+    <control contextfullscreen="1" sensitivity="8" hideabout="1" dblclickfullscreen="0" speedwheel="1" contextvr="1" contextprojections="0" zoomcentercursor="1" lockedkeyboard="0" invertcontrol="1" lockedkeyboardzoom="0" lockedmouse="0" lockedwheel="0" invertwheel="1" rubberband="0" simulatemass="1"/>
+  </panorama>
+  <panorama id="node12" hideabout="1">
+    <input levelingroll="0" levelbiashidpi="1.000" leveltileurl="tiles/node12/cf_%c/l_%l/c_%x/tile_%y.jpg" width="2976" overlap="1" levelingpitch="0" leveltilesize="510" levelbias="0.400" height="2976">
+      <level preload="0" predecode="0" width="2976" height="2976"/>
+      <level preload="0" predecode="0" width="1488" height="1488"/>
+      <level preload="0" predecode="0" width="744" height="744"/>
+      <level preload="1" predecode="1" width="372" height="372"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="2">
+      <start tilt="0" projection="4" fov="100" pan="0"/>
+      <flyin tilt="-90" projection="9" fov="170" pan="0"/>
+      <min tilt="-90" fovpixel="2" pan="0"/>
+      <max tilt="90" fovfisheye="360" fov="140" fovstereographic="330" scaletofit="1" pan="360"/>
+    </view>
+    <userdata customnodeid="" description="" datetime="03-04-2026 11:54 AM" tags="classroom" author="" longitude="77.661139" latitude="13.005111" copyright="" altitude="904.50" source="" info="" nodeid="node12" heading="0" comment="" title="Corridor"/>
+    <hotspots wordwrap="1" smoothmovement="0" width="180" height="20">
+      <label background="1" textcolor="0x000000" backgroundcolor="0xffffff" wordwrap="1" bordercolor="0x000000" border="1" backgroundalpha="1" width="180" borderalpha="1" borderradius="1" textalpha="1" height="20" enabled="1"/>
+      <polystyle backgroundcolor="0x0000ff" handcursor="1" bordercolor="0x0000ff" mode="0" backgroundalpha="0.25098" borderalpha="1"/>
+      <hotspot target="-132.3/-4.7/100.0" tilt="-8.29" description="" id="Point01" distance="23.9086" url="{node1}" skinid="ht_node_3d_arrow" title="Entrance" pan="-233.21"/>
+      <hotspot target="-6.6/0.0/100.0" tilt="-0.27" description="" id="Point02" distance="16.565" url="{node13}" skinid="ht_node_3d_arrow" title="Corridor" pan="-4.26"/>
+    </hotspots>
+    <media>
+      <sound level="0.500" keep="1" loop="-1" id="watermelon_beats-background-video-2026-472836" mode="7" url="media/skin_snd_watermelon_beats-background-video-2026-472836.mp3"/>
+    </media>
+    <transition zoomafteroutfov="40" zoomout="0" type="crossdissolve" blendtime="1" zoomspeed="2" zoomoutpause="1" zoomin="0" zoomafterinfov="140" blendcolor="0x000000" zoomfov="40" softedge="0" delay="none" enabled="1"/>
+    <autorotate returntohorizon="0.000" nodedelay="0.00" startloaded="0" nodefilter="" speed="-0.050" delay="3.00" noderandom="1" horizonfromdefview="0" useanimation="0" enabled="1"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01" clipsrandom="0"/>
+    <control contextfullscreen="1" sensitivity="8" hideabout="1" dblclickfullscreen="0" speedwheel="1" contextvr="1" contextprojections="0" zoomcentercursor="1" lockedkeyboard="0" invertcontrol="1" lockedkeyboardzoom="0" lockedmouse="0" lockedwheel="0" invertwheel="1" rubberband="0" simulatemass="1"/>
+  </panorama>
+  <panorama id="node13" hideabout="1">
+    <input levelingroll="0" levelbiashidpi="1.000" leveltileurl="tiles/node13/cf_%c/l_%l/c_%x/tile_%y.jpg" width="2976" overlap="1" levelingpitch="0" leveltilesize="510" levelbias="0.400" height="2976">
+      <level preload="0" predecode="0" width="2976" height="2976"/>
+      <level preload="0" predecode="0" width="1488" height="1488"/>
+      <level preload="0" predecode="0" width="744" height="744"/>
+      <level preload="1" predecode="1" width="372" height="372"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="2">
+      <start tilt="0" projection="4" fov="100" pan="0"/>
+      <flyin tilt="-90" projection="9" fov="170" pan="0"/>
+      <min tilt="-90" fovpixel="2" pan="0"/>
+      <max tilt="90" fovfisheye="360" fov="140" fovstereographic="330" scaletofit="1" pan="360"/>
+    </view>
+    <userdata customnodeid="" description="" datetime="03-04-2026 11:56 AM" tags="classroom" author="" longitude="77.661194" latitude="13.005250" copyright="" altitude="904.20" source="" info="" nodeid="node13" heading="0" comment="" title="Corridor"/>
+    <hotspots wordwrap="1" smoothmovement="0" width="180" height="20">
+      <label background="1" textcolor="0x000000" backgroundcolor="0xffffff" wordwrap="1" bordercolor="0x000000" border="1" backgroundalpha="1" width="180" borderalpha="1" borderradius="1" textalpha="1" height="20" enabled="1"/>
+      <polystyle backgroundcolor="0x0000ff" handcursor="1" bordercolor="0x0000ff" mode="0" backgroundalpha="0.25098" borderalpha="1"/>
+      <hotspot target="143.3/-4.5/100.0" tilt="-3.35" description="" id="Point01" distance="16.565" url="{node12}" skinid="ht_node_3d_arrow" title="Corridor" pan="-190.2"/>
+      <hotspot target="86.9/-1.4/100.0" tilt="-1.65" description="" id="Point02" distance="8.69398" url="{node16}" skinid="ht_node_3d_arrow" title="Corridor" pan="-6.32"/>
+      <hotspot target="88.2/-5.2/100.0" tilt="-4.1" description="" id="Point03" distance="8.99245" url="{node14}" skinid="ht_node_3d_arrow" title="Class Room" pan="-95.86"/>
+    </hotspots>
+    <media>
+      <sound level="0.500" keep="1" loop="-1" id="watermelon_beats-background-video-2026-472836" mode="7" url="media/skin_snd_watermelon_beats-background-video-2026-472836.mp3"/>
+    </media>
+    <transition zoomafteroutfov="40" zoomout="0" type="crossdissolve" blendtime="1" zoomspeed="2" zoomoutpause="1" zoomin="0" zoomafterinfov="140" blendcolor="0x000000" zoomfov="40" softedge="0" delay="none" enabled="1"/>
+    <autorotate returntohorizon="0.000" nodedelay="0.00" startloaded="0" nodefilter="" speed="-0.050" delay="3.00" noderandom="1" horizonfromdefview="0" useanimation="0" enabled="1"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01" clipsrandom="0"/>
+    <control contextfullscreen="1" sensitivity="8" hideabout="1" dblclickfullscreen="0" speedwheel="1" contextvr="1" contextprojections="0" zoomcentercursor="1" lockedkeyboard="0" invertcontrol="1" lockedkeyboardzoom="0" lockedmouse="0" lockedwheel="0" invertwheel="1" rubberband="0" simulatemass="1"/>
+  </panorama>
+  <panorama id="node14" hideabout="1">
+    <input levelingroll="0" levelbiashidpi="1.000" leveltileurl="tiles/node14/cf_%c/l_%l/c_%x/tile_%y.jpg" width="2976" overlap="1" levelingpitch="0" leveltilesize="510" levelbias="0.400" height="2976">
+      <level preload="0" predecode="0" width="2976" height="2976"/>
+      <level preload="0" predecode="0" width="1488" height="1488"/>
+      <level preload="0" predecode="0" width="744" height="744"/>
+      <level preload="1" predecode="1" width="372" height="372"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="2">
+      <start tilt="0" projection="4" fov="100" pan="0"/>
+      <flyin tilt="-90" projection="9" fov="170" pan="0"/>
+      <min tilt="-90" fovpixel="2" pan="0"/>
+      <max tilt="90" fovfisheye="360" fov="140" fovstereographic="330" scaletofit="1" pan="360"/>
+    </view>
+    <userdata customnodeid="" description="" datetime="03-04-2026 11:57 AM" tags="classroom" author="" longitude="77.661111" latitude="13.005250" copyright="" altitude="904.50" source="" info="" nodeid="node14" heading="0" comment="" title="Class Room"/>
+    <hotspots wordwrap="1" smoothmovement="0" width="180" height="20">
+      <label background="1" textcolor="0x000000" backgroundcolor="0xffffff" wordwrap="1" bordercolor="0x000000" border="1" backgroundalpha="1" width="180" borderalpha="1" borderradius="1" textalpha="1" height="20" enabled="1"/>
+      <polystyle backgroundcolor="0x0000ff" handcursor="1" bordercolor="0x0000ff" mode="0" backgroundalpha="0.25098" borderalpha="1"/>
+      <hotspot target="81.1/-6.6/100.0" tilt="-4.79" description="" id="Point01" distance="8.99245" url="{node13}" skinid="ht_node_3d_arrow" title="Corridor" pan="-94.95"/>
+      <hotspot target="5.7/-4.8/100.0" tilt="-3.08" description="" id="Point02" distance="6.92656" url="{node15}" skinid="ht_node_3d_arrow" title="Class Room" pan="-357.07"/>
+    </hotspots>
+    <media>
+      <sound level="0.500" keep="1" loop="-1" id="watermelon_beats-background-video-2026-472836" mode="7" url="media/skin_snd_watermelon_beats-background-video-2026-472836.mp3"/>
+    </media>
+    <transition zoomafteroutfov="40" zoomout="0" type="crossdissolve" blendtime="1" zoomspeed="2" zoomoutpause="1" zoomin="0" zoomafterinfov="140" blendcolor="0x000000" zoomfov="40" softedge="0" delay="none" enabled="1"/>
+    <autorotate returntohorizon="0.000" nodedelay="0.00" startloaded="0" nodefilter="" speed="-0.050" delay="3.00" noderandom="1" horizonfromdefview="0" useanimation="0" enabled="1"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01" clipsrandom="0"/>
+    <control contextfullscreen="1" sensitivity="8" hideabout="1" dblclickfullscreen="0" speedwheel="1" contextvr="1" contextprojections="0" zoomcentercursor="1" lockedkeyboard="0" invertcontrol="1" lockedkeyboardzoom="0" lockedmouse="0" lockedwheel="0" invertwheel="1" rubberband="0" simulatemass="1"/>
+  </panorama>
+  <panorama id="node15" hideabout="1">
+    <input levelingroll="0" levelbiashidpi="1.000" leveltileurl="tiles/node15/cf_%c/l_%l/c_%x/tile_%y.jpg" width="2976" overlap="1" levelingpitch="0" leveltilesize="510" levelbias="0.400" height="2976">
+      <level preload="0" predecode="0" width="2976" height="2976"/>
+      <level preload="0" predecode="0" width="1488" height="1488"/>
+      <level preload="0" predecode="0" width="744" height="744"/>
+      <level preload="1" predecode="1" width="372" height="372"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="2">
+      <start tilt="0" projection="4" fov="100" pan="0"/>
+      <flyin tilt="-90" projection="9" fov="170" pan="0"/>
+      <min tilt="-90" fovpixel="2" pan="0"/>
+      <max tilt="90" fovfisheye="360" fov="140" fovstereographic="330" scaletofit="1" pan="360"/>
+    </view>
+    <userdata customnodeid="" description="" datetime="03-04-2026 11:59 AM" tags="classroom" author="" longitude="77.661139" latitude="13.005194" copyright="" altitude="904.50" source="" info="" nodeid="node15" heading="0" comment="" title="Class Room"/>
+    <hotspots wordwrap="1" smoothmovement="0" width="180" height="20">
+      <label background="1" textcolor="0x000000" backgroundcolor="0xffffff" wordwrap="1" bordercolor="0x000000" border="1" backgroundalpha="1" width="180" borderalpha="1" borderradius="1" textalpha="1" height="20" enabled="1"/>
+      <polystyle backgroundcolor="0x0000ff" handcursor="1" bordercolor="0x0000ff" mode="0" backgroundalpha="0.25098" borderalpha="1"/>
+      <hotspot target="-98.7/-7.1/100.0" tilt="-3.97" description="" id="Point01" distance="6.92656" url="{node14}" skinid="ht_node_3d_arrow" title="Class Room" pan="-148.5"/>
+    </hotspots>
+    <media>
+      <sound level="0.500" keep="1" loop="-1" id="watermelon_beats-background-video-2026-472836" mode="7" url="media/skin_snd_watermelon_beats-background-video-2026-472836.mp3"/>
+    </media>
+    <transition zoomafteroutfov="40" zoomout="0" type="crossdissolve" blendtime="1" zoomspeed="2" zoomoutpause="1" zoomin="0" zoomafterinfov="140" blendcolor="0x000000" zoomfov="40" softedge="0" delay="none" enabled="1"/>
+    <autorotate returntohorizon="0.000" nodedelay="0.00" startloaded="0" nodefilter="" speed="-0.050" delay="3.00" noderandom="1" horizonfromdefview="0" useanimation="0" enabled="1"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01" clipsrandom="0"/>
+    <control contextfullscreen="1" sensitivity="8" hideabout="1" dblclickfullscreen="0" speedwheel="1" contextvr="1" contextprojections="0" zoomcentercursor="1" lockedkeyboard="0" invertcontrol="1" lockedkeyboardzoom="0" lockedmouse="0" lockedwheel="0" invertwheel="1" rubberband="0" simulatemass="1"/>
+  </panorama>
+  <panorama id="node16" hideabout="1">
+    <input levelingroll="0" levelbiashidpi="1.000" leveltileurl="tiles/node16/cf_%c/l_%l/c_%x/tile_%y.jpg" width="2976" overlap="1" levelingpitch="0" leveltilesize="510" levelbias="0.400" height="2976">
+      <level preload="0" predecode="0" width="2976" height="2976"/>
+      <level preload="0" predecode="0" width="1488" height="1488"/>
+      <level preload="0" predecode="0" width="744" height="744"/>
+      <level preload="1" predecode="1" width="372" height="372"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="2">
+      <start tilt="0" projection="4" fov="100" pan="0"/>
+      <flyin tilt="-90" projection="9" fov="170" pan="0"/>
+      <min tilt="-90" fovpixel="2" pan="0"/>
+      <max tilt="90" fovfisheye="360" fov="140" fovstereographic="330" scaletofit="1" pan="360"/>
+    </view>
+    <userdata customnodeid="" description="" datetime="03-04-2026 12:00 PM" tags="classroom" author="" longitude="77.661250" latitude="13.005194" copyright="" altitude="920.40" source="" info="" nodeid="node16" heading="0" comment="" title="Corridor"/>
+    <hotspots wordwrap="1" smoothmovement="0" width="180" height="20">
+      <label background="1" textcolor="0x000000" backgroundcolor="0xffffff" wordwrap="1" bordercolor="0x000000" border="1" backgroundalpha="1" width="180" borderalpha="1" borderradius="1" textalpha="1" height="20" enabled="1"/>
+      <polystyle backgroundcolor="0x0000ff" handcursor="1" bordercolor="0x0000ff" mode="0" backgroundalpha="0.25098" borderalpha="1"/>
+      <hotspot target="169.9/-3.3/100.0" tilt="-2.27" description="" id="Point01" distance="8.69398" url="{node13}" skinid="ht_node_3d_arrow" title="Corridor" pan="-92.91"/>
+      <hotspot target="-94.1/-6.6/100.0" tilt="-1.92" description="" id="Point02" distance="24.2528" url="{node17}" skinid="ht_node_3d_arrow" title="Class Room" pan="-1.44"/>
+    </hotspots>
+    <media>
+      <sound level="0.500" keep="1" loop="-1" id="watermelon_beats-background-video-2026-472836" mode="7" url="media/skin_snd_watermelon_beats-background-video-2026-472836.mp3"/>
+    </media>
+    <transition zoomafteroutfov="40" zoomout="0" type="crossdissolve" blendtime="1" zoomspeed="2" zoomoutpause="1" zoomin="0" zoomafterinfov="140" blendcolor="0x000000" zoomfov="40" softedge="0" delay="none" enabled="1"/>
+    <autorotate returntohorizon="0.000" nodedelay="0.00" startloaded="0" nodefilter="" speed="-0.050" delay="3.00" noderandom="1" horizonfromdefview="0" useanimation="0" enabled="1"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01" clipsrandom="0"/>
+    <control contextfullscreen="1" sensitivity="8" hideabout="1" dblclickfullscreen="0" speedwheel="1" contextvr="1" contextprojections="0" zoomcentercursor="1" lockedkeyboard="0" invertcontrol="1" lockedkeyboardzoom="0" lockedmouse="0" lockedwheel="0" invertwheel="1" rubberband="0" simulatemass="1"/>
+  </panorama>
+  <panorama id="node17" hideabout="1">
+    <input levelingroll="0" levelbiashidpi="1.000" leveltileurl="tiles/node17/cf_%c/l_%l/c_%x/tile_%y.jpg" width="2976" overlap="1" levelingpitch="0" leveltilesize="510" levelbias="0.400" height="2976">
+      <level preload="0" predecode="0" width="2976" height="2976"/>
+      <level preload="0" predecode="0" width="1488" height="1488"/>
+      <level preload="0" predecode="0" width="744" height="744"/>
+      <level preload="1" predecode="1" width="372" height="372"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="2">
+      <start tilt="0" projection="4" fov="100" pan="0"/>
+      <flyin tilt="-90" projection="9" fov="170" pan="0"/>
+      <min tilt="-90" fovpixel="2" pan="0"/>
+      <max tilt="90" fovfisheye="360" fov="140" fovstereographic="330" scaletofit="1" pan="360"/>
+    </view>
+    <userdata customnodeid="" description="" datetime="03-04-2026 12:02 PM" tags="classroom" author="" longitude="77.661028" latitude="13.005222" copyright="" altitude="904.50" source="" info="" nodeid="node17" heading="0" comment="" title="Class Room"/>
+    <hotspots wordwrap="1" smoothmovement="0" width="180" height="20">
+      <label background="1" textcolor="0x000000" backgroundcolor="0xffffff" wordwrap="1" bordercolor="0x000000" border="1" backgroundalpha="1" width="180" borderalpha="1" borderradius="1" textalpha="1" height="20" enabled="1"/>
+      <polystyle backgroundcolor="0x0000ff" handcursor="1" bordercolor="0x0000ff" mode="0" backgroundalpha="0.25098" borderalpha="1"/>
+      <hotspot target="-175.0/-2.0/100.0" tilt="-2.69" description="" id="Point01" distance="24.2528" url="{node16}" skinid="ht_node_3d_arrow" title="Corridor" pan="-260.6"/>
+    </hotspots>
+    <media>
+      <sound level="0.500" keep="1" loop="-1" id="watermelon_beats-background-video-2026-472836" mode="7" url="media/skin_snd_watermelon_beats-background-video-2026-472836.mp3"/>
+    </media>
+    <transition zoomafteroutfov="40" zoomout="0" type="crossdissolve" blendtime="1" zoomspeed="2" zoomoutpause="1" zoomin="0" zoomafterinfov="140" blendcolor="0x000000" zoomfov="40" softedge="0" delay="none" enabled="1"/>
+    <autorotate returntohorizon="0.000" nodedelay="0.00" startloaded="0" nodefilter="" speed="-0.050" delay="3.00" noderandom="1" horizonfromdefview="0" useanimation="0" enabled="1"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01" clipsrandom="0"/>
+    <control contextfullscreen="1" sensitivity="8" hideabout="1" dblclickfullscreen="0" speedwheel="1" contextvr="1" contextprojections="0" zoomcentercursor="1" lockedkeyboard="0" invertcontrol="1" lockedkeyboardzoom="0" lockedmouse="0" lockedwheel="0" invertwheel="1" rubberband="0" simulatemass="1"/>
+  </panorama>
+  <panorama id="node18" hideabout="1">
+    <input levelingroll="0" levelbiashidpi="1.000" leveltileurl="tiles/node18/cf_%c/l_%l/c_%x/tile_%y.jpg" width="2976" overlap="1" levelingpitch="0" leveltilesize="510" levelbias="0.400" height="2976">
+      <level preload="0" predecode="0" width="2976" height="2976"/>
+      <level preload="0" predecode="0" width="1488" height="1488"/>
+      <level preload="0" predecode="0" width="744" height="744"/>
+      <level preload="1" predecode="1" width="372" height="372"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="2">
+      <start tilt="1.56193" projection="4" fov="100" pan="-31.0312"/>
+      <flyin tilt="-90" projection="9" fov="170" pan="0"/>
+      <min tilt="-90" fovpixel="2" pan="0"/>
+      <max tilt="90" fovfisheye="360" fov="140" fovstereographic="330" scaletofit="1" pan="360"/>
+    </view>
+    <userdata customnodeid="" description="" datetime="03-04-2026 12:07 PM" tags="Edited|lab" author="" longitude="77.661417" latitude="13.005083" copyright="" altitude="906.80" source="" info="" nodeid="node18" heading="0" comment="" title="Chemistry Lab"/>
+    <hotspots wordwrap="1" smoothmovement="0" width="180" height="20">
+      <label background="1" textcolor="0x000000" backgroundcolor="0xffffff" wordwrap="1" bordercolor="0x000000" border="1" backgroundalpha="1" width="180" borderalpha="1" borderradius="1" textalpha="1" height="20" enabled="1"/>
+      <polystyle backgroundcolor="0x0000ff" handcursor="1" bordercolor="0x0000ff" mode="0" backgroundalpha="0.25098" borderalpha="1"/>
+      <hotspot target="-28.4/-1.1/100.0" tilt="-2" description="" id="Point01" distance="30.9122" url="{node19}" skinid="ht_node_3d_arrow" title="Chemistry Lab" pan="-56.51"/>
+    </hotspots>
+    <media>
+      <sound level="0.500" keep="1" loop="-1" id="watermelon_beats-background-video-2026-472836" mode="7" url="media/skin_snd_watermelon_beats-background-video-2026-472836.mp3"/>
+    </media>
+    <transition zoomafteroutfov="40" zoomout="0" type="crossdissolve" blendtime="1" zoomspeed="2" zoomoutpause="1" zoomin="0" zoomafterinfov="140" blendcolor="0x000000" zoomfov="40" softedge="0" delay="none" enabled="1"/>
+    <autorotate returntohorizon="0.000" nodedelay="0.00" startloaded="0" nodefilter="" speed="-0.050" delay="3.00" noderandom="1" horizonfromdefview="0" useanimation="0" enabled="1"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01" clipsrandom="0"/>
+    <control contextfullscreen="1" sensitivity="8" hideabout="1" dblclickfullscreen="0" speedwheel="1" contextvr="1" contextprojections="0" zoomcentercursor="1" lockedkeyboard="0" invertcontrol="1" lockedkeyboardzoom="0" lockedmouse="0" lockedwheel="0" invertwheel="1" rubberband="0" simulatemass="1"/>
+  </panorama>
+  <panorama id="node19" hideabout="1">
+    <input levelingroll="0" levelbiashidpi="1.000" leveltileurl="tiles/node19/cf_%c/l_%l/c_%x/tile_%y.jpg" width="2976" overlap="1" levelingpitch="0" leveltilesize="510" levelbias="0.400" height="2976">
+      <level preload="0" predecode="0" width="2976" height="2976"/>
+      <level preload="0" predecode="0" width="1488" height="1488"/>
+      <level preload="0" predecode="0" width="744" height="744"/>
+      <level preload="1" predecode="1" width="372" height="372"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="2">
+      <start tilt="0" projection="4" fov="100" pan="0"/>
+      <flyin tilt="-90" projection="9" fov="170" pan="0"/>
+      <min tilt="-90" fovpixel="2" pan="0"/>
+      <max tilt="90" fovfisheye="360" fov="140" fovstereographic="330" scaletofit="1" pan="360"/>
+    </view>
+    <userdata customnodeid="" description="" datetime="03-04-2026 12:09 PM" tags="lab" author="" longitude="77.661417" latitude="13.005361" copyright="" altitude="903.40" source="" info="" nodeid="node19" heading="0" comment="" title="Chemistry Lab"/>
+    <hotspots wordwrap="1" smoothmovement="0" width="180" height="20">
+      <label background="1" textcolor="0x000000" backgroundcolor="0xffffff" wordwrap="1" bordercolor="0x000000" border="1" backgroundalpha="1" width="180" borderalpha="1" borderradius="1" textalpha="1" height="20" enabled="1"/>
+      <polystyle backgroundcolor="0x0000ff" handcursor="1" bordercolor="0x0000ff" mode="0" backgroundalpha="0.25098" borderalpha="1"/>
+      <hotspot target="139.9/-2.9/100.0" tilt="-1.33" description="" id="Point01" distance="30.9122" url="{node18}" skinid="ht_node_3d_arrow" title="Chemistry Lab" pan="-232.47"/>
+      <hotspot target="-36.0/2.6/100.0" tilt="2.73" description="" id="Point02" distance="12.4225" url="{node20}" skinid="ht_node_3d_arrow" title="Chemistry Lab" pan="-21.54"/>
+    </hotspots>
+    <media>
+      <sound level="0.500" keep="1" loop="-1" id="watermelon_beats-background-video-2026-472836" mode="7" url="media/skin_snd_watermelon_beats-background-video-2026-472836.mp3"/>
+    </media>
+    <transition zoomafteroutfov="40" zoomout="0" type="crossdissolve" blendtime="1" zoomspeed="2" zoomoutpause="1" zoomin="0" zoomafterinfov="140" blendcolor="0x000000" zoomfov="40" softedge="0" delay="none" enabled="1"/>
+    <autorotate returntohorizon="0.000" nodedelay="0.00" startloaded="0" nodefilter="" speed="-0.050" delay="3.00" noderandom="1" horizonfromdefview="0" useanimation="0" enabled="1"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01" clipsrandom="0"/>
+    <control contextfullscreen="1" sensitivity="8" hideabout="1" dblclickfullscreen="0" speedwheel="1" contextvr="1" contextprojections="0" zoomcentercursor="1" lockedkeyboard="0" invertcontrol="1" lockedkeyboardzoom="0" lockedmouse="0" lockedwheel="0" invertwheel="1" rubberband="0" simulatemass="1"/>
+  </panorama>
+  <panorama id="node20" hideabout="1">
+    <input levelingroll="0" levelbiashidpi="1.000" leveltileurl="tiles/node20/cf_%c/l_%l/c_%x/tile_%y.jpg" width="2976" overlap="1" levelingpitch="0" leveltilesize="510" levelbias="0.400" height="2976">
+      <level preload="0" predecode="0" width="2976" height="2976"/>
+      <level preload="0" predecode="0" width="1488" height="1488"/>
+      <level preload="0" predecode="0" width="744" height="744"/>
+      <level preload="1" predecode="1" width="372" height="372"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="2">
+      <start tilt="0" projection="4" fov="100" pan="0"/>
+      <flyin tilt="-90" projection="9" fov="170" pan="0"/>
+      <min tilt="-90" fovpixel="2" pan="0"/>
+      <max tilt="90" fovfisheye="360" fov="140" fovstereographic="330" scaletofit="1" pan="360"/>
+    </view>
+    <userdata customnodeid="" description="" datetime="03-04-2026 12:10 PM" tags="lab" author="" longitude="77.661306" latitude="13.005333" copyright="" altitude="903.70" source="" info="" nodeid="node20" heading="0" comment="" title="Chemistry Lab"/>
+    <hotspots wordwrap="1" smoothmovement="0" width="180" height="20">
+      <label background="1" textcolor="0x000000" backgroundcolor="0xffffff" wordwrap="1" bordercolor="0x000000" border="1" backgroundalpha="1" width="180" borderalpha="1" borderradius="1" textalpha="1" height="20" enabled="1"/>
+      <polystyle backgroundcolor="0x0000ff" handcursor="1" bordercolor="0x0000ff" mode="0" backgroundalpha="0.25098" borderalpha="1"/>
+      <hotspot target="129.4/-3.7/100.0" tilt="-4.08" description="" id="Point01" distance="12.4225" url="{node19}" skinid="ht_node_3d_arrow" title="Chemistry Lab" pan="-216.64"/>
+    </hotspots>
+    <media>
+      <sound level="0.500" keep="1" loop="-1" id="watermelon_beats-background-video-2026-472836" mode="7" url="media/skin_snd_watermelon_beats-background-video-2026-472836.mp3"/>
+    </media>
+    <transition zoomafteroutfov="40" zoomout="0" type="crossdissolve" blendtime="1" zoomspeed="2" zoomoutpause="1" zoomin="0" zoomafterinfov="140" blendcolor="0x000000" zoomfov="40" softedge="0" delay="none" enabled="1"/>
+    <autorotate returntohorizon="0.000" nodedelay="0.00" startloaded="0" nodefilter="" speed="-0.050" delay="3.00" noderandom="1" horizonfromdefview="0" useanimation="0" enabled="1"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01" clipsrandom="0"/>
+    <control contextfullscreen="1" sensitivity="8" hideabout="1" dblclickfullscreen="0" speedwheel="1" contextvr="1" contextprojections="0" zoomcentercursor="1" lockedkeyboard="0" invertcontrol="1" lockedkeyboardzoom="0" lockedmouse="0" lockedwheel="0" invertwheel="1" rubberband="0" simulatemass="1"/>
+  </panorama>
+  <panorama id="node21" hideabout="1">
+    <input levelingroll="0" levelbiashidpi="1.000" leveltileurl="tiles/node21/cf_%c/l_%l/c_%x/tile_%y.jpg" width="2976" overlap="1" levelingpitch="0" leveltilesize="510" levelbias="0.400" height="2976">
+      <level preload="0" predecode="0" width="2976" height="2976"/>
+      <level preload="0" predecode="0" width="1488" height="1488"/>
+      <level preload="0" predecode="0" width="744" height="744"/>
+      <level preload="1" predecode="1" width="372" height="372"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="2">
+      <start tilt="0" projection="4" fov="100" pan="0"/>
+      <flyin tilt="-90" projection="9" fov="170" pan="0"/>
+      <min tilt="-90" fovpixel="2" pan="0"/>
+      <max tilt="90" fovfisheye="360" fov="140" fovstereographic="330" scaletofit="1" pan="360"/>
+    </view>
+    <userdata customnodeid="" description="" datetime="03-04-2026 12:13 PM" tags="lab" author="" longitude="77.661250" latitude="13.005139" copyright="" altitude="904.30" source="" info="" nodeid="node21" heading="0" comment="" title="Biology Lab"/>
+    <hotspots wordwrap="1" smoothmovement="0" width="180" height="20">
+      <label background="1" textcolor="0x000000" backgroundcolor="0xffffff" wordwrap="1" bordercolor="0x000000" border="1" backgroundalpha="1" width="180" borderalpha="1" borderradius="1" textalpha="1" height="20" enabled="1"/>
+      <polystyle backgroundcolor="0x0000ff" handcursor="1" bordercolor="0x0000ff" mode="0" backgroundalpha="0.25098" borderalpha="1"/>
+      <hotspot target="-97.5/-0.7/100.0" tilt="-3.36" description="" id="Point01" url="{node22}" skinid="ht_node_3d_arrow" title="Biology Lab" pan="-0.33"/>
+    </hotspots>
+    <media>
+      <sound level="0.500" keep="1" loop="-1" id="watermelon_beats-background-video-2026-472836" mode="7" url="media/skin_snd_watermelon_beats-background-video-2026-472836.mp3"/>
+    </media>
+    <transition zoomafteroutfov="40" zoomout="0" type="crossdissolve" blendtime="1" zoomspeed="2" zoomoutpause="1" zoomin="0" zoomafterinfov="140" blendcolor="0x000000" zoomfov="40" softedge="0" delay="none" enabled="1"/>
+    <autorotate returntohorizon="0.000" nodedelay="0.00" startloaded="0" nodefilter="" speed="-0.050" delay="3.00" noderandom="1" horizonfromdefview="0" useanimation="0" enabled="1"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01" clipsrandom="0"/>
+    <control contextfullscreen="1" sensitivity="8" hideabout="1" dblclickfullscreen="0" speedwheel="1" contextvr="1" contextprojections="0" zoomcentercursor="1" lockedkeyboard="0" invertcontrol="1" lockedkeyboardzoom="0" lockedmouse="0" lockedwheel="0" invertwheel="1" rubberband="0" simulatemass="1"/>
+  </panorama>
+  <panorama id="node22" hideabout="1">
+    <input levelingroll="0" levelbiashidpi="1.000" leveltileurl="tiles/node22/cf_%c/l_%l/c_%x/tile_%y.jpg" width="2976" overlap="1" levelingpitch="0" leveltilesize="510" levelbias="0.400" height="2976">
+      <level preload="0" predecode="0" width="2976" height="2976"/>
+      <level preload="0" predecode="0" width="1488" height="1488"/>
+      <level preload="0" predecode="0" width="744" height="744"/>
+      <level preload="1" predecode="1" width="372" height="372"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="2">
+      <start tilt="0" projection="4" fov="100" pan="0"/>
+      <flyin tilt="-90" projection="9" fov="170" pan="0"/>
+      <min tilt="-90" fovpixel="2" pan="0"/>
+      <max tilt="90" fovfisheye="360" fov="140" fovstereographic="330" scaletofit="1" pan="360"/>
+    </view>
+    <userdata customnodeid="" description="" datetime="03-04-2026 12:15 PM" tags="lab" author="" longitude="77.661250" latitude="13.005139" copyright="" altitude="904.40" source="" info="" nodeid="node22" heading="0" comment="" title="Biology Lab"/>
+    <hotspots wordwrap="1" smoothmovement="0" width="180" height="20">
+      <label background="1" textcolor="0x000000" backgroundcolor="0xffffff" wordwrap="1" bordercolor="0x000000" border="1" backgroundalpha="1" width="180" borderalpha="1" borderradius="1" textalpha="1" height="20" enabled="1"/>
+      <polystyle backgroundcolor="0x0000ff" handcursor="1" bordercolor="0x0000ff" mode="0" backgroundalpha="0.25098" borderalpha="1"/>
+      <hotspot target="-173.2/3.8/100.0" tilt="-8.14" description="" id="Point01" url="{node21}" skinid="ht_node_3d_arrow" title="Biology Lab" pan="-284.28"/>
+      <hotspot target="3.4/-1.2/100.0" tilt="-2.9" description="" id="Point02" distance="6.81942" url="{node9}" skinid="ht_node_3d_arrow" title="Biology Lab" pan="-6.5"/>
+    </hotspots>
+    <media>
+      <sound level="0.500" keep="1" loop="-1" id="watermelon_beats-background-video-2026-472836" mode="7" url="media/skin_snd_watermelon_beats-background-video-2026-472836.mp3"/>
+    </media>
+    <transition zoomafteroutfov="40" zoomout="0" type="crossdissolve" blendtime="1" zoomspeed="2" zoomoutpause="1" zoomin="0" zoomafterinfov="140" blendcolor="0x000000" zoomfov="40" softedge="0" delay="none" enabled="1"/>
+    <autorotate returntohorizon="0.000" nodedelay="0.00" startloaded="0" nodefilter="" speed="-0.050" delay="3.00" noderandom="1" horizonfromdefview="0" useanimation="0" enabled="1"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01" clipsrandom="0"/>
+    <control contextfullscreen="1" sensitivity="8" hideabout="1" dblclickfullscreen="0" speedwheel="1" contextvr="1" contextprojections="0" zoomcentercursor="1" lockedkeyboard="0" invertcontrol="1" lockedkeyboardzoom="0" lockedmouse="0" lockedwheel="0" invertwheel="1" rubberband="0" simulatemass="1"/>
+  </panorama>
+  <panorama id="node9" hideabout="1">
+    <input levelingroll="0" levelbiashidpi="1.000" leveltileurl="tiles/node9/cf_%c/l_%l/c_%x/tile_%y.jpg" width="2976" overlap="1" levelingpitch="0" leveltilesize="510" levelbias="0.400" height="2976">
+      <level preload="0" predecode="0" width="2976" height="2976"/>
+      <level preload="0" predecode="0" width="1488" height="1488"/>
+      <level preload="0" predecode="0" width="744" height="744"/>
+      <level preload="1" predecode="1" width="372" height="372"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="2">
+      <start tilt="-13.6387" projection="4" fov="100" pan="-175.415"/>
+      <flyin tilt="-90" projection="9" fov="170" pan="0"/>
+      <min tilt="-90" fovpixel="2" pan="0"/>
+      <max tilt="90" fovfisheye="360" fov="140" fovstereographic="330" scaletofit="1" pan="360"/>
+    </view>
+    <userdata customnodeid="" description="" datetime="03-04-2026 12:16 PM" tags="lab" author="" longitude="77.661306" latitude="13.005111" copyright="" altitude="903.80" source="" info="" nodeid="node9" heading="0" comment="" title="Biology Lab"/>
+    <hotspots wordwrap="1" smoothmovement="0" width="180" height="20">
+      <label background="1" textcolor="0x000000" backgroundcolor="0xffffff" wordwrap="1" bordercolor="0x000000" border="1" backgroundalpha="1" width="180" borderalpha="1" borderradius="1" textalpha="1" height="20" enabled="1"/>
+      <polystyle backgroundcolor="0x0000ff" handcursor="1" bordercolor="0x0000ff" mode="0" backgroundalpha="0.25098" borderalpha="1"/>
+      <hotspot target="168.5/-5.1/100.0" tilt="-3.94" description="" id="Point01" distance="6.81942" url="{node22}" skinid="ht_node_3d_arrow" title="Biology Lab" pan="-174.3"/>
+    </hotspots>
+    <media>
+      <sound level="0.500" keep="1" loop="-1" id="watermelon_beats-background-video-2026-472836" mode="7" url="media/skin_snd_watermelon_beats-background-video-2026-472836.mp3"/>
+    </media>
+    <transition zoomafteroutfov="40" zoomout="0" type="crossdissolve" blendtime="1" zoomspeed="2" zoomoutpause="1" zoomin="0" zoomafterinfov="140" blendcolor="0x000000" zoomfov="40" softedge="0" delay="none" enabled="1"/>
+    <autorotate returntohorizon="0.000" nodedelay="0.00" startloaded="0" nodefilter="" speed="-0.050" delay="3.00" noderandom="1" horizonfromdefview="0" useanimation="0" enabled="1"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01" clipsrandom="0"/>
+    <control contextfullscreen="1" sensitivity="8" hideabout="1" dblclickfullscreen="0" speedwheel="1" contextvr="1" contextprojections="0" zoomcentercursor="1" lockedkeyboard="0" invertcontrol="1" lockedkeyboardzoom="0" lockedmouse="0" lockedwheel="0" invertwheel="1" rubberband="0" simulatemass="1"/>
+  </panorama>
+  <masternode>
+    <userdata copyright="" description="" tags="" author="" comment="" title=""/>
+    <animationsequences>
+      <sequence title="Animation01"/>
+    </animationsequences>
+  </masternode>
+</tour>
