@@ -194,7 +194,7 @@ const DroneServices = () => {
                 textAlign: 'left'
               }}>
                 <p style={{ margin: 0, color: 'var(--accent-blue)', fontWeight: 700, textTransform: 'uppercase', fontSize: '0.75rem', letterSpacing: '0.1rem' }}>UHD Aerial Photography</p>
-                <h3 style={{ margin: '0.3rem 0 0.1rem 0', fontSize: '1.3rem', fontWeight: 800 }}>Premium Resort Showcase</h3>
+                <h3 style={{ margin: '0.3rem 0 0.1rem 0', fontSize: '1.3rem', fontWeight: 800 }}>Premium Real Estate Showcase</h3>
                 <p style={{ margin: 0, color: 'var(--text-muted)', fontSize: '0.85rem' }}>Ooty, Tamil Nadu</p>
               </div>
             </motion.div>

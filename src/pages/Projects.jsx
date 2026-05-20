@@ -126,7 +126,7 @@ const Projects = () => {
     },
     {
       id: 5,
-      name: 'Aerial Villa Shoot',
+      name: 'Drone Shoot in Bangalore',
       location: 'Bangalore, Karnataka',
       category: 'Drone Photo & Videography',
       description: 'A beautiful high-altitude capture highlighting modern villa architecture and plotted development layouts.',
@@ -136,7 +136,7 @@ const Projects = () => {
     },
     {
       id: 6,
-      name: 'Aerial Urban Photography',
+      name: 'Aerial Photography in Bangalore',
       location: 'Hosur, Tamil Nadu',
       category: 'Drone Photo & Videography',
       description: 'High-quality drone photography capturing expansive urban developments, infrastructure progress, and community layouts from an elevated perspective.',

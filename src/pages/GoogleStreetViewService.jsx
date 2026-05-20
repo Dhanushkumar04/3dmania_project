@@ -146,7 +146,7 @@ const GoogleStreetViewService = () => {
             >
               <div className="glass" style={{ borderRadius: '30px', padding: '2rem', border: '1px solid rgba(255,255,255,0.08)', position: 'relative', overflow: 'hidden' }}>
                 <img
-                  src="/street-view.jpg"
+                  src="/Street-View-Trusted-Logo-3d.jpg"
                   alt="Google Street View Showcase"
                   style={{ width: '100%', borderRadius: '20px', objectFit: 'cover', height: '350px', boxShadow: '0 20px 40px rgba(0,0,0,0.5)' }}
                 />
