@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { ShieldCheck, Sparkles, Globe, MapPin, CheckCircle2, ChevronRight, Compass } from 'lucide-react';
+import { ShieldCheck, Sparkles, Globe, CheckCircle2, ChevronRight, Compass } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const GoogleStreetViewService = () => {
@@ -150,24 +150,6 @@ const GoogleStreetViewService = () => {
                   alt="Google Street View Showcase"
                   style={{ width: '100%', borderRadius: '20px', objectFit: 'cover', height: '350px', boxShadow: '0 20px 40px rgba(0,0,0,0.5)' }}
                 />
-                <div style={{
-                  position: 'absolute',
-                  top: '40px',
-                  left: '40px',
-                  background: 'rgba(0, 0, 0, 0.75)',
-                  padding: '0.8rem 1.2rem',
-                  borderRadius: '12px',
-                  display: 'flex',
-                  alignItems: 'center',
-                  gap: '0.8rem',
-                  border: '1px solid rgba(255, 255, 255, 0.1)'
-                }}>
-                  <MapPin size={20} color="var(--accent-blue)" />
-                  <div style={{ textAlign: 'left' }}>
-                    <p style={{ margin: 0, fontWeight: 700, fontSize: '0.9rem' }}>Experience Centre</p>
-                    <p style={{ margin: 0, fontSize: '0.75rem', color: 'var(--text-muted)' }}>Bangalore, India</p>
-                  </div>
-                </div>
               </div>
             </motion.div>
           </div>
