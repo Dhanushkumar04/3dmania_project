@@ -43,8 +43,8 @@ const Projects = () => {
       location: 'Dharmapuri, Tamil Nadu',
       category: '360° Virtual Tours',
       description: 'An immersive 3D virtual tour of a premium residential development featuring high-resolution panoramas and interactive hotspots.',
-      image: 'https://mania3d-assets.web.app/viruksha-avenue/preview.jpg',
-      tourLink: 'https://mania3d-assets.web.app/viruksha-avenue/index.html'
+      image: '/tours/viruksha-avenue/preview.jpg',
+      tourLink: '/tours/viruksha-avenue/index.html'
     },
     {
       id: 2,
@@ -52,8 +52,8 @@ const Projects = () => {
       location: 'Bangalore, Karnataka',
       category: '360° Virtual Tours',
       description: 'A comprehensive virtual exploration of the school campus, classrooms, and facilities.',
-      image: 'https://mania3d-assets.web.app/godwin-public-school/preview.jpg',
-      tourLink: 'https://mania3d-assets.web.app/godwin-public-school/index.html'
+      image: '/tours/godwin-public-school/preview.jpg',
+      tourLink: '/tours/godwin-public-school/index.html'
     },
     {
       id: 3,
@@ -61,8 +61,8 @@ const Projects = () => {
       location: 'Bangalore, Karnataka',
       category: '360° Virtual Tours',
       description: 'An immersive tour of the prestigious Presidency School East campus and its modern infrastructure.',
-      image: 'https://mania3d-assets.web.app/presidency-school-east/preview.jpg',
-      tourLink: 'https://mania3d-assets.web.app/presidency-school-east/index.html'
+      image: '/tours/presidency-school-east/preview.jpg',
+      tourLink: '/tours/presidency-school-east/index.html'
     },
     {
       id: 4,
@@ -70,8 +70,8 @@ const Projects = () => {
       location: 'Bangalore, Karnataka',
       category: '360° Virtual Tours',
       description: 'Explore the elegance and luxury of this premium villa through a detailed 3D walk-through.',
-      image: 'https://mania3d-assets.web.app/prestige-villa/preview.jpg',
-      tourLink: 'https://mania3d-assets.web.app/prestige-villa/index.html'
+      image: '/tours/prestige-villa/preview.jpg',
+      tourLink: '/tours/prestige-villa/index.html'
     },
 
     // Google Street View

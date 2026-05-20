@@ -174,7 +174,7 @@ const Home = () => {
         {/* Title and Controls — bottom-center */}
         <div style={{
           position: 'absolute',
-          bottom: '150px', // Positioned perfectly above the native virtual tour carousel
+          bottom: '50px', // Positioned perfectly above the native virtual tour carousel
           left: '50%',
           transform: 'translateX(-50%)',
           zIndex: 10,
@@ -391,7 +391,7 @@ const Home = () => {
             >
               {/* Play button always opens in new tab */}
               <img
-                src="https://mania3d-assets.web.app/viruksha-avenue/preview.jpg"
+                src="/tours/viruksha-avenue/preview.jpg"
                 alt="Viruksha Avenue Preview"
                 style={{ width: '100%', height: '100%', objectFit: 'cover' }}
               />
@@ -405,7 +405,7 @@ const Home = () => {
                 justifyContent: 'center'
               }}>
                 <a
-                  href="https://mania3d-assets.web.app/viruksha-avenue/index.html"
+                  href="/tours/viruksha-avenue/index.html"
                   target="_blank"
                   rel="noopener noreferrer"
                   style={{ textDecoration: 'none' }}
