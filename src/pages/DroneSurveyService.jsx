@@ -34,7 +34,7 @@ const DroneSurveyService = () => {
   ];
 
   const industries = [
-    "Construction Companies", "Real Estate Developers", "Infrastructure Projects", 
+    "Construction Companies", "Real Estate Developers", "Infrastructure Projects",
     "Industrial Sites", "Land Development Projects", "Architecture & Planning Firms"
   ];
 
@@ -107,12 +107,12 @@ const DroneSurveyService = () => {
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.6 }}
             >
-              <span style={{ 
-                background: 'rgba(0, 242, 255, 0.1)', 
-                color: 'var(--accent-blue)', 
-                padding: '0.5rem 1rem', 
-                borderRadius: '50px', 
-                fontSize: '0.85rem', 
+              <span style={{
+                background: 'rgba(0, 242, 255, 0.1)',
+                color: 'var(--accent-blue)',
+                padding: '0.5rem 1rem',
+                borderRadius: '50px',
+                fontSize: '0.85rem',
                 fontWeight: 700,
                 letterSpacing: '0.1rem',
                 textTransform: 'uppercase',
@@ -132,7 +132,7 @@ const DroneSurveyService = () => {
                   Schedule a Drone Survey
                 </Link>
                 <a href="tel:+919353456068" className="btn btn-outline" style={{ padding: '1rem 1.5rem', fontWeight: 600, minWidth: '240px', textAlign: 'center' }}>
-                  Call Today
+                  Call Us Now
                 </a>
               </div>
             </motion.div>
@@ -144,16 +144,115 @@ const DroneSurveyService = () => {
               style={{ position: 'relative' }}
             >
               <div className="glass" style={{ borderRadius: '30px', padding: '2rem', border: '1px solid rgba(255,255,255,0.08)', position: 'relative', overflow: 'hidden' }}>
-                <img 
-                  src="https://mania3d-assets.web.app/mapping.png" 
-                  alt="Drone Mapping Showcase" 
-                  style={{ width: '100%', borderRadius: '20px', objectFit: 'cover', height: '350px', boxShadow: '0 20px 40px rgba(0,0,0,0.5)' }} 
+                <img
+                  src="/3dmania-drone-survey.png"
+                  alt="Drone Mapping Showcase"
+                  style={{ width: '100%', borderRadius: '20px', objectFit: 'cover', height: '350px', boxShadow: '0 20px 40px rgba(0,0,0,0.5)' }}
                 />
               </div>
             </motion.div>
           </div>
         </div>
       </section>
+
+      {/* Sample Survey Project */}
+      <section className="section glass" style={{ background: 'rgba(255,255,255,0.01)' }}>
+        <div className="container">
+          <div style={{ textAlign: 'center', marginBottom: '4rem' }}>
+            <h2 style={{ fontSize: 'clamp(2rem, 5vw, 3rem)', fontWeight: 800, marginBottom: '1rem' }}>Sample Survey Project</h2>
+            <p style={{ color: 'var(--text-muted)', fontSize: '1.1rem', maxWidth: '600px', margin: '0 auto' }}>
+              Explore detailed visual site documentation and high-precision survey mapping.
+            </p>
+          </div>
+
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 480px), 1fr))', gap: '2.5rem' }}>
+            {/* Project 1: Orthomosaic Site Mapping */}
+            <motion.div
+              initial={{ opacity: 0, x: -30 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6 }}
+              style={{
+                width: '100%',
+                height: 'clamp(280px, 45vh, 420px)',
+                borderRadius: '24px',
+                overflow: 'hidden',
+                border: '1px solid rgba(255,255,255,0.08)',
+                boxShadow: '0 20px 40px rgba(0,0,0,0.4)',
+                position: 'relative'
+              }}
+              className="glass"
+            >
+              <img
+                src="https://mania3d-assets.web.app/mapping1.jpg"
+                alt="Orthomosaic Site Mapping Survey"
+                style={{
+                  width: '100%',
+                  height: '100%',
+                  objectFit: 'cover'
+                }}
+              />
+              <div style={{
+                position: 'absolute',
+                bottom: 0,
+                left: 0,
+                width: '100%',
+                background: 'linear-gradient(transparent, rgba(0,0,0,0.85))',
+                padding: '2.5rem 1.5rem 1.5rem 1.5rem',
+                color: '#fff',
+                textAlign: 'left'
+              }}>
+                <p style={{ margin: 0, color: 'var(--accent-blue)', fontWeight: 700, textTransform: 'uppercase', fontSize: '0.75rem', letterSpacing: '0.1rem' }}>Active Survey Site</p>
+                <h3 style={{ margin: '0.3rem 0 0.1rem 0', fontSize: '1.3rem', fontWeight: 800 }}>Orthomosaic Mapping</h3>
+                <p style={{ margin: 0, color: 'var(--text-muted)', fontSize: '0.85rem' }}>Chennai, Tamil Nadu</p>
+              </div>
+            </motion.div>
+
+            {/* Project 2: Infrastructure Analysis Map */}
+            <motion.div
+              initial={{ opacity: 0, x: 30 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6 }}
+              style={{
+                width: '100%',
+                height: 'clamp(280px, 45vh, 420px)',
+                borderRadius: '24px',
+                overflow: 'hidden',
+                border: '1px solid rgba(255,255,255,0.08)',
+                boxShadow: '0 20px 40px rgba(0,0,0,0.4)',
+                position: 'relative'
+              }}
+              className="glass"
+            >
+              <img
+                src="https://mania3d-assets.web.app/mapping2.png"
+                alt="Infrastructure Analysis Mapping Survey"
+                style={{
+                  width: '100%',
+                  height: '100%',
+                  objectFit: 'cover'
+                }}
+              />
+              <div style={{
+                position: 'absolute',
+                bottom: 0,
+                left: 0,
+                width: '100%',
+                background: 'linear-gradient(transparent, rgba(0,0,0,0.85))',
+                padding: '2.5rem 1.5rem 1.5rem 1.5rem',
+                color: '#fff',
+                textAlign: 'left'
+              }}>
+                <p style={{ margin: 0, color: 'var(--accent-blue)', fontWeight: 700, textTransform: 'uppercase', fontSize: '0.75rem', letterSpacing: '0.1rem' }}>Active Survey Site</p>
+                <h3 style={{ margin: '0.3rem 0 0.1rem 0', fontSize: '1.3rem', fontWeight: 800 }}>Contour Map</h3>
+                <p style={{ margin: 0, color: 'var(--text-muted)', fontSize: '0.85rem' }}>Bangalore, Karnataka</p>
+              </div>
+            </motion.div>
+          </div>
+        </div>
+      </section>
+
 
       {/* Why Drone Survey & Mapping Matters Section */}
       <section className="section glass" style={{ background: 'rgba(255,255,255,0.01)', borderBottom: '1px solid rgba(255,255,255,0.02)', borderTop: '1px solid rgba(255,255,255,0.02)' }}>
@@ -185,13 +284,13 @@ const DroneSurveyService = () => {
                   }}
                   whileHover={{ y: -8, borderColor: benefit.color, boxShadow: '0 20px 40px rgba(0, 242, 255, 0.1)' }}
                 >
-                  <div style={{ 
-                    background: `rgba(${benefit.color === 'var(--accent-blue)' ? '0, 242, 255' : '188, 19, 254'}, 0.1)`, 
-                    width: '60px', 
-                    height: '60px', 
-                    borderRadius: '16px', 
-                    display: 'flex', 
-                    alignItems: 'center', 
+                  <div style={{
+                    background: `rgba(${benefit.color === 'var(--accent-blue)' ? '0, 242, 255' : '188, 19, 254'}, 0.1)`,
+                    width: '60px',
+                    height: '60px',
+                    borderRadius: '16px',
+                    display: 'flex',
+                    alignItems: 'center',
                     justifyContent: 'center',
                     marginBottom: '1.5rem',
                     color: benefit.color
@@ -238,104 +337,6 @@ const DroneSurveyService = () => {
                 <p style={{ color: 'var(--text-muted)', fontSize: '0.9rem', lineHeight: 1.5, margin: 0 }}>{sol.desc}</p>
               </motion.div>
             ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Sample Survey Project */}
-      <section className="section glass" style={{ background: 'rgba(255,255,255,0.01)' }}>
-        <div className="container">
-          <div style={{ textAlign: 'center', marginBottom: '4rem' }}>
-            <h2 style={{ fontSize: 'clamp(2rem, 5vw, 3rem)', fontWeight: 800, marginBottom: '1rem' }}>Sample Survey Project</h2>
-            <p style={{ color: 'var(--text-muted)', fontSize: '1.1rem', maxWidth: '600px', margin: '0 auto' }}>
-              Explore detailed visual site documentation and high-precision survey mapping.
-            </p>
-          </div>
-
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 480px), 1fr))', gap: '2.5rem' }}>
-            {/* Project 1: Orthomosaic Site Mapping */}
-            <motion.div
-              initial={{ opacity: 0, x: -30 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.6 }}
-              style={{ 
-                width: '100%', 
-                height: 'clamp(280px, 45vh, 420px)', 
-                borderRadius: '24px', 
-                overflow: 'hidden', 
-                border: '1px solid rgba(255,255,255,0.08)',
-                boxShadow: '0 20px 40px rgba(0,0,0,0.4)',
-                position: 'relative'
-              }}
-              className="glass"
-            >
-              <img
-                src="https://mania3d-assets.web.app/mapping1.jpg"
-                alt="Orthomosaic Site Mapping Survey"
-                style={{
-                  width: '100%',
-                  height: '100%',
-                  objectFit: 'cover'
-                }}
-              />
-              <div style={{
-                position: 'absolute',
-                bottom: 0,
-                left: 0,
-                width: '100%',
-                background: 'linear-gradient(transparent, rgba(0,0,0,0.85))',
-                padding: '2.5rem 1.5rem 1.5rem 1.5rem',
-                color: '#fff',
-                textAlign: 'left'
-              }}>
-                <p style={{ margin: 0, color: 'var(--accent-blue)', fontWeight: 700, textTransform: 'uppercase', fontSize: '0.75rem', letterSpacing: '0.1rem' }}>Active Survey Site</p>
-                <h3 style={{ margin: '0.3rem 0 0.1rem 0', fontSize: '1.3rem', fontWeight: 800 }}>Orthomosaic Site Mapping</h3>
-                <p style={{ margin: 0, color: 'var(--text-muted)', fontSize: '0.85rem' }}>Chennai, Tamil Nadu</p>
-              </div>
-            </motion.div>
-
-            {/* Project 2: Infrastructure Analysis Map */}
-            <motion.div
-              initial={{ opacity: 0, x: 30 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.6 }}
-              style={{ 
-                width: '100%', 
-                height: 'clamp(280px, 45vh, 420px)', 
-                borderRadius: '24px', 
-                overflow: 'hidden', 
-                border: '1px solid rgba(255,255,255,0.08)',
-                boxShadow: '0 20px 40px rgba(0,0,0,0.4)',
-                position: 'relative'
-              }}
-              className="glass"
-            >
-              <img
-                src="https://mania3d-assets.web.app/mapping2.png"
-                alt="Infrastructure Analysis Mapping Survey"
-                style={{
-                  width: '100%',
-                  height: '100%',
-                  objectFit: 'cover'
-                }}
-              />
-              <div style={{
-                position: 'absolute',
-                bottom: 0,
-                left: 0,
-                width: '100%',
-                background: 'linear-gradient(transparent, rgba(0,0,0,0.85))',
-                padding: '2.5rem 1.5rem 1.5rem 1.5rem',
-                color: '#fff',
-                textAlign: 'left'
-              }}>
-                <p style={{ margin: 0, color: 'var(--accent-blue)', fontWeight: 700, textTransform: 'uppercase', fontSize: '0.75rem', letterSpacing: '0.1rem' }}>Active Survey Site</p>
-                <h3 style={{ margin: '0.3rem 0 0.1rem 0', fontSize: '1.3rem', fontWeight: 800 }}>Infrastructure Analysis Map</h3>
-                <p style={{ margin: 0, color: 'var(--text-muted)', fontSize: '0.85rem' }}>Bangalore, Karnataka</p>
-              </div>
-            </motion.div>
           </div>
         </div>
       </section>
@@ -407,9 +408,9 @@ const DroneSurveyService = () => {
               <Link to="/contact" className="btn btn-primary" style={{ padding: '1rem 1.5rem', fontWeight: 700, borderRadius: '50px', minWidth: '240px', textAlign: 'center' }}>
                 Schedule a Drone Survey
               </Link>
-              <Link to="/contact" className="btn btn-outline" style={{ padding: '1rem 1.5rem', fontWeight: 600, borderRadius: '50px', minWidth: '240px', textAlign: 'center' }}>
-                Contact 3Dmania Today
-              </Link>
+              <a href="tel:+919353456068" className="btn btn-outline" style={{ padding: '1rem 1.5rem', fontWeight: 600, minWidth: '240px', textAlign: 'center' }}>
+                Call Us Now
+              </a>
             </div>
           </motion.div>
         </div>

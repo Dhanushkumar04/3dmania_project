@@ -30,8 +30,8 @@ const Projects = () => {
   const categories = [
     'All',
     '360° Virtual Tours',
-    'Drone Photo & Videography',
     'Google Street View',
+    'Drone Photo & Videography',
     'Drone Survey & Mapping'
   ];
 
@@ -73,78 +73,7 @@ const Projects = () => {
       image: 'https://mania3d-assets.web.app/prestige-villa/preview.jpg',
       tourLink: 'https://mania3d-assets.web.app/prestige-villa/index.html'
     },
-    // Drone Photo & Videography (UPDATED WITH DRONE1-7 AND VIDEO)
-    {
-      id: 5,
-      name: 'Aerial Villa Shoot',
-      location: 'Bangalore, Karnataka',
-      category: 'Drone Photo & Videography',
-      description: 'A beautiful high-altitude capture highlighting modern villa architecture and plotted development layouts.',
-      image: 'https://mania3d-assets.web.app/drone1.jpeg',
-      tourLink: '#',
-      type: 'photo'
-    },
-    {
-      id: 6,
-      name: 'Urban Development Landscape',
-      location: 'Hosur, Tamil Nadu',
-      category: 'Drone Photo & Videography',
-      description: 'Scenic aerial views showcasing dynamic layout planning, community scale, and infrastructure outlines.',
-      image: 'https://mania3d-assets.web.app/drone2.jpeg',
-      tourLink: '#',
-      type: 'photo'
-    },
-    {
-      id: 7,
-      name: 'Coastal Horizon Captures',
-      location: 'Goa, India',
-      category: 'Drone Photo & Videography',
-      description: 'Breathtaking high-altitude perspectives capturing waterfront properties and luxury resort locations.',
-      image: 'https://mania3d-assets.web.app/drone3.jpeg',
-      tourLink: '#',
-      type: 'photo'
-    },
-    {
-      id: 8,
-      name: 'Industrial Unit Survey',
-      location: 'Chennai, Tamil Nadu',
-      category: 'Drone Photo & Videography',
-      description: 'High-resolution vertical survey inspections for manufacturing sites and complex asset monitoring.',
-      image: 'https://mania3d-assets.web.app/drone4.jpeg',
-      tourLink: '#',
-      type: 'photo'
-    },
-    {
-      id: 9,
-      name: 'Premium Resort Showcase',
-      location: 'Ooty, Tamil Nadu',
-      category: 'Drone Photo & Videography',
-      description: 'Stunning commercial estate property photography, perfect for high-impact social media marketing.',
-      image: 'https://mania3d-assets.web.app/drone6.JPG',
-      tourLink: '#',
-      type: 'photo'
-    },
-    {
-      id: 10,
-      name: 'Real Estate Layout Mapping',
-      location: 'Bangalore, Karnataka',
-      category: 'Drone Photo & Videography',
-      description: 'Detailed high-definition layout boundary imaging and plotted developer layout visual mapping.',
-      image: 'https://mania3d-assets.web.app/drone7.JPG',
-      tourLink: '#',
-      type: 'photo'
-    },
-    {
-      id: 11,
-      name: 'Viruksha Avenue Aerial Cinematic',
-      location: 'Dharmapuri, Tamil Nadu',
-      category: 'Drone Photo & Videography',
-      description: 'An immersive 4K cinematic video walkthrough detailing complete property access and surrounding developments.',
-      image: 'https://mania3d-assets.web.app/drone1.jpeg',
-      video: 'https://mania3d-assets.web.app/Viruksha Avenue First Cut.mp4',
-      tourLink: '#',
-      type: 'video'
-    },
+
     // Google Street View
     {
       id: 12,
@@ -182,10 +111,74 @@ const Projects = () => {
       image: 'https://mania3d-assets.web.app/cart.avif',
       tourLink: 'https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=28.437497,77.103206'
     },
+
+    // Drone Photo & Videography (UPDATED WITH DRONE1-7 AND VIDEO)
+    {
+      id: 11,
+      name: 'Viruksha Avenue Drone Marketing',
+      location: 'Dharmapuri, Tamil Nadu',
+      category: 'Drone Photo & Videography',
+      description: 'An immersive cinematic video detailing complete property access and surrounding developments.',
+      image: 'https://mania3d-assets.web.app/drone1.jpeg',
+      video: 'https://mania3d-assets.web.app/Viruksha Avenue First Cut.mp4',
+      tourLink: '#',
+      type: 'video'
+    },
+    {
+      id: 5,
+      name: 'Aerial Villa Shoot',
+      location: 'Bangalore, Karnataka',
+      category: 'Drone Photo & Videography',
+      description: 'A beautiful high-altitude capture highlighting modern villa architecture and plotted development layouts.',
+      image: 'https://mania3d-assets.web.app/drone1.jpeg',
+      tourLink: '#',
+      type: 'photo'
+    },
+    {
+      id: 6,
+      name: 'Aerial Urban Photography',
+      location: 'Hosur, Tamil Nadu',
+      category: 'Drone Photo & Videography',
+      description: 'High-quality drone photography capturing expansive urban developments, infrastructure progress, and community layouts from an elevated perspective.',
+      image: 'https://mania3d-assets.web.app/drone2.jpeg',
+      tourLink: '#',
+      type: 'photo'
+    },
+    {
+      id: 7,
+      name: 'Coastal Aerial Drone Shots',
+      location: 'Goa, India',
+      category: 'Drone Photo & Videography',
+      description: 'Stunning high-altitude drone photography providing breathtaking aerial views of waterfront properties and luxury resort destinations.',
+      image: 'https://mania3d-assets.web.app/drone3.jpeg',
+      tourLink: '#',
+      type: 'photo'
+    },
+    {
+      id: 8,
+      name: 'Industrial Drone Photography',
+      location: 'Chennai, Tamil Nadu',
+      category: 'Drone Photo & Videography',
+      description: 'Detailed aerial imaging using advanced drone technology to capture manufacturing sites, industrial facilities, and large-scale commercial assets.',
+      image: 'https://mania3d-assets.web.app/drone4.jpeg',
+      tourLink: '#',
+      type: 'photo'
+    },
+    {
+      id: 10,
+      name: 'Premium Property Showcase',
+      location: 'Bangalore, Karnataka',
+      category: 'Drone Photo & Videography',
+      description: 'Detailed high-definition layout boundary imaging and plotted developer layout visual drone shots.',
+      image: 'https://mania3d-assets.web.app/drone7.JPG',
+      tourLink: '#',
+      type: 'photo'
+    },
+
     // Drone Survey & Mapping (NEW CATEGORY SECTION)
     {
       id: 16,
-      name: 'Boundary Land Survey Map',
+      name: 'DEM & DTM Map',
       location: 'Hosur, Tamil Nadu',
       category: 'Drone Survey & Mapping',
       description: 'High-precision 2D boundary land analysis and development layout mapping survey.',
@@ -194,7 +187,7 @@ const Projects = () => {
     },
     {
       id: 17,
-      name: 'Orthomosaic Site Mapping',
+      name: 'Orthomosaic Map',
       location: 'Chennai, Tamil Nadu',
       category: 'Drone Survey & Mapping',
       description: 'Highly detailed vertical orthomosaic site survey maps for commercial engineering assessment.',
@@ -203,7 +196,7 @@ const Projects = () => {
     },
     {
       id: 18,
-      name: 'Infrastructure Analysis Map',
+      name: 'Contour Map',
       location: 'Bangalore, Karnataka',
       category: 'Drone Survey & Mapping',
       description: 'Detailed top-down layout mapping outlining massive plotted layouts and terrain models.',
@@ -285,8 +278,8 @@ const Projects = () => {
                   >
                     <div className="project-image-container">
                       {project.video ? (
-                        <video 
-                          src={project.video} 
+                        <video
+                          src={project.video}
                           poster={project.image}
                           controls
                           playsInline

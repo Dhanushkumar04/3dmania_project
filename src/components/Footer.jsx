@@ -78,7 +78,7 @@ const Footer = () => {
           color: 'var(--text-muted)',
           fontSize: '0.9rem'
         }}>
-          Copyright © 2025 3D Mania. All Rights Reserved.
+          Copyright © 2025 3Dmania. All Rights Reserved.
         </div>
       </div>
     </footer>

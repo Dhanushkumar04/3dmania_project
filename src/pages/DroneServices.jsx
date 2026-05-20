@@ -34,7 +34,7 @@ const DroneServices = () => {
   ];
 
   const industries = [
-    "Real Estate", "Hotels & Resorts", "Construction Projects", 
+    "Real Estate", "Hotels & Resorts", "Construction Projects",
     "Educational Institutions", "Commercial Spaces", "Event Venues", "Retail & Showrooms"
   ];
 
@@ -98,12 +98,12 @@ const DroneServices = () => {
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.6 }}
             >
-              <span style={{ 
-                background: 'rgba(0, 242, 255, 0.1)', 
-                color: 'var(--accent-blue)', 
-                padding: '0.5rem 1rem', 
-                borderRadius: '50px', 
-                fontSize: '0.85rem', 
+              <span style={{
+                background: 'rgba(0, 242, 255, 0.1)',
+                color: 'var(--accent-blue)',
+                padding: '0.5rem 1rem',
+                borderRadius: '50px',
+                fontSize: '0.85rem',
                 fontWeight: 700,
                 letterSpacing: '0.1rem',
                 textTransform: 'uppercase',
@@ -123,7 +123,7 @@ const DroneServices = () => {
                   Book a Drone Shoot
                 </Link>
                 <a href="tel:+919353456068" className="btn btn-outline" style={{ padding: '1rem 1.5rem', fontWeight: 600, minWidth: '240px', textAlign: 'center' }}>
-                  Contact Today
+                  Call Us Now
                 </a>
               </div>
             </motion.div>
@@ -135,16 +135,119 @@ const DroneServices = () => {
               style={{ position: 'relative' }}
             >
               <div className="glass" style={{ borderRadius: '30px', padding: '2rem', border: '1px solid rgba(255,255,255,0.08)', position: 'relative', overflow: 'hidden' }}>
-                <img 
-                  src="https://mania3d-assets.web.app/drone3.jpeg" 
-                  alt="Drone Photography Showcase" 
-                  style={{ width: '100%', borderRadius: '20px', objectFit: 'cover', height: '350px', boxShadow: '0 20px 40px rgba(0,0,0,0.5)' }} 
+                <img
+                  src="/drone1.jpeg"
+                  alt="Drone Photography Showcase"
+                  style={{ width: '100%', borderRadius: '20px', objectFit: 'cover', height: '350px', boxShadow: '0 20px 40px rgba(0,0,0,0.5)' }}
                 />
               </div>
             </motion.div>
           </div>
         </div>
       </section>
+
+      {/* Sample Drone Project */}
+      <section className="section glass" style={{ background: 'rgba(255,255,255,0.01)' }}>
+        <div className="container">
+          <div style={{ textAlign: 'center', marginBottom: '4rem' }}>
+            <h2 style={{ fontSize: 'clamp(2rem, 5vw, 3rem)', fontWeight: 800, marginBottom: '1rem' }}>Sample Drone Project</h2>
+            <p style={{ color: 'var(--text-muted)', fontSize: '1.1rem', maxWidth: '600px', margin: '0 auto' }}>
+              Explore beautiful UHD aerial photography capturing breathtaking scale.
+            </p>
+          </div>
+
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 480px), 1fr))', gap: '2.5rem' }}>
+            {/* Column 1: Ultra HD Drone Photography */}
+            <motion.div
+              initial={{ opacity: 0, x: -30 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6 }}
+              style={{
+                width: '100%',
+                height: 'clamp(280px, 45vh, 420px)',
+                borderRadius: '24px',
+                overflow: 'hidden',
+                border: '1px solid rgba(255,255,255,0.08)',
+                boxShadow: '0 20px 40px rgba(0,0,0,0.4)',
+                position: 'relative'
+              }}
+              className="glass"
+            >
+              <img
+                src="https://mania3d-assets.web.app/drone6.JPG"
+                alt="Ultra HD Drone Capture Showcase"
+                style={{
+                  width: '100%',
+                  height: '100%',
+                  objectFit: 'cover'
+                }}
+              />
+              <div style={{
+                position: 'absolute',
+                bottom: 0,
+                left: 0,
+                width: '100%',
+                background: 'linear-gradient(transparent, rgba(0,0,0,0.85))',
+                padding: '2.5rem 1.5rem 1.5rem 1.5rem',
+                color: '#fff',
+                textAlign: 'left'
+              }}>
+                <p style={{ margin: 0, color: 'var(--accent-blue)', fontWeight: 700, textTransform: 'uppercase', fontSize: '0.75rem', letterSpacing: '0.1rem' }}>UHD Aerial Photography</p>
+                <h3 style={{ margin: '0.3rem 0 0.1rem 0', fontSize: '1.3rem', fontWeight: 800 }}>Premium Resort Showcase</h3>
+                <p style={{ margin: 0, color: 'var(--text-muted)', fontSize: '0.85rem' }}>Ooty, Tamil Nadu</p>
+              </div>
+            </motion.div>
+
+            {/* Column 2: 4K Cinematic Drone Video */}
+            <motion.div
+              initial={{ opacity: 0, x: 30 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6 }}
+              style={{
+                width: '100%',
+                height: 'clamp(280px, 45vh, 420px)',
+                borderRadius: '24px',
+                overflow: 'hidden',
+                border: '1px solid rgba(255,255,255,0.08)',
+                boxShadow: '0 20px 40px rgba(0,0,0,0.4)',
+                position: 'relative',
+                background: '#000'
+              }}
+              className="glass"
+            >
+              <video
+                src="https://mania3d-assets.web.app/Viruksha%20Avenue%20First%20Cut.mp4"
+                controls
+                playsInline
+                style={{
+                  width: '100%',
+                  height: '100%',
+                  objectFit: 'cover'
+                }}
+              />
+              {/* Overlay with details */}
+              <div style={{
+                position: 'absolute',
+                top: '20px',
+                right: '20px',
+                background: 'rgba(0, 0, 0, 0.75)',
+                padding: '0.5rem 1rem',
+                borderRadius: '10px',
+                border: '1px solid rgba(255, 255, 255, 0.1)',
+                color: '#fff',
+                fontSize: '0.8rem',
+                fontWeight: 700,
+                pointerEvents: 'none'
+              }}>
+                4K UHD VIDEO
+              </div>
+            </motion.div>
+          </div>
+        </div>
+      </section>
+
 
       {/* Why Drone Visuals Matter Section */}
       <section className="section glass" style={{ background: 'rgba(255,255,255,0.01)', borderBottom: '1px solid rgba(255,255,255,0.02)', borderTop: '1px solid rgba(255,255,255,0.02)' }}>
@@ -176,13 +279,13 @@ const DroneServices = () => {
                   }}
                   whileHover={{ y: -8, borderColor: benefit.color, boxShadow: '0 20px 40px rgba(0, 242, 255, 0.1)' }}
                 >
-                  <div style={{ 
-                    background: `rgba(${benefit.color === 'var(--accent-blue)' ? '0, 242, 255' : '188, 19, 254'}, 0.1)`, 
-                    width: '60px', 
-                    height: '60px', 
-                    borderRadius: '16px', 
-                    display: 'flex', 
-                    alignItems: 'center', 
+                  <div style={{
+                    background: `rgba(${benefit.color === 'var(--accent-blue)' ? '0, 242, 255' : '188, 19, 254'}, 0.1)`,
+                    width: '60px',
+                    height: '60px',
+                    borderRadius: '16px',
+                    display: 'flex',
+                    alignItems: 'center',
                     justifyContent: 'center',
                     marginBottom: '1.5rem',
                     color: benefit.color
@@ -229,108 +332,6 @@ const DroneServices = () => {
                 <p style={{ color: 'var(--text-muted)', fontSize: '0.9rem', lineHeight: 1.5, margin: 0 }}>{serv.desc}</p>
               </motion.div>
             ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Sample Drone Project */}
-      <section className="section glass" style={{ background: 'rgba(255,255,255,0.01)' }}>
-        <div className="container">
-          <div style={{ textAlign: 'center', marginBottom: '4rem' }}>
-            <h2 style={{ fontSize: 'clamp(2rem, 5vw, 3rem)', fontWeight: 800, marginBottom: '1rem' }}>Sample Drone Project</h2>
-            <p style={{ color: 'var(--text-muted)', fontSize: '1.1rem', maxWidth: '600px', margin: '0 auto' }}>
-              Explore beautiful UHD aerial photography capturing breathtaking scale.
-            </p>
-          </div>
-
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 480px), 1fr))', gap: '2.5rem' }}>
-            {/* Column 1: Ultra HD Drone Photography */}
-            <motion.div
-              initial={{ opacity: 0, x: -30 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.6 }}
-              style={{ 
-                width: '100%', 
-                height: 'clamp(280px, 45vh, 420px)', 
-                borderRadius: '24px', 
-                overflow: 'hidden', 
-                border: '1px solid rgba(255,255,255,0.08)',
-                boxShadow: '0 20px 40px rgba(0,0,0,0.4)',
-                position: 'relative'
-              }}
-              className="glass"
-            >
-              <img
-                src="https://mania3d-assets.web.app/drone6.JPG"
-                alt="Ultra HD Drone Capture Showcase"
-                style={{
-                  width: '100%',
-                  height: '100%',
-                  objectFit: 'cover'
-                }}
-              />
-              <div style={{
-                position: 'absolute',
-                bottom: 0,
-                left: 0,
-                width: '100%',
-                background: 'linear-gradient(transparent, rgba(0,0,0,0.85))',
-                padding: '2.5rem 1.5rem 1.5rem 1.5rem',
-                color: '#fff',
-                textAlign: 'left'
-              }}>
-                <p style={{ margin: 0, color: 'var(--accent-blue)', fontWeight: 700, textTransform: 'uppercase', fontSize: '0.75rem', letterSpacing: '0.1rem' }}>UHD Aerial Photography</p>
-                <h3 style={{ margin: '0.3rem 0 0.1rem 0', fontSize: '1.3rem', fontWeight: 800 }}>Premium Resort Showcase</h3>
-                <p style={{ margin: 0, color: 'var(--text-muted)', fontSize: '0.85rem' }}>Ooty, Tamil Nadu</p>
-              </div>
-            </motion.div>
-
-            {/* Column 2: 4K Cinematic Drone Video */}
-            <motion.div
-              initial={{ opacity: 0, x: 30 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.6 }}
-              style={{ 
-                width: '100%', 
-                height: 'clamp(280px, 45vh, 420px)', 
-                borderRadius: '24px', 
-                overflow: 'hidden', 
-                border: '1px solid rgba(255,255,255,0.08)',
-                boxShadow: '0 20px 40px rgba(0,0,0,0.4)',
-                position: 'relative',
-                background: '#000'
-              }}
-              className="glass"
-            >
-              <video
-                src="https://mania3d-assets.web.app/Viruksha%20Avenue%20First%20Cut.mp4"
-                controls
-                playsInline
-                style={{
-                  width: '100%',
-                  height: '100%',
-                  objectFit: 'cover'
-                }}
-              />
-              {/* Overlay with details */}
-              <div style={{
-                position: 'absolute',
-                top: '20px',
-                right: '20px',
-                background: 'rgba(0, 0, 0, 0.75)',
-                padding: '0.5rem 1rem',
-                borderRadius: '10px',
-                border: '1px solid rgba(255, 255, 255, 0.1)',
-                color: '#fff',
-                fontSize: '0.8rem',
-                fontWeight: 700,
-                pointerEvents: 'none'
-              }}>
-                4K UHD VIDEO
-              </div>
-            </motion.div>
           </div>
         </div>
       </section>
@@ -403,7 +404,7 @@ const DroneServices = () => {
                 Book a Drone Shoot
               </Link>
               <Link to="/contact" className="btn btn-outline" style={{ padding: '1rem 1.5rem', fontWeight: 600, borderRadius: '50px', minWidth: '240px', textAlign: 'center' }}>
-                Contact 3Dmania Today
+                Call Us Now
               </Link>
             </div>
           </motion.div>

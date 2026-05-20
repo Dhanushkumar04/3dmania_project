@@ -33,8 +33,8 @@ const GoogleStreetViewService = () => {
   ];
 
   const industries = [
-    "Retail Showrooms", "Hotels & Resorts", "Restaurants & Cafes", 
-    "Schools & Colleges", "Clinics & Hospitals", "Offices & Coworking Spaces", 
+    "Retail Showrooms", "Hotels & Resorts", "Restaurants & Cafes",
+    "Schools & Colleges", "Clinics & Hospitals", "Offices & Coworking Spaces",
     "Real Estate Projects"
   ];
 
@@ -108,12 +108,12 @@ const GoogleStreetViewService = () => {
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.6 }}
             >
-              <span style={{ 
-                background: 'rgba(0, 242, 255, 0.1)', 
-                color: 'var(--accent-blue)', 
-                padding: '0.5rem 1rem', 
-                borderRadius: '50px', 
-                fontSize: '0.85rem', 
+              <span style={{
+                background: 'rgba(0, 242, 255, 0.1)',
+                color: 'var(--accent-blue)',
+                padding: '0.5rem 1rem',
+                borderRadius: '50px',
+                fontSize: '0.85rem',
                 fontWeight: 700,
                 letterSpacing: '0.1rem',
                 textTransform: 'uppercase',
@@ -133,7 +133,7 @@ const GoogleStreetViewService = () => {
                   Get Free Consultation
                 </Link>
                 <a href="tel:+919353456068" className="btn btn-outline" style={{ padding: '1rem 1.5rem', fontWeight: 600, minWidth: '240px', textAlign: 'center' }}>
-                  Call Today
+                  Call Us Now
                 </a>
               </div>
             </motion.div>
@@ -145,10 +145,10 @@ const GoogleStreetViewService = () => {
               style={{ position: 'relative' }}
             >
               <div className="glass" style={{ borderRadius: '30px', padding: '2rem', border: '1px solid rgba(255,255,255,0.08)', position: 'relative', overflow: 'hidden' }}>
-                <img 
-                  src="https://mania3d-assets.web.app/duroflex.jpeg" 
-                  alt="Google Street View Showcase" 
-                  style={{ width: '100%', borderRadius: '20px', objectFit: 'cover', height: '350px', boxShadow: '0 20px 40px rgba(0,0,0,0.5)' }} 
+                <img
+                  src="/street-view.jpg"
+                  alt="Google Street View Showcase"
+                  style={{ width: '100%', borderRadius: '20px', objectFit: 'cover', height: '350px', boxShadow: '0 20px 40px rgba(0,0,0,0.5)' }}
                 />
                 <div style={{
                   position: 'absolute',
@@ -174,97 +174,6 @@ const GoogleStreetViewService = () => {
         </div>
       </section>
 
-      {/* Why Google Street View Matters Section */}
-      <section className="section glass" style={{ background: 'rgba(255,255,255,0.01)', borderBottom: '1px solid rgba(255,255,255,0.02)', borderTop: '1px solid rgba(255,255,255,0.02)' }}>
-        <div className="container">
-          <div style={{ textAlign: 'center', marginBottom: '4rem' }}>
-            <h2 style={{ fontSize: 'clamp(2rem, 5vw, 3rem)', fontWeight: 800, marginBottom: '1rem' }}>Why Google Street View Matters</h2>
-            <p style={{ color: 'var(--text-muted)', fontSize: '1.1rem', maxWidth: '600px', margin: '0 auto' }}>
-              Immersive 360° visibility helps build trust and creates a stronger first impression.
-            </p>
-          </div>
-
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '2rem' }}>
-            {benefits.map((benefit, idx) => {
-              const Icon = benefit.icon;
-              return (
-                <motion.div
-                  key={idx}
-                  initial={{ opacity: 0, y: 30 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  viewport={{ once: true }}
-                  transition={{ duration: 0.5, delay: idx * 0.1 }}
-                  className="benefit-card glass"
-                  style={{
-                    padding: '2.5rem',
-                    borderRadius: '24px',
-                    border: '1px solid rgba(255,255,255,0.05)',
-                    transition: 'all 0.3s ease',
-                    cursor: 'pointer'
-                  }}
-                  whileHover={{ y: -8, borderColor: benefit.color, boxShadow: '0 20px 40px rgba(0, 242, 255, 0.1)' }}
-                >
-                  <div style={{ 
-                    background: `rgba(${benefit.color === 'var(--accent-blue)' ? '0, 242, 255' : '188, 19, 254'}, 0.1)`, 
-                    width: '60px', 
-                    height: '60px', 
-                    borderRadius: '16px', 
-                    display: 'flex', 
-                    alignItems: 'center', 
-                    justifyContent: 'center',
-                    marginBottom: '1.5rem',
-                    color: benefit.color
-                  }}>
-                    <Icon size={30} />
-                  </div>
-                  <h3 style={{ fontSize: '1.3rem', fontWeight: 700, marginBottom: '1rem', color: '#fff' }}>{benefit.title}</h3>
-                  <p style={{ color: 'var(--text-muted)', fontSize: '0.95rem', lineHeight: 1.6 }}>{benefit.desc}</p>
-                </motion.div>
-              );
-            })}
-          </div>
-        </div>
-      </section>
-
-      {/* Professional Capture & Google Integration Workflow */}
-      <section className="section">
-        <div className="container">
-          <div style={{ textAlign: 'center', marginBottom: '4rem' }}>
-            <h2 style={{ fontSize: 'clamp(2rem, 5vw, 3rem)', fontWeight: 800, marginBottom: '1rem' }}>Professional 360° Capture & Google Integration</h2>
-            <p style={{ color: 'var(--text-muted)', fontSize: '1.1rem', maxWidth: '600px', margin: '0 auto' }}>
-              At 3Dmania, we handle the complete process — from capture to seamless publishing.
-            </p>
-          </div>
-
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(220px, 1fr))', gap: '1.5rem' }}>
-            {steps.map((step, idx) => (
-              <motion.div
-                key={idx}
-                initial={{ opacity: 0, scale: 0.95 }}
-                whileInView={{ opacity: 1, scale: 1 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.4, delay: idx * 0.08 }}
-                className="glass"
-                style={{
-                  padding: '2rem',
-                  borderRadius: '20px',
-                  border: '1px solid rgba(255,255,255,0.03)',
-                  position: 'relative'
-                }}
-              >
-                <div style={{ fontSize: '3rem', fontWeight: 900, color: 'rgba(0, 242, 255, 0.1)', position: 'absolute', top: '15px', right: '20px' }}>
-                  {idx + 1}
-                </div>
-                <h3 style={{ fontSize: '1.1rem', fontWeight: 700, marginBottom: '0.8rem', color: 'var(--accent-blue)', display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
-                  <CheckCircle2 size={16} /> {step.title}
-                </h3>
-                <p style={{ color: 'var(--text-muted)', fontSize: '0.85rem', lineHeight: 1.5, margin: 0 }}>{step.desc}</p>
-              </motion.div>
-            ))}
-          </div>
-        </div>
-      </section>
-
       {/* Sample Project Showcase Section */}
       <section className="section glass" style={{ background: 'rgba(255,255,255,0.01)' }}>
         <div className="container">
@@ -282,11 +191,11 @@ const GoogleStreetViewService = () => {
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6 }}
-              style={{ 
-                width: '100%', 
-                height: 'clamp(280px, 45vh, 420px)', 
-                borderRadius: '24px', 
-                overflow: 'hidden', 
+              style={{
+                width: '100%',
+                height: 'clamp(280px, 45vh, 420px)',
+                borderRadius: '24px',
+                overflow: 'hidden',
                 border: '1px solid rgba(255,255,255,0.08)',
                 boxShadow: '0 20px 40px rgba(0,0,0,0.4)',
                 position: 'relative'
@@ -342,11 +251,11 @@ const GoogleStreetViewService = () => {
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6 }}
-              style={{ 
-                width: '100%', 
-                height: 'clamp(280px, 45vh, 420px)', 
-                borderRadius: '24px', 
-                overflow: 'hidden', 
+              style={{
+                width: '100%',
+                height: 'clamp(280px, 45vh, 420px)',
+                borderRadius: '24px',
+                overflow: 'hidden',
                 border: '1px solid rgba(255,255,255,0.08)',
                 boxShadow: '0 20px 40px rgba(0,0,0,0.4)',
                 position: 'relative'
@@ -395,6 +304,98 @@ const GoogleStreetViewService = () => {
                 </a>
               </div>
             </motion.div>
+          </div>
+        </div>
+      </section>
+
+
+      {/* Why Google Street View Matters Section */}
+      <section className="section glass" style={{ background: 'rgba(255,255,255,0.01)', borderBottom: '1px solid rgba(255,255,255,0.02)', borderTop: '1px solid rgba(255,255,255,0.02)' }}>
+        <div className="container">
+          <div style={{ textAlign: 'center', marginBottom: '4rem' }}>
+            <h2 style={{ fontSize: 'clamp(2rem, 5vw, 3rem)', fontWeight: 800, marginBottom: '1rem' }}>Why Google Street View Matters</h2>
+            <p style={{ color: 'var(--text-muted)', fontSize: '1.1rem', maxWidth: '600px', margin: '0 auto' }}>
+              Immersive 360° visibility helps build trust and creates a stronger first impression.
+            </p>
+          </div>
+
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '2rem' }}>
+            {benefits.map((benefit, idx) => {
+              const Icon = benefit.icon;
+              return (
+                <motion.div
+                  key={idx}
+                  initial={{ opacity: 0, y: 30 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ duration: 0.5, delay: idx * 0.1 }}
+                  className="benefit-card glass"
+                  style={{
+                    padding: '2.5rem',
+                    borderRadius: '24px',
+                    border: '1px solid rgba(255,255,255,0.05)',
+                    transition: 'all 0.3s ease',
+                    cursor: 'pointer'
+                  }}
+                  whileHover={{ y: -8, borderColor: benefit.color, boxShadow: '0 20px 40px rgba(0, 242, 255, 0.1)' }}
+                >
+                  <div style={{
+                    background: `rgba(${benefit.color === 'var(--accent-blue)' ? '0, 242, 255' : '188, 19, 254'}, 0.1)`,
+                    width: '60px',
+                    height: '60px',
+                    borderRadius: '16px',
+                    display: 'flex',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                    marginBottom: '1.5rem',
+                    color: benefit.color
+                  }}>
+                    <Icon size={30} />
+                  </div>
+                  <h3 style={{ fontSize: '1.3rem', fontWeight: 700, marginBottom: '1rem', color: '#fff' }}>{benefit.title}</h3>
+                  <p style={{ color: 'var(--text-muted)', fontSize: '0.95rem', lineHeight: 1.6 }}>{benefit.desc}</p>
+                </motion.div>
+              );
+            })}
+          </div>
+        </div>
+      </section>
+
+      {/* Professional Capture & Google Integration Workflow */}
+      <section className="section">
+        <div className="container">
+          <div style={{ textAlign: 'center', marginBottom: '4rem' }}>
+            <h2 style={{ fontSize: 'clamp(2rem, 5vw, 3rem)', fontWeight: 800, marginBottom: '1rem' }}>Professional 360° Capture & Google Integration</h2>
+            <p style={{ color: 'var(--text-muted)', fontSize: '1.1rem', maxWidth: '600px', margin: '0 auto' }}>
+              At 3Dmania, we handle the complete process — from capture to seamless publishing.
+            </p>
+          </div>
+
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(220px, 1fr))', gap: '1.5rem' }}>
+            {steps.map((step, idx) => (
+              <motion.div
+                key={idx}
+                initial={{ opacity: 0, scale: 0.95 }}
+                whileInView={{ opacity: 1, scale: 1 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.4, delay: idx * 0.08 }}
+                className="glass"
+                style={{
+                  padding: '2rem',
+                  borderRadius: '20px',
+                  border: '1px solid rgba(255,255,255,0.03)',
+                  position: 'relative'
+                }}
+              >
+                <div style={{ fontSize: '3rem', fontWeight: 900, color: 'rgba(0, 242, 255, 0.1)', position: 'absolute', top: '15px', right: '20px' }}>
+                  {idx + 1}
+                </div>
+                <h3 style={{ fontSize: '1.1rem', fontWeight: 700, marginBottom: '0.8rem', color: 'var(--accent-blue)', display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+                  <CheckCircle2 size={16} /> {step.title}
+                </h3>
+                <p style={{ color: 'var(--text-muted)', fontSize: '0.85rem', lineHeight: 1.5, margin: 0 }}>{step.desc}</p>
+              </motion.div>
+            ))}
           </div>
         </div>
       </section>
@@ -466,9 +467,9 @@ const GoogleStreetViewService = () => {
               <Link to="/contact" className="btn btn-primary" style={{ padding: '1rem 1.5rem', fontWeight: 700, borderRadius: '50px', minWidth: '240px', textAlign: 'center' }}>
                 Get Free Consultation
               </Link>
-              <Link to="/contact" className="btn btn-outline" style={{ padding: '1rem 1.5rem', fontWeight: 600, borderRadius: '50px', minWidth: '240px', textAlign: 'center' }}>
-                Contact 3Dmania Today
-              </Link>
+              <a href="tel:+919353456068" className="btn btn-outline" style={{ padding: '1rem 1.5rem', fontWeight: 600, minWidth: '240px', textAlign: 'center' }}>
+                Call Us Now
+              </a>
             </div>
           </motion.div>
         </div>

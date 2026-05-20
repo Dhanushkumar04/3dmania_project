@@ -30,16 +30,7 @@ const heroTitles = [
 const HERO_TOUR_URL = "/tours/output/index.html";
 
 const Home = () => {
-  const [currentTitle, setCurrentTitle] = useState(0);
-
-  useEffect(() => {
-    const timer = setInterval(() => {
-      setCurrentTitle((prev) => (prev + 1) % heroTitles.length);
-    }, 5000);
-    return () => clearInterval(timer);
-  }, []);
-
-  const [activeIndustry, setActiveIndustry] = useState(0);  const industries = [
+  const [activeIndustry, setActiveIndustry] = useState(0); const industries = [
     {
       name: "Real Estate",
       desc: "Make property decisions with immersive virtual tours - Showcase every detail in 360° and let buyers explore properties remotely with confidence and clarity.",
@@ -180,10 +171,10 @@ const Home = () => {
           allowFullScreen
         />
 
-        {/* Cycling Title and Controls — bottom-center */}
+        {/* Title and Controls — bottom-center */}
         <div style={{
           position: 'absolute',
-          bottom: '10rem', // Positioned higher to make space for the logo carousel
+          bottom: '130px', // Positioned right above the native virtual tour carousel
           left: '50%',
           transform: 'translateX(-50%)',
           zIndex: 10,
@@ -194,84 +185,55 @@ const Home = () => {
           display: 'flex',
           flexDirection: 'column',
           alignItems: 'center',
-          gap: '2rem'
+          gap: '1rem'
         }}>
-          <AnimatePresence mode="wait">
-            <motion.p
-              key={currentTitle}
-              initial={{ opacity: 0, y: 12 }}
-              animate={{ opacity: 1, y: 0 }}
-              exit={{ opacity: 0, y: -12 }}
-              transition={{ duration: 0.55, ease: 'easeInOut' }}
-              style={{
-                color: '#ffffff',
-                fontWeight: 800,
-                fontSize: 'clamp(0.85rem, 2.5vw, 2.2rem)',
-                letterSpacing: '0.02em',
-                textShadow: '0 4px 20px rgba(0,0,0,1), 0 2px 10px rgba(0,0,0,0.8)',
-                lineHeight: 1.3,
-                margin: 0,
-                whiteSpace: 'nowrap',
-                overflow: 'hidden',
-                textOverflow: 'ellipsis'
-              }}
-            >
-              {heroTitles[currentTitle]}
-            </motion.p>
-          </AnimatePresence>
+          <p
+            style={{
+              color: '#ffffff',
+              fontWeight: 800,
+              fontSize: 'clamp(0.85rem, 2.5vw, 2.2rem)',
+              letterSpacing: '0.02em',
+              textShadow: '0 4px 20px rgba(0,0,0,1), 0 2px 10px rgba(0,0,0,0.8)',
+              lineHeight: 1.3,
+              margin: 0,
+              whiteSpace: 'nowrap',
+              overflow: 'hidden',
+              textOverflow: 'ellipsis'
+            }}
+          >
+            {heroTitles[0]}
+          </p>
 
           {/* Buttons */}
           <div style={{ pointerEvents: 'auto', display: 'flex', gap: '1.5rem', justifyContent: 'center' }}>
-            <Link 
-              to="/services" 
-              className="btn btn-primary" 
+            <Link
+              to="/services"
+              className="btn btn-primary"
               style={{ padding: '0.8rem 2.5rem', fontSize: '1.1rem', fontWeight: 600, borderRadius: '50px', textDecoration: 'none' }}
             >
               Learn More
             </Link>
-            <Link 
-              to="/contact" 
-              className="btn btn-outline" 
+            <Link
+              to="/contact"
+              className="btn btn-outline"
               style={{ padding: '0.8rem 2.5rem', fontSize: '1.1rem', fontWeight: 600, borderRadius: '50px', textDecoration: 'none', background: 'rgba(0,0,0,0.5)', backdropFilter: 'blur(5px)' }}
             >
               Contact Us
             </Link>
           </div>
-
-          {/* Carousel Pagination Dots for Titles */}
-          <div style={{ pointerEvents: 'auto', display: 'flex', gap: '0.6rem', justifyContent: 'center', marginTop: '0.5rem' }}>
-            {heroTitles.map((_, i) => (
-              <button 
-                key={i} 
-                onClick={() => setCurrentTitle(i)}
-                style={{
-                  width: currentTitle === i ? '24px' : '10px',
-                  height: '10px', 
-                  borderRadius: '10px',
-                  background: currentTitle === i ? 'var(--accent-blue)' : 'rgba(255,255,255,0.4)',
-                  border: 'none', 
-                  cursor: 'pointer',
-                  transition: 'all 0.3s ease',
-                  boxShadow: '0 2px 5px rgba(0,0,0,0.5)'
-                }}
-                aria-label={`Go to slide ${i + 1}`}
-              />
-            ))}
-          </div>
         </div>
 
-        {/* Client Logos Carousel at the bottom of the hero section */}
-        <div className="marquee-container" style={{ 
-          position: 'absolute', 
-          bottom: 0, 
-          left: 0,
-          width: '100%', 
-          margin: 0, 
+      </section>
+
+      {/* Client Logos Carousel - Moved to next section */}
+      <section style={{ background: 'var(--bg-dark)' }}>
+        <div className="marquee-container" style={{
+          width: '100%',
+          margin: 0,
           padding: '1rem 0',
           borderTop: '1px solid rgba(255, 255, 255, 0.1)',
-          borderBottom: 'none',
-          background: 'rgba(0, 0, 0, 0.5)',
-          zIndex: 10
+          borderBottom: '1px solid rgba(255, 255, 255, 0.1)',
+          background: 'rgba(0, 0, 0, 0.5)'
         }}>
           <div className="marquee-content" style={{ animationDuration: '40s' }}>
             {[...clientLogos, ...clientLogos, ...clientLogos].map((logo, index) => (
@@ -373,13 +335,13 @@ const Home = () => {
             <p style={{ color: 'var(--text-muted)', fontSize: 'clamp(1.1rem, 2.5vw, 1.4rem)', fontWeight: 600, margin: 0 }}>
               contact: <a href="tel:+919353456068" style={{ color: '#ffffff', textDecoration: 'none', transition: 'color 0.3s' }} onMouseEnter={(e) => e.target.style.color = 'var(--accent-blue)'} onMouseLeave={(e) => e.target.style.color = '#ffffff'}>+91-9353456068</a>
             </p>
-            <a 
-              href="tel:+919353456068" 
-              className="btn btn-primary" 
-              style={{ 
-                padding: '1rem 2.5rem', 
-                fontSize: '1.05rem', 
-                fontWeight: 700, 
+            <a
+              href="tel:+919353456068"
+              className="btn btn-primary"
+              style={{
+                padding: '1rem 2.5rem',
+                fontSize: '1.05rem',
+                fontWeight: 700,
                 borderRadius: '50px',
                 boxShadow: '0 8px 24px rgba(0, 242, 255, 0.25)',
                 display: 'inline-flex',
@@ -483,7 +445,7 @@ const Home = () => {
       {/* Industries Accordion Section */}
       <section className="section glass">
         <div className="container">
-          <h2 style={{ fontSize: 'clamp(1.8rem, 5vw, 3.5rem)', fontWeight: 800, marginBottom: 'clamp(2rem, 8vw, 4rem)' }}>Explore the power of 3D across industries.</h2>
+          <h2 style={{ fontSize: 'clamp(1.8rem, 5vw, 3.5rem)', fontWeight: 800, marginBottom: 'clamp(2rem, 8vw, 4rem)' }}>Industries We Serve</h2>
           <div style={{
             display: 'grid',
             gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 300px), 1fr))',

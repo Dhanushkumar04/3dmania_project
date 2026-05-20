@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Map, Heart, TrendingUp, CheckCircle2, ChevronRight, Home as HomeIcon, ShoppingBag, HardHat, GraduationCap, Bed, Briefcase, Eye } from 'lucide-react';
+import { Map, Heart, TrendingUp, CheckCircle2, ChevronRight, Home as HomeIcon, ShoppingBag, HardHat, GraduationCap, Bed, Briefcase, Eye, Play } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const VirtualToursService = () => {
@@ -25,8 +25,8 @@ const VirtualToursService = () => {
   ];
 
   const solutions = [
-    "Interactive 360° Walkthroughs", "Mobile & Desktop Compatible Tours", 
-    "Website Integration", "Google Street View Integration", 
+    "Interactive 360° Walkthroughs", "Mobile & Desktop Compatible Tours",
+    "Website Integration", "Google Street View Integration",
     "Drone Aerial Nodes", "Custom Branding & Navigation"
   ];
 
@@ -84,13 +84,13 @@ const VirtualToursService = () => {
             repeat: Infinity,
             ease: "linear"
           }}
-          style={{ 
-            position: 'absolute', 
-            top: '20%', 
-            right: '5%', 
-            width: 'clamp(150px, 25vw, 250px)', 
-            height: 'clamp(150px, 25vw, 250px)', 
-            border: '1px dashed rgba(0, 242, 255, 0.08)', 
+          style={{
+            position: 'absolute',
+            top: '20%',
+            right: '5%',
+            width: 'clamp(150px, 25vw, 250px)',
+            height: 'clamp(150px, 25vw, 250px)',
+            border: '1px dashed rgba(0, 242, 255, 0.08)',
             borderRadius: '50%',
             perspective: '1000px',
             transformStyle: 'preserve-3d'
@@ -136,12 +136,12 @@ const VirtualToursService = () => {
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.6 }}
             >
-              <span style={{ 
-                background: 'rgba(0, 242, 255, 0.1)', 
-                color: 'var(--accent-blue)', 
-                padding: '0.5rem 1rem', 
-                borderRadius: '50px', 
-                fontSize: '0.85rem', 
+              <span style={{
+                background: 'rgba(0, 242, 255, 0.1)',
+                color: 'var(--accent-blue)',
+                padding: '0.5rem 1rem',
+                borderRadius: '50px',
+                fontSize: '0.85rem',
                 fontWeight: 700,
                 letterSpacing: '0.1rem',
                 textTransform: 'uppercase',
@@ -157,12 +157,12 @@ const VirtualToursService = () => {
                 3DMania's 360° Virtual Tours help businesses create immersive and interactive digital experiences that allow customers to explore spaces remotely from any device, anytime. Unlike traditional photos or videos, virtual tours provide a realistic walkthrough experience that increases engagement, builds trust, and helps customers make faster decisions.
               </p>
               <div style={{ display: 'flex', flexWrap: 'wrap', gap: '1rem' }}>
-                <a href="#sample-tour" className="btn btn-primary" style={{ padding: '1rem 1.5rem', fontWeight: 700, minWidth: '240px', textAlign: 'center' }}>
-                  View Sample Tour
-                </a>
-                <Link to="/contact" className="btn btn-outline" style={{ padding: '1rem 1.5rem', fontWeight: 600, minWidth: '240px', textAlign: 'center' }}>
-                  Contact 3DMania Today
+                <Link to="/contact" className="btn btn-primary" style={{ padding: '1rem 1.5rem', fontWeight: 700, minWidth: '240px', textAlign: 'center' }}>
+                  Book a Virtual Tour
                 </Link>
+                <a href="tel:+919353456068" className="btn btn-outline" style={{ padding: '1rem 1.5rem', fontWeight: 600, minWidth: '240px', textAlign: 'center' }}>
+                  Call Us Now
+                </a>
               </div>
             </motion.div>
 
@@ -173,16 +173,163 @@ const VirtualToursService = () => {
               style={{ position: 'relative' }}
             >
               <div className="glass" style={{ borderRadius: '30px', padding: '2rem', border: '1px solid rgba(255,255,255,0.08)', position: 'relative', overflow: 'hidden' }}>
-                <img 
-                  src="https://mania3d-assets.web.app/prestige-villa/preview.jpg" 
-                  alt="360 Virtual Tour Showcase" 
-                  style={{ width: '100%', borderRadius: '20px', objectFit: 'cover', height: '350px', boxShadow: '0 20px 40px rgba(0,0,0,0.5)' }} 
+                <img
+                  src="/virtual-tour-image.png"
+                  alt="360 Virtual Tour Showcase"
+                  style={{ width: '100%', borderRadius: '20px', objectFit: 'cover', height: '350px', boxShadow: '0 20px 40px rgba(0,0,0,0.5)' }}
                 />
               </div>
             </motion.div>
           </div>
         </div>
       </section>
+
+      {/* Sample Virtual Tour Project */}
+      <section id="sample-tour" className="section">
+        <div className="container">
+          <div style={{ textAlign: 'center', marginBottom: '4rem' }}>
+            <h2 style={{ fontSize: 'clamp(2rem, 5vw, 3rem)', fontWeight: 800, marginBottom: '1rem' }}>Sample Virtual Tour Project</h2>
+            <p style={{ color: 'var(--text-muted)', fontSize: '1.1rem', maxWidth: '600px', margin: '0 auto' }}>
+              Step inside a sample luxury virtual tour project and explore the environment.
+            </p>
+          </div>
+
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 480px), 1fr))', gap: '2.5rem' }}>
+            {/* Project 1: Godwin Public School */}
+            <motion.div
+              initial={{ opacity: 0, x: -30 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6 }}
+              style={{
+                width: '100%',
+                height: 'clamp(280px, 45vh, 420px)',
+                borderRadius: '24px',
+                overflow: 'hidden',
+                border: '1px solid rgba(255,255,255,0.08)',
+                boxShadow: '0 20px 40px rgba(0,0,0,0.4)',
+                position: 'relative'
+              }}
+              className="glass"
+            >
+              <div style={{
+                position: 'absolute',
+                top: 0,
+                left: 0,
+                width: '100%',
+                background: 'rgba(5,5,5,0.7)',
+                padding: '0.8rem 1.2rem',
+                borderBottom: '1px solid rgba(255,255,255,0.08)',
+                zIndex: 10,
+                display: 'flex',
+                justifyContent: 'space-between',
+                alignItems: 'center'
+              }}>
+                <h3 style={{ fontSize: '0.95rem', margin: 0, fontWeight: 700 }}>Godwin Public School</h3>
+                <span style={{ fontSize: '0.75rem', color: 'var(--accent-blue)', fontWeight: 600 }}>Interactive 3D walkthrough</span>
+              </div>
+              <a href="https://mania3d-assets.web.app/godwin-public-school/index.html" target="_blank" rel="noopener noreferrer" style={{ display: 'block', width: '100%', height: '100%', position: 'relative' }}>
+                <img src="/godwin-preview.jpg" alt="Godwin Public School Tour" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                <div style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center', pointerEvents: 'none' }}>
+                  <motion.div
+                    animate={{
+                      scale: [1, 1.1, 1],
+                      boxShadow: [
+                        '0 0 0 0px rgba(0, 242, 255, 0.4)',
+                        '0 0 0 15px rgba(0, 242, 255, 0)',
+                        '0 0 0 0px rgba(0, 242, 255, 0)'
+                      ]
+                    }}
+                    transition={{ duration: 2, repeat: Infinity, ease: 'easeInOut' }}
+                    style={{
+                      pointerEvents: 'auto',
+                      width: '80px',
+                      height: '80px',
+                      borderRadius: '50%',
+                      background: 'rgba(0, 242, 255, 0.9)',
+                      display: 'flex',
+                      alignItems: 'center',
+                      justifyContent: 'center',
+                      cursor: 'pointer',
+                      zIndex: 10
+                    }}
+                    className="play-button-overlay"
+                  >
+                    <Play fill="#000" color="#000" size={32} style={{ marginLeft: '4px' }} />
+                  </motion.div>
+                </div>
+              </a>
+            </motion.div>
+
+            {/* Project 2: Prestige Villa */}
+            <motion.div
+              initial={{ opacity: 0, x: 30 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6 }}
+              style={{
+                width: '100%',
+                height: 'clamp(280px, 45vh, 420px)',
+                borderRadius: '24px',
+                overflow: 'hidden',
+                border: '1px solid rgba(255,255,255,0.08)',
+                boxShadow: '0 20px 40px rgba(0,0,0,0.4)',
+                position: 'relative'
+              }}
+              className="glass"
+            >
+              <div style={{
+                position: 'absolute',
+                top: 0,
+                left: 0,
+                width: '100%',
+                background: 'rgba(5,5,5,0.7)',
+                padding: '0.8rem 1.2rem',
+                borderBottom: '1px solid rgba(255,255,255,0.08)',
+                zIndex: 10,
+                display: 'flex',
+                justifyContent: 'space-between',
+                alignItems: 'center'
+              }}>
+                <h3 style={{ fontSize: '0.95rem', margin: 0, fontWeight: 700 }}>Prestige Villa</h3>
+                <span style={{ fontSize: '0.75rem', color: 'var(--accent-blue)', fontWeight: 600 }}>Interactive 3D walkthrough</span>
+              </div>
+              <a href="https://mania3d-assets.web.app/prestige-villa/index.html" target="_blank" rel="noopener noreferrer" style={{ display: 'block', width: '100%', height: '100%', position: 'relative' }}>
+                <img src="/prestige-preview.jpg" alt="Prestige Villa Tour" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                <div style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center', pointerEvents: 'none' }}>
+                  <motion.div
+                    animate={{
+                      scale: [1, 1.1, 1],
+                      boxShadow: [
+                        '0 0 0 0px rgba(0, 242, 255, 0.4)',
+                        '0 0 0 15px rgba(0, 242, 255, 0)',
+                        '0 0 0 0px rgba(0, 242, 255, 0)'
+                      ]
+                    }}
+                    transition={{ duration: 2, repeat: Infinity, ease: 'easeInOut' }}
+                    style={{
+                      pointerEvents: 'auto',
+                      width: '80px',
+                      height: '80px',
+                      borderRadius: '50%',
+                      background: 'rgba(0, 242, 255, 0.9)',
+                      display: 'flex',
+                      alignItems: 'center',
+                      justifyContent: 'center',
+                      cursor: 'pointer',
+                      zIndex: 10
+                    }}
+                    className="play-button-overlay"
+                  >
+                    <Play fill="#000" color="#000" size={32} style={{ marginLeft: '4px' }} />
+                  </motion.div>
+                </div>
+              </a>
+            </motion.div>
+          </div>
+        </div>
+      </section>
+
 
       {/* Why 360 Virtual Tours Matter Section */}
       <section className="section glass" style={{ background: 'rgba(255,255,255,0.01)', borderBottom: '1px solid rgba(255,255,255,0.02)', borderTop: '1px solid rgba(255,255,255,0.02)' }}>
@@ -214,13 +361,13 @@ const VirtualToursService = () => {
                   }}
                   whileHover={{ y: -8, borderColor: benefit.color, boxShadow: '0 20px 40px rgba(0, 242, 255, 0.1)' }}
                 >
-                  <div style={{ 
-                    background: `rgba(${benefit.color === 'var(--accent-blue)' ? '0, 242, 255' : '188, 19, 254'}, 0.1)`, 
-                    width: '60px', 
-                    height: '60px', 
-                    borderRadius: '16px', 
-                    display: 'flex', 
-                    alignItems: 'center', 
+                  <div style={{
+                    background: `rgba(${benefit.color === 'var(--accent-blue)' ? '0, 242, 255' : '188, 19, 254'}, 0.1)`,
+                    width: '60px',
+                    height: '60px',
+                    borderRadius: '16px',
+                    display: 'flex',
+                    alignItems: 'center',
                     justifyContent: 'center',
                     marginBottom: '1.5rem',
                     color: benefit.color
@@ -268,9 +415,9 @@ const VirtualToursService = () => {
               style={{ position: 'relative' }}
             >
               <div className="glass" style={{ padding: '2rem', borderRadius: '24px', border: '1px solid rgba(255,255,255,0.05)' }}>
-                <img 
-                  src="https://mania3d-assets.web.app/polo.jpg" 
-                  alt="Virtual Tour Technology" 
+                <img
+                  src="https://mania3d-assets.web.app/polo.jpg"
+                  alt="Virtual Tour Technology"
                   style={{ width: '100%', height: '300px', objectFit: 'cover', borderRadius: '16px' }}
                 />
               </div>
@@ -313,116 +460,6 @@ const VirtualToursService = () => {
                 </motion.div>
               );
             })}
-          </div>
-        </div>
-      </section>
-
-      {/* Sample Virtual Tour Project */}
-      <section id="sample-tour" className="section">
-        <div className="container">
-          <div style={{ textAlign: 'center', marginBottom: '4rem' }}>
-            <h2 style={{ fontSize: 'clamp(2rem, 5vw, 3rem)', fontWeight: 800, marginBottom: '1rem' }}>Sample Virtual Tour Project</h2>
-            <p style={{ color: 'var(--text-muted)', fontSize: '1.1rem', maxWidth: '600px', margin: '0 auto' }}>
-              Step inside a sample luxury virtual tour project and explore the environment.
-            </p>
-          </div>
-
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 480px), 1fr))', gap: '2.5rem' }}>
-            {/* Project 1: Godwin Public School */}
-            <motion.div
-              initial={{ opacity: 0, x: -30 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.6 }}
-              style={{ 
-                width: '100%', 
-                height: 'clamp(280px, 45vh, 420px)', 
-                borderRadius: '24px', 
-                overflow: 'hidden', 
-                border: '1px solid rgba(255,255,255,0.08)',
-                boxShadow: '0 20px 40px rgba(0,0,0,0.4)',
-                position: 'relative'
-              }}
-              className="glass"
-            >
-              <div style={{
-                position: 'absolute',
-                top: 0,
-                left: 0,
-                width: '100%',
-                background: 'rgba(5,5,5,0.7)',
-                padding: '0.8rem 1.2rem',
-                borderBottom: '1px solid rgba(255,255,255,0.08)',
-                zIndex: 10,
-                display: 'flex',
-                justifyContent: 'space-between',
-                alignItems: 'center'
-              }}>
-                <h3 style={{ fontSize: '0.95rem', margin: 0, fontWeight: 700 }}>Godwin Public School</h3>
-                <span style={{ fontSize: '0.75rem', color: 'var(--accent-blue)', fontWeight: 600 }}>Interactive 3D walkthrough</span>
-              </div>
-              <iframe
-                src="https://mania3d-assets.web.app/godwin-public-school/index.html"
-                title="Godwin Public School Interactive Tour"
-                style={{
-                  width: '100%',
-                  height: '100%',
-                  border: 'none',
-                  background: '#000',
-                  paddingTop: '40px'
-                }}
-                allow="accelerometer; gyroscope; autoplay; fullscreen"
-                allowFullScreen
-              />
-            </motion.div>
-
-            {/* Project 2: Prestige Villa */}
-            <motion.div
-              initial={{ opacity: 0, x: 30 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.6 }}
-              style={{ 
-                width: '100%', 
-                height: 'clamp(280px, 45vh, 420px)', 
-                borderRadius: '24px', 
-                overflow: 'hidden', 
-                border: '1px solid rgba(255,255,255,0.08)',
-                boxShadow: '0 20px 40px rgba(0,0,0,0.4)',
-                position: 'relative'
-              }}
-              className="glass"
-            >
-              <div style={{
-                position: 'absolute',
-                top: 0,
-                left: 0,
-                width: '100%',
-                background: 'rgba(5,5,5,0.7)',
-                padding: '0.8rem 1.2rem',
-                borderBottom: '1px solid rgba(255,255,255,0.08)',
-                zIndex: 10,
-                display: 'flex',
-                justifyContent: 'space-between',
-                alignItems: 'center'
-              }}>
-                <h3 style={{ fontSize: '0.95rem', margin: 0, fontWeight: 700 }}>Prestige Villa</h3>
-                <span style={{ fontSize: '0.75rem', color: 'var(--accent-blue)', fontWeight: 600 }}>Interactive 3D walkthrough</span>
-              </div>
-              <iframe
-                src="https://mania3d-assets.web.app/prestige-villa/index.html"
-                title="Prestige Villa Interactive Tour"
-                style={{
-                  width: '100%',
-                  height: '100%',
-                  border: 'none',
-                  background: '#000',
-                  paddingTop: '40px'
-                }}
-                allow="accelerometer; gyroscope; autoplay; fullscreen"
-                allowFullScreen
-              />
-            </motion.div>
           </div>
         </div>
       </section>
@@ -480,12 +517,12 @@ const VirtualToursService = () => {
               Immersive virtual tours help businesses create stronger digital experiences, attract more customers, and stand out from competitors. Ready to showcase your business in 360°?
             </p>
             <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: '1.2rem' }}>
-              <a href="#sample-tour" className="btn btn-primary" style={{ padding: '1rem 1.5rem', fontWeight: 700, borderRadius: '50px', textDecoration: 'none', minWidth: '240px', textAlign: 'center' }}>
-                View Sample Tour
+              <a href="/contact" className="btn btn-primary" style={{ padding: '1rem 1.5rem', fontWeight: 700, borderRadius: '50px', textDecoration: 'none', minWidth: '240px', textAlign: 'center' }}>
+                Know More
               </a>
-              <Link to="/contact" className="btn btn-outline" style={{ padding: '1rem 1.5rem', fontWeight: 600, borderRadius: '50px', minWidth: '240px', textAlign: 'center' }}>
-                Contact 3DMania Today
-              </Link>
+              <a href="tel:+919353456068" className="btn btn-outline" style={{ padding: '1rem 1.5rem', fontWeight: 600, minWidth: '240px', textAlign: 'center' }}>
+                Call Us Now
+              </a>
             </div>
           </motion.div>
         </div>

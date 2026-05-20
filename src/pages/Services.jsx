@@ -21,6 +21,18 @@ const Services = () => {
       ]
     },
     {
+      title: "Google Street View",
+      description: "Take your business to the next level with 3DMania's Google Street View service. As a Google Street View Trusted Photographer, we help you showcase your interiors on Google Maps.",
+      icon: <MapPin size={40} />,
+      link: "/google-street-view",
+      items: [
+        { title: 'Google Maps Integration', desc: 'Walk-through your space directly from search results.' },
+        { title: 'Local SEO Boost', desc: 'Improve your visibility on local business listings.' },
+        { title: 'Verified Photography', desc: 'Trust-building high-resolution imagery for your business profile.' },
+        { title: '24/7 Virtual Showroom', desc: 'Accessible to potential customers around the clock.' }
+      ]
+    },
+    {
       title: "Drone Photo & Videography",
       description: "At 3DMania, we offer high-quality drone photography and videography tailored for real estate, infrastructure, and commercial projects, from cinematic property showcases to detailed aerial mapping.",
       icon: <Drone size={40} />,
@@ -32,18 +44,6 @@ const Services = () => {
         { title: 'Aerial Engineering', desc: 'Provide precise drone surveys, 2D mapping, and 3D models.' },
         { title: 'Route Videos', desc: 'Highlight property access and location advantages.' },
         { title: 'Marketing Shoots', desc: 'Customized aerial solutions for real estate and hospitality.' }
-      ]
-    },
-    {
-      title: "Google Street View",
-      description: "Take your business to the next level with 3DMania's Google Street View service. As a Google Street View Trusted Photographer, we help you showcase your interiors on Google Maps.",
-      icon: <MapPin size={40} />,
-      link: "/google-street-view",
-      items: [
-        { title: 'Google Maps Integration', desc: 'Walk-through your space directly from search results.' },
-        { title: 'Local SEO Boost', desc: 'Improve your visibility on local business listings.' },
-        { title: 'Verified Photography', desc: 'Trust-building high-resolution imagery for your business profile.' },
-        { title: '24/7 Virtual Showroom', desc: 'Accessible to potential customers around the clock.' }
       ]
     },
     {

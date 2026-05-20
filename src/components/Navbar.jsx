@@ -56,8 +56,8 @@ const Navbar = () => {
       path: '/services',
       subLinks: [
         { name: '360° Virtual Tours', path: '/virtual-tours' },
-        { name: 'Drone Photo & Videography', path: '/drone-services' },
         { name: 'Google Street View', path: '/google-street-view' },
+        { name: 'Drone Photo & Videography', path: '/drone-services' },
         { name: 'Drone Aerial Survey', path: '/drone-survey' }
       ]
     },
@@ -85,6 +85,8 @@ const Navbar = () => {
               key={link.name} 
               className="nav-item-wrapper"
               ref={link.subLinks ? dropdownRef : null}
+              onMouseEnter={() => link.subLinks && setDropdownOpen(true)}
+              onMouseLeave={() => link.subLinks && setDropdownOpen(false)}
             >
               {link.subLinks ? (
                 <div className="dropdown-container">
@@ -121,12 +123,14 @@ const Navbar = () => {
                         animate={{ opacity: 1, y: 0 }}
                         exit={{ opacity: 0, y: 10 }}
                         className="dropdown-menu"
+                        style={{ pointerEvents: 'auto' }}
                       >
                         {link.subLinks.map(sub => (
                           <Link 
                             key={sub.name} 
                             to={sub.path} 
                             className={`dropdown-item ${location.pathname === sub.path ? 'active' : ''}`}
+                            onClick={() => setDropdownOpen(false)}
                           >
                             {sub.name}
                           </Link>
